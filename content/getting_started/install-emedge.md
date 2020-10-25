@@ -1,6 +1,6 @@
 ---
 title: Setting up EM Edge
-weight: -20
+weight: -10
 ---
 
 This page tells you how to get started with setting up EM Edge agent at your local site.

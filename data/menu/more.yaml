@@ -1,6 +1,5 @@
 ---
 more:
-  - name: Releases
-    ref: "https://github.com/thegeeklab/hugo-geekdoc/releases"
+  - name: Official Website
+    ref: "https://www.netgain-systems.com"
     external: true
-    icon: "download"
