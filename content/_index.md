@@ -2,12 +2,5 @@
 title: Home
 ---
 
-## Quick start
-### Install the agent
-  Start collecting events and metrics from hosts and send them to NetGain Cloud Vista instance.
-
-<br>
-
-### Get started in APM
-  Discover how to use Datadog to create dashboards, graphs, monitors and more.
-
+## About This Site
+This site hosts comprehensive information on NetGain products/solutions, as well as detailed technical information and tips to get your NetGain software up and running smoothly
