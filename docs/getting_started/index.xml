@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Welcome to NetGain Docs!</title>
-    <link>https://netgainsystems.github.io/docs/</link>
-    <description>Recent content in Home on Welcome to NetGain Docs!</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://netgainsystems.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <title>Getting started on Welcome to NetGain Docs!</title>
+    <link>https://netgainsystems.github.io/docs/getting_started/</link>
+    <description>Recent content in Getting started on Welcome to NetGain Docs!</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://netgainsystems.github.io/docs/getting_started/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up EM Edge</title>
       <link>https://netgainsystems.github.io/docs/getting_started/install-emedge/</link>
@@ -23,27 +23,6 @@
       
       <guid>https://netgainsystems.github.io/docs/getting_started/configuration/</guid>
       <description>Site configuration TOML  baseURL = &amp;#34;http://localhost&amp;#34; title = &amp;#34;Geekdocs&amp;#34; theme = &amp;#34;hugo-geekdoc&amp;#34; # Required to get well formatted code blocks pygmentsUseClasses = true pygmentsCodeFences = true disablePathToLower = true enableGitInfo = true [markup] [markup.goldmark.renderer] # Needed for mermaid shortcode unsafe = true [markup.tableOfContents] startLevel = 1 endLevel = 9 [params] # (Optional, default 6) Set how many table of contents levels to be showed on page. # Use false to hide ToC, note that 0 will default to 6 (https://gohugo.</description>
-    </item>
-    
-    <item>
-      <title>Initial release</title>
-      <link>https://netgainsystems.github.io/docs/posts/initial-release/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://netgainsystems.github.io/docs/posts/initial-release/</guid>
-      <description>This is the first release of the Geekdoc theme.
-Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.</description>
-    </item>
-    
-    <item>
-      <title>Hello Geekdoc</title>
-      <link>https://netgainsystems.github.io/docs/posts/hello_geekdoc/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://netgainsystems.github.io/docs/posts/hello_geekdoc/</guid>
-      <description>This is the first release of the Geekdoc theme.
-Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.
-Amalia id per in minimum facility, quid facet modifier ea ma. Ill um select ma ad, en ferric patine sentient vim.</description>
     </item>
     
     <item>

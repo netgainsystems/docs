@@ -2,18 +2,16 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.76.5" />
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Home">
+<meta name="description" content="Color Schemes">
 
-<title>Home | Welcome to NetGain Docs!</title>
+<title>Color Schemes | Welcome to NetGain Docs!</title>
 
 <link rel="icon" href="/docs/favicon/favicon-32x32.png" type="image/x-icon">
 <link rel="stylesheet" href="/docs/main.min.css" media="screen">
 <link rel="stylesheet" href="/docs/custom.css" media="screen">
 
-<link rel="alternate" type="application/rss+xml" href="https://netgainsystems.github.io/docs/index.xml" title="Welcome to NetGain Docs!" />
 <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
 
 </head>
@@ -132,7 +130,7 @@
             <li>
             
                 <span class="flex">
-                    <a href="/docs/getting_started/color-schemes/" class="gdoc-nav__entry ">
+                    <a href="/docs/getting_started/color-schemes/" class="gdoc-nav__entry is-active">
                         Color Schemes
                     </a>
                 </span>
@@ -231,7 +229,21 @@
                 
     
     
-        Home
+        
+        
+        
+    
+    
+        
+        
+        
+    
+    
+        <a href='/docs/'>Home</a> / <a href='/docs/getting_started/'>Getting started</a> / Color Schemes
+    
+
+    
+
     
 
             </span>
@@ -240,15 +252,16 @@
     <span>
         
             <svg class="icon code"><use xlink:href="#code"></use></svg>
-            <a href="https://github.com/netgainsystems/docs/blob/master/content/_index.md">
+            <a href="https://github.com/netgainsystems/docs/blob/master/content/getting_started/color-schemes.md">
                 Edit this page
             </a>
         
     </span>
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Home</h1>
+        <h1>Color Schemes</h1>
         
 
 
@@ -256,12 +269,74 @@
     
 
 
-<div class="gdoc-page__anchorwrap"><h2 id="quick-start">Quick start<a data-clipboard-text="https://netgainsystems.github.io/docs/#quick-start" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Quick start" href="#quick-start"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<div class="gdoc-page__anchorwrap"><h3 id="install-the-agent">Install the agent<a data-clipboard-text="https://netgainsystems.github.io/docs/#install-the-agent" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install the agent" href="#install-the-agent"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>Start collecting events and metrics from hosts and send them to NetGain Cloud Vista instance.</p>
-<br>
-<div class="gdoc-page__anchorwrap"><h3 id="get-started-in-apm">Get started in APM<a data-clipboard-text="https://netgainsystems.github.io/docs/#get-started-in-apm" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Get started in APM" href="#get-started-in-apm"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>Discover how to use Datadog to create dashboards, graphs, monitors and more.</p>
+<p>If you want to customize the color scheme of the theme to give it your individual touch you are just a few lines CSS away. In general, you have to override the defaults, the easiest way to do so is to create a <code>static/custom.css</code> file right in your site root.</p>
+<p>All necessary class names are listed below. If you miss some classes required for a color scheme you are very welcome to create an <a href="https://github.com/thegeeklab/hugo-geekdoc/issues">Issue</a> or Pull Request. For some inspiration you can have a look at <a href="https://www.color-hex.com/">https://www.color-hex.com/color-palettes/</a>. The following listing use the <em>HC-primary</em> color palette as an example:</p>
+<!-- markdownlint-disable -->
+<!-- spellchecker-disable -->
+<!-- prettier-ignore-start -->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-CSS" data-lang="CSS"><span class="c">/* default link color */</span>
+<span class="nt">a</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#1c388e</span><span class="p">;</span> <span class="p">}</span>
+<span class="nt">a</span><span class="p">:</span><span class="nd">visited</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#73bfb8</span> <span class="p">}</span>
+
+<span class="c">/* site header */</span>
+<span class="p">.</span><span class="nc">gdoc-header</span> <span class="p">{</span> <span class="k">background</span><span class="p">:</span> <span class="mh">#e66a4e</span><span class="p">;</span> <span class="k">border-color</span><span class="p">:</span> <span class="mh">#404040</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">.</span><span class="nc">gdoc-header__link</span><span class="o">,</span> <span class="p">.</span><span class="nc">gdoc-header__link</span><span class="p">:</span><span class="nd">visited</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#ffffff</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="c">/* page links */</span>
+<span class="p">.</span><span class="nc">gdoc-page__footer</span> <span class="nt">a</span><span class="o">,</span> <span class="p">.</span><span class="nc">gdoc-page__footer</span> <span class="nt">a</span><span class="p">:</span><span class="nd">visited</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#1c388e</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">.</span><span class="nc">gdoc-page__header</span> <span class="nt">a</span><span class="o">,</span> <span class="p">.</span><span class="nc">gdoc-page__header</span> <span class="nt">a</span><span class="p">:</span><span class="nd">visited</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#1c388e</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="c">/* site footer */</span>
+<span class="p">.</span><span class="nc">gdoc-footer</span> <span class="p">{</span> <span class="k">background</span><span class="p">:</span> <span class="mh">#404040</span><span class="p">;</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#ffffff</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">.</span><span class="nc">gdoc-footer__link</span><span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#fecf50</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">.</span><span class="nc">gdoc-footer__link</span><span class="p">:</span><span class="nd">visited</span><span class="o">,</span> <span class="p">.</span><span class="nc">gdoc-footer__link</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#fecf50</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="c">/* custom shortcodes */</span>
+<span class="c">/* button */</span>
+<span class="p">.</span><span class="nc">gdoc-button</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#495057</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">.</span><span class="nc">gdoc-button</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span> <span class="k">background-color</span><span class="p">:</span> <span class="mh">#eb8771</span><span class="p">;</span> <span class="k">border-color</span><span class="p">:</span> <span class="mh">#e66a4e</span><span class="p">;</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#ffffff</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="c">/* hint */</span>
+<span class="p">.</span><span class="nc">gdoc-hint</span><span class="p">.</span><span class="nc">info</span> <span class="p">{</span> <span class="k">background</span><span class="p">:</span> <span class="mh">#d1d7e8</span><span class="p">;</span> <span class="k">border-color</span><span class="p">:</span> <span class="mh">#324b99</span><span class="p">;</span> <span class="k">color</span><span class="p">:</span> <span class="kc">black</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">.</span><span class="nc">gdoc-hint</span><span class="p">.</span><span class="nc">warning</span> <span class="p">{</span> <span class="k">background</span><span class="p">:</span> <span class="mh">#fef5dc</span><span class="p">;</span> <span class="k">border-color</span><span class="p">:</span> <span class="mh">#e4ba48</span><span class="p">;</span> <span class="k">color</span><span class="p">:</span> <span class="kc">black</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">.</span><span class="nc">gdoc-hint</span><span class="p">.</span><span class="nc">danger</span> <span class="p">{</span> <span class="k">background</span><span class="p">:</span> <span class="mh">#fae1db</span><span class="p">;</span> <span class="k">border-color</span><span class="p">:</span> <span class="mh">#cf5f46</span><span class="p">;</span> <span class="k">color</span><span class="p">:</span> <span class="kc">black</span><span class="p">;</span> <span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<!-- prettier-ignore-end -->
+<!-- spellchecker-enable -->
+<!-- markdownlint-enable -->
+<p>And that is how the result will looks like. Happy customizing!</p>
+<p><a href="/media/color_scheme_example.png"><img src="/media/color_scheme_example.png" alt="HC-primary Color Scheme"></a></p>
 
 
     </article>
