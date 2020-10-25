@@ -1,5 +1,5 @@
 ---
-baseURL: https://netgainsystems.github.io/documentation/
+baseURL: 'https://netgainsystems.github.io/documentation/'
 title: Welcome to NetGain Docs!
 theme: hugo-geekdoc
 pygmentsUseClasses: true
