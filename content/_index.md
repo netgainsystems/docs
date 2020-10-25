@@ -3,4 +3,4 @@ title: Home
 ---
 
 ## About This Site
-This site hosts comprehensive information on NetGain products/solutions, as well as detailed technical information and tips to get your NetGain software up and running smoothly
+This site hosts comprehensive information on NetGain products and solutions, as well as detailed technical information and tips to get your NetGain software up and running smoothly
