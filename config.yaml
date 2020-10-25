@@ -2,6 +2,8 @@
 baseURL: https://netgainsystems.github.io/docs
 title: NetGain Docs
 theme: hugo-geekdoc
+copyRight: 'NetGain Systems (c) 2002-2020. All rights reserved.'
+myvar: 'dd'
 pygmentsUseClasses: true
 pygmentsCodeFences: true
 
