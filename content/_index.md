@@ -4,7 +4,7 @@ title: Home
 
 ## Quick start
 ### Install the agent
-  Start collecting events and metrics from hosts and send them to Datadog.
+  Start collecting events and metrics from hosts and send them to NetGain Cloud Vista instance.
 
 <br>
 
