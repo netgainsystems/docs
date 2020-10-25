@@ -1,3 +1,2 @@
-# docs
-
-GitHub site: https://github.com/netgainsystems/docs
+# Summary
+- GitHub site: https://github.com/netgainsystems/docs
