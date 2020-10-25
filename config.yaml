@@ -1,0 +1,30 @@
+---
+baseURL: https://docs.netgain-systems.com/
+title: Welcome to NetGain Docs!
+theme: hugo-geekdoc
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+
+# Geekdoc configuration
+disablePathToLower: true
+enableGitInfo: true
+
+# Needed for mermaid shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
+
+params:
+  geekdocToC: 3
+
+  geekdocRepo: https://github.com/soonseah/doc/cvs
+  geekdocEditPath: edit/master/exampleSite/content
+
+  geekdocSearch: true
+
+  geekdocLegalNotice: https://www.netgain-systems.com/legal
+  geekdocPrivacyPolicy: https://www.netgain-systems.com/privacy

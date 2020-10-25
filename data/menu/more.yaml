@@ -1,0 +1,6 @@
+---
+more:
+  - name: Releases
+    ref: "https://github.com/thegeeklab/hugo-geekdoc/releases"
+    external: true
+    icon: "download"
