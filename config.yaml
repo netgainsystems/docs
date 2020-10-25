@@ -1,6 +1,6 @@
 ---
 baseURL: https://netgainsystems.github.io/docs
-title: Welcome to NetGain Docs!
+title: NetGain Docs
 theme: hugo-geekdoc
 pygmentsUseClasses: true
 pygmentsCodeFences: true
