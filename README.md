@@ -15,6 +15,8 @@ This is the git repository source for NetGain Systems documentation website.
 ## Automated nightly builds
   - for all the commit changes, the statics pages will be rebuilt automatically nightly via CI Jenkins
     - via netgain/src/install/night_docs.sh script
+
+
     
 ## To manually rebuild the website
   - git clone repository

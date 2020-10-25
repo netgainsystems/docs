@@ -25,6 +25,8 @@ params:
   geekdocRepo: https://github.com/netgainsystems/docs
   geekdocEditPath: blob/master/content
 
+  #geekdocLogo: logo.png
+
   geekdocSearch: true
 
   geekdocLegalNotice: https://www.netgain-systems.com/legal
