@@ -11,9 +11,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://netgainsystems.github.io/docs/getting_started/install-emedge/</guid>
-      <description>This page tells you how to get started with installing EM Edge at your local site. For comprehensive EM Edge documentation, see https://netgainsystems.github.io/docs
-   Install requirements Installation steps  Installation Java Dowload and unzip EM Edge package Start EM Edge   Stopping EM Edge     Install requirements EM Edge can run on Linux, Windows or Mac OS.
- For Linux, recommended OS is Centos 7/8 Recommended minimum specs: Intel i5 1.</description>
+      <description>This page tells you how to get started with setting up EM Edge agent at your local site.
+   Install requirements Installation steps Starting EM Edge     Install requirements EM Edge can run on Linux, Windows or Mac OS.
+ For Linux, recommended OS is Centos 7/8 Recommended minimum specs: Intel i5 1.6MHz CPU, 8GB RAM, 50GB disk space  Installation steps  Install Java runtime from Java SE Development Kit 8 Downloads page Download and unzip the latest EM Edge software package  Starting EM Edge  Running EM Edge (OS dependent)  Windows: netgain/emedge.</description>
     </item>
     
     <item>

@@ -269,21 +269,15 @@
     
 
 
-<p>This page tells you how to get started with installing EM Edge at your local site. For comprehensive EM Edge documentation, see <a href="https://netgainsystems.github.io/docs">https://netgainsystems.github.io/docs</a></p>
+<p>This page tells you how to get started with setting up EM Edge agent at your local site.</p>
 <!-- spellchecker-disable -->
 
 
 
   <div class="gdoc-toc gdoc-toc__level--3"><nav id="TableOfContents"><ul>
         <li><a href="#install-requirements">Install requirements</a></li>
-        <li><a href="#installation-steps">Installation steps</a>
-          <ul>
-            <li><a href="#installation-java">Installation Java</a></li>
-            <li><a href="#dowload-and-unzip-em-edge-package">Dowload and unzip EM Edge package</a></li>
-            <li><a href="#start-em-edge">Start EM Edge</a></li>
-          </ul>
-        </li>
-        <li><a href="#stopping-em-edge">Stopping EM Edge</a></li>
+        <li><a href="#installation-steps">Installation steps</a></li>
+        <li><a href="#starting-em-edge">Starting EM Edge</a></li>
       </ul></nav><hr></div>
 
 
@@ -295,41 +289,29 @@
 <li>Recommended minimum specs:  Intel i5 1.6MHz CPU, 8GB RAM, 50GB disk space</li>
 </ul>
 <div class="gdoc-page__anchorwrap"><h2 id="installation-steps">Installation steps<a data-clipboard-text="https://netgainsystems.github.io/docs/getting_started/install-emedge/#installation-steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation steps" href="#installation-steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<div class="gdoc-page__anchorwrap"><h3 id="installation-java">Installation Java<a data-clipboard-text="https://netgainsystems.github.io/docs/getting_started/install-emedge/#installation-java" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation Java" href="#installation-java"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <ul>
-<li>Install Java 8 runtime from <a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html" target="_blank">Java SE Development Kit 8 Downloads page</a></li>
+<li>Install Java runtime from <a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html" target="_blank">Java SE Development Kit 8 Downloads page</a></li>
+<li>Download and unzip the latest <a href="https://filedrop.netgain-systems.com/index.php/s/pTUd5x4ReO32Nsm" target="_blank">EM Edge software package</a></li>
 </ul>
-<div class="gdoc-page__anchorwrap"><h3 id="dowload-and-unzip-em-edge-package">Dowload and unzip EM Edge package<a data-clipboard-text="https://netgainsystems.github.io/docs/getting_started/install-emedge/#dowload-and-unzip-em-edge-package" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Dowload and unzip EM Edge package" href="#dowload-and-unzip-em-edge-package"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<ul>
-<li>Download and unzip <a href="https://filedrop.netgain-systems.com/index.php/s/pTUd5x4ReO32Nsm" target="_blank">latest EM Edge software package</a></li>
-</ul>
-<div class="gdoc-page__anchorwrap"><h3 id="start-em-edge">Start EM Edge<a data-clipboard-text="https://netgainsystems.github.io/docs/getting_started/install-emedge/#start-em-edge" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Start EM Edge" href="#start-em-edge"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h2 id="starting-em-edge">Starting EM Edge<a data-clipboard-text="https://netgainsystems.github.io/docs/getting_started/install-emedge/#starting-em-edge" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Starting EM Edge" href="#starting-em-edge"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <ul>
 <li>Running EM Edge (OS dependent)
 <ul>
 <li>Windows: netgain/emedge.exe xx.xx.xx.xx</li>
 <li>Linux: netgain/emedge_linux xx.xx.xx.xx</li>
 <li>Mac: netgain/emedge_darwin xx.xx.xx.xx</li>
+</ul>
+</li>
 <li>Notes:
 <ul>
-<li>
-<p>xx.xx.xx.xx points to Cloud Vista IP address/Domain name provided to you</p>
-</li>
-<li>
-<p>all logs will be saved in netagin/emedge.log file</p>
-</li>
-<li>
-<p>to enable auto start of EM Edge upon Linux reboot, add the following contents to /etc/rc.local</p>
+<li>xx.xx.xx.xx points to Cloud Vista IP address/Domain name provided to you</li>
+<li>all logs will be saved in netagin/emedge.log file</li>
+<li>to enable auto start of EM Edge upon Linux reboot, add the following contents to /etc/rc.local
 <div class="highlight"><pre class="chroma"><code class="language-Shell" data-lang="Shell">path/to/netgain/emedge_linux xx.xx.xx.xx
 </code></pre></div></li>
+<li>to stop EM Edge, simply run same command with &lsquo;stop&rsquo; argument e.g. emedge_linux stop</li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>
-<div class="gdoc-page__anchorwrap"><h2 id="stopping-em-edge">Stopping EM Edge<a data-clipboard-text="https://netgainsystems.github.io/docs/getting_started/install-emedge/#stopping-em-edge" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Stopping EM Edge" href="#stopping-em-edge"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<ul>
-<li>To stop EM Edge, simply run same command with &lsquo;stop&rsquo; argument e.g. emedge_linux stop</li>
 </ul>
 
 
