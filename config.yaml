@@ -8,6 +8,7 @@ pygmentsCodeFences: true
 # Geekdoc configuration
 disablePathToLower: true
 enableGitInfo: true
+publishDir: docs
 
 # Needed for mermaid shortcodes
 markup:
