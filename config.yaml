@@ -22,8 +22,8 @@ markup:
 params:
   geekdocToC: 3
 
-  geekdocRepo: https://github.com/soonseah/doc/cvs
-  geekdocEditPath: edit/master/exampleSite/content
+  geekdocRepo: https://github.com/netgainsystems/docs
+  geekdocEditPath: blob/master/content
 
   geekdocSearch: true
 
