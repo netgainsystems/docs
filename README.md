@@ -15,5 +15,5 @@ This is the git repository source for NetGain Systems documentation website.
 - ## To manually rebuild the website
   - git clone repository
   - run 'hugo' to dump static website to 'docs'
-  - git commit -m "updated docs" docs && git push
+  - git add . && git commit -m "updated docs" && git push
   - visit https://netgainsystems.github.io/docs to check changes
