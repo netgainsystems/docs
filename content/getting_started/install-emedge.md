@@ -2,8 +2,8 @@
 title: Setting up EM Edge
 weight: -10
 ---
-
-This page tells you how to get started with setting up EM Edge agent at your local site.
+EM Edge is the remote software agent that runs at your local site that collects and forwards monitoring data to your Cloud Vista instance.
+This page tells you how to get started with setting up EM Edge agent to run at your local site.
 
 <!-- spellchecker-disable -->
 
