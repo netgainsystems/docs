@@ -1,6 +1,6 @@
 ---
 title: Supported Metrics
-weight: -10
+weight: 10
 ---
 <div style="padding:10px 0px; font-size:40px;font-weight:bold">Total supported metrics: 10828</div>
 {{% toc %}}

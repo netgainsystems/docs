@@ -1,6 +1,6 @@
 ---
 title: Change Logs
-weight: -10
+weight: 20
 ---
 
 ## Changes in v11.1.139b394 (Oct 26 2020)
