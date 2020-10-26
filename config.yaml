@@ -1,5 +1,5 @@
 ---
-baseURL: https://netgainsystems.github.io/docs
+baseURL: https://netgainsystems.github.io
 title: NetGain Docs
 theme: hugo-geekdoc
 copyRight: 'NetGain Systems (c) 2002-2020. All rights reserved.'
@@ -10,7 +10,7 @@ pygmentsCodeFences: true
 # Geekdoc configuration
 disablePathToLower: true
 enableGitInfo: true
-publishDir: docs
+publishDir: ""
 
 # Needed for mermaid shortcodes
 markup:
@@ -24,7 +24,7 @@ markup:
 params:
   geekdocToC: 3
 
-  geekdocRepo: https://github.com/netgainsystems/docs
+  geekdocRepo: https://github.com/netgainsystems
   geekdocEditPath: blob/master/content
 
   #geekdocLogo: logo.png
