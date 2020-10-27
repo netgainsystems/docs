@@ -24,7 +24,7 @@ params:
   geekdocToC: 3
 
   geekdocRepo: https://github.com/netgainsystems
-  geekdocEditPath: blob/master/content
+  geekdocEditPath: docs/blob/master/content
 
   #geekdocLogo: logo.png
 
