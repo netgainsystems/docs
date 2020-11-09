@@ -2,6 +2,51 @@
 title: Change Logs
 weight: 20
 ---
+## Changes in v11.1.150b407 (Nov 8 2020)
+  * SIEM Threat Detections
+    - enhance threat detect rules bulk enable/disable
+    - fix issue of clicking on threats table row entries
+    - allow view of SIEM threats by time period (new time select input)
+    - fix issue of winlogbeats related logs of threats not showing
+
+  * Alarm Processing and Notifications
+    - adds ServiceNow notification integration
+    - adds PagerDuty notification integration
+    - adds OpsGenie notification integration
+    - improves of searching on notification logs
+    - enhanced current and history alarms views
+
+  * APM
+    - fix ApmWatcher bug that it does not generate alarm
+    - adds APM dashboard widget to report on "application transaction errors"
+    - adds APM response time history widget
+    - improves performance of logs search suggestions
+    - improves performance of logs query performance by targeting specific index names based on time range
+    - fix logs query performance when doing complex queries e.g. stats
+
+  * NetFlow
+    - code migration of NetFlow module from scala to java
+    - add support for -Dnetflow_bind_ip=xx.xx.xx.xx to bind netflow receiver to specific IP
+    - fix issue of flow watcher should NOT run on IngestNode or Edge
+
+  * Monitors
+    - fix issue of Oracle monitors not able to discover in IPv6
+    - fix snmp v3 discovery and monitoring issue, when username is same for mutiple devices
+    - add support for netgain/var/monitor/snmp_usm_sample.yml, so as to specific incoming usernames of SNMPv3 traps
+    - implements new USB plug-in/plug-out monitoring
+
+  * EM Edge
+    - shows EM edge Site ID during startup
+    - disable JNI for emedge
+    - improve edge logging
+    - reduce emedge.zip file size by ignoring some files and clean up web menus for emedge
+
+  * Misc
+    - improves on general logging
+    - ability to set debug log levels using netgain.sac.LoggingLevel
+    - enhance to avoid running some unused worker threads when running in CV mode
+    - enhance the threads dumper logs
+    - enhance chinese localizations
 
 ## Changes in v11.1.139b394 (Oct 26 2020)
   * improves EMEdge logging logs to both screen and emedge.log
