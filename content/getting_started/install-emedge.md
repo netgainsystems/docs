@@ -28,6 +28,7 @@ EM Edge can run on Linux, Windows or Mac OS.
   - For Mac: <b>netgain/emedge_mac x.x.x.x</b>
 - Notes:
   - to install EM Edge as a Windows service, simply run '<b>emedge.exe installservice</b>'
+    - (ensure the service is logged on with Administrator privileges)
   - to auto start EM Edge when Linux reboots, please add the following to /etc/rc.local
     ```Shell
     path/to/netgain/emedge x.x.x.x
