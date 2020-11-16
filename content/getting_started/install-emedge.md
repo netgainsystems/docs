@@ -14,7 +14,8 @@ This page tells you how to get started with setting up EM Edge agent to run at t
 ## Install requirements
 EM Edge can run on Linux, Windows or Mac OS.
   - For Linux, recommended OS is Centos 7/8
-  - Recommended minimum specs:  Intel i5 1.6MHz CPU, 8GB RAM, 50GB disk space
+  - Recommended minimum specs:  <b>Intel i3 CPU</b> or above, <b>2GB</b> RAM, <b>30GB</b> disk space
+  - Recommended ideal specs (for monitoring more than 30 devices and forwarding data such as syslogs/NetFlow/APM...):  <b>Intel i5 CPU</b> or above, <b>8GB</b> RAM, <b>100GB</b> disk space
 
 ## Installation package
   - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest EM Edge software package</a>
