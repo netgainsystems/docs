@@ -16,11 +16,8 @@ EM Edge can run on Linux, Windows or Mac OS.
   - For Linux, recommended OS is Centos 7/8
   - Recommended minimum specs:  Intel i5 1.6MHz CPU, 8GB RAM, 50GB disk space
 
-## Installation steps
-  - Install Java runtime from <a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html" target="_blank">Java SE Development Kit 8 Downloads page</a>
-  - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip"
-          target="_blank">latest EM Edge software package</a>
-
+## Installation package
+  - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest EM Edge software package</a>
 ## Starting EM Edge
 - Running EM Edge (x.x.x.x points to Cloud Vista Host address provided to you)
   - For Windows: <b>netgain/emedge.exe x.x.x.x</b>
