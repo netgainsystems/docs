@@ -2,6 +2,56 @@
 title: Change Logs
 weight: 20
 ---
+## Changes in v11.1.158b417 (Nov 19 2020)
+  * EM Edge
+    - bundle JRE for windows/linux emedge
+    - support running emedge as a windows service
+    - enable beats data collection in windows emedge too (previouly only in linux)
+
+  * Log Analytics aand SIEM Threat Detections
+    - fix time range select problems for beats indexs (GMT-based indices)
+    - fix logs query indice names based on time range
+    - enhance column names in SIEM threats table and also make all SIEM dashboard widgets able to click and drill in
+    - Change Log Sources menu location for SIEM
+    - fix threat detections enable/disable feature
+    - update threat detection rules from elasticsearch github
+    - enhance threat detect rules enable/disable methods
+    - enhance syslog collector to ignore empty syslog message
+
+  * NetFlow
+    - fix netflow top-n aggregate calculation bugs
+    - make netflow topn charts drillable (click thru)
+
+  * Reports
+    - add PDF export support for log reports, including download and auto-delivery
+    - enable back old feature 'batch reports' in Metrics=>Reports menu
+
+  * Notifications
+    - enhnace ServiceNow integration
+    - enhance PageDuty integration to add 'from' email field
+
+  * GUI enhancements and fixes
+    - fix monitor object jump links from various pages including dashboards
+    - makes most of the GUI tables scrollable
+    - fix logs_summary dashboard edit issue (jumps to other pages when in edit mode)
+
+  * Monitors
+    - allow edit of SNMPv3 users from GUI
+    - enhance EMC Switch monitor
+
+  * Alarm Processing and Notifications
+    - enhance current and history alarms export output
+    - fix bug - alarm auto discharges and then comes back to current alarms list again
+    - do not show alarm object field if empty, in current and history alarms views
+
+  * Data backup and restore
+    - implement web-based data retention config and backup/restore via GUI
+
+  * Misc
+    - migrate to use elasticsearch 7.9.3 java client libraries
+    - improves on general logging
+    - improves on chinese localizations
+
 ## Changes in v11.1.150b407 (Nov 8 2020)
   * SIEM Threat Detections
     - enhance threat detect rules bulk enable/disable
