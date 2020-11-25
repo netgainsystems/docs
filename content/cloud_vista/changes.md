@@ -2,6 +2,20 @@
 title: Change Logs
 weight: 20
 ---
+
+## Changes in v11.1.160b420 (Nov 21 2020)
+  * GUI enhancements and fixes
+    - enhance formatting for default SIEM dashboards
+  * Log Analytics
+    - enhance TcpReader in SyslogServer to fix potential memory leaks when receiving TCP syslogs from devices
+    - update threat detection rules from elasticsearch github
+    - add PDF format support downloading log reports
+  * Monitors
+    - support for GUI edit of snmp v3 users page for EM Probe too
+    - change snmpV3 monitors get method to use localized engine all the time
+    - fix bug of snmptraps forwarded to CV but ignored in CV
+    - enable back batch reports to Metrics=>Reports menu
+
 ## Changes in v11.1.158b417 (Nov 19 2020)
   * EM Edge
     - bundle JRE for windows/linux emedge
