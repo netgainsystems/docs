@@ -1,5 +1,5 @@
 ---
-title: Line App
+title: Line
 weight: 3
 ---
 This document is to provide a step by step setup for Line App integration to be setup as the notifications channel in EM and CV.
