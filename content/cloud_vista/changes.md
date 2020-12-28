@@ -2,6 +2,64 @@
 title: Change Logs
 weight: 20
 ---
+## Changes in v11.1.175b457 (Dec 28 2020)
+  * EM Edge
+    - enhance emedge it not check port 443 when checking is CV alive. only check for port 9005
+    - fix Edge Sites not display on CV GUI
+    - change default Edge to CV sync 30secs instead of 60secs
+    - support immediate update to EMEdge and back, when click on monitor object in Cloud Vista GUI
+    - fixes SIEM drag time range issue
+    - fixes issue with AI workflow editing
+    - Do not start emedge is agent is running (not allowed)
+    - add Threads and Memory sub-page for emedge in system status page
+    - add script netgain/bin/restart_edge.sh
+    - fix critical issue of MO not delete at edge when delete MO at CV
+    - show EMEdge sites that is only UP for discovery inputs
+    - fixes issue of CV not able to delete MO due to clear alarms issue
+  * Log Analytics aand SIEM Threat Detections
+    - fixes issue of logs watcher creating duplicate rules
+    - fixes issue fo re-index logs page not showing updated logs
+    - enhance SIEM Alarms export
+    - fixes issues of SIEM report not able to download report with query string with double quotes
+    - fix elastic logs index field mapping for snmp trap varbind values
+    - update siem threat detection rules and supports EQL style queries
+  * Network Configuration Manager (NCM)
+    - fix ncm pull config scripts errors
+  * Reports
+    - Add BizView SLA batch reports
+    - enhance batch reports customization
+    - fixes batch reports schedule delivery
+  * Notifications
+    - revamp LINE notification mechanism such that webhook is no longer needed
+    - update LINE settings for gateway url
+  * GUI enhancements and fixes
+    - update to more cooler animated netgain logo gif image
+    - fix discovery results table too short in height to display content
+    - update primary menu Dashboards=>Home
+    - touch up APM GUI tables
+    - fixes issue with logical map creatinon with empty var
+  * Monitors
+    - add support for -Dalways_validate_mos=1 to debug MO corruption issue
+    - fix critical issue of MOManger.deleteMO only deleting immediate child MOs and not grandchild MOs
+    - enhance VMware monitoring
+    - fixes issue of adding business in role management
+    - implemented Arista switch optical sensors
+    - improve the monitor history view page
+    - fix updateNow to update only the monitor and not all siblings monitors
+    - update disks monitoring script for MacOS
+    - enhance monitoring script for MacOS
+    - enhance SNMPv3 query performance
+    - improve on capacity planning estimation and history data forecast with new ML algorithms (random forest tree)
+    - fixes issue of cannot create monitor after auto discovery
+  * Agent
+    - enhance agent code to support IPv6
+  * Alarm Processing and Notifications
+    - enhances alarm discharge operation to not annotate problem when auto discharging
+  * Data backup and restore
+    - implement export of elastic data backup via GUI
+    - fix elastic backup job issue - wrongly purged all latest backups
+  * Misc
+    - chinese localizations
 
 ## Changes in v11.1.160b420 (Nov 21 2020)
   * GUI enhancements and fixes
@@ -118,12 +176,10 @@ weight: 20
   * obsolete flat file netgain/alarm/AlarmHistoryManager.java as it is causing issues
   * enhance alarm views
   * update default SIEM security threat dashboard
-## Changes in v11.1.136b388 (Oct 24 2020)
   * add jump to SIEM Threat Event from SIEM alarms
   * obsolete AlarmEscalateManager module
   * enhance current and history alarms view
   * improves some CSS look and feel
-## Changes in v11.1.135b387 (Oct 23 2020)
   * fix snmptrap collector not working in emedge
   * fix em edge package issue
   * remove threat rule logs to avoid the index geting big
@@ -133,7 +189,6 @@ weight: 20
   * add default SIEM security threat dashboard
   * rename duration to response time for APM transactions in most GUIs
   * do not enable SIEM plus for CV by default, only enable by default for NetGainSaaS
-## Changes in v11.1.134b385 (Oct 21 2020)
   * fixs sample logs ingest
   * improves on sample logs ingest
   * improves log summary dashboard widget
@@ -143,13 +198,11 @@ weight: 20
   * change default SIEM dashboard to show threat logs
   * add SIEM threat ids and names to source logs
   * add APM transaction mapper
-## Changes in v11.1.132b383 (Oct 19 2020)
   * revamp apm agent JSP pages
   * add selectable colors for dashboard
   * improves dashboard widgets to have color selections
   * improves logs and apm dashboard widgets with selectable graph types and colors
   * improves widgets to notify config change
-## Changes in v11.1.131b381 (Oct 17 2020)
   * Download Option For Monitor History Graph
   * Mobile View Formatting
   * Slack Save Formatting Code Changes
@@ -161,7 +214,6 @@ weight: 20
   * NEC Notification Issue Code Changes
   * rename Events to Threats in SiemManager
   * improves logs and apm dashboard widgets
-## Changes in v11.1.129b379 (Oct 15 2020)
   * Input Output Utilization Units
   * fix pri menu expand bug
   * add APM widgets
@@ -225,7 +277,6 @@ weight: 20
   * Add PerformanceManager.getHistoryData method
   * improves ElasticProxy.histogram method
   * initial prototyping of metrics report
-## Changes in v11.1.117b360 (Sat Sep 26 2020)
   * add EPS to log sources
   * show logs estimated ingest rate
   * fix bug of enable/disable mapping rules due to multiple transformers
@@ -242,7 +293,6 @@ weight: 20
   * stee snmpv3 - change default timeout to 3000ms
   * stee snmpv3 - clean up DiscoveryScanner code with proper logging
   * singtel v11-added nea login reports
-## Changes in v11.1.114b356 (Tue Sep 22 2020)
   * enhance log ui feedback
   * stee snmpv3 - change to use our own customized overridden USM
   * refactor code to load snmpv3 agent credentials from conf/monitor/snmp agent.yml file
@@ -255,7 +305,6 @@ weight: 20
   * Alarm Details Acknowledge Issue And Discharge Text Consistency
   * Alarm Row Click issue
   * singtel wifi - enhance user logins report to add histogram
-## Changes in v11.1.111b352 (Fri Sep 18 2020)
   * optimize log processing logging
   * optimize log processing speed
   * add jsp page to check on log mapping performance
@@ -280,7 +329,6 @@ weight: 20
   * stee snmpv3 - revert code back to suppose working version
   * enhance syslog collector to handle invalid/TCP format
   * second prototype for singtel syslog parsing in v11
-## Changes in v11.1.108b349 (Tue Sep 15 2020)
   * add more syslog error logging messages
   * add syslog TCP receiver
   * initial prototype for singtel syslog parsing in v11
@@ -295,7 +343,6 @@ weight: 20
   * add grok suggest feature
   * improves grok developer console
   * fix column display errors in SIEM default dashboard for windows user logons
-## Changes in v11.1.103b344 (Thu Sep 10 2020)
   * fix deleteMO issue when parent MO is not found
   * fix weird errors in VersionInfo class
   * History Data Issue With Moving Devices
@@ -330,7 +377,6 @@ weight: 20
   * improves CV to ignore older beats logs (using -Dmom beats ignore older mins=nn, default is 30
   * remove obsoleted cisco process monitors
   * fix LogStashProxy for beats logs collection
-## Changes in v11.1.90b322 (Tue Aug 25 2020)
   * refactor netgain/perf/ElasticPerfDataManager
   * perf enhancements to reduce number of threads
   * enhance emedge executable
@@ -348,7 +394,6 @@ weight: 20
   * bug 3966 philcomsat report issue Gna
   * Bug 3964 dell switch not able to monitor Gna
   * disable auto restart (maint freq) by default, unless -Dperiodic restart=1
-## Changes in v11.1.85b315 (Wed Aug 19 2020)
   * enhance emedge go runtimes
   * major revamp of edge to make it easier to download and setup
   * use javax.net.ssl.X509ExtendedTrustManager instead of javax.net.ssl.X509TrustManager
@@ -363,7 +408,6 @@ weight: 20
   * implement netgain.protocols.Kube class to control kubernetes
   * No Output In Discovery Logs
   * fix some gui display for -Dnetgain saas=1 deployment
-## Changes in v11.1.81b309 (Thu Aug 13 2020)
   * update siem intel
   * fix bug home dashboards table issue
   * Modify Photo Issue
@@ -418,7 +462,6 @@ weight: 20
   * BugHunt2-Netflow: Report download: When there is no data, downloafd report is throwing 404 exception
   * BugHunt2-Netflow: Ton n result when there is no data showing undefined in query results
   * BugHunt2-NetFlow > Report  Download of report is incomplete, not showing all columns
-## Changes in v11.1.72b298 (Sun Aug  2 2020)
   * update SIEM intel
   * enhance voice UI
   * jump to cisco talos link when clicking on public IPs in apm, netflow and logs pages
@@ -435,7 +478,6 @@ weight: 20
   * CMDB Network Config Template Issue
   * Blackout Schedules Issue
   * add 60d and 90d option to history data query
-## Changes in v11.1.66b293 (Wed Jul 29 2020)
   * add site.id and site.name to traps received from EV edge
   * BugHunt2-SIEM not able to click the field mapping to do quick search
   * BugHunt2-zoom in logs histogram by selecting a graph port shows blank when there's only one bar
@@ -459,7 +501,6 @@ weight: 20
   * Refresh After Adding Business-Tool Tip In edit Mode
   * Refresh After Adding Business
   * add voiceui prototype code (not enabled by default)
-## Changes in v11.1.64b291 (Mon Jul 27 2020)
   * initial implementation of auto-import of elastic opensource detection rules
   * strength SNMP v3 query code
   * update SIEM intel
@@ -476,7 +517,6 @@ weight: 20
   * include windows event logs as part of sample logs in product
   * Bug 3943 korlantas switch hored network ports not monitoring Gna
   * disable LogStashProxy in windows version for now (not needed), due to runtime errors of RouteBuilder
-## Changes in v11.1.61b288 (Fri Jul 24 2020)
   * add threat intelligence: talosintelligence
   * enhance on log reports
   * snmp4j library update: remove snmp4j code in 3rdparty.jar and added snmp4j-2.8.4.jar,  and updated snmp4j-agent-2.4.0.jar to snmp4j-agent-2.7.4.jar
@@ -487,7 +527,6 @@ weight: 20
   * SIEM Netflow Reports Creating Duplicates
   * add support for new threat rule type 'query' that uses simple query expressions
   * Line Settings Issue
-## Changes in v11.1.60b287 (Thu Jul 23 2020)
   * rename netgain/logmgmt/BeatsCollector to netgain/logmgmt/LogStashProxy
   * improves on APM transaction display
   * Status Screen Using Generalised Icons
@@ -508,7 +547,6 @@ weight: 20
   * merge ais eds branch ais/eds/eds prod v10
   * add optical power monitor for H3C switches
   * fix display of decimal point in test window
-## Changes in v11.1.58b285 (Tue Jul 21 2020)
   * Bughunt cannot set siem authorization to roles
   * Bughunt there is no description of RestApi for SIEM
   * V10 slack webhook update
@@ -517,7 +555,6 @@ weight: 20
   * fix localizations
   * make ElasticProxy refresh only after changing data, if in eager mode
   * V10 Slack Webhook Update-fix SSL trust issue
-## Changes in v11.1.57b284 (Mon Jul 20 2020)
   * bugfixes notify email issue and silent unzip elastic search issue…
   * Add Dashboard Access Issue
   * V10 Slack Webhook Update
@@ -530,7 +567,6 @@ weight: 20
   * Various CMDB Issues
   * makefile fulltrial filename fix jhio
   * Bug fixes unzip elastic silent mode Gna
-## Changes in v11.1.53b280 (Fri Jul 17 2020)
   * add access control feature to limit client login by user and IP
   * User Defined Report Add Template Issue
   * bug table display when no data
@@ -544,7 +580,6 @@ weight: 20
   * do not start siem hunt manager is collector node mode, to avoid rules corruption
   * Bug Jhio-remove config customize.xml
   * description is showing null when its empty in explain specs window jhio
-## Changes in v11.1.50b276 (Wed Jul 15 2020)
   * Bug 3940 eagle cement customize reports issue in downtime for whole d…
   * Bug3949 add sangfor wac monitor Gna
   * fixes elastic search not starting change trial name Gna
@@ -562,7 +597,6 @@ weight: 20
   * fix perf data display column unit label issue
   * update APM docs
   * fix siem scripts
-## Changes in v11.1.48b271 (Fri Jul 10 2020)
   * bug sms feature messages
   * Table Edit And Icon Pen Inconsistencies
   * Edit Icon Changes
@@ -663,7 +697,6 @@ weight: 20
   * refactored netgain.elastic.SearchHelper
   * cancel save button class changes
   * cancel save buttons class change
-## Changes in v11.1.42b265 (Tue Jun 23 2020)
   * improves display of log fields
   * change log mappings to use standard ECS user.name
   * text and primary button changes in few screens
@@ -682,7 +715,6 @@ weight: 20
   * fixed issue of logs advance query only can show up to 10 results
   * fix query expression error due to non-breakspace space at the end of query string
   * fix query expression error for table query to handle underscore in field name
-## Changes in v11.1.40b261 (Fri Jun 19 2020)
   * dark theme formatting
   * improves response time of add dashboard
   * improves on trial activation process
@@ -699,7 +731,6 @@ weight: 20
   * users create button issue fix
   * issue with role saving
   * monitor table edit
-## Changes in v11.1.39b259 (Wed Jun 17 2020)
   * change in modal for adding device monitor group
   * Add service Menu display issue fix
   * ng dialog MinorChanges Add Dashboard Minor Changes
@@ -722,7 +753,6 @@ weight: 20
   * move windemo jsp files to u/jsp/trial folder
   * remove concept of free partner
   * add class netgain/common/Encryptor.java
-## Changes in v11.1.37b257 (Mon Jun 15 2020)
   * fix monitor stataus list view error
   * css changes to fix default browser controls display .e.g. checkboxes
   * Revert "speed up page navigations"
@@ -743,7 +773,6 @@ weight: 20
   * Dark theme drop down changes
   * fix add dashboard issue
   * avoid MOFix in elastic mode
-## Changes in v11.1.34b254 (Fri Jun 12 2020)
   * move the search bar to top for logger aand siem
   * improves of query input for netflow screens
   * reports width issue fix
@@ -779,7 +808,6 @@ weight: 20
   * refactor base.less
   * add reports and watcher for apm
   * partial implementation of APM
-## Changes in v11.1.29b249 (Sun Jun  7 2020)
   * update jspc files
   * major refactor to remove old NetFlow implementation code
   * added APM prototype
