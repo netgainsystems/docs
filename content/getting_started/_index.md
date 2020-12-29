@@ -1,4 +1,4 @@
 ---
-title: dddGetting started
+title: Getting started
 weight: -10
 ---
