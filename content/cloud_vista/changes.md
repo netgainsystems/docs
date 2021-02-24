@@ -2,7 +2,59 @@
 title: Change Logs
 weight: 20
 ---
-## Changes in v11.1.175b457 (Dec 28 2020)
+## Changes in v11.1.200 (Feb 24 2021)
+  * EM Edge
+    - add support for -Dweb gui=0 to disable web interface
+    - CVS-Edge non stop printing logs when CV is down
+    - disable elastic backup job for EM Edge version
+  * Log Analytics aand SIEM Threat Detections
+    - log Analytics Screen No Data Screen
+    - SIEM-enhancement- add calculation formula support for aggregate search expression
+    - SIEM Reports Auto Delivery Issue
+    - SIEM Threat Detetection Table Issue
+    - grok expression issue: %{NUMBER:xxx} wrongly converts to String, instead of number
+    - implement logs archiving
+    - implement logs compliance and batch reports
+    - implment more logs report templates including compliance reports
+    - tighten complex query syntax check
+  * Agent
+    - agent Can Wrongly Start Multiple Instance
+    - agent Should Bind To Local Address when no rmi is set
+    - improve agent logger
+  * Monitors
+    - usb customization monitor
+    - CVS missing scan credential feature
+    - customize SNMP Issue
+    - MacroSan Monitor implementation
+    - aruba ap status shows down but aps are up
+    - new elasticsearch based MonitorDataBean implementation for faster perf data query
+    - implemented Arista switch optical sensors
+  * NetFlow
+    - netflow APM Widget Issues
+    - netflow Application Deletion Issue
+    - netflow Report Download Issue
+    - fine-tune on netflow processing
+    - improves on netflow recording
+    - finetune netflow to parse extra v9/v10 fields e.g. source.nat.ip, ...
+  * GUI enhancements and fixes
+    - checkboxes In Alarm Page Issue Fix And Alarms Dropdown Issue On Page Load
+    - dashboard Charts-default datalabel display issue fix
+    - dynamic Threshold Settings
+    - dashboard HeatMap Warning status Issue
+    - MIB Upload Issue
+    - metrics Table Refresh Issue
+    - dashboard display error when query string contains [... as 'xxx']
+    - alarm object click issue
+    - improves on logon screen css
+    - issue in forgot password GUI
+  * Security fixes
+    - CWE-203-Username Harvesting during Authentication and through Password Reset
+    - update to use jquery v3.5.1
+    - tighten servlet filter for security vulnerabilities
+    - blackout Schedule Issues
+    - CVS empty site showing disabled status
+
+## Changes in v11.1.175 (Dec 28 2020)
   * EM Edge
     - enhance emedge it not check port 443 when checking is CV alive. only check for port 9005
     - fix Edge Sites not display on CV GUI
