@@ -29,7 +29,23 @@ This document is to provide a list of vulnerabilities reported on the product an
        <li>CWE-693 CWE016 OWASP-A6 X-XSS-Protection Header not implemented</li> 
        <li>CWE-384 Mulitiple Login Sessions</li> 
        <li>CWE-200 CWE-213 OWASP-A6 Web server & Framework Version Identification</li> 
-       <li>CVE-2014-3566 POODLE: SSLv3</li> 
+       <li>CVE-2014-3566 POODLE: SSLv3</li>
+       <li>CVE-2020-17530 - Apache Struts 2 Successful exploitation of the vulnerability may allow an attacker to perform remote code execution on a vulnerable system.</li> 
+       <li>CVE-2020-1971 - OpenSSL exploits to cause a Denial of Service condition.</li> 
+       <li>CVE-2020-17527 Apache Tomcat HTTP/2 Request header mix-up</li> 
+       <li>CVE-2020-26217 - XStream Remote Code Execution Vulnerability</li> 
+       <li>CVE-2020-14750 - Oracle WebLogic Server</li> 
+       <li>CVE-2020-13943 Apache Tomcat HTTP/2 Request mix-up</li> 
+       <li>Nessus Plugin ID 12085 -Apache Tomcat Default Files</li> 
+       <li>CVE-1999-0517- SNMP Agent Default Community Name (public)</li> 
+       <li>Nessus Plugin ID 51192 - SSL Certificate Cannot Be Trusted</li> 
+       <li>Nessus Plugin ID 57582 - SSL Self-Signed Certificate</li> 
+       <li>CVE-2008-5161 - SSH Server CBC Mode Ciphers Enabled</li> 
+       <li>Nessus Plugin ID 76474 -  SNMP 'GETBULK' Reflection DDoS</li> 
+       <li>CVE-2015-4000 SSL/TLS Diffie-Hellman Modulus <= 1024 Bits (Logjam)</li> 
+       <li>CVE-2020-11022  JQuery 1.2 < 3.5.0 Multiple XSS</li> 
+       <li>CVE-2020-11023  JQuery 1.2 < 3.5.0 Multiple XSS</li> 
+       <li>CVE-2012-5081 -  TLS ROBOT Vulnerability Detected (JAVA)</li> 
     <ul>
 </details>
 
