@@ -12,11 +12,11 @@ weight: -10
 
   - Windows
     - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
-    - cd into **emdge** folder and run **emedge.exe setup**
+    - cd into **emedge** folder and run **emedge.exe config**
 
   - Apple OS X:
     - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
-    - cd into **emdge** folder and run **./emedge setup**
+    - cd into **emedge** folder and run **./emedge config**
 
 ## Installation as system service
   - Linux/OSX:
