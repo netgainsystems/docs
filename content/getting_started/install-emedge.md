@@ -1,37 +1,43 @@
 ---
-title: Setting up EM Edge
+title: Setting up emedge
 weight: -10
 ---
-EM Edge is the remote software agent that runs at your local site that collects and forwards monitoring data to your Cloud Vista instance.
-This page tells you how to get started with setting up EM Edge agent to run at the local site(s).
+**emedge** a software that runs on your local sites. It collects metrics and logics from hosts and sends them to CloudVista, where you can analyze and visualize your monitoring and performance data.
 
-<!-- spellchecker-disable -->
+## Installation steps
+  - Linux
+    - one liner installation
 
-{{< toc >}}
+          bash -c "$(curl -skL https://download.netgain-systems.com/emedge/install.sh)"
 
-<!-- spellchecker-enable -->
+  - Windows
+    - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
+    - cd into **emdge** folder and run **emedge.exe setup**
 
-## Install requirements
-EM Edge can run on Linux, Windows or Mac OS.
-  - For Linux, recommended OS is Centos 7/8
-  - Recommended minimum specs:  <b>Intel i3 CPU</b> or above, <b>2GB</b> RAM, <b>30GB</b> disk space
-  - Recommended ideal specs (for monitoring more than 30 devices and forwarding data such as syslogs/NetFlow/APM...):  <b>Intel i5 CPU</b> or above, <b>8GB</b> RAM, <b>100GB</b> disk space
+  - Apple OS X:
+    - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
+    - cd into **emdge** folder and run **./emedge setup**
 
-## Installation package
-  - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest EM Edge software package</a>
-## Starting EM Edge
-- Running EM Edge (x.x.x.x points to Cloud Vista Host address provided to you)
-  - For Windows: <b>netgain/emedge.exe x.x.x.x</b>
-  - For Linux: <b>netgain/emedge x.x.x.x</b>
-  - For Mac: <b>netgain/emedge_mac x.x.x.x</b>
-- Notes:
-  - to install EM Edge as a Windows service, simply run '<b>emedge.exe installservice</b>'
-    - (ensure the service is logged on with Administrator privileges)
-  - to auto start EM Edge when Linux reboots, please add the following to /etc/rc.local
-    ```Shell
-    path/to/netgain/emedge x.x.x.x
-    ```
-  - all logs will be saved into <b>netgain/emedge.log</b> file
-  - to stop EM Edge, simply run command with '<b>stop</b>' argument e.g. <b>emedge stop</b>
-  - run command with <b>emedge help</b> to see more options
-  - for more detailed instructions, please refer to <a href="https://docs.netgain-systems.com/getting_started/install-emedge" target="_blank">docs.netgain-systems.com</a>
+## Installation as system service
+  - Linux/OSX:
+    - execute **/opt/emedge/emedge service install**
+  - Windows:
+    - execute **emedge.exe service install**
+    - Note: ensure the service is logged on with an user account with **Administrator** privileges
+  - execute **emedge service -h** for more service commands
+
+## Further details
+  - all logs will be saved into **emedge.log** in the installation directory
+  - to stop emedge, simply run **emedge stop**
+  - to install emedge as a service
+    - run '**emedge.exe service install**'
+    - Note for windows: ensure the service is logged on with an user account with **Administrator** privileges
+  - you may execute **emedge -h** to see more options
+
+## Supported environments
+**emedge** can run on Linux, Windows or Mac OS.
+  - For Linux, recommended OS distribution is **Centos** or **Ubuntu**
+  - Recommended specs:
+    * **Minimum**: CPU: **Intel i3-equivalent** or above, **1GB** RAM, **5GB** disk space
+    * **Ideal**:   CPU: **Intel i5-equivalent** or above, minimum **4GB** RAM, **50GB** disk space
+
