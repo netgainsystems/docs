@@ -11,12 +11,13 @@ weight: -10
           bash -c "$(curl -skL https://download.{{% domain %}}/emedge/install.sh)"
 
   - Windows
-    - Download and unzip <a href="https://download.{{% domain %}}/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
-    - cd into **emdge** folder and run **emedge.exe setup**
+    - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
+    - cd into **emedge** folder and run **emedge.exe config**
 
   - Apple OS X:
-    - Download and unzip <a href="https://download.{{% domain %}}/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
-    - cd into **emdge** folder and run **./emedge setup**
+    - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
+    - cd into **emedge** folder and run **./emedge config**
+
 
 ## Installation as system service
   - Linux/OSX:
