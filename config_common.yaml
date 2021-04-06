@@ -1,9 +1,6 @@
 ---
-baseURL: http://docs.netgain-systems.com
-title: NetGain Docs
+Domain: 'spog.ai'
 theme: hugo-geekdoc
-copyRight: 'NetGain Systems (c) 2002-2020. All rights reserved.'
-myvar: 'dd'
 pygmentsUseClasses: true
 pygmentsCodeFences: true
 
@@ -22,13 +19,6 @@ markup:
 
 params:
   geekdocToC: 3
-
   geekdocRepo: https://github.com/netgainsystems
   geekdocEditPath: docs/blob/master/content
-
-  #geekdocLogo: logo.png
-
   geekdocSearch: true
-
-  geekdocLegalNotice: https://www.netgain-systems.com/legal
-  geekdocPrivacyPolicy: https://www.netgain-systems.com/privacy

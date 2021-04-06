@@ -1,0 +1,12 @@
+---
+baseURL: http://docs.netgain-systems.com
+title: NetGain Docs
+copyRight: 'NetGain Systems (c) 2002-2021. All rights reserved.'
+
+params:
+  company: 'NetGain Systems'
+  domain: 'netgain-systems.com'
+  product: 'NetGain CloudVista SaaS'
+  themeColor: '#0a539a'
+  geekdocLegalNotice: https://www.netgain-systems.com/legal
+  geekdocPrivacyPolicy: https://www.netgain-systems.com/privacy
