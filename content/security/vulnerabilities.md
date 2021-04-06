@@ -62,10 +62,10 @@ This document is to provide a list of vulnerabilities reported on the product an
       Download the package <a href="https://github.com/sudo-project/sudo/releases/download/SUDO_1_9_5p2/sudo-1.9.5-3.el7.x86_64.rpm">sudo-1.9.5-3.el7.x86_64.rpm</a>
 	</li>
 	<li>
-	  Use WinSCP to copy the sudo-1.9.5-3.el7.x86_64.rpm into the NetGain server and place it under /tmp directory
+	  Use WinSCP to copy the sudo-1.9.5-3.el7.x86_64.rpm into the server and place it under /tmp directory
 	</li>
 	<li>
-	  SSH to the NetGain server and execute the following commands below
+	  SSH to the server and execute the following commands below
 	</li>
 	# cd /tmp
 	<br>
