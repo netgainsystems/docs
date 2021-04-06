@@ -2,7 +2,7 @@
 title: Line
 weight: 3
 ---
-This document is to provide a step by step setup for Line App integration to be setup as the notifications channel in EM and CV.
+This document is to provide a step by step setup for Line App integration to be setup as the notifications channel
 
 <!-- spellchecker-disable -->
 
@@ -34,13 +34,13 @@ This document is to provide a step by step setup for Line App integration to be 
 	
 	e. Once Messaging API is created, click the Messaging API sub-menu then Issue Channel access token  
 	f. In your LINE™ Mobile App, scan the QR code from the Messaging API sub-menu to add this bot as a chat friend
-3. Go now to NetGain GUI, Alarms > Notification >  Line and click +Create. Key-in your Label and Channel access token 
+3. Go now to Web GUI at Alarms > Notification >  Line and click +Create. Key-in your Label and Channel access token 
 4. Send Test message, if successful you can now save  
 5. Go to Notifications > Rules then click Create. Set desired notification Rules and don't forget to tick the “LINE” box to enable the Line alert messaging  
 6. Create your Line messaging content in notification rules or just simply put “default” to receive system generated alarms  
 7. Line label should be the same as the Label created in the MS Teams integration settings	
 8. Select the Users to Notify
-	> * Note: Every User must have LineApp ID set in their User profile in NetGain.
+	> * Note: Every User must have LineApp ID set in their User profile under "Users" in the product
 9. Save Notification Settings to be able to receive notifications to your LineApp
 		
 	

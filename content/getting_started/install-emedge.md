@@ -8,14 +8,14 @@ weight: -10
   - Linux
     - one liner installation
 
-          bash -c "$(curl -skL https://download.netgain-systems.com/emedge/install.sh)"
+          bash -c "$(curl -skL https://download.{{% domain %}}/emedge/install.sh)"
 
   - Windows
-    - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
+    - Download and unzip <a href="https://download.{{% domain %}}/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
     - cd into **emdge** folder and run **emedge.exe setup**
 
   - Apple OS X:
-    - Download and unzip <a href="https://download.netgain-systems.com/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
+    - Download and unzip <a href="https://download.{{% domain %}}/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
     - cd into **emdge** folder and run **./emedge setup**
 
 ## Installation as system service

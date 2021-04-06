@@ -2,13 +2,13 @@
 title: Home
 ---
 
-# Welcome to NetGain Docs!
+# Welcome to {{% company %}} docs!
 
 ## About This Site
-This site hosts all comprehensive information on NetGain products and services, as well as detailed technical information and tips to get your NetGain software up and running smoothly.
+This site hosts all comprehensive information on {{% company %}} products and services, as well as detailed technical information and tips to get your {{% company %}} software up and running smoothly.
 
 ## Feedbacks
-Please contact support@netgain-systems.com to provide your valuable feedbacks.
+Please contact support@{{% domain %}} to provide your valuable feedbacks.
 
 <hr>
 {{% copyright %}}
