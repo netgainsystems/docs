@@ -10,7 +10,7 @@ weight: -9
 
   - Windows
     - Download and unzip <a href="https://download.{{% domain %}}/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
-    - cd into **emdge** folder and run **emedge.exe setup**
+    - cd into **emedge** folder and run **emedge.exe setup**
 
 ## Installation as system service or Windows service
   - Linux/Windows/OSX:

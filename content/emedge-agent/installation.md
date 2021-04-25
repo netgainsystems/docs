@@ -10,11 +10,11 @@ weight: -9
 
   - Windows
     - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-win.zip" target="_blank">latest emedge-agent software package for Windows</a>
-    - cd into **emdge-agent** folder and run **emedge-agent.exe setup**
+    - cd into **emedge-agent** folder and run **emedge-agent.exe setup**
 
   - Apple OSX
     - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-osx.zip" target="_blank">latest emedge-agent software package for OSX</a>
-    - cd into **emdge-agent** folder and run **emedge-agent-osx setup**
+    - cd into **emedge-agent** folder and run **emedge-agent-osx setup**
 
 ## Installation as system service or Windows service
   - Linux/Windows/OSX:
