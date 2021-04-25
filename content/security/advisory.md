@@ -1,5 +1,5 @@
 ---
-title: Vulnerabilities and Fixes
+title: Advisory
 weight: 5
 ---
 This document is to provide a list of vulnerabilities reported on the product and the corresponding rectification measures

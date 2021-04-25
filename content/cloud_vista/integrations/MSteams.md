@@ -1,5 +1,5 @@
 ---
-title: MS Teams
+title: MSTeams notifications
 weight: 5
 ---
 This document is to provide a step by step setup for MS Teams integration to be setup as the notifications channel.

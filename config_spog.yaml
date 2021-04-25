@@ -1,4 +1,5 @@
 ---
+Domain: 'spog.ai'
 baseURL: http://docs.spog.ai
 title: spog.ai docs
 copyRight: 'spog.ai (c) 2020-2021. All rights reserved.'
