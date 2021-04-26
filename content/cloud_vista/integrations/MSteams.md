@@ -27,7 +27,7 @@ This document is to provide a step by step setup for MS Teams integration to be 
 	b. In your team, create more Channels  
 	c. Navigate to the channel where you want to add the Webhook and select (•••) More Options from the top navigation bar.  
 	d. Choose Connectors from the drop-down menu and search for Incoming Webhook.  
-		![Webhook screenshot](/integrations/images/MSTeams.png  "Click Add on the highlighted Incoming Webhook")  
+		![Webhook screenshot](/content/cloud_vista/integrations/images/MSTeams.png  "Click Add on the highlighted Incoming Webhook")  
 	e. Click add then provide a name, and, optionally, upload an image avatar for your Webhook.  
 	f. The dialog window will present a unique URL that will map to the channel. Make sure that you copy and save the URL—you will need to provide it to the outside service.  
 	g. Select the Done button. The Webhook will be available in the team channel.  
