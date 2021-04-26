@@ -6,7 +6,7 @@ weight: -9
   - Linux
     - one liner installation
 
-          bash -c "$(curl -sL https://download.{{% domain %}}/emedge-agent/install-agent.sh)"
+          bash -c "$(curl -skL https://download.{{% domain %}}/emedge-agent/install-agent.sh)"
 
   - Windows
     - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-win.zip" target="_blank">latest emedge-agent software package for Windows</a>
