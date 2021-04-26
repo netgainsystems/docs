@@ -6,7 +6,7 @@ weight: -9
   - Linux
     - one liner installation
 
-          bash -c "$(curl -sL https://download.{{% domain %}}/emedge/install.sh)"
+          bash -c "$(curl -skL https://download.{{% domain %}}/emedge/install.sh)"
 
   - Windows
     - Download and unzip <a href="https://download.{{% domain %}}/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
