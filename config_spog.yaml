@@ -8,6 +8,7 @@ params:
   geekdocLogo: spog_logo.png
   company: 'spog.ai'
   domain: 'spog.ai'
+  cvdomain: 'spog.ai'
   themeColor: '#0abab5'
   product: 'spog.ai CloudVista SaaS'
   geekdocLegalNotice: https://www.spog.ai/legal

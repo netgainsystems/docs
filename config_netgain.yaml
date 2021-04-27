@@ -7,6 +7,7 @@ copyRight: 'NetGain Systems (c) 2002-2021. All rights reserved.'
 params:
   company: 'NetGain Systems'
   domain: 'netgain-systems.com'
+  cvdomain: 'cloud-vista.co'
   product: 'NetGain CloudVista SaaS'
   themeColor: '#0a539a'
   geekdocLegalNotice: https://www.netgain-systems.com/legal

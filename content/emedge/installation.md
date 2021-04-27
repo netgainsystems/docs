@@ -3,19 +3,24 @@ title: Installation
 weight: -9
 ---
 ## Installation steps for emedge
-  - Linux
-    - one liner installation
+  - Linux - one liner installation
 
-          bash -c "$(curl -skL https://download.{{% domain %}}/emedge/install.sh)"
+        CV=mycv.{{% cvdomain %}} SERVICE=1 sh -c "$(curl -skL https://download.{{% domain %}}/emedge/install.sh)"
+    * **CV=mycv.{{% cvdomain %}}** specifies the domain hostname of CloudVista instance that this emedge should forward data to
+    * **SERVICE=1** specifies to automatically install emedge as a system service
+      * if you do not wish to install as a system service, set to **SERVICE=0**
 
-  - Windows
+  - Manual installation (Windows, Linux or Apple OSX)
     - Download and unzip <a href="https://download.{{% domain %}}/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
-    - cd into **emedge** folder and run **emedge.exe config**
+    - cd into **emedge** folder and run **emedge config**
 
 ## Installation as system service or Windows service
-  - Linux/Windows/OSX:
-    - run **emedge service install**
-    - Note: for Windows, ensure the service is logged on with an user account with **Administrator** privileges
+  - Linux/Unix/OSX:
+    - run **/opt/emedge/emedge service install**
+
+  - Windows:
+    - cd into emedge folder and run **emedge.exe service install**
+    - Note: ensure the service is logged on with an user account with **Administrator** privileges
 
 ## Further details
   - all logs will be saved into **emedge.log** in the installation directory

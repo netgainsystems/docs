@@ -18,6 +18,7 @@ weight: -9
       - RPM package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-stable.x86_64.rpm" target="_blank">emedge-agent-v11-stable.x86_64.rpm</a>
       - Debian package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent_0v11-1_amd64.deb" target="_blank">emedge-agent_v11_amd64.deb</a>
       - Zip package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-linux.zip" target="_blank">emedge-agent-v11-linux.zip</a>
+
   - Windows
     - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-win.zip" target="_blank">latest emedge-agent software package for Windows</a>
     - cd into **emedge-agent** folder and run **emedge-agent.exe config**
