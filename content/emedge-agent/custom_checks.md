@@ -6,7 +6,7 @@ Custom script checks are well suited to collect metrics from custom applications
 <br>
 These checks will be scheduled to run at a fixed interval (default 30 seconds intervals).
 <br>
-This page looks how to configure custom emedge-agent script check.
+This page looks at how to configure custom emedge-agent script check.
 
 # Configuration Steps
 - ensure the emedge-agent is properly installed, as described <a href="{{< relref "/emedge-agent/installation.md" >}}">here</a>
@@ -31,7 +31,7 @@ This page looks how to configure custom emedge-agent script check.
     ```
     custom_checks:
       - name: sample_check
-        enabled: false
+        enabled: true
         script: sample_check.sh
         args:
           - myarg1
