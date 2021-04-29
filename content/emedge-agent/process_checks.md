@@ -15,7 +15,7 @@ This page shows how to configure custom emedge-agent process check.
 - keload the emedge-agent
 
 ## Example: adding a process monitor for process with name "proc1", do the following
-  - add the following content to **config.yml**
+  - add the following content to **checks/process/config.yml**
     ```
     custom_checks:
       process_checks:
