@@ -12,7 +12,7 @@ This page shows how to configure emedge-agent process check.
 - ensure the emedge-agent is properly installed, as described <a href="{{< relref "/emedge-agent/installation.md" >}}">here</a>
 - navigate to emedge-agent installation directory (e.g. /opt/emedge-agent)
 - edit config.yml in checks/process to add the process monitor configuration
-- Reload the emedge-agent
+- reload the emedge-agent configuration
 
 ## Example: adding a process monitor for process with name "proc1", do the following
   - add the following content to **checks/process/config.yml**

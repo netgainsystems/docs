@@ -1,5 +1,5 @@
 ---
-title: Custom checks
+title: Custom scripts checks
 weight: -8
 ---
 Custom script checks are well suited to collect metrics from custom applications or special systems.
