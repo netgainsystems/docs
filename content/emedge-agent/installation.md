@@ -16,7 +16,7 @@ weight: -9
 
     - manual installation
       - RPM package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-stable.x86_64.rpm" target="_blank">emedge-agent-v11-stable.x86_64.rpm</a>
-      - Debian package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent_0v11-1_amd64.deb" target="_blank">emedge-agent_v11_amd64.deb</a>
+      - Debian package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-stable.x86_64.deb" target="_blank">emedge-agent-v11-stable.x86_64.deb</a>
       - Zip package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-linux.zip" target="_blank">emedge-agent-v11-linux.zip</a>
 
   - Windows
@@ -25,7 +25,11 @@ weight: -9
 
   - Apple OSX
     - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-osx.zip" target="_blank">latest emedge-agent software package for OSX</a>
-    - cd into **emedge-agent** folder and run **emedge-agent-osx config**
+    - cd into **emedge-agent** folder and run **emedge-agent config**
+
+  - FreeBSD
+    - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-freebsd.zip" target="_blank">latest emedge-agent software package for FreeBSD</a>
+    - cd into **emedge-agent** folder and run **emedge-agent config**
 
 ## Installation as system service or Windows service
   - Linux/Unix/OSX:
