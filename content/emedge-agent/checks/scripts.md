@@ -1,5 +1,5 @@
 ---
-title: Custom scripts checks
+title: Scripts
 weight: -8
 ---
 Custom script checks are well suited to collect metrics from custom applications or special systems.
@@ -14,7 +14,7 @@ This page looks at how to configure custom emedge-agent script check.
 - edit config.yml in checks/scripts to add the script configuration
 - keload the emedge-agent
 
-## Example: adding a custom script sample_check.sh, do the following
+## Example: to add a custom script sample_check.sh, do the following
   - sample content of **sample_check.sh**
     ```properties
     #!/bin/sh
@@ -29,9 +29,10 @@ This page looks at how to configure custom emedge-agent script check.
     ```
   - add the following content to **config.yml**
     ```
-    custom_checks:
+    checks:
       - name: sample_check
-        enabled: true
+        interval_secs: 30
+        enabled: false
         script: sample_check.sh
         args:
           - myarg1
