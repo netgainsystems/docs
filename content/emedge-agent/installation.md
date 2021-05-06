@@ -6,6 +6,11 @@ weight: -9
 **emedge-agent** is now supported on most common flavors Linux, Unix, Windows and Apple OSX.
 
 ## Installation steps for emedge-agent
+  - Windows
+    - Download <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11.msi" target="_blank">Windows MSI Installer file</a>
+    - double click on the msi file and follow the installation steps
+    - Note: emedge-agent will also be configured automatically as windows service named 'emedge-agent'
+
   - Linux
     - one liner installation
 
@@ -19,10 +24,6 @@ weight: -9
       - Debian package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-stable.x86_64.deb" target="_blank">emedge-agent-v11-stable.x86_64.deb</a>
       - Zip package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-linux.zip" target="_blank">emedge-agent-v11-linux.zip</a>
 
-  - Windows
-    - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-win.zip" target="_blank">latest emedge-agent software package for Windows</a>
-    - cd into **emedge-agent** folder and run **emedge-agent.exe config**
-
   - Apple OSX
     - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-osx.zip" target="_blank">latest emedge-agent software package for OSX</a>
     - cd into **emedge-agent** folder and run **emedge-agent config**
@@ -31,13 +32,9 @@ weight: -9
     - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-freebsd.zip" target="_blank">latest emedge-agent software package for FreeBSD</a>
     - cd into **emedge-agent** folder and run **emedge-agent config**
 
-## Installation as system service or Windows service
+## Installation as system service on unix/linux
   - Linux/Unix/OSX:
     - run **/opt/emedge-agent/emedge-agent service install**
-
-  - Windows:
-    - cd into emedge-agent folder and run **emedge-agent.exe service install**
-    - Note: ensure the service is logged on with an user account with **Administrator** privileges
 
 ## Further details
   - all logs will be saved into **emedge-agent.log** in the installation directory
