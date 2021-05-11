@@ -3,6 +3,10 @@ title: Installation
 weight: -9
 ---
 ## Installation steps for emedge
+  - Windows
+    - Download <a href="https://download.{{% domain %}}/emedge/emedge-v11.msi" target="_blank">Windows MSI Installer for emedge</a>
+    - Double click on the msi file and follow the installation steps
+    - Note: emedge will also be configured automatically as windows service named 'emedge'
   - Linux - one liner installation
 
         CV=mycv.{{% cvdomain %}} SERVICE=1 sh -c "$(curl -skL https://download.{{% domain %}}/emedge/install.sh)"
@@ -10,17 +14,13 @@ weight: -9
     * **SERVICE=1** specifies to automatically install emedge as a system service
       * if you do not wish to install as a system service, set to **SERVICE=0**
 
-  - Manual installation (Windows, Linux or Apple OSX)
+  - Manual installation (Linux or Apple OSX)
     - Download and unzip <a href="https://download.{{% domain %}}/emedge/emedge-latest.zip" target="_blank">latest emedge software package</a>
     - cd into **emedge** folder and run **emedge config**
 
 ## Installation as system service or Windows service
   - Linux/Unix/OSX:
     - run **/opt/emedge/emedge service install**
-
-  - Windows:
-    - cd into emedge folder and run **emedge.exe service install**
-    - Note: ensure the service is logged on with an user account with **Administrator** privileges
 
 ## Further details
   - all logs will be saved into **emedge.log** in the installation directory

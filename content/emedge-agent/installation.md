@@ -8,7 +8,7 @@ weight: -9
 ## Installation steps for emedge-agent
   - Windows
     - Download <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11.msi" target="_blank">Windows MSI Installer file</a>
-    - double click on the msi file and follow the installation steps
+    - Double click on the msi file and follow the installation steps
     - Note: emedge-agent will also be configured automatically as windows service named 'emedge-agent'
 
   - Linux
