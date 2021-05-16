@@ -16,7 +16,7 @@ This page shows how to configure emedge-agent file check.
 
 ## Example: to add a file monitor for file with path "/tmp/my_sample.log", do the following
   - add one or more sections under 'checks' to **checks/file/config.yml**
-    ```
+    ```yaml
     checks:
       - name: 'sample_file_check_1'
         enabled: false

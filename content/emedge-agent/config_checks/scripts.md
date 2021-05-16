@@ -19,7 +19,7 @@ This page looks at how to configure custom emedge-agent script check.
 - "name" property of each monitor instance is used as the name of that monitor instance
 ## Example: to add a custom script sample_check.sh, do the following
   - sample content of **sample_check.sh**
-    ```properties
+    ```shell
     #!/bin/sh
     VAL1=111
     VAL2=222
@@ -39,7 +39,7 @@ This page looks at how to configure custom emedge-agent script check.
     EOF
     ```
   - add the following content to **config.yml**
-    ```
+    ```yaml
     checks:
       - name: sample_check
         interval_secs: 30

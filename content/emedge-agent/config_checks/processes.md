@@ -16,15 +16,12 @@ This page shows how to configure emedge-agent process check.
 
 ## Example: to add a process monitor for process with name "proc1", do the following
   - add one or more sections under 'checks' to **checks/process/config.yml**
-    ```
+    ```yaml
     checks:
       - name: check1
         enabled: false
         process_name: proc1
         interval_secs: 30
-        detect_pid_changes: true
-        minimum_process_instance_count: 1
-        maximum_process_instance_count: 1
       - name: check2
         ...<snipped>...
     ```

@@ -16,7 +16,7 @@ This page shows how to configure emedge-agent process check.
 
 ## Example: to add a winsvc monitor for windows service with name "fax", do the following
   - add one or more sections under 'checks' to **checks/winsvc/config.yml**
-    ```
+    ```yaml
     checks:
       - name: check1
         enabled: false
