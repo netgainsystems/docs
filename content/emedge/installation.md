@@ -38,7 +38,3 @@ weight: -9
   Also, emedge can be run as a docker container.
 	For more info, please visit: <a href="https://hub.docker.com/r/netgain/emedge">https://hub.docker.com/r/netgain/emedge</a>
 
-  to start the container, simply run command:
-
-	docker run -e cv=myinstance.cloud-vista.co -v localvardir:/emedge/var netgain/emedge
-
