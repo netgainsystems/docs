@@ -2,7 +2,7 @@
 title: Installation
 weight: -9
 ---
-# To get started, select your platform
+## To get started, select your platform
 <a href="#installation-steps-for-emedge-on-windows">
   <img src="/images/platform_windows.png" />
 </a>
@@ -36,8 +36,7 @@ Manual installation (Linux or Apple OSX)
 - cd into **emedge** folder and run **emedge config**
 
 ## Installation steps for emedge as a Docker container
-  Also, emedge can be run as a docker container.
-	For more info, please visit: <a href="https://hub.docker.com/r/netgain/emedge">https://hub.docker.com/r/netgain/emedge</a>
+Containerized version of the emedge. The official <a href="https://hub.docker.com/r/netgain/emedge">Docker image</a> and setup instructions is available on Docker Hub.
 
 ## Installation as system service or Windows service
 - run **/opt/emedge/emedge service install**
