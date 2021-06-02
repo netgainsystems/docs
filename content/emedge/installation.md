@@ -41,15 +41,16 @@ Containerized version of the emedge. The official <a href="https://hub.docker.co
 ## Installation as system service or Windows service
 - run **/opt/emedge/emedge service install**
 
-## Additional notes
-- all logs will be saved into **emedge.log** in the installation directory
-- to stop emedge, simply run **emedge stop**
-Note: run **emedge -h** for help on more commands
-
 ## Supported environments
 **emedge** can run on Linux, Windows or Mac OS.
 - For Linux, recommended OS distribution is **Centos** or **Ubuntu**
 - Recommended specs:
 	* **Minimum**: CPU: **Intel i3-equivalent** or above, **1GB** RAM, **5GB** disk space
 	* **Ideal**:   CPU: **Intel i5-equivalent** or above, minimum **4GB** RAM, **50GB** disk space
+
+## Additional notes
+- all logs will be saved into **emedge.log** in the installation directory
+- to stop emedge, simply run **emedge stop**
+- to set the JVM maximum heap memory, use **emedge setmem** command e.g. emedge setmem 2g
+- run **emedge -h** for help on more commands
 
