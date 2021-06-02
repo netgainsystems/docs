@@ -51,6 +51,6 @@ Containerized version of the emedge. The official <a href="https://hub.docker.co
 ## Additional notes
 - all logs will be saved into **emedge.log** in the installation directory
 - to stop emedge, simply run **emedge stop**
-- to set the JVM maximum heap memory, use **emedge setmem** command e.g. emedge setmem 2g
+- to set the JVM maximum heap memory, use **emedge setmem** command e.g. emedge setmem 2g (need to restart service)
 - run **emedge -h** for help on more commands
 
