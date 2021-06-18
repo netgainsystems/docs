@@ -1,7 +1,7 @@
 ---
-title: Home Page
+title: Deleting Dashboard
 geekdocHidden: true
-slug: homepage
+slug: deletedashboard
 ---
 
 1. <a href="/cloud_vista/Overview/leftnavbar">Left Navigation</a>

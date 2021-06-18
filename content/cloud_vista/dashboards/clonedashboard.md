@@ -1,7 +1,7 @@
 ---
-title: Home Page
+title: Cloning a Dashboard
 geekdocHidden: true
-slug: homepage
+slug: clonedashboard
 ---
 
 1. <a href="/cloud_vista/Overview/leftnavbar">Left Navigation</a>

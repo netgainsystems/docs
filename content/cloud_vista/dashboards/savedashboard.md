@@ -1,7 +1,7 @@
 ---
-title: Home Page
+title: Saving Dashboard
 geekdocHidden: true
-slug: homepage
+slug: savedashboard
 ---
 
 1. <a href="/cloud_vista/Overview/leftnavbar">Left Navigation</a>

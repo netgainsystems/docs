@@ -1,7 +1,7 @@
 ---
-title: Home Page
+title: Editing Widgets
 geekdocHidden: true
-slug: homepage
+slug: editwidget
 ---
 
 1. <a href="/cloud_vista/Overview/leftnavbar">Left Navigation</a>
