@@ -1,5 +1,5 @@
 ---
-title: Application Performance Management
+title: APM
 weight: 6
 ---
 

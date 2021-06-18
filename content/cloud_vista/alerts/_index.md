@@ -1,6 +1,6 @@
 ---
-title: Network Traffic Analytics Settings and Maintenance
-weight: 16
+title: Alerts & Notifications
+weight: 9
 ---
 
 # Welcome to {{% company %}} docs!

@@ -1,8 +1,9 @@
 ---
-title: Network Configuration Management
-weight: 8
+title: NCM
+weight: 7
 ---
 
+Network Configuration Manager
 # Welcome to {{% company %}} docs!
 
 ## About This Site

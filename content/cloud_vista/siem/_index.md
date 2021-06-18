@@ -1,5 +1,5 @@
 ---
-title: Log and Security Analytics
+title: SIEM
 weight: 5
 ---
 

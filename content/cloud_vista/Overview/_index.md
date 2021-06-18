@@ -3,6 +3,11 @@ title: Overview
 weight: 1
 ---
 
+
+How to navigate around in general...
+including home page intro...
+
+
 # Welcome to {{% company %}} docs!
 
 ## About This Site

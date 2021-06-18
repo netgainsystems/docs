@@ -1,6 +1,6 @@
 ---
-title: Tools
-weight: 14
+title: Network Traffic Analytics
+weight: 8
 ---
 
 # Welcome to {{% company %}} docs!

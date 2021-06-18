@@ -1,6 +1,6 @@
 ---
-title: System Administration
-weight: 13
+title: Metrics
+weight: 4
 ---
 
 # Welcome to {{% company %}} docs!
