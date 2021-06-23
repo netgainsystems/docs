@@ -4,14 +4,20 @@ geekdocHidden: true
 slug: clonedashboard
 ---
 
-1. <a href="/cloud_vista/Overview/leftnavbar">Left Navigation</a>
-2. <a href="/cloud_vista/Overview/topnavbar">Top Navigation</a>
+Click on the <img src="/cloud_vista/dashboards/Images/cloneicon2.png" width="60px"> button at the corner to clone the current dashboard.
 
 
+![Screenshot](/cloud_vista/dashboards/Images/clonedashboard1.png)
 
-The Home page provides summary views of the IT system being monitored. When users login to the spog.ai console, the Dashboard of the Home page is the first thing that they will see. Besides the Dashboard, the Home page has Business Views (Bizviews) and Maps to graphically show different representations of the status of the IT system. 
+&nbsp;
 
-The Home page supports multiple dashboards which can be customized to user requirements, including embedding external content within a dashboard. Users are also able to create new dashboard widgets for use in dashboards.
+ Give a name for the cloned dashboard
 
 
-![Screenshot](/cloud_vista/Overview/images/Home.png)
+![Screenshot](/cloud_vista/dashboards/Images/clonename.PNG)
+
+&nbsp;
+
+Click on <img src="/cloud_vista/dashboards/Images/cloneicon1.png" width="60px"> to clone the dashboard
+
+![Screenshot](/cloud_vista/dashboards/Images/clonedashboard2.png)

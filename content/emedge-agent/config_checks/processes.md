@@ -1,5 +1,7 @@
 ---
 title: Processes
+geekdocHidden: true
+slug: processes
 weight: -9
 ---
 Process checks are use to monitor OS processes.

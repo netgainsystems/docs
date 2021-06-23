@@ -1,6 +1,9 @@
 ---
 title: Files
+geekdocHidden: true
+slug: files
 weight: -8
+
 ---
 File checks are use to monitor new content in files and optionally forwards these new contents as logs
 <br>

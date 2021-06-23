@@ -1,5 +1,7 @@
 ---
 title: Scripts
+geekdocHidden: true
+slug: scripts
 weight: -8
 ---
 Custom script checks are well suited to collect metrics from custom applications or special systems.

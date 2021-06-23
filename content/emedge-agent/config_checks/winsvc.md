@@ -1,5 +1,7 @@
 ---
 title: Windows services
+geekdocHidden: true
+slug: winsvc
 weight: -9
 ---
 Windows service checks are use to monitor status of Window services.

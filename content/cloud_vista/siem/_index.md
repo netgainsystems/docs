@@ -3,13 +3,18 @@ title: SIEM
 weight: 5
 ---
 
-# Welcome to {{% company %}} docs!
+spog.ai SIEM (Security Information and Event Management) can manage logs and other data from a wide range of devices including:
+* Network equipment such as routers and switches
+* Security devices such as firewalls, IPS/IDS and APT
+* Servers such as email or AD servers
+* Windows Event logs
 
-## About This Site
-This site hosts all comprehensive information on {{% company %}} products and services, as well as detailed technical information and tips to get your {{% company %}} software up and running smoothly.
+spog.ai SIEM receives, collects, organizes, searches, correlates, and analyzes data, displaying information in customizable dashboards, and delivering alerts and notifications when abnormalities, problems, or threats are detected.
 
-## Feedbacks
-Please contact support@{{% domain %}} to provide your valuable feedbacks.
+spog.ai SIEM has 4 mains menus.
 
-<hr>
-{{% copyright %}}
+* <a href="/cloud_vista/siem/loganalytics">Log Analytics</a>
+* <a href="/cloud_vista/siem/securityanalytics">Security Analytics</a>
+* <a href="/cloud_vista/siem/reports">Reports</a>
+* <a href="/cloud_vista/siem/watcher">Watcher</a>
+
