@@ -3,13 +3,11 @@ title: Metrics
 weight: 4
 ---
 
-# Welcome to {{% company %}} docs!
+* <a href="/cloud_vista/metrics/blackoutschedule">Blackout Schedule</a>
+* <a href="/cloud_vista/metrics/snmpv3users">SNMP V3 Users</a>
+* <a href="/cloud_vista/metrics/globalrules">Global Rules</a>
+* <a href="/cloud_vista/metrics/rulesaudit">Rules Audit</a>
 
-## About This Site
-This site hosts all comprehensive information on {{% company %}} products and services, as well as detailed technical information and tips to get your {{% company %}} software up and running smoothly.
+The module allows the user to configure or setup a policy for the devices and monitors. To access Policy module, click \<Metrics> on the Left Navigation Bar then \<Policy>.
 
-## Feedbacks
-Please contact support@{{% domain %}} to provide your valuable feedbacks.
-
-<hr>
-{{% copyright %}}
+![Screenshot](/cloud_vista/metrics/images/policy.PNG)

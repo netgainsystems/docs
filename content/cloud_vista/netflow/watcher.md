@@ -4,14 +4,36 @@ geekdocHidden: true
 slug: watcher
 ---
 
-1. <a href="/cloud_vista/Overview/leftnavbar">Left Navigation</a>
-2. <a href="/cloud_vista/Overview/topnavbar">Top Navigation</a>
+NetFlow Watcher is used to watch out for specified data within incoming data flows.  The system generates an alarm when the incoming flows contains the specified query string and hits a specified amount of flow. This is useful to quickly detect what is using a lot of bandwidth.
 
+To use NetFlow Watcher, click on \<NetFlow> on the Left Navigation Bar, then click on \<Watcher> on the Top Navigation Bar. Click <+Add rule>.
 
+![Screenshot](/cloud_vista/netflow/images/watcher1.png)
 
-The Home page provides summary views of the IT system being monitored. When users login to the spog.ai console, the Dashboard of the Home page is the first thing that they will see. Besides the Dashboard, the Home page has Business Views (Bizviews) and Maps to graphically show different representations of the status of the IT system. 
+&nbsp;
 
-The Home page supports multiple dashboards which can be customized to user requirements, including embedding external content within a dashboard. Users are also able to create new dashboard widgets for use in dashboards.
+Enter the data and rules to define what you want to watch out for and to receive an alarm when the conditions are met.
 
+![Screenshot](/cloud_vista/netflow/images/watcher2.png)
 
-![Screenshot](/cloud_vista/Overview/images/Home.png)
+&nbsp;
+
+Name - Input name of rule.
+
+Enable - Select Yes/No
+
+Run interval - Input interval time to run the rule.
+
+Search window - Input past “x” time for flow search.
+
+Query string - Input query string for flow search.
+
+Flow Hits - Input flow hits “expressions” and “numbers”.
+
+Alarm message - Input the alarm message.
+
+Alarm generation - Select condition for alarm generate.
+
+Click \<Save> when done. Watcher will search the flow data according to the conditions set. Results are displayed on the main page of the Watcher menu.
+
+![Screenshot](/cloud_vista/netflow/images/watcher3.png)

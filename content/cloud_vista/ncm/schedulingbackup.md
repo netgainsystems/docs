@@ -1,0 +1,49 @@
+---
+title: Scheduling Configuration Backup
+geekdocHidden: true
+slug: schedulingbackup
+---
+
+This lets you schedule the backup of your Network Configuration. Click on \<Schedules> at the top menu of \<Network Config>. 
+
+![Screenshot](/cloud_vista/ncm/images/LogicalMap_3.PNG)
+
+&nbsp;
+
+### Adding a Schedule
+To create a new schedule, click on <+ Create> in the main \<Schedules> screen.
+
+![Screenshot](/cloud_vista/ncm/images/LogicalMap_3.PNG)
+
+&nbsp;
+
+You can schedule the config backup by Device, Group or MO Group. Complete the schedule details and select the devices or groups the scheduled backup will apply to, then click \<Save>.
+
+![Screenshot](/cloud_vista/ncm/images/LogicalMap_3.PNG)
+
+&nbsp;
+
+{{< bootstrap-table table_class="table table-dark table-striped table-bordered" >}}
+
+| Action        | Operation     | 
+| :----------: |:------------:| 
+| Name | Name of this scheduled backup job. |
+| Start Date | Date and Time to start backup. |
+| End Time | End time to process backup. |
+| Interval | Frequency of this backup job. |
+
+{{< /bootstrap-table >}}
+
+&nbsp;
+
+After saving a new schedule, your new schedule will be shown on the main \<Schedules> screen. By default, all new schedules are disabled. Click on < <img src="/cloud_vista/ncm/images/delete.png" width="30px"> > to change to < <img src="/cloud_vista/ncm/images/delete.png" width="30px"> > and enable the schedule.
+
+![Screenshot](/cloud_vista/ncm/images/LogicalMap_3.PNG)
+
+&nbsp;
+
+### Editing and Deleting a Schedule
+Click on < <img src="/cloud_vista/ncm/images/editicon2.png" width="25px"> > to edit or < <img src="/cloud_vista/ncm/images/deleteicon.png" width="25px"> > to delete a schedule while in the main \<Schedules> screen.
+
+![Screenshot](/cloud_vista/ncm/images/LogicalMap_3.PNG)
+
