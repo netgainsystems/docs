@@ -12,4 +12,8 @@ Click on \<Home> in the Left Navigation Bar, then \<Maps> in the Top Navigation 
 
 
 
-![Screenshot](/cloud_vista/Overview/images/Home.ng)
+![Screenshot](/cloud_vista/maps/images/layer2map.png)
+
+&nbsp;
+
+![Screenshot](/cloud_vista/maps/images/layer3map.png)

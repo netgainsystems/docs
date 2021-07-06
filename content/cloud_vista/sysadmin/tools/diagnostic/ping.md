@@ -1,0 +1,12 @@
+---
+title: Ping
+geekdocHidden: true
+slug: ping
+---
+
+This tool helps user to verify the connectivity between NetGain EM server and the destination devices. 
+
+Click on \<Ping> then enter the IP address of destination devices. Then click on \<Execute> to start ping test.  The screen will appear with the ping result.
+
+
+![Screenshot](/cloud_vista/sysadmin/images/ping1.png)

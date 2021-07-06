@@ -1,6 +1,7 @@
 ---
 title: LINE notifications
-weight: 3
+geekdocHidden: true
+slug: line
 ---
 This document is to provide a step by step setup for Line App integration to be setup as the notifications channel
 
@@ -27,7 +28,7 @@ This document is to provide a step by step setup for Line App integration to be 
 	a. Go to [Line Dev](https://developers.line.biz/en/)  
 	b. Login using Line / Business account  
 	c. Go to Providers, then click "Create" for new Providers  
-![Create Providers](/cloud_vista/integrations/images/lineappproviders.PNG  "click Create for new Providers")  
+![Create Providers](/cloud_vista/alerts/images/lineappproviders.PNG  "click Create for new Providers")  
 	d. Create new Messaging API Channel, fill-in necessary details  
 	> * Input Channel name, Channel description, category, sub-category, email address  
 	> * Free account limit is 500 messages/month  
