@@ -3,13 +3,5 @@ title: Sys Admin & Tools
 weight: 13
 ---
 
-# Welcome to {{% company %}} docs!
-
-## About This Site
-This site hosts all comprehensive information on {{% company %}} products and services, as well as detailed technical information and tips to get your {{% company %}} software up and running smoothly.
-
-## Feedbacks
-Please contact support@{{% domain %}} to provide your valuable feedbacks.
-
-<hr>
-{{% copyright %}}
+* <a href="/cloud_vista/sysadmin/admin">Admin</a>
+* <a href="/cloud_vista/sysadmin/tools">Tools</a>
