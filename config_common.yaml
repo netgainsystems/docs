@@ -20,5 +20,5 @@ markup:
 params:
   geekdocToC: 3
   geekdocRepo: https://github.com/netgainsystems
-  geekdocEditPath: docs/blob/master/content
+  #geekdocEditPath: docs/blob/master/content
   geekdocSearch: true
