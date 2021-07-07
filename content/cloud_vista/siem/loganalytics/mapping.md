@@ -20,7 +20,7 @@ If user want to customize log mapping, user can use the \<GROK console> and \<te
 User can use the sample logs provided, to test out the GROK expression. Delete anything in front of the {.*} can make the expression bypass to mapped certain field.
 
 The mapped output fields are on the right. User can control the output mapped fields using GROK expression. 
-
+fda
 ![Screenshot](/cloud_vista/siem/images/s.png)
 
 User can add the new GROK expression in <+Add mapping>. After adding, user can test the mapping rule against all configured mappings in \<Test Mapping> to check if the log if mapped intendedly to the desired field.
