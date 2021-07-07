@@ -21,7 +21,7 @@ User can use the sample logs provided, to test out the GROK expression. Delete a
 
 The mapped output fields are on the right. User can control the output mapped fields using GROK expression. 
 
-![Screenshot](/cloud_vista/siem/images/s.png)
+![Screenshot](/cloud_vista/loganalytics/images/grok.png)
 
 User can add the new GROK expression in <+Add mapping>. After adding, user can test the mapping rule against all configured mappings in \<Test Mapping> to check if the log if mapped intendedly to the desired field.
 

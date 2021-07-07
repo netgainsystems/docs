@@ -1,8 +1,11 @@
 ---
-title: SIEM
-geekdocHidden: true
-slug: siem
+title: Security Analytics
+weight: 5
+
 ---
+
+* <a href="/cloud_vista/securityanalytics/reports">Reports</a>
+* <a href="/cloud_vista/securityanalytics/watcher">Watcher</a>
 
 spog.ai SIEM (Security Information and Event Management) can manage logs and other data from a wide range of devices including:
 * Network equipment such as routers and switches
@@ -12,10 +15,10 @@ spog.ai SIEM (Security Information and Event Management) can manage logs and oth
 
 spog.ai SIEM receives, collects, organizes, searches, correlates, and analyzes data, displaying information in customizable dashboards, and delivering alerts and notifications when abnormalities, problems, or threats are detected.
 
-spog.ai SIEM has 4 mains menus.
+* <a href="/cloud_vista/securityanalytics/search">Search</a>
+* <a href="/cloud_vista/securityanalytics/threatevents">Threat Events</a>
+* <a href="/cloud_vista/securityanalytics/threatdetection">Threat Detection</a>
+* <a href="/cloud_vista/securityanalytics/aiworkflow">AI Workflows</a>
+* <a href="/cloud_vista/securityanalytics/mitreattack">MITRE ATT&CK</a>
 
-* <a href="/cloud_vista/siem/loganalytics">Log Analytics</a>
-* <a href="/cloud_vista/siem/securityanalytics">Security Analytics</a>
-* <a href="/cloud_vista/siem/reports">Reports</a>
-* <a href="/cloud_vista/siem/watcher">Watcher</a>
 
