@@ -4,10 +4,10 @@ geekdocHidden: true
 slug: thresholdsettings
 ---
 
-Click on <Metrics> in the Left Navigation Bar, then <Metrics> in the Top Navigation Bar. Then click on <Objects> in the top menu, and click on <Device view>. 
-To adjust the threshold settings, click on the device type / device on the right side of the table and drill down till you see the monitoring parameter you would like to change. Click <Edit> to enable the edit mode and click the <img src="/cloud_vista/Overview/images/changeicon.png" width="20px"> – Change threshold settings icon to edit the threshold settings.
+Click on \<Metrics> in the Left Navigation Bar, then \<Metrics> in the Top Navigation Bar. Then click on \<Objects> in the top menu, and click on \<Device view>. 
+To adjust the threshold settings, click on the device type / device on the right side of the table and drill down till you see the monitoring parameter you would like to change. Click \<Edit> to enable the edit mode and click the <img src="/cloud_vista/overview/images/changeicon.png" width="20px"> – Change threshold settings icon to edit the threshold settings.
 
-![Screenshot](/cloud_vista/Overview/images/threshold1.png)
+![Screenshot](/cloud_vista/overview/images/threshold1.png)
 
 &nbsp;
 
@@ -15,7 +15,7 @@ To adjust the threshold settings, click on the device type / device on the right
 
 &nbsp;
 
-![Screenshot](/cloud_vista/Overview/images/threshold2.png)
+![Screenshot](/cloud_vista/overview/images/threshold2.png)
 
 &nbsp;
 
