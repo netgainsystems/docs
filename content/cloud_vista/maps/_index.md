@@ -1,6 +1,6 @@
 ---
 title: Maps
-weight: 11
+weight: 5
 ---
 
 * <a href="/cloud_vista/maps/logmap">Logical Map</a>

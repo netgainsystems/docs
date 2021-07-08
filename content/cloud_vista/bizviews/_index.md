@@ -1,6 +1,6 @@
 ---
 title: Business Views (Bizviews)
-weight: 10
+weight: 4
 ---
 
 * <a href="/cloud_vista/bizviews/addbizview">Adding New BizViews</a>

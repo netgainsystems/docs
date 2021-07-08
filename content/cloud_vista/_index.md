@@ -1,6 +1,6 @@
 ---
 title: Cloud Vista
-weight: 14
+weight: 13
 ---
 
 # Welcome to {{% company %}} docs!

@@ -1,6 +1,6 @@
 ---
 title: Network Configuration Management
-weight: 7
+weight: 11
 ---
 
 1. <a href="/cloud_vista/ncm/addingdevices">Adding Devices to NCM</a>
