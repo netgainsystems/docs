@@ -4,8 +4,8 @@ geekdocHidden: true
 slug: homepage
 ---
 
-1. <a href="/cloud_vista/Overview/leftnavbar">Left Navigation</a>
-2. <a href="/cloud_vista/Overview/topnavbar">Top Navigation</a>
+1. <a href="/cloud_vista/overview/leftnavbar">Left Navigation</a>
+2. <a href="/cloud_vista/overview/topnavbar">Top Navigation</a>
 
 
 
@@ -14,4 +14,4 @@ The Home page provides summary views of the IT system being monitored. When user
 The Home page supports multiple dashboards which can be customized to user requirements, including embedding external content within a dashboard. Users are also able to create new dashboard widgets for use in dashboards.
 
 
-![Screenshot](/cloud_vista/Overview/images/Home.png)
+![Screenshot](/cloud_vista/overview/images/Home.png)

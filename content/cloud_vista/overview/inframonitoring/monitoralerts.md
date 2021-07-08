@@ -8,8 +8,8 @@ You can select the severity of the alerts at the top of the table to see those s
 
 Click on \<Metrics> in the Left Navigation Bar, then \<Metrics> in the Top Navigation Bar. Then click on \<Types> in the top menu.
 
-![Screenshot](/cloud_vista/Overview/images/alerttype1.png)
+![Screenshot](/cloud_vista/overview/images/alerttype1.png)
 
 &nbsp;
 
-<img src="/cloud_vista/Overview/images/historicalicon.png" width="25px"> – Shows historical data of the monitor
+<img src="/cloud_vista/overview/images/historicalicon.png" width="25px"> – Shows historical data of the monitor
