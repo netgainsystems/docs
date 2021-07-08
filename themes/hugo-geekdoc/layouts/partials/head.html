@@ -11,10 +11,6 @@
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
-
-{{ "<!--" | safeHTML -}}
-    Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc
-{{- "-->" | safeHTML }}
 <style>
   .gdoc-header { background: {{ .Page.Site.Params.ThemeColor }}; border-color: #404040; }
 </style>
