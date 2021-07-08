@@ -1,6 +1,7 @@
 ---
 title: SIEM
-weight: 5
+geekdocHidden: true
+slug: siem
 ---
 
 spog.ai SIEM (Security Information and Event Management) can manage logs and other data from a wide range of devices including:

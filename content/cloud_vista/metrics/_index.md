@@ -1,6 +1,6 @@
 ---
-title: Metrics
-weight: 4
+title: Metrics Policy
+weight: 6
 ---
 
 * <a href="/cloud_vista/metrics/blackoutschedule">Blackout Schedule</a>

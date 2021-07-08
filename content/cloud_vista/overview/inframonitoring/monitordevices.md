@@ -10,4 +10,4 @@ You will be able to see an overview of the monitored devices by their device typ
 
 
 
-![Screenshot](/cloud_vista/Overview/images/devicetype1.png)
+![Screenshot](/cloud_vista/overview/images/devicetype1.png)

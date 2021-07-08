@@ -8,7 +8,7 @@ This feature is used to monitor a specific SNMP OID.
 
 To create SNMP monitor, Click \<Metrics> on the Left navigation bar then \<Customize> then \<SNMP>. Click <+Add>.
 
-![Screenshot](/cloud_vista/Overview/images/snmp1.png)
+![Screenshot](/cloud_vista/overview/images/snmp1.png)
 
 &nbsp;
 
@@ -24,4 +24,4 @@ Unit - unit of the counter (OPTIONAL)
 
 Formula - formula to be applied to the value of the counter 
 
-![Screenshot](/cloud_vista/Overview/images/snmp2.png)
+![Screenshot](/cloud_vista/overview/images/snmp2.png)

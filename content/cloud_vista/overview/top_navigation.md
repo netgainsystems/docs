@@ -12,5 +12,5 @@ The Top Navigation Bar displays different functions, depending on the module sel
 * Maps: to view devices status from a logical, physical or geographic view.
 
 
-![Screenshot](/cloud_vista/Overview/images/TopNavBar.png)
+![Screenshot](/cloud_vista/overview/images/TopNavBar.png)
 

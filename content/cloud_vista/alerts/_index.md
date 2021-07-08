@@ -1,6 +1,6 @@
 ---
 title: Alerts & Notifications
-weight: 9
+weight: 12
 ---
 
 * <a href="/cloud_vista/alerts/integrations">Integrations</a>
