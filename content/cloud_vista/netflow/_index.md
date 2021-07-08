@@ -1,6 +1,6 @@
 ---
 title: Network Traffic Analytics
-weight: 8
+weight: 10
 ---
 
 * <a href="/cloud_vista/netflow/usingnta">Using Network Traffic Analytics</a>

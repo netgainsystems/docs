@@ -1,6 +1,6 @@
 ---
 title: Application Performance Management
-weight: 6
+weight: 9
 ---
 
 spog.ai APM provides real-user monitoring of an organization’s key business applications. Its APM agents are deployed in application servers to collect and send performance data to the spog.ai APM server for processing, which then displays the application performance in an easy to understand format.

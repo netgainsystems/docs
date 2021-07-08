@@ -1,6 +1,6 @@
 ---
 title: Security Analytics
-weight: 5
+weight: 8
 
 ---
 
