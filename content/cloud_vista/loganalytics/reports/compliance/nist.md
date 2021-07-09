@@ -6,7 +6,7 @@ slug: nist
 
 In \<NIST> there are 2 report templates. 
 
-![Screenshot](/cloud_vista/siem/images/nist.png)
+![Screenshot](/cloud_vista/loganalytics/images/nist.png)
 
 &nbsp;
 

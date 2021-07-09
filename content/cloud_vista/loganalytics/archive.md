@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: archive
 ---
 
-NetGain SIEM support archive of log file to external storage/NAS storage. The benefits are to keep logs both in live and archive at same time for better data recovery and at the same time allow user to easily restore the logs when needed.
+{{% company %}} SIEM support archive of log file to external storage/NAS storage. The benefits are to keep logs both in live and archive at same time for better data recovery and at the same time allow user to easily restore the logs when needed.
 
 
 ### The SIEM archive mechanism
@@ -14,4 +14,4 @@ The archive files for previous days will be compressed periodically to save spac
 
 User able to re-ingest the log when necessary.
 
-![Screenshot](/cloud_vista/siem/images/archive.png)
+![Screenshot](/cloud_vista/loganalytics/images/archive.png)

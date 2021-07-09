@@ -4,13 +4,13 @@ weight: 7
 
 ---
 
-spog.ai Log Analytics can manage logs and other data from a wide range of devices including:
+{{% company %}} Log Analytics can manage logs and other data from a wide range of devices including:
 * Network equipment such as routers and switches
 * Security devices such as firewalls, IPS/IDS and APT
 * Servers such as email or AD servers
 * Windows Event logs
 
-spog.ai Log Analytics receives, collects, organizes, searches, correlates, and analyzes data, displaying information in customizable dashboards, and delivering alerts and notifications when abnormalities, problems, or threats are detected.
+{{% company %}} Log Analytics receives, collects, organizes, searches, correlates, and analyzes data, displaying information in customizable dashboards, and delivering alerts and notifications when abnormalities, problems, or threats are detected.
 
 * <a href="/cloud_vista/loganalytics/search">Search</a>
 * <a href="/cloud_vista/loganalytics/sources">Sources</a>
