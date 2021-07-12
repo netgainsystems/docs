@@ -11,16 +11,16 @@ These checks will be scheduled to run at a fixed interval (default 30 seconds in
 This page looks at how to configure custom emedge-agent script check.
 
 # Configuration steps
-- ensure the emedge-agent is properly installed, as described <a href="{{< relref "/emedge-agent/installation.md" >}}">here</a>
-- navigate to emedge-agent installation directory (e.g. /opt/emedge-agent)
-- edit config.yml in checks/scripts to add the script configuration
-- reload the emedge-agent
+- Ensure the emedge-agent is properly installed, as described <a href="{{< relref "getting_started/emedge-agent/installation.md" >}}">here</a>
+- Navigate to emedge-agent installation directory (e.g. /opt/emedge-agent)
+- Edit config.yml in checks/scripts to add the script configuration
+- Reload the emedge-agent
 
 # How to write a custom script
 - emedge expects a JSON output from a custom script, in the form of a JSON array of monitor instances (and metrics)
 - "name" property of each monitor instance is used as the name of that monitor instance
 ## Example: to add a custom script sample_check.sh, do the following
-  - sample content of **sample_check.sh**
+  - Sample content of **sample_check.sh**
     ```shell
     #!/bin/sh
     VAL1=111
@@ -40,7 +40,7 @@ This page looks at how to configure custom emedge-agent script check.
     ]
     EOF
     ```
-  - add the following content to **config.yml**
+  - Add the following content to **config.yml**
     ```yaml
     checks:
       - name: sample_check
@@ -51,9 +51,9 @@ This page looks at how to configure custom emedge-agent script check.
           - myarg1
           - myarg2
     ```
-  - run **emedge-agent check script** to do a test run to check the configurations and validate the script output
-  - run **emedge-agent reload** to trigger emedge-agent to reload the config
-  - the metrics collected by custom script check will now be forwarding to **emedge**
+  - Run **emedge-agent check script** to do a test run to check the configurations and validate the script output
+  - Run **emedge-agent reload** to trigger emedge-agent to reload the config
+  - The metrics collected by custom script check will now be forwarding to **emedge**
 
 
 

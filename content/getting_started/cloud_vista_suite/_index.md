@@ -1,6 +1,6 @@
 ---
 title: Cloud Vista Suite (CVS)
-weight: -30
+weight: 2
 ---
 **Cloud Vista Suite (CVS)** by spog.ai is a scalable monitoring service for hybrid cloud environments, providing monitoring of networks, servers, databases, applications, and services, through a SaaS-based monitoring analytics platform
 
@@ -22,18 +22,9 @@ weight: -30
 ---
 The diagram below depicts the relationship between Cloud Vista, EM Edge and EM Edge-Agent components
 
-  <img src='https://g.gravizo.com/svg?
-   digraph G {
-     CloudVista -> emedge1;
-     CloudVista -> _;
-     CloudVista -> __;
-     CloudVista -> ___;
-     CloudVista -> emedgeN;
-     emedge1 -> emedge_agent_A;
-     emedge1 -> emedge_agent_B;
-     emedge1 -> emedge_agent_C;
-     emedgeN -> emedge_agent_X;
-     emedgeN -> emedge_agent_Y;
-     emedgeN -> emedge_agent_Z;
-   }
-  '/>
+
+![Screenshot](/getting_started/images/cvsflow.png)
+
+&nbsp;
+
+* <a href="/getting_started/cloud_vista_suite/setting-up">Setting Up</a>
