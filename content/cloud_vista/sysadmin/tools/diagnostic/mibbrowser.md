@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: mibbrowser
 ---
 
-This tool helps user to load the devices’ MIBs file to NetGain EM server, to browse OID information and to allow user to know the particular OID of the device. 
+This tool helps user to load the devices’ MIBs file to {{% company %}} Infrastructure Monitoring server, to browse OID information and to allow user to know the particular OID of the device. 
 
 Click on \<MIB Browser> and then click on <+Load new mib>.
 
@@ -19,7 +19,7 @@ Then click on \<Choose File> to choose the devices MIB file.
 
 &nbsp;
 
-Then click on \<Upload> to upload MIB file to Enterprise Manager (EM) server.
+Then click on \<Upload> to upload MIB file to Infrastructure Monitoring server.
 
 ![Screenshot](/cloud_vista/sysadmin/images/mib3.png)
 

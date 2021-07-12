@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: monitoralerts
 ---
 
-spog.ai Infrastructure Monitoring uses the following color codes to distinguish between the different severity of alerts.
+{{% company %}} Infrastructure Monitoring uses the following color codes to distinguish between the different severity of alerts.
 
 {{< bootstrap-table table_class="table table-dark table-striped table-bordered" >}}
 

@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: configurationtemplates
 ---
 
-NetGain NCM let you create a configuration template that you can use to quickly configure newly added devices. At the top menu of \<Network Config>, click on \<Templates>.
+{{% company %}} NCM let you create a configuration template that you can use to quickly configure newly added devices. At the top menu of \<Network Config>, click on \<Templates>.
 
 ![Screenshot](/cloud_vista/ncm/images/LogicalMap_3.PNG)
 

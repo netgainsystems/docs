@@ -12,6 +12,6 @@ Click on \<Cluster nodes> in the Top navigation bar.
 
 &nbsp;
 
-Once disk utilization hits 95%, Elasticsearch services will stop and NetGain EM services will stop. Please contact NetGain prior to the disk % > 90.
+Once disk utilization hits 95%, Elasticsearch services will stop and {{% company %}} Infrastructure Monitoring services will stop. Please contact NetGain prior to the disk % > 90.
 
 ![Screenshot](/cloud_vista/sysadmin/images/clusternode2.png)

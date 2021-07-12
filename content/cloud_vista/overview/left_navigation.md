@@ -5,9 +5,9 @@ slug: leftnavbar
 ---
 
 
-The Left Navigation Bar of the console let users access the different modules of spog.ai ITM&SM and is always available throughout the console.
+The Left Navigation Bar of the console let users access the different modules of {{% company %}} ITM&SM and is always available throughout the console.
 
-There is a small arrow   at the base of the menu to expand the icon names.
+There is a small arrow at the base of the menu to expand the icon names.
 
 
 {{< bootstrap-table table_class="table table-dark table-bordered" >}}

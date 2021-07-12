@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: systemlog
 ---
 
-The End-User can quickly download EM system related logs such as System Log, Operation Log, Vista logs, Notifications log, Scheduler log, Internal log, and dDbug log as text files or Excel file for analysis.
+The End-User can quickly download Infrastructure Monitoring system related logs such as System Log, Operation Log, Vista logs, Notifications log, Scheduler log, Internal log, and Debug log as text files or Excel file for analysis.
 
 Most frequently checked logs are: Notification and Internal logs.
 

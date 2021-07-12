@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: snmpwalk
 ---
 
-This tool helps user to test the SNMP connectivity between NetGain EM server to the destination devices and get the SNMP. 
+This tool helps user to test the SNMP connectivity between {{% company %}} EM server to the destination devices and get the SNMP. 
 
 Click on \<SNMPWALK> then enter the IP address of destination devices, Community, Version, Port, and Timeout. 
 

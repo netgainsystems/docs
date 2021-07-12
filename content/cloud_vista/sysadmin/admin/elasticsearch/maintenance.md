@@ -36,7 +36,7 @@ Once completed, click on <img src="/cloud_vista/sysadmin/images/savesettingsicon
 &nbsp;
 
 ### Backup and Restore
-This tab is to do the backup and restore for NetGain configuration.
+This tab is to do the backup and restore for {{% company %}} configuration.
 
 ![Screenshot](/cloud_vista/sysadmin/images/maintenance4.png)
 
