@@ -13,7 +13,7 @@ Click on \<Shards> in the Top navigation bar.
 
 The shards page display how many shards are open in Elasticsearch. The maximum shards that one Elasticsearch can handle is 3000.
 
-Once reached 3000, Elasticsearch service will stop, and NetGain EM will stop services.  Please contact NetGain support prior to the shards reaching 3000.
+Once reached 3000, Elasticsearch service will stop, and {{% company %}} Infrastructure Monitoring will stop services. Please contact {{% company %}} support prior to the shards reaching 3000.
 
 ![Screenshot](/cloud_vista/sysadmin/images/shards2.png)
 

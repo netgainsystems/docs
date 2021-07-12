@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: restapis
 ---
 
-This module describes the REST API and resources provided by NetGain EM.
+This module describes the REST API and resources provided by {{% company %}} Infrastructure Monitoring.
 
 Click on \<Rest APIs> in the navigation bar.
 
