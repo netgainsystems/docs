@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: mapping
 ---
 
-NetGain supports some log mapping by default. The common logs follows Common Event Format (CEF), and some other mappings supported by default are Aruba, Cisco, Fortinet logs etc. 
+{{% company %}} supports some log mapping by default. The common logs follows Common Event Format (CEF), and some other mappings supported by default are Aruba, Cisco, Fortinet logs etc. 
 
 If user want to customize log mapping, user can use the \<GROK console> and \<test mapping>. After getting the customize mapping GROK expression, user can add the mapping rule in <+ Add mapping>. 
 
@@ -12,7 +12,7 @@ If user want to customize log mapping, user can use the \<GROK console> and \<te
 \<Performance> can be used to check Elasticsearch ingest performance.
 
 
-![Screenshot](/cloud_vista/siem/images/mapping.png)
+![Screenshot](/cloud_vista/loganalytics/images/mapping.png)
 
 &nbsp;
 

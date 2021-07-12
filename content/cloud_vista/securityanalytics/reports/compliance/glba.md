@@ -6,7 +6,7 @@ slug: glba
 
 In \<GLBA> there are 2 report templates.
 
-![Screenshot](/cloud_vista/siem/images/glba.png)
+![Screenshot](/cloud_vista/securityanalytics/images/glba.png)
 
 &nbsp;
 
