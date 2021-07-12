@@ -12,13 +12,13 @@ These checks will be scheduled to run at a fixed interval (default 30 seconds in
 This page shows how to configure emedge-agent file check.
 
 # Configuration Steps
-- ensure the emedge-agent is properly installed, as described <a href="{{< relref "/emedge-agent/installation.md" >}}">here</a>
-- navigate to emedge-agent installation directory (e.g. /opt/emedge-agent)
-- edit config.yml in checks/file to add the file monitor configuration
-- reload the emedge-agent configuration
+- Ensure the emedge-agent is properly installed, as described <a href="{{< relref "getting_started/emedge-agent/installation.md" >}}">here</a>
+- Navigate to emedge-agent installation directory (e.g. /opt/emedge-agent)
+- Edit config.yml in checks/file to add the file monitor configuration
+- Reload the emedge-agent configuration
 
 ## Example: to add a file monitor for file with path "/tmp/my_sample.log", do the following
-  - add one or more sections under 'checks' to **checks/file/config.yml**
+  - Add one or more sections under 'checks' to **checks/file/config.yml**
     ```yaml
     checks:
       - name: 'sample_file_check_1'
@@ -34,5 +34,5 @@ This page shows how to configure emedge-agent file check.
       - name: 'sample_file_check_2'
         ...<snipped>...
     ```
-  - run **emedge-agent reload** to trigger emedge-agent to reload the config
-  - the process will be monitored and metrics collected will now be forwarding to **emedge**
+  - Run **emedge-agent reload** to trigger emedge-agent to reload the config
+  - The process will be monitored and metrics collected will now be forwarding to **emedge**
