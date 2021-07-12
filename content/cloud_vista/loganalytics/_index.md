@@ -1,6 +1,6 @@
 ---
 title: Log Analytics
-weight: 7
+weight: 6
 
 ---
 

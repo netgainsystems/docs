@@ -1,6 +1,6 @@
 ---
 title: Network Traffic Analytics
-weight: 10
+weight: 9
 ---
 
 Network Traffic Analytics provides the full visibility of network traffic in the enterprise network
