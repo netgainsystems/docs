@@ -6,7 +6,7 @@ slug: cyberessentials
 
 In \<CYBER ESSENTIALS> there are 5 report templates.
 
-![Screenshot](/cloud_vista/siem/images/cyberessentials.png)
+![Screenshot](/cloud_vista/securityanalytics/images/cyberessentials.png)
 
 &nbsp;
 

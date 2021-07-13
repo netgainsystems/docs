@@ -7,7 +7,7 @@ slug: sources
 This section enables the user to add logs into the system.  
 
 
-![Screenshot](/cloud_vista/siem/images/sources1.png)
+![Screenshot](/cloud_vista/loganalytics/images/sources1.png)
 
 &nbsp;
 
@@ -15,9 +15,9 @@ This section enables the user to add logs into the system.
 To check for the log source from different IP at selected time range. User can get the information on total logs, Average Events Per Sec (EPS), Average Events Per Minute (EPM) , and Average Events Per Hour (EPH).  User can further search form the table from search bar. 
 
 ### Add syslogs: 
-To get network devices sending syslogs to Netgain SIEM, user can follow the example guide in this tab. 
+To get network devices sending syslogs to {{% company %}} SIEM, user can follow the example guide in this tab. 
 
-Configure network devices to forward to NetGain EM IP address, at port 514.
+Configure network devices to forward to {{% company %}} EM IP address, at port 514.
 
 Check the GUI for some examples. User can get more information from the device vendor on how to configure for syslog forwarding. 
 

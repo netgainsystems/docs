@@ -1,9 +1,10 @@
 ---
 title: Alerts & Notifications
-weight: 12
+weight: 11
 ---
 
-* <a href="/cloud_vista/alerts/integrations">Integrations</a>
+This section documents the alerts and notifications options in the software, and the information on settings.
+
 * <a href="/cloud_vista/alerts/monitoralerts">Monitor Alerts</a>
 * <a href="/cloud_vista/alerts/currentalerts">Current Alerts</a>
 * <a href="/cloud_vista/alerts/historyalerts">History Alerts</a>

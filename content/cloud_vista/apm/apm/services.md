@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: services
 ---
 
-The ‘Services tab shows the information about the services that are managed by spog.ai APM.
+The ‘Services tab shows the information about the services that are managed by {{% company %}} APM.
 
 ![Screenshot](/cloud_vista/apm/images/services1.png)
 

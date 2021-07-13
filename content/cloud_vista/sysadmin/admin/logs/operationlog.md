@@ -10,6 +10,6 @@ Click on \<Operation logs> in the navigation bar.
 
 &nbsp;
 
-It provides NetGain EM user login event, change of account or other Ops related events.
+It provides {{% company %}} Infrastructure Monitoring user login event, change of account or other Ops related events.
 
 ![Screenshot](/cloud_vista/sysadmin/images/operationlog2.png)

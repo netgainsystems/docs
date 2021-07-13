@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: applications
 ---
 
-By default, spog.ai will generate all known applications. User can create new applications based on TCP/UDP protocol. Click <+Create>. 
+By default, {{% company %}} will generate all known applications. User can create new applications based on TCP/UDP protocol. Click <+Create>. 
 
 ![Screenshot](/cloud_vista/netflow/images/settings1.png)
 

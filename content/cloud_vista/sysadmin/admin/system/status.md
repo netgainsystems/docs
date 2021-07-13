@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: status
 ---
 
-This sub module provides the detail status of the NetGain EM.
+This sub module provides the detail status of the {{% company %}} Infrastructure Monitoring.
 
 ![Screenshot](/cloud_vista/sysadmin/images/status1.png)
 
@@ -16,7 +16,7 @@ Includes below details:
 
 &nbsp;
 
-* Status – consist of NetGain EM system status of Monitors, Alarms, Memory, CPU and Threads
+* Status – consist of {{% company %}} Infrastructure Monitoring system status of Monitors, Alarms, Memory, CPU and Threads
 * User session – provides a list active user session
 * Monitor queue – provides overview of monitors status
 * Threads – provides overview of Thread status

@@ -7,7 +7,7 @@ slug: adhoc
 
 Click on \<AdHoc> to access the AdHoc reports.
 
-![Screenshot](/cloud_vista/siem/images/adhoc.png)
+![Screenshot](/cloud_vista/securityanalytics/images/adhoc.png)
 
 &nbsp;
 
@@ -19,26 +19,26 @@ By \<Default> AdHoc will contain report template according to the following topi
 
 Click on each report to create the report.  The report will show in the report area.
 
-![Screenshot](/cloud_vista/siem/images/Reports_AdHoc.PNG)
+![Screenshot](/cloud_vista/securityanalytics/images/Reports_AdHoc.PNG)
 
 &nbsp;
 
 ### AdHoc report sub menu
 
-![Screenshot](/cloud_vista/siem/images/adhocsubmenu.png)
+![Screenshot](/cloud_vista/securityanalytics/images/adhocsubmenu.png)
 
 &nbsp;
 
 
-<strong>+ Add new report</strong> – <a href="/cloud_vista/siem/reports/adhoc/addreport">To add a new report</a>
+<strong>+ Add new report</strong> – <a href="/cloud_vista/securityanalytics/reports/adhoc/addreport">To add a new report</a>
 
-<img src="/cloud_vista/siem/images/timeicon.png" width="50px"> - Select time range of report.
+<img src="/cloud_vista/securityanalytics/images/timeicon.png" width="50px"> - Select time range of report.
 
-<strong>Auto delivery</strong> – <a href="/cloud_vista/siem/reports/adhoc/autodelivery">To create auto delivery report setting</a>
+<strong>Auto delivery</strong> – <a href="/cloud_vista/securityanalytics/reports/adhoc/autodelivery">To create auto delivery report setting</a>
 
-<strong>Download</strong> – <a href="/cloud_vista/siem/reports/adhoc/downloadreport">To download report</a>
+<strong>Download</strong> – <a href="/cloud_vista/securityanalytics/reports/adhoc/downloadreport">To download report</a>
 
-<strong>Edit</strong> – <a href="/cloud_vista/siem/reports/adhoc/editreport">To edit report</a>
+<strong>Edit</strong> – <a href="/cloud_vista/securityanalytics/reports/adhoc/editreport">To edit report</a>
 
 
 

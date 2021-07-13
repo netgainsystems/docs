@@ -6,7 +6,7 @@ slug: ferpa
 
 In \<FERPA> there is 1 report template.
 
-![Screenshot](/cloud_vista/siem/images/ferpa.png)
+![Screenshot](/cloud_vista/loganalytics/images/ferpa.png)
 
 &nbsp;
 

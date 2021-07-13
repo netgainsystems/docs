@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: license
 ---
 
-License shows the user the details of the NetGain EM license information on enabled modules, used license nodes, total license nodes.
+License shows the user the details of the {{% company %}} Infrastructure Monitoring license information on enabled modules, used license nodes, total license nodes.
 
 Click on the \<License> in the Top Navigation Bar.
 
@@ -15,7 +15,7 @@ Click on the \<License> in the Top Navigation Bar.
 
 The page will show the info:
 * Serial number
-* EM model 
+* Infrastructure Monitoring model 
 * License Expiry date 
 * Max licensed nodes XXXX (currently used: XX)
 * Max NetFlow Flow Rate XXX flows per sec

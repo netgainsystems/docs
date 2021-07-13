@@ -6,7 +6,7 @@ slug: pdpa
 
 In \<PDPA> there are 2 report templates.
 
-![Screenshot](/cloud_vista/siem/images/pdpa.png)
+![Screenshot](/cloud_vista/loganalytics/images/pdpa.png)
 
 &nbsp;
 

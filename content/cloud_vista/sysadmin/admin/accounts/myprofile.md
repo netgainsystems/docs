@@ -42,7 +42,7 @@ Choose the photo by clicking on \<Choose file>, and then click on \<Upload photo
 &nbsp;
 
 ### Enable or Disable 2FA
-This sub module allows you to enable/disable 2FA when logging in to NetGain EM web GUI.
+This sub module allows you to enable/disable 2FA when logging in to {{% company %}} Infrastructure Monitoring web GUI.
 
 Click on \<Enable 2FA>
 

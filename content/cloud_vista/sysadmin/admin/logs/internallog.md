@@ -10,7 +10,7 @@ Click on \<Internal logs> in the Top navigation bar.
 
 &nbsp;
 
-It consists of internal logs of NetGain EM and it is used by NetGain support team during troubleshooting.
+It consists of internal logs of {{% company %}} Infrastructure Monitoring and it is used by {{% company %}} support team during troubleshooting.
 
 To download the log file, just click on the file name:
 
@@ -18,4 +18,4 @@ To download the log file, just click on the file name:
 
 &nbsp;
 
-It will be saved to a text file, please forward this file to NetGain Support team for further investigations.	
+It will be saved to a text file, please forward this file to {{% company %}} Support team for further investigations.	

@@ -20,7 +20,7 @@ User can get more accurate result by searching the field name (event.category, d
 User can get more info about the search syntax through the \<Help> button.
 
 
-![Screenshot](/cloud_vista/siem/images/search1.png)
+![Screenshot](/cloud_vista/loganalytics/images/search1.png)
 
 &nbsp;
 

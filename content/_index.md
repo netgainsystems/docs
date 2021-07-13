@@ -7,8 +7,8 @@ title: Home
 ## About This Site
 This site hosts all comprehensive information on {{% company %}} products and services, as well as detailed technical information and tips to get your {{% company %}} software up and running smoothly.
 
-## Feedbacks
-Please contact support@{{% domain %}} to provide your valuable feedbacks.
+## Feedback
+Please contact support@{{% domain %}} to provide your valuable feedback.
 
 <hr>
 {{% copyright %}}
