@@ -26,4 +26,4 @@ User can get more info about the search syntax through the \<Help> button.
 
 User also can adjust time range from the drop-down menu and drag & display time range from the graph itself.
 
-![Screenshot](/cloud_vista/siem/images/search2.png)
+![Screenshot](/cloud_vista/loganalytics/images/search2.png)
