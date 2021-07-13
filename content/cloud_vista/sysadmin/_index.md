@@ -1,6 +1,6 @@
 ---
 title: Sys Admin & Tools
-weight: 13
+weight: 12
 ---
 
 This section documents the systems administration functions and the tools provided to help the administrator.

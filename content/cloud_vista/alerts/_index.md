@@ -1,6 +1,6 @@
 ---
 title: Alerts & Notifications
-weight: 12
+weight: 11
 ---
 
 This section documents the alerts and notifications options in the software, and the information on settings.
