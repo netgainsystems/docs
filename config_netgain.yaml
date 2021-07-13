@@ -10,5 +10,5 @@ params:
   cvdomain: 'cloud-vista.co'
   product: 'NetGain CloudVista SaaS'
   themeColor: '#0a539a'
-  geekdocLegalNotice: https://www.netgain-systems.com/legal
-  geekdocPrivacyPolicy: https://www.netgain-systems.com/privacy
+  geekdocLegalNotice: https://www.netgain-systems.com/terms-of-use/
+  geekdocPrivacyPolicy: https://www.netgain-systems.com/privacy-policy/
