@@ -5,10 +5,12 @@ slug: usingnta
 ---
 
 To use the NetFlow feature, click on \<NetFlow> on the Left Navigation Bar, then \<NetFlow> at the Top Navigation Bar.  
-Click on \<Search> to search and query different network flows. Click on \<Help> for help in performing a search.
+Click on \<Search> to search and query different network flows. Click on \<?> for help in performing a search.
 
 
 ![Screenshot](/cloud_vista/netflow/images/nta1.png)
+
+&nbsp;
 
 ![Screenshot](/cloud_vista/netflow/images/Netflow_Help.PNG)
 
