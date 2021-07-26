@@ -331,7 +331,7 @@ img {
 .gdoc-header {
   background: #4186c9;
   color: #fff;
-  border-bottom: .3em solid #2f333e
+  border-bottom: none;
 }
 .gdoc-header__link,
 .gdoc-header__link:visited {
