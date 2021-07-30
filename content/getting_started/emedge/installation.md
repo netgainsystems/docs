@@ -4,9 +4,9 @@ geekdocHidden: true
 slug: installation
 ---
 ## To get started, select your platform
-<a href="#installation-steps-for-emedge-on-windows">
+<!-- <a href="#installation-steps-for-emedge-on-windows">
   <img src="/images/platform_windows.png" />
-</a>
+</a> -->
 <a href="#installation-steps-for-emedge-on-linux">
   <img src="/images/platform_centos.png" />
 </a>
@@ -17,10 +17,10 @@ slug: installation
   <img src="/images/platform_docker.png" />
 </a>
 
-## Installation steps for emedge on Windows
+<!-- ## Installation steps for emedge on Windows
 - Download <a href="https://download.{{% domain %}}/emedge/emedge-v11.msi" target="_blank">Windows MSI Installer for emedge</a>
 - Double click on the msi file and follow the installation steps
-- Note: emedge will also be configured automatically as windows service named 'emedge'
+- Note: emedge will also be configured automatically as windows service named 'emedge' -->
 
 ## Installation steps for emedge on Linux
 Linux - one liner installation
@@ -39,12 +39,12 @@ Manual installation (Linux or Apple OSX)
 ## Installation steps for emedge as a Docker container
 Containerized version of the emedge. The official <a href="https://hub.docker.com/r/netgain/emedge">Docker image</a> and setup instructions is available on Docker Hub.
 
-## Installation as system service or Windows service
+<!-- ## Installation as system service or Windows service
 - Turn to emedge folder: **cd \<dir>**
-- Run **.\emedge service install**
+- Run **.\emedge service install** -->
 
 ## Supported environments
-**emedge** can run on Linux, Windows or Mac OS.
+**emedge** can run on Linux<!-- , Windows -->or Mac OS.
 - For Linux, recommended OS distribution is **Centos** or **Ubuntu**
 - Recommended specs:
 	* **Minimum**: CPU: **Intel i3-equivalent** or above, **1GB** RAM, **5GB** disk space
