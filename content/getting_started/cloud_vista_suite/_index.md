@@ -1,8 +1,10 @@
 ---
 title: Cloud Vista Suite (CVS)
 weight: 2
+geekdocHidden: true
+slug: cloud_vista_suite
 ---
-**Cloud Vista Suite (CVS)** by spog.ai is a scalable monitoring service for hybrid cloud environments, providing monitoring of networks, servers, databases, applications, and services, through a SaaS-based monitoring analytics platform
+**Cloud Vista Suite (CVS)** by {{% company %}} is a scalable monitoring service for hybrid cloud environments, providing monitoring of networks, servers, databases, applications, and services, through a SaaS-based monitoring analytics platform
 
 # Key components of CVS
 ## Cloud Vista
