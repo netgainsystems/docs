@@ -6,6 +6,7 @@ copyRight: 'spog.ai (c) 2020-2021. All rights reserved.'
 
 params:
   geekdocLogo: spog_logo.png
+  imagehome: 'spog'
   company: 'spog.ai'
   domain: 'spog.ai'
   cvdomain: 'spog.ai'

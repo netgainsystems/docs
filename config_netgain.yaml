@@ -6,6 +6,7 @@ copyRight: 'NetGain Systems (c) 2002-2021. All rights reserved.'
 
 params:
   geekdocLogo: logo.png
+  imagehome: 'netgain'
   company: 'NetGain Systems'
   domain: 'netgain-systems.com'
   cvdomain: 'cloud-vista.co'
