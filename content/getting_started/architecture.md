@@ -1,9 +1,7 @@
 ---
-title: spog.ai
+title: Architecture
 weight: 1
 ---
-
-# Solution Architecture
 
 {{% company %}} is the cloud data and analytics platform for data normalization, processing, visualization and report generation. It integrates and sends alerts to trouble-ticketing systems, and collaboration and messaging systems.
 
