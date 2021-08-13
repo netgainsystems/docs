@@ -4,10 +4,10 @@ title: Home
 
 {{% welcome %}}
 
-You will find all the comprehensive information on spog.ai products and services, as well as detailed technical information and tips to get your {{% company %}}  software up and running smoothly.
+You will find all the comprehensive information on {{% company %}} products and services, as well as detailed technical information and tips to get your {{% company %}} software up and running smoothly.
 
-<div class="row" style="display: grid;">
-<div class="column" style="display: flex; ">
+<div class="row" style="display: grid; overflow: auto;">
+<div class="column" style="display: flex;">
 
 <button name="button" style="background-color: #FFFFFF; width: 150px; height: 130px; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='/getting_started/architecture';"><strong>Solution <br>Architecture</strong><br><br><span style="color: #0ABAB5;">Learn More ></span>
 </button> 
@@ -24,7 +24,7 @@ You will find all the comprehensive information on spog.ai products and services
 </div>
 </div>
 
-<div class="row" style="display: grid;">
+<div class="row" style="display: grid; overflow: auto;">
 <div class="column" style="display: flex;">
 
 <button name="button" style="background-color: #FFFFFF; width: 150px; height: 130px; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='/cloud_vista/inframonitoring';"><strong>Infrastructure <br>Monitoring</strong><br><br><span style="color: #0ABAB5;">View Guide ></span>
@@ -43,7 +43,7 @@ You will find all the comprehensive information on spog.ai products and services
 </div>
 </div>
 
-<div class="row" style="display: grid;">
+<div class="row" style="display: grid; overflow: auto;">
 <div class="column" style="display: flex;">
 
 <button name="button" style="background-color: #FFFFFF; width: 150px; height: 130px; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='/cloud_vista/apm';"><strong>Application <br>Performance <br>Management</strong><br><br><span style="color: #0ABAB5;">View Guide ></span>
