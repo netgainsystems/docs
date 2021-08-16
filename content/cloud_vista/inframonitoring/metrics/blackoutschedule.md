@@ -9,11 +9,11 @@ User will be able to create their own outage plan to reduce incoming false alert
 To create a blackout schedule, Click \<Metrics> on the Left navigation bar then \<Policy>. Under \<Blackout Schedules> click <+Create>.
 
 
-![Screenshot](/cloud_vista/inframonitoring/images/blackout1.PNG)
+![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/blackout1.PNG)
 
 &nbsp;
 
-![Screenshot](/cloud_vista/inframonitoring/images/blackout2.png)
+![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/blackout2.png)
 
 &nbsp;
 
@@ -23,7 +23,7 @@ Fill in the Start Date, End, Time and the Interval Period.
 
 Under Objects, click \<Select> and the object menu will pop up.
 
-![Screenshot](/cloud_vista/inframonitoring/images/blackout3.png)
+![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/blackout3.png)
 
 &nbsp;
 

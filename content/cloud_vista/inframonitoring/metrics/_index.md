@@ -6,7 +6,7 @@ slug: metrics
 
 The module allows the user to configure or setup a policy for the devices and monitors. To access Policy module, click \<Metrics> on the Left Navigation Bar then \<Policy>.
 
-![Screenshot](/cloud_vista/inframonitoring/images/policy.PNG)
+![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/policy.PNG)
 
 &nbsp;
 

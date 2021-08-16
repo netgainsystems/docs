@@ -8,7 +8,7 @@ This function lets the user customize different scripting methods like Unix/Linu
 
 To create Script monitor, Click \<Metrics> on the Left Navigation Bar then \<Customize> then \<Script>. Click <+Add>.
 
-![Screenshot](/cloud_vista/inframonitoring/images/script1.png)
+![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/script1.png)
 
 &nbsp;
 
@@ -24,4 +24,4 @@ Script Type – select between Unix/Linux Shell, Visual Basic and Java Script.
 
 Add monitor Value – To add different parameters based from the script
 
-![Screenshot](/cloud_vista/inframonitoring/images/script2.png)
+![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/script2.png)
