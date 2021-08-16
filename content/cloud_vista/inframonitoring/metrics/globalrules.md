@@ -6,13 +6,13 @@ slug: globalrules
 
 Monitoring templates can be created on the Global Rules. It is very convenient to users who are monitoring numerous devices since it can make setting up the thresholds easier.
 
-![Screenshot](/cloud_vista/inframonitoring/images/global1.PNG)
+![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/global1.PNG)
 
 &nbsp;
 
 To create a global rule, Click \<Metrics> on the Left navigation bar then \<Policy>. Under \<Global Rules>< click <+Create>.
 
-![Screenshot](/cloud_vista/inframonitoring/images/global2.png)
+![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/global2.png)
 
 &nbsp;
 
@@ -22,7 +22,7 @@ Select the Device type. A list of preset templates will appear.
 
 Click on the device model, you may also search the keyword of the monitor. 
 
-Click the < <img src="/cloud_vista/inframonitoring/images/pencilicon.png" width="20px"> >, Threshold rules menu will appear.
+Click the < <img src="/cloud_vista/inframonitoring/images/{{% imagehome %}}/pencilicon.png" width="20px"> >, Threshold rules menu will appear.
 
 Set the threshold accordingly.
 
@@ -30,7 +30,7 @@ Lastly, select an option in Action for non-selected monitor types. Click \<Save>
 
 Apply the created template from the settings in Status objects
 
-![Screenshot](/cloud_vista/inframonitoring/images/global3.png)
+![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/global3.png)
 
 &nbsp;
 
