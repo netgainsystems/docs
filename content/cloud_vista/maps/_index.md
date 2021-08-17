@@ -9,7 +9,7 @@ Maps provides a pictorial representation of the devices that are being monitored
 The Maps function can be accessed by clicking on \<Home> in the Left Navigation Bar, then \<Maps> in the Top Navigation Bar.
 
 
-![Screenshot](/cloud_vista/maps/images/LogicalMap.PNG)
+![Screenshot](/cloud_vista/maps/images/{{% imagehome %}}/LogicalMap.PNG)
 
 &nbsp;
 

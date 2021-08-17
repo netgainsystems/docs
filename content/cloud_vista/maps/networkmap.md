@@ -12,8 +12,8 @@ Click on \<Home> in the Left Navigation Bar, then \<Maps> in the Top Navigation 
 
 
 
-![Screenshot](/cloud_vista/maps/images/layer2map.png)
+![Screenshot](/cloud_vista/maps/images/{{% imagehome %}}/layer2map.png)
 
 &nbsp;
 
-![Screenshot](/cloud_vista/maps/images/layer3map.png)
+![Screenshot](/cloud_vista/maps/images/{{% imagehome %}}/layer3map.png)
