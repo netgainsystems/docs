@@ -9,7 +9,7 @@ The {{% company %}} console supports Business View, which is an easy-to-use admi
 Business View helps overcome problems in developing an effective Service Level Agreement (SLA), allowing service quality, monitoring methods and report generation parameters to be set. Services can include network interfaces, system performance, databases, web services and standard TCP/UDP ports.
 
 
-![Screenshot](/cloud_vista/bizviews/images/Bizviews.PNG)
+![Screenshot](/cloud_vista/bizviews/images/{{% imagehome %}}/Bizviews.PNG)
 
 &nbsp;
 
@@ -22,7 +22,7 @@ Business View sets the framework for using an XML-based, object-oriented model t
 
 A typical business framework follows, where an organization can own many services and sub-services, with each relying on one or more monitors. Each monitor has a series of SLA standards and threshold parameters. 
 
-![Screenshot](/cloud_vista/bizviews/images/bizviews2.png)
+![Screenshot](/cloud_vista/bizviews/images/{{% imagehome %}}/bizviews2.png)
 
 &nbsp;
 
