@@ -7,7 +7,7 @@ slug: sources
 This section enables the user to add logs into the system.  
 
 
-![Screenshot](/cloud_vista/loganalytics/images/sources1.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/sources1.png)
 
 &nbsp;
 

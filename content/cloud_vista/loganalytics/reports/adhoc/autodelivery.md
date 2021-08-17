@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: autodelivery
 ---
 
-![Screenshot](/cloud_vista/loganalytics/images/adhocreportdelivery.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/adhocreportdelivery.png)
 
 &nbsp;
 

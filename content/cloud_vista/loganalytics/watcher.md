@@ -9,20 +9,20 @@ This function is used to watch out for specified data within incoming data logs.
 To access the Watcher function, click on the \<SIEM> icon at the Left Navigation Bar then click on \<Watcher> at the Top Navigation Bar if not already at the Reports page.
 
 
-![Screenshot](/cloud_vista/loganalytics/images/watcher.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/watcher.png)
 
 &nbsp;
 
 ### Add Watcher Rule
-Click on Watcher < > and when you are in the Watcher menu, click <img src="/cloud_vista/loganalytics/images/addruleicon.png" width="65px">.
+Click on Watcher < > and when you are in the Watcher menu, click <img src="/cloud_vista/loganalytics/images/{{% imagehome %}}/addruleicon.png" width="65px">.
 
-![Screenshot](/cloud_vista/loganalytics/images/watcheraddrule.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/watcheraddrule.png)
 
 &nbsp;
 
 Enter the data and rules to define what you want to watch out for and receive an alarm when the conditions are met.
 
-![Screenshot](/cloud_vista/loganalytics/images/Watcher_WatcherRule.PNG)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/Watcher_WatcherRule.PNG)
 
 &nbsp;
 
@@ -48,7 +48,7 @@ Enter the data and rules to define what you want to watch out for and receive an
 
 Watcher will search the log data according to the conditions set. Results are displayed on the main page of the Watcher menu.
 
-![Screenshot](/cloud_vista/loganalytics/images/logwatcher.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/logwatcher.png)
 
 &nbsp;
 
@@ -57,5 +57,5 @@ When the Watcher rule has been created and enabled,  an alert will be generated 
 
 To see the alert message, click on Alerts icon at the Left Bavigation bar then click on \<Alerts> at the Top Navigation Bar than click on \<Current> at the sub menu bar then select \<LogsWatch Alarms> at the drop down list menu.
 
-![Screenshot](/cloud_vista/loganalytics/images/viewlogwatch.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/viewlogwatch.png)
 

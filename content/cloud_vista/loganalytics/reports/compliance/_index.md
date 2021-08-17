@@ -7,7 +7,7 @@ slug: compliance
 
 Click on \<Compliance> to access the compliance report.
 
-![Screenshot](/cloud_vista/loganalytics/images/compliance.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/compliance.png)
 
 &nbsp;
 

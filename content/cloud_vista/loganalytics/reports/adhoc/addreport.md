@@ -6,7 +6,7 @@ slug: addreport
 
 <strong>Click <+Add new report>.</strong>
 
-![Screenshot](/cloud_vista/loganalytics/images/Reports_AddAdHoc.PNG)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/Reports_AddAdHoc.PNG)
 
 &nbsp;
 
