@@ -7,7 +7,7 @@ slug: adhoc
 
 Click on \<AdHoc> to access the AdHoc reports.
 
-![Screenshot](/cloud_vista/loganalytics/images/adhoc.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/adhoc.png)
 
 &nbsp;
 
@@ -19,20 +19,20 @@ By \<Default> AdHoc will contain report template according to the following topi
 
 Click on each report to create the report. The report will show in the report area.
 
-![Screenshot](/cloud_vista/loganalytics/images/Reports_AdHoc.PNG)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/Reports_AdHoc.PNG)
 
 &nbsp;
 
 ### AdHoc report sub menu
 
-![Screenshot](/cloud_vista/loganalytics/images/adhocsubmenu.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/adhocsubmenu.png)
 
 &nbsp;
 
 
 <strong>+ Add new report</strong> – <a href="/cloud_vista/loganalytics/reports/adhoc/addreport">To add a new report</a>
 
-<img src="/cloud_vista/loganalytics/images/timeicon.png" width="50px"> - Select time range of report.
+<img src="/cloud_vista/loganalytics/images/{{% imagehome %}}/timeicon.png" width="50px"> - Select time range of report.
 
 <strong>Auto delivery</strong> – <a href="/cloud_vista/loganalytics/reports/adhoc/autodelivery">To create auto delivery report setting</a>
 

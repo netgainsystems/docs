@@ -7,7 +7,7 @@ slug: reports
 
 To access the SIEM Reports function, click on the \<SIEM> icon at the Left Navigation Bar then click on \<Reports> at the Top Navigation Bar.
 
-![Screenshot](/cloud_vista/loganalytics/images/reports.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/reports.png)
 
 &nbsp;
 

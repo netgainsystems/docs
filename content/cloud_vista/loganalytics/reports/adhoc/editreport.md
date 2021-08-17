@@ -4,7 +4,7 @@ geekdocHidden: true
 slug: editreport
 ---
 
-![Screenshot](/cloud_vista/loganalytics/images/adhoceditreport.png)
+![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/adhoceditreport.png)
 
 &nbsp;
 
