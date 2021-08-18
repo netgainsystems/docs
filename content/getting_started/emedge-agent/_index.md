@@ -1,6 +1,7 @@
 ---
 title: Emedge Agent
 weight: 4
+geekdocHidden: true
 ---
 
 # About emedge-agent
