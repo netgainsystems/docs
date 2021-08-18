@@ -8,19 +8,19 @@ You can create different NetFlow reports based on different search expressions.
 
 To create a NetFlow report, click on \<NetFlow> at the Left Navigation Bar, then click on \<Reports> at the Top Navigation Bar. Click <+Add new report>.
 
-![Screenshot](/cloud_vista/netflow/images/report1.png)
+![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/report1.png)
 
 &nbsp;
 
 Enter the relevant information including the desired search expression in the pop-up menu, then click \<Save>.
 
-![Screenshot](/cloud_vista/netflow/images/report2.png)
+![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/report2.png)
 
 &nbsp;
 
 You can retrieve the saved report by clicking on the submenu icon on the left side of the Reports page as shown, and clicking it from the selection of reports shown.
 
-![Screenshot](/cloud_vista/netflow/images/report3.png)
+![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/report3.png)
 
 &nbsp;
 
@@ -28,13 +28,13 @@ You can perform the following actions to your report by clicking on their icon i
 
 \<Auto delivery>, \<Download> and \<Edit>
 
-![Screenshot](/cloud_vista/netflow/images/report4.png)
+![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/report4.png)
 
 &nbsp;
 
 Auto delivery: Schedule delivery of report (XLS/PDF) via Email 
 
-![Screenshot](/cloud_vista/netflow/images/report5.png)
+![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/report5.png)
 
 &nbsp;
 
@@ -60,7 +60,7 @@ Hour of day - Hour of day to send Email
 
 Download: Download report in XLS format 
 
-![Screenshot](/cloud_vista/netflow/images/report6.png)
+![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/report6.png)
 
 Clicking \<Download> will download the report in Excel format.
 
@@ -68,6 +68,6 @@ Clicking \<Download> will download the report in Excel format.
 
 Edit Report
 
-![Screenshot](/cloud_vista/netflow/images/report7.png)
+![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/report7.png)
 
 Click \<Edit> to change previous inputs, and click \<Save> when done. You can also choose to delete the report by clicking \<Delete report>. 
