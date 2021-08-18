@@ -7,7 +7,7 @@ weight: 8
 
 Below is the screenshot from the APM page.
 
-![Screenshot](/cloud_vista/apm/images/apmmain.png)
+![Screenshot](/cloud_vista/apm/images/{{% imagehome %}}/apmmain.png)
 
 &nbsp;
 
