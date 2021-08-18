@@ -6,7 +6,7 @@ slug: ferpa
 
 In \<FERPA> there is 1 report template.
 
-![Screenshot](/cloud_vista/securityanalytics/images/ferpa.png)
+![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/ferpa.png)
 
 &nbsp;
 

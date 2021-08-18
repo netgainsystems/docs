@@ -6,7 +6,7 @@ slug: applications
 
 Click on \<Applications> to access the applications report.
 
-![Screenshot](/cloud_vista/securityanalytics/images/Reports_Application.PNG)
+![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/Reports_Application.PNG)
 
 &nbsp;
 
@@ -17,16 +17,16 @@ Application will contain the report templates according to the following topics:
 
 In \<DHCP Windows> there are 23 report templates for Windows ready to use.
 
-![Screenshot](/cloud_vista/securityanalytics/images/Reports_ApplicationDHCP.PNG)
+![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/Reports_ApplicationDHCP.PNG)
 
 &nbsp;
 
 In \<Printer Windows> there are 11 report templates ready to use.
 
-![Screenshot](/cloud_vista/securityanalytics/images/Reports_ApplicationPrinter.PNG)
+![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/Reports_ApplicationPrinter.PNG)
 
 &nbsp;
 
 In \<Terminal Windows> there are 15 report templates ready to use.
 
-![Screenshot](/cloud_vista/securityanalytics/images/Reports_ApplicationTerminal.PNG)
+![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/Reports_ApplicationTerminal.PNG)
