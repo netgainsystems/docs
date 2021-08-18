@@ -6,7 +6,7 @@ slug: coco
 
 In \<COCO> there are 5 report templates.
 
-![Screenshot](/cloud_vista/securityanalytics/images/coco.png)
+![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/coco.png)
 
 &nbsp;
 

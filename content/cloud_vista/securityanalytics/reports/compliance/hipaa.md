@@ -6,7 +6,7 @@ slug: hipaa
 
 In \<HIPAA> there are 6 report templates. 
 
-![Screenshot](/cloud_vista/securityanalytics/images/hipaa.png)
+![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/hipaa.png)
 
 &nbsp;
 

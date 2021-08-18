@@ -6,7 +6,7 @@ slug: ccpa
 
 In \<CCPA> there is 1 report template.
 
-![Screenshot](/cloud_vista/securityanalytics/images/ccpa.png)
+![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/ccpa.png)
 
 &nbsp;
 
