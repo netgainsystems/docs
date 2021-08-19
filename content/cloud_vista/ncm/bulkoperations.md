@@ -6,13 +6,13 @@ slug: bulkoperations
 
 This lets you perform operations such as to backup or restore the config on many devices at a time. Click on \<Devices> at the top menu of \<Network Config>, then select the devices for bulk operations.
 
-![Screenshot](/cloud_vista/ncm/images/LogicalMap_3.PNG)
+![Screenshot](/cloud_vista/ncm/images/{{% imagehome %}}/bulk1.png)
 
 &nbsp;
 
 Click on \<Action> and a drop-down menu will appear for you to select the operation to perform.
 
-![Screenshot](/cloud_vista/ncm/images/LogicalMap_3.PNG)
+![Screenshot](/cloud_vista/ncm/images/{{% imagehome %}}/bulk2.png)
 
 &nbsp;
 
@@ -31,4 +31,4 @@ Click on \<Action> and a drop-down menu will appear for you to select the operat
 
 After performing the operation, the results will be shown after a while. Click \<x Close> to close the screen and return to the main Devices screen.
 
-![Screenshot](/cloud_vista/ncm/images/LogicalMap_3.PNG)
+![Screenshot](/cloud_vista/ncm/images/{{% imagehome %}}/bulk3.png)

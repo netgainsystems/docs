@@ -14,7 +14,7 @@ Network Configuration Management (NCM) is a broad term for the organization and 
 
 To access NCM, click on \<CMDB> at the Left Navigation Bar, then click on \<Network Config> at the Top Navigation Bar.
 
-![Screenshot](/cloud_vista/ncm/images/ncm1.png)
+![Screenshot](/cloud_vista/ncm/images/{{% imagehome %}}/ncm1.png)
 
 &nbsp;
 
