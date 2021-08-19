@@ -9,7 +9,7 @@ Device metrics that exceed set thresholds will generate an alert.  Current alert
 To navigate to Current alerts, click on \<Alerts> on the Left Navigation Bar, then click \<Alerts> on the Top Navigation Bar. Click on \<Current>.
 
 
-![Screenshot](/cloud_vista/alerts/images/currentalert1.png)
+![Screenshot](/cloud_vista/alerts/images/{{% imagehome %}}/currentalert1.png)
 
 &nbsp;
 
@@ -23,13 +23,13 @@ Discharge - Delete the alert notification.
 
 Export - Export the information of the device selected in Excel format.
 
-![Screenshot](/cloud_vista/alerts/images/currentalert2.png)
+![Screenshot](/cloud_vista/alerts/images/{{% imagehome %}}/currentalert2.png)
 
 &nbsp;
 
 To see the full information of a certain alert, select “Details”.
 
-![Screenshot](/cloud_vista/alerts/images/currentalert3.png)
+![Screenshot](/cloud_vista/alerts/images/{{% imagehome %}}/currentalert3.png)
 
 &nbsp;
 
@@ -45,4 +45,4 @@ Notify now – to notify immediately any user via email / sms
 
 Additional Info - Additional information of the device.
 
-![Screenshot](/cloud_vista/alerts/images/currentalert4.png)
+![Screenshot](/cloud_vista/alerts/images/{{% imagehome %}}/currentalert4.png)
