@@ -6,7 +6,7 @@ slug: othersettings
 
 Besides Email and SMS notification, there are other methods to alert users, including 3rd party messaging apps such as Slack, MS Teams, WeChat, Alicloud, LINE and Telegram. 
 
-![Screenshot](/cloud_vista/alerts/images/rules2.PNG)
+![Screenshot](/cloud_vista/alerts/images/{{% imagehome %}}/rules2.PNG)
 
 &nbsp;
 

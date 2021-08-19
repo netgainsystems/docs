@@ -6,7 +6,7 @@ slug: notificationrules
 
 You can create Notification Rules to send SMS, email, 3rd party app messages, or audio and pop-up Windows alerts when your devices reach preset critical threshold levels. To create a Notification Rule, click on \<Alerts> on the Left Navigation Bar, then click on \<Notifications> on the Top Navigation Bar. Click on \<Rules>, then <+Create>.
 
-![Screenshot](/cloud_vista/alerts/images/rules1.png)
+![Screenshot](/cloud_vista/alerts/images/{{% imagehome %}}/rules1.png)
 
 &nbsp;
 
@@ -30,5 +30,5 @@ Roles to notify - Which user roles to notify.
 
 User to notify - Which End-User to notify.
 
-![Screenshot](/cloud_vista/alerts/images/rules2.PNG)
+![Screenshot](/cloud_vista/alerts/images/{{% imagehome %}}/rules2.PNG)
 
