@@ -14,7 +14,7 @@ The Admin module provides the function to manage the {{% company %}} Infrastruct
 
 To navigate to the Admin module, choose the last icon from the Left navigation bar, as shown in below:
 
-![Screenshot](/cloud_vista/sysadmin/images/admin1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/admin1.png)
 
 &nbsp;
 
