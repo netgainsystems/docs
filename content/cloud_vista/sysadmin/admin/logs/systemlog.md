@@ -10,10 +10,10 @@ Most frequently checked logs are: Notification and Internal logs.
 
 Click on \<System logs> in the navigation bar.
 
-![Screenshot](/cloud_vista/sysadmin/images/systemlog1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/systemlog1.png)
 
 &nbsp;
 
 You may query the system log by specifying the time range.
 
-![Screenshot](/cloud_vista/sysadmin/images/systemlog2.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/systemlog2.png)

@@ -6,7 +6,7 @@ slug: logs
 
 Click on \<Logs> in the Top navigation bar.
 
-![Screenshot](/cloud_vista/sysadmin/images/logs1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/logs1.png)
 
 &nbsp;
 

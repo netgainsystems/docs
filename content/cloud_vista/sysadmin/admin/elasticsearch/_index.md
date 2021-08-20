@@ -8,7 +8,7 @@ This module provides the information of Elasticsearch, and also provide the  fun
 
 Click on \<Elasticsearch> in the navigation bar. 
 
-![Screenshot](/cloud_vista/sysadmin/images/elastic1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/elastic1.png)
 
 &nbsp;
 

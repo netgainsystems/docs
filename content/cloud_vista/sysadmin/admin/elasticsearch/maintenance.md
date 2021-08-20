@@ -6,7 +6,7 @@ slug: maintenance
 
 Click on \<Maintenance> in the Top navigation bar.
 
-![Screenshot](/cloud_vista/sysadmin/images/maintenance1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/maintenance1.png)
 
 &nbsp;
 
@@ -16,7 +16,7 @@ This page shows you two options:
 
 
 ### Data retention
-Data retention setting can be changed by clicking on <img src="/cloud_vista/sysadmin/images/changesettingsicon.png" width="100px">
+Data retention setting can be changed by clicking on <img src="/cloud_vista/sysadmin/images/{{% imagehome %}}/changesettingsicon.png" width="100px">
 
 Change the retention period for different data:
 * Configurations data : this is to specify how long the system keeps the backup of configuration
@@ -25,20 +25,20 @@ Change the retention period for different data:
 * NetFlow traffic flow data: this is to specify how long the system keeps the NetFlow data
 * APM transactions data: this is to specify how long the system keeps the APM data
 
-![Screenshot](/cloud_vista/sysadmin/images/maintenance2.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/maintenance2.png)
 
 &nbsp;
 
-Once completed, click on <img src="/cloud_vista/sysadmin/images/savesettingsicon.png" width="90px">
+Once completed, click on <img src="/cloud_vista/sysadmin/images/{{% imagehome %}}/savesettingsicon.png" width="90px">
 
-![Screenshot](/cloud_vista/sysadmin/images/maintenance3.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/maintenance3.png)
 
 &nbsp;
 
 ### Backup and Restore
 This tab is to do the backup and restore for {{% company %}} configuration.
 
-![Screenshot](/cloud_vista/sysadmin/images/maintenance4.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/maintenance4.png)
 
 &nbsp;
 

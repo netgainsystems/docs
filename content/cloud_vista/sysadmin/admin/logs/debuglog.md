@@ -6,14 +6,14 @@ slug: debuglog
 
 Click on \<Debug logs> in the Top navigation bar.
 
-![Screenshot](/cloud_vista/sysadmin/images/debuglog1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/debuglog1.png)
 
 &nbsp;
 
 Turn on the debug log for debugging purpose only, choose the level of the logs to enable debugging.
 
-![Screenshot](/cloud_vista/sysadmin/images/debuglog2.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/debuglog2.png)
 
 &nbsp;
 
-![Screenshot](/cloud_vista/sysadmin/images/debuglog3.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/debuglog3.png)
