@@ -12,4 +12,5 @@ Emedge is deployed within the enterprise network either on-prem, public or priva
 Emedge uses open protocols to collect data from all IT systems. Common protocols include SNMP, JDBC, Elastic Beats and others.  
 
 With {{% company %}} and emedge working together, the user has a full observability to their infrastructure, whether it is on-prem, in the cloud, or hybrid.
+
 ![Screenshot](/getting_started/images/{{% imagehome %}}/spog1.png)
