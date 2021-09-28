@@ -6,7 +6,7 @@ slug: tools
 
 {{% company %}} Infrastructure Monitoring provides diagnostic tools for troubleshooting and agents for installation on the servers that needs to be monitored. Click on \<Tools> at the left navigation bar.
 
-![Screenshot](/cloud_vista/sysadmin/images/tools1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/tools1.png)
 
 &nbsp;
 

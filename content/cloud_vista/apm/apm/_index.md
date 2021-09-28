@@ -8,7 +8,7 @@ slug: apm
 
 In this APM tab is the main tab where you can get an overview of the services health status as well into the details to check each application transaction status and parameters.
 
-<img src="/cloud_vista/apm/images/apm1.png" width="400px">
+<img src="/cloud_vista/apm/images/{{% imagehome %}}/apm1.png" width="400px">
 
 &nbsp;
 

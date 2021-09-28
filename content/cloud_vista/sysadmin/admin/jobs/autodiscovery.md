@@ -9,7 +9,7 @@ Select the Schedule task Type as \<Auto discovery> .
 Enter a task name, choose start, end time, internal and count (how many times will this task run).  Specify the parameters for IP address, SNMP community string and SNMP port.
 
 
-![Screenshot](/cloud_vista/sysadmin/images/job2.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/job2.png)
 
 &nbsp;
 

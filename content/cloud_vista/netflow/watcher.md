@@ -8,13 +8,13 @@ NetFlow Watcher is used to watch out for specified data within incoming data flo
 
 To use NetFlow Watcher, click on \<NetFlow> on the Left Navigation Bar, then click on \<Watcher> on the Top Navigation Bar. Click <+Add rule>.
 
-![Screenshot](/cloud_vista/netflow/images/watcher1.png)
+![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/watcher1.png)
 
 &nbsp;
 
 Enter the data and rules to define what you want to watch out for and to receive an alarm when the conditions are met.
 
-![Screenshot](/cloud_vista/netflow/images/watcher2.png)
+![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/watcher2.png)
 
 &nbsp;
 
@@ -36,4 +36,4 @@ Alarm generation - Select condition for alarm generate.
 
 Click \<Save> when done. Watcher will search the flow data according to the conditions set. Results are displayed on the main page of the Watcher menu.
 
-![Screenshot](/cloud_vista/netflow/images/watcher3.png)
+![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/watcher3.png)

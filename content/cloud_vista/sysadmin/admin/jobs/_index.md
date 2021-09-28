@@ -9,7 +9,7 @@ This module enables auto admin job to run, namely Auto discovery and Device shut
 
 Click on \<Jobs> in the Top navigation bar
 
-![Screenshot](/cloud_vista/sysadmin/images/job1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/job1.png)
 
 &nbsp;
 

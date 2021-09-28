@@ -6,13 +6,13 @@ slug: status
 
 This sub module provides the detail status of the {{% company %}} Infrastructure Monitoring.
 
-![Screenshot](/cloud_vista/sysadmin/images/status1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/status1.png)
 
 &nbsp;
 
 Includes below details: 
 
-![Screenshot](/cloud_vista/sysadmin/images/status2.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/status2.png)
 
 &nbsp;
 

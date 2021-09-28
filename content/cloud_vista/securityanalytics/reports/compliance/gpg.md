@@ -6,7 +6,7 @@ slug: gpg
 
 In \<GPG> there are 5 report templates.
 
-![Screenshot](/cloud_vista/securityanalytics/images/gpg.png)
+![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/gpg.png)
 
 &nbsp;
 

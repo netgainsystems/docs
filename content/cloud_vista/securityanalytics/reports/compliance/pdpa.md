@@ -6,7 +6,7 @@ slug: pdpa
 
 In \<PDPA> there are 2 report templates.
 
-![Screenshot](/cloud_vista/securityanalytics/images/pdpa.png)
+![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/pdpa.png)
 
 &nbsp;
 

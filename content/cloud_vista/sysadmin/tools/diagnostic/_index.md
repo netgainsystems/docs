@@ -7,7 +7,7 @@ slug: diagnostic
 
 Tools for troubleshooting faults. Click on \<Diagnostic> at the top navigation bar.
 
-![Screenshot](/cloud_vista/sysadmin/images/diagnostic1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/diagnostic1.png)
 
 &nbsp;
 

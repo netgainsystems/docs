@@ -6,7 +6,7 @@ slug: internallog
 
 Click on \<Internal logs> in the Top navigation bar.
 
-![Screenshot](/cloud_vista/sysadmin/images/internallog1.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/internallog1.png)
 
 &nbsp;
 
@@ -14,7 +14,7 @@ It consists of internal logs of {{% company %}} Infrastructure Monitoring and it
 
 To download the log file, just click on the file name:
 
-![Screenshot](/cloud_vista/sysadmin/images/internallog2.png)
+![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/internallog2.png)
 
 &nbsp;
 
