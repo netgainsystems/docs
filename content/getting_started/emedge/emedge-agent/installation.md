@@ -22,7 +22,6 @@ slug: installation
 
     - manual installation
       - RPM package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-stable.x86_64.rpm" target="_blank">emedge-agent-v11-stable.x86_64.rpm</a>
-      - Debian package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-stable.x86_64.deb" target="_blank">emedge-agent-v11-stable.x86_64.deb</a>
       - Zip package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-linux.zip" target="_blank">emedge-agent-v11-linux.zip</a>
 
   - Apple OSX
