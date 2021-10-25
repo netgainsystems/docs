@@ -16,6 +16,7 @@ weight: 6
 * <a href="/cloud_vista/loganalytics/sources">Sources</a>
 * <a href="/cloud_vista/loganalytics/filters">Filters</a>
 * <a href="/cloud_vista/loganalytics/mapping">Mapping</a>
+* <a href="/cloud_vista/loganalytics/filebeat">Filebeat</a>
 * <a href="/cloud_vista/loganalytics/schema">Schema</a>
 * <a href="/cloud_vista/loganalytics/archive">Archive</a>
 * <a href="/cloud_vista/loganalytics/reports">Reports</a>

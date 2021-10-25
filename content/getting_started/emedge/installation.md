@@ -44,7 +44,7 @@ Containerized version of the emedge. The official <a href="https://hub.docker.co
 - Run **.\emedge service install** -->
 
 ## Supported environments
-**emedge** can run on Linux<!-- , Windows -->or Mac OS.
+**emedge** can run on Linux<!-- , Windows --> or Mac OS.
 - For Linux, recommended OS distribution is **Centos** or **Ubuntu**
 - Recommended specs:
 	* **Minimum**: CPU: **Intel i3-equivalent** or above, **1GB** RAM, **5GB** disk space

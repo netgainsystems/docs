@@ -13,7 +13,7 @@ This page consist of 3 section, installation, configure and start **Metricbeat**
 
 ## Installation
   - Windows
-    - Download Metricbeat Windows zip file<a href="https://www.elastic.co/downloads/beats/metricbeat" target="_blank">Windows zipped file</a>
+    - Download Metricbeat Windows zip file<a href="https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.14.0-windows-x86_64.zip" target="_blank">Windows zipped file</a>
     - Extract the contents of the zip file into C:\Program Files.
     - Rename the *metricbeat-<version>-windows* directory to *Metricbeat*.
     - Open a PowerShell prompt as an Administrator (right-click the PowerShell icon and select **Run As Administrator**).
@@ -48,6 +48,7 @@ This page consist of 3 section, installation, configure and start **Metricbeat**
        `#hosts: ["myEShost:9200"]`  
 `output.logstash:`  
 	   `hosts: [emedge_ip:5044]`  
+`ssl.verification_mode: "none"`
 		* emedge_ip is the IP address of emedge
   - Enable the modules:
     - Enable the modules for Metricbeat to collect data from: 
