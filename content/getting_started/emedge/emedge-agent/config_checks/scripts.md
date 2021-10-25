@@ -11,7 +11,7 @@ These checks will be scheduled to run at a fixed interval (default 30 seconds in
 This page looks at how to configure custom emedge-agent script check.
 
 # Configuration steps
-- Ensure the emedge-agent is properly installed, as described <a href="{{< relref "getting_started/emedge-agent/installation.md" >}}">here</a>
+- Ensure the emedge-agent is properly installed, as described <a href="{{< relref "getting_started/emedge/emedge-agent/installation.md" >}}">here</a>
 - Navigate to emedge-agent installation directory (e.g. /opt/emedge-agent)
 - Edit config.yml in checks/scripts to add the script configuration
 - Reload the emedge-agent

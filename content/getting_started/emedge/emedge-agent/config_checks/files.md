@@ -12,7 +12,7 @@ These checks will be scheduled to run at a fixed interval (default 30 seconds in
 This page shows how to configure emedge-agent file check.
 
 # Configuration Steps
-- Ensure the emedge-agent is properly installed, as described <a href="{{< relref "getting_started/emedge-agent/installation.md" >}}">here</a>
+- Ensure the emedge-agent is properly installed, as described <a href="{{< relref "getting_started/emedge/emedge-agent/installation.md" >}}">here</a>
 - Navigate to emedge-agent installation directory (e.g. /opt/emedge-agent)
 - Edit config.yml in checks/file to add the file monitor configuration
 - Reload the emedge-agent configuration
@@ -35,4 +35,4 @@ This page shows how to configure emedge-agent file check.
         ...<snipped>...
     ```
   - Run **emedge-agent reload** to trigger emedge-agent to reload the config
-  - The process will be monitored and metrics collected will now be forwarding to **emedge**
+  - The file will be monitored and metrics collected will now be forwarding to **emedge**

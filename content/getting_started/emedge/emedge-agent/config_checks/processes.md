@@ -11,7 +11,7 @@ These checks will be scheduled to run at a fixed interval (default 30 seconds in
 This page shows how to configure emedge-agent process check.
 
 # Configuration Steps
-- Ensure the emedge-agent is properly installed, as described <a href="{{< relref "getting_started/emedge-agent/installation.md" >}}">here</a>
+- Ensure the emedge-agent is properly installed, as described <a href="{{< relref "getting_started/emedge/emedge-agent/installation.md" >}}">here</a>
 - Navigate to emedge-agent installation directory (e.g. /opt/emedge-agent)
 - Edit config.yml in checks/process to add the process monitor configuration
 - Reload the emedge-agent configuration
