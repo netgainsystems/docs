@@ -36,13 +36,17 @@ This page consist of 3 section, installation, configure and start **Filebeat**
     - change to the Filebeat directory, look for the file named **filbeat.yml**
 	    * Windows directory: C:\Program Files\Filebeat\filbeat.yml
 	    * Linux and MacOS directory: /etc/filbeat/filebeat.yml
-	- edit and change the output as below  
-`#output.elasticsearch:`  
-       `#hosts: ["myEShost:9200"]`  
-`output.logstash:`  
-	   `hosts: [emedge_ip:5044]`  
-`ssl.verification_mode: "none"`
-		* emedge_ip is the IP address of emedge
+	- edit and change the output as below
+      ```
+      #output.elasticsearch:
+        #hosts: ["myEShost:9200"]
+      output.logstash:
+        hosts: [emedge_ip:5044]
+        ssl.enable: true
+        ssl.verification_mode: "none"
+      ```
+      **emedge_ip** is the IP address of emedge
+
   - Enable the modules:
     - Enable the modules for Filebeat to collect data from: 
 	  * Windows: `PS > .\filebeat.exe modules enable cisco`  

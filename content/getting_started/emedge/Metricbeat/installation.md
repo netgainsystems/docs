@@ -43,13 +43,17 @@ This page consist of 3 section, installation, configure and start **Metricbeat**
     - change to the Metricbeat directory, look for the file named **metricbeat.yml**
 	    * Windows directory: C:\Program Files\Metricbeat\metricbeat.yml
 	    * Linux and MacOS directory: /etc/metricbeat/metricbeat.yml
-	- edit and change the output as below  
-`#output.elasticsearch:`  
-       `#hosts: ["myEShost:9200"]`  
-`output.logstash:`  
-	   `hosts: [emedge_ip:5044]`  
-`ssl.verification_mode: "none"`
-		* emedge_ip is the IP address of emedge
+	- edit and change the output as below
+      ```
+      #output.elasticsearch:
+        #hosts: ["myEShost:9200"]
+      output.logstash:
+        hosts: [emedge_ip:5044]
+        ssl.enable: true
+        ssl.verification_mode: "none"
+      ```
+      **emedge_ip** is the IP address of emedge
+
   - Enable the modules:
     - Enable the modules for Metricbeat to collect data from: 
 	  * Windows: `PS > .\metricbeat.exe modules enable elasticsearch`  
