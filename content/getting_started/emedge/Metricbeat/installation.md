@@ -56,8 +56,10 @@ This page consist of 3 section, installation, configure and start **Metricbeat**
 
   - Enable the modules:
     - Enable the modules for Metricbeat to collect data from: 
-	  * Windows: `PS > .\metricbeat.exe modules enable elasticsearch`  
-	  * Linux: 'metricbeat modules enable system radius'
+	    * Windows: `PS > .\metricbeat.exe modules enable <module-name>`
+	    * Linux: `metricbeat modules enable system <module-name>`
+      * e.g.
+        * Linux: `metricbeat modules enable system elasticsearch radius`
 	- Configure each of the modules
 	  * Detail guide for configuration of each modules can be found <a href="https://www.elastic.co/guide/en/beats/metricbeat/7.14/metricbeat-modules.html" target="_blank">here</a>.
 
