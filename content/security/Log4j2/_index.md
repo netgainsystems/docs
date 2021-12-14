@@ -19,9 +19,9 @@ NetGain EM, CV and emedge version lower than v11.2.122
 ## Mitigation guide
 To help mitigate the risk of this vulnerability , NetGain provides below two options:
 
-- Qucik fix :  To add in the JAVA flag, add below in the /etc/ng.conf, and restart service
+- Quick fix :  To add in the JAVA flag, add below in the /etc/ng.conf, and restart service
   - `JAVA_OPTS="${JAVA_OPTS} -Dlog4j2.formatMsgNoLookups=true"`
-- Long term fix : To upgrade to version v11.2.122
+- Long term fix : To update to version v11.2.122
   - package of log4j2 will be udpated to version 2.15.0
 
 ## Ref
