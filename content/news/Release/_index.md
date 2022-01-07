@@ -3,14 +3,14 @@ title: Release notes
 weight: 8
 ---
 
-## NetGain EM Veresion Release Notes
+## NetGain EM Version Release Notes
 
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.121 build 213 (release date: 23rd December 2021)**  
   - Fixes:
-    - Fix cannot_create_apache_monitor_after_discovery_gna  
+    - Fix cannot_create_apache_monitor_after_discovery  
     - Fix Metrics_Types_Alignment_Issue  
     - Duplicate_Dashboard_Issue
     - Linux_agent_not_stopping
@@ -21,7 +21,7 @@ Please find below for the past release notes:
     - Fix issue_With_Device_View_Object_Deletion
     - Various SaaS issues and enhancements
   - Enhancements:
-    - NCM_to_add_support_palo_alto_device_gna
+    - NCM_to_add_support_palo_alto_device
     - Add NCM_huawei_device_6300
     - Add_symbol_host_description_in_notify_rules
 ----------------------------------------------------------------------------------------------------------------
