@@ -8,6 +8,21 @@ weight: 8
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.142 build 227 (release date: 13th January 2022)**  
+  - Fixes:
+    - Fix network_ping_monitor_shows_script_error
+    - Fix siem improve threat rules display
+    - Fix bug_log4j_vulnerability_fix_2.17
+    - emedge fix bug of netflow data not forwarded at emedge
+    - Fix ncm_snmpv3_not_working_issue
+    - Fix Bug 4329 trace route report
+    - Fix ncm_backup_need_another_password
+    - monitors refactor netgain/monitors/ipsvc/Url
+  - Enhancements:
+    - elasticsearch update code to support elasticsearch v7.16.2
+    - update year 2021 to 2022 in all copyright strings
+    - restapi improve on new gen apis
+---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.121 build 213 (release date: 23rd December 2021)**  
   - Fixes:
     - Fix cannot_create_apache_monitor_after_discovery  
