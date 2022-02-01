@@ -5,7 +5,7 @@ weight: 8
 
 ## NetGain EM Version Release Notes
 
-Please find below for the past release notes : 
+Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.142 build 227 (release date: 13th January 2022)**  
