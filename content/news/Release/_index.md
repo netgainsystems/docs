@@ -8,6 +8,44 @@ weight: 8
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.164 build 258 (release date: 27th Febuary 2022)**  
+  - Fixes:
+    - Fix Bug_4131_Standard_Report_Template_Issue_With_Adding_Objects
+    - Fix Bug_4423_Alarm_Annotation_Cannot_Be_Saved
+    - Fix Bug_4496_add_more_monitor_values_in_custom_script
+    - Fix Bug_4503_after_creating_global_template_agent_monitor_missing
+    - Fix Bug_4505_Service_Alarms_Enhancement
+    - Fix Bug 4515 - NetGain Agent - SSLHandshakeException - TSS
+    - Fix Bug_4516_Userdefined_Report_Date_Format
+    - Fix Bug_4518_ram_total_value_not_tally
+    - Fix Bug_4522_SIEM_ThreatRules_Datatables_Issue
+    - Fix V11_Bug_Issue_With_Device_Excel_Import
+    - cv fix samba mount issue
+    - Fix emedge dependencies on elasticsearch jar files
+    - reports fix report document template
+  - Enchancements:
+    - filebeat shows support filebeat versions for mappings
+    - filebeat add support for filebeat v7.16.3 templates and ingest pipelines, and emedge filebeat sidecar to v7.16.3
+    - saas improve to be able to download iossd.log (internal logs) even in cloud deploy mode 
+    - SIEM update elastic detection rules 
+    - monitor show refreshing when loading history data
+    - react-dashboards enhance react dashboards integrations
+---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.142 build 227 (release date: 13th January 2022)**  
+  - Fixes:
+    - Fix network_ping_monitor_shows_script_error
+    - Fix siem improve threat rules display
+    - Fix bug_log4j_vulnerability_fix_2.17
+    - emedge fix bug of netflow data not forwarded at emedge
+    - Fix ncm_snmpv3_not_working_issue
+    - Fix Bug 4329 trace route report
+    - Fix ncm_backup_need_another_password
+    - monitors refactor netgain/monitors/ipsvc/Url
+  - Enhancements:
+    - elasticsearch update code to support elasticsearch v7.16.2
+    - update year 2021 to 2022 in all copyright strings
+    - restapi improve on new gen apis
+---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.142 build 227 (release date: 13th January 2022)**  
   - Fixes:
     - Fix network_ping_monitor_shows_script_error
