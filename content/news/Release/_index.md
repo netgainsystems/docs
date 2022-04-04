@@ -8,6 +8,36 @@ weight: 8
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.201 build 318 (release date: 31st March 2022)**  
+  - Fixes:
+    - Fix Bug_4423_Alarm_Annotation_Cannot_Be_Saved
+    - Fix Bug_4423_Alarm_Annotation_Cannot_Be_Saved
+    - Fix Bug 4498 - Alibaba Cloud Voice Call - fix to use user's mobile number when notifying alicloud
+    - Fix Bug 4498 - Alibaba Cloud Voice Call - fix critical bug in sendSms
+    - Fix Bug 4498 - Alibaba Cloud Voice Call - fix critical bug in sendTts
+    - Fix Bug 4525 - v11-EM generic indice does not restore users' related info
+    - Fix Bug_4541_Unable_To_Generate_Network_Bandwidth_Report
+    - Fix Bug_4550 - CVS-emedge remote upgrade failed - change to use restart and run install script method for zip file (besides tar.gz file) too
+    - Fix Bug_4552_Notify_Now_Function_Not_Able_To_Select_User
+    - Fix Bug_4554_Temporarily_Ignore_VM_Groups_When_Powered_off
+    - Netflow fix error in parsing flow destination geo attributes
+    - Logs fix critical bug in log saving
+    - Logmgmt fix log archiver directory missing issue
+    - sms simplify netgain/notify/SmsSender and fix sms retries
+    - sms add support for -Dsms_flush=0 and -Dsms_flowcontrol=0 for sms modem code
+    - sms refactor SmsSender code to remove need for server and port parameter
+    - agent fixed socket agent ObjectOutputStream memory leak
+    - map hide all customized logical map right menu shortcuts and make available only via sys property
+    - logs fix bug in checking daily log limits
+  - Enchancements:
+    - vmware improve on VmwareVmNic monitoring
+    - Added synthetic monitoring
+    - cvs enhance period samba mount for CVS instances
+    - metricbeat enhance metricbeat recording
+    - monitor enhance websphere monitors to NOT require keystore or truststore per host
+    - bug_4532_poly_finance_inspur_storage_monitoring_gna
+    - bug_4481_peplink_device_speedfusion_convert_units_gna
+---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.164 build 258 (release date: 27th Febuary 2022)**  
   - Fixes:
     - Fix Bug_4131_Standard_Report_Template_Issue_With_Adding_Objects
