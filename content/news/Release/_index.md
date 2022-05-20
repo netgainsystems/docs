@@ -8,6 +8,34 @@ weight: 8
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.236 build 368 (release date: 20th May 2022)**  
+  - Fixes:
+    - Fix Bug_4463_cv_ncm_bulk_modify_issue_gna
+    - Fix Bug_4489_my_town_cisco_wireless_client_monitor_with_report_index_at_cv - set the index max results to 50000 (bigger)
+    - Fix Bug 4569 - [change request]SIEM dashboard enable the table format
+    - Fix Bug 4571 - [change request]v11-SIEM- enable to customize the SIEM and log watch alarm to
+    - Fix Bug 4579 - v11.2.x Archimon | NCM Scheduler not working - fixed by using purely cron expressions
+    - SNMP v3 rename the GUI input fields properly to auth protocol, auth password, priv protocol and priv password
+    - metricbeat improve MO tagging for kubernetes
+    - restapi fix helper message
+    - Perf - Fix critical bug of sometimes perf counter index cannot be found
+    - Perf - Fix data intervals for longer time periods when query history perf data
+    - NCM - Fix devices table sorting
+    - NCM - Fix schedule trigger issue (sleep interval too long, so might missed the actual second specified in cron expression
+    - Notify - Add support for fixed smtp server via -Dsmtp_fixed_....=xx
+    - Logs - Fix sometimes cannot find logs belonging to previous day log index, due to GMT timezone
+  - Enchancements:
+    - Add support for 'searchTagsInAncestors' - change to use boolean instead of string
+    - snmpv3 enhance to support new authentication protocols HMAC128SHA224 HMAC192SHA256 HMAC256SHA384 HMAC384SHA512
+    - emedge trim package to make it smaller in size for the install zip file
+    - Add Objects to datasource support
+    - Perf - Optimize perf history data query to query only needed counters, and not all counters everytime
+    - Perf - Improve history data query for perf history data
+    - NCM - Make the pull ncm config handler at MomAgent (emedge) side async to improve efficiency
+    - NCM - Make default schedule backup as daily at 3am
+    - NCM - Add schedule loggings shown on GUI and also skipped saving to DB if there are not changes detected
+    - JWT - Add jwt expiry check and also api for refresh token
+---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.201 build 318 (release date: 31st March 2022)**  
   - Fixes:
     - Fix Bug_4423_Alarm_Annotation_Cannot_Be_Saved
