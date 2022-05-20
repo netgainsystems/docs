@@ -8,7 +8,7 @@ weight: 8
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
-**NetGain EM Change Log v11.2.236 build 368 (release date: 20th May 2022)**  
+**NetGain EM Change Log v11.2.236 build 368 (release date: 20th May)**  
   - Fixes:
     - Fix Bug_4463_cv_ncm_bulk_modify_issue_gna
     - Fix Bug_4489_my_town_cisco_wireless_client_monitor_with_report_index_at_cv - set the index max results to 50000 (bigger)
