@@ -8,6 +8,34 @@ weight: 8
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.276 build 416 (release date: 14th Jul 2022)**  
+  - Fixes:
+    - Fix security vulnerability - 2. H-01: Multiple Reflected Cross-Site-Scripting Issues
+    - Fix singtel security vulnerability - C-01: Password Stored in Recoverable Format Rating: Critical (9.9)
+    - Fix Bug 4589_display_user_in_dashboard
+    - Fix Bug 4599 - fix interface history graph units display (e.g. Kbps to Mbps)
+    - Fix Bug 4604 - v11.2.x | Threat Rules cannot create new rule
+    - Fix Bug 4605 - v11.2.x | Netflow query error, but reports can show data
+    - Fix Bug 4606 - v11.2.x | GROK expression hangs when adding 3 or more expressions
+    - Arista monitors - fix errorneous discovery
+    - Logger supports log report with multi-line query expressions - fix chart display
+    - Monitors restore back MemoryStorage monitors for AS400
+    - Logs improve on timeseries data query to use local timezone instead of GMT timezone
+    - APM fix real user monitoring transaction display
+    - Improve garbage collection of tomcat sessions (auto logout
+  - Enchancements:
+    - Anomaly detection - enhance job display
+    - Elasticsearch - add support for latest v7.17.4 elasticsearch and filebeat
+    - Synthetic monitoring - enhance
+    - AI anomaly detection monitoring prototype via -Dml=1
+    - vmware refactor vmware monitors code
+    - Monitors enhance BgpPeer monitor
+    - Supports 90/95/98 thpercentile methods in complex search expressions
+    - NCM longer timeout to handle cisco configurations taking a long time to pull
+    - NCM improves device mapping for cisco 9200 switches
+    - NCM improve on NCM device table display to display last backup size
+    - NCM update last backup time, even if config pulled did not change
+---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.236 build 368 (release date: 20th May 2022)**  
   - Fixes:
     - Fix Bug_4463_cv_ncm_bulk_modify_issue_gna
