@@ -1,0 +1,391 @@
+---
+title: Release notes
+weight: 8
+---
+
+## NetGain EM Version Release Notes
+
+Please find below for the past release notes: 
+
+---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.276 build 416 (release date: 14th Jul 2022)**  
+  - Fixes:
+    - Fix security vulnerability - 2. H-01: Multiple Reflected Cross-Site-Scripting Issues
+    - Fix singtel security vulnerability - C-01: Password Stored in Recoverable Format Rating: Critical (9.9)
+    - Fix Bug 4589_display_user_in_dashboard
+    - Fix Bug 4599 - fix interface history graph units display (e.g. Kbps to Mbps)
+    - Fix Bug 4604 - v11.2.x | Threat Rules cannot create new rule
+    - Fix Bug 4605 - v11.2.x | Netflow query error, but reports can show data
+    - Fix Bug 4606 - v11.2.x | GROK expression hangs when adding 3 or more expressions
+    - Arista monitors - fix errorneous discovery
+    - Logger supports log report with multi-line query expressions - fix chart display
+    - Monitors restore back MemoryStorage monitors for AS400
+    - Logs improve on timeseries data query to use local timezone instead of GMT timezone
+    - APM fix real user monitoring transaction display
+    - Improve garbage collection of tomcat sessions (auto logout
+  - Enchancements:
+    - Anomaly detection - enhance job display
+    - Elasticsearch - add support for latest v7.17.4 elasticsearch and filebeat
+    - Synthetic monitoring - enhance
+    - AI anomaly detection monitoring prototype via -Dml=1
+    - vmware refactor vmware monitors code
+    - Monitors enhance BgpPeer monitor
+    - Supports 90/95/98 thpercentile methods in complex search expressions
+    - NCM longer timeout to handle cisco configurations taking a long time to pull
+    - NCM improves device mapping for cisco 9200 switches
+    - NCM improve on NCM device table display to display last backup size
+    - NCM update last backup time, even if config pulled did not change
+---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.236 build 368 (release date: 20th May 2022)**  
+  - Fixes:
+    - Fix Bug_4463_cv_ncm_bulk_modify_issue_gna
+    - Fix Bug_4489_my_town_cisco_wireless_client_monitor_with_report_index_at_cv - set the index max results to 50000 (bigger)
+    - Fix Bug 4569 - [change request]SIEM dashboard enable the table format
+    - Fix Bug 4571 - [change request]v11-SIEM- enable to customize the SIEM and log watch alarm to
+    - Fix Bug 4579 - v11.2.x Archimon | NCM Scheduler not working - fixed by using purely cron expressions
+    - SNMP v3 rename the GUI input fields properly to auth protocol, auth password, priv protocol and priv password
+    - metricbeat improve MO tagging for kubernetes
+    - restapi fix helper message
+    - Perf - Fix critical bug of sometimes perf counter index cannot be found
+    - Perf - Fix data intervals for longer time periods when query history perf data
+    - NCM - Fix devices table sorting
+    - NCM - Fix schedule trigger issue (sleep interval too long, so might missed the actual second specified in cron expression
+    - Notify - Add support for fixed smtp server via -Dsmtp_fixed_....=xx
+    - Logs - Fix sometimes cannot find logs belonging to previous day log index, due to GMT timezone
+  - Enchancements:
+    - Add support for 'searchTagsInAncestors' - change to use boolean instead of string
+    - snmpv3 enhance to support new authentication protocols HMAC128SHA224 HMAC192SHA256 HMAC256SHA384 HMAC384SHA512
+    - emedge trim package to make it smaller in size for the install zip file
+    - Add Objects to datasource support
+    - Perf - Optimize perf history data query to query only needed counters, and not all counters everytime
+    - Perf - Improve history data query for perf history data
+    - NCM - Make the pull ncm config handler at MomAgent (emedge) side async to improve efficiency
+    - NCM - Make default schedule backup as daily at 3am
+    - NCM - Add schedule loggings shown on GUI and also skipped saving to DB if there are not changes detected
+    - JWT - Add jwt expiry check and also api for refresh token
+---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.201 build 318 (release date: 31st March 2022)**  
+  - Fixes:
+    - Fix Bug_4423_Alarm_Annotation_Cannot_Be_Saved
+    - Fix Bug_4423_Alarm_Annotation_Cannot_Be_Saved
+    - Fix Bug 4498 - Alibaba Cloud Voice Call - fix to use user's mobile number when notifying alicloud
+    - Fix Bug 4498 - Alibaba Cloud Voice Call - fix critical bug in sendSms
+    - Fix Bug 4498 - Alibaba Cloud Voice Call - fix critical bug in sendTts
+    - Fix Bug 4525 - v11-EM generic indice does not restore users' related info
+    - Fix Bug_4541_Unable_To_Generate_Network_Bandwidth_Report
+    - Fix Bug_4550 - CVS-emedge remote upgrade failed - change to use restart and run install script method for zip file (besides tar.gz file) too
+    - Fix Bug_4552_Notify_Now_Function_Not_Able_To_Select_User
+    - Fix Bug_4554_Temporarily_Ignore_VM_Groups_When_Powered_off
+    - Netflow fix error in parsing flow destination geo attributes
+    - Logs fix critical bug in log saving
+    - Logmgmt fix log archiver directory missing issue
+    - sms simplify netgain/notify/SmsSender and fix sms retries
+    - sms add support for -Dsms_flush=0 and -Dsms_flowcontrol=0 for sms modem code
+    - sms refactor SmsSender code to remove need for server and port parameter
+    - agent fixed socket agent ObjectOutputStream memory leak
+    - map hide all customized logical map right menu shortcuts and make available only via sys property
+    - logs fix bug in checking daily log limits
+  - Enchancements:
+    - vmware improve on VmwareVmNic monitoring
+    - Added synthetic monitoring
+    - cvs enhance period samba mount for CVS instances
+    - metricbeat enhance metricbeat recording
+    - monitor enhance websphere monitors to NOT require keystore or truststore per host
+    - bug_4532_poly_finance_inspur_storage_monitoring_gna
+    - bug_4481_peplink_device_speedfusion_convert_units_gna
+---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.164 build 258 (release date: 27th Febuary 2022)**  
+  - Fixes:
+    - Fix Bug_4131_Standard_Report_Template_Issue_With_Adding_Objects
+    - Fix Bug_4423_Alarm_Annotation_Cannot_Be_Saved
+    - Fix Bug_4496_add_more_monitor_values_in_custom_script
+    - Fix Bug_4503_after_creating_global_template_agent_monitor_missing
+    - Fix Bug_4505_Service_Alarms_Enhancement
+    - Fix Bug 4515 - NetGain Agent - SSLHandshakeException - TSS
+    - Fix Bug_4516_Userdefined_Report_Date_Format
+    - Fix Bug_4518_ram_total_value_not_tally
+    - Fix Bug_4522_SIEM_ThreatRules_Datatables_Issue
+    - Fix V11_Bug_Issue_With_Device_Excel_Import
+    - cv fix samba mount issue
+    - Fix emedge dependencies on elasticsearch jar files
+    - reports fix report document template
+  - Enchancements:
+    - filebeat shows support filebeat versions for mappings
+    - filebeat add support for filebeat v7.16.3 templates and ingest pipelines, and emedge filebeat sidecar to v7.16.3
+    - saas improve to be able to download iossd.log (internal logs) even in cloud deploy mode 
+    - SIEM update elastic detection rules 
+    - monitor show refreshing when loading history data
+    - react-dashboards enhance react dashboards integrations
+---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.142 build 227 (release date: 13th January 2022)**  
+  - Fixes:
+    - Fix network_ping_monitor_shows_script_error
+    - Fix siem improve threat rules display
+    - Fix bug_log4j_vulnerability_fix_2.17
+    - emedge fix bug of netflow data not forwarded at emedge
+    - Fix ncm_snmpv3_not_working_issue
+    - Fix Bug 4329 trace route report
+    - Fix ncm_backup_need_another_password
+    - monitors refactor netgain/monitors/ipsvc/Url
+  - Enhancements:
+    - elasticsearch update code to support elasticsearch v7.16.2
+    - update year 2021 to 2022 in all copyright strings
+    - restapi improve on new gen apis
+---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.142 build 227 (release date: 13th January 2022)**  
+  - Fixes:
+    - Fix network_ping_monitor_shows_script_error
+    - Fix siem improve threat rules display
+    - Fix bug_log4j_vulnerability_fix_2.17
+    - emedge fix bug of netflow data not forwarded at emedge
+    - Fix ncm_snmpv3_not_working_issue
+    - Fix Bug 4329 trace route report
+    - Fix ncm_backup_need_another_password
+    - monitors refactor netgain/monitors/ipsvc/Url
+  - Enhancements:
+    - elasticsearch update code to support elasticsearch v7.16.2
+    - update year 2021 to 2022 in all copyright strings
+    - restapi improve on new gen apis
+---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.121 build 213 (release date: 23rd December 2021)**  
+  - Fixes:
+    - Fix cannot_create_apache_monitor_after_discovery  
+    - Fix Metrics_Types_Alignment_Issue  
+    - Duplicate_Dashboard_Issue
+    - Linux_agent_not_stopping
+    - log4j - fix log4j zero-day vulnerability - CVE-2021-44228,CVE-2021-45046
+    - Dell switches not able to pull config 
+    - ncm Cisco_not_able_to_pull_in_full
+    - Fix issue_With_Integrations_Alignment
+    - Fix issue_With_Device_View_Object_Deletion
+    - Various SaaS issues and enhancements
+  - Enhancements:
+    - NCM_to_add_support_palo_alto_device
+    - Add NCM_huawei_device_6300
+    - Add_symbol_host_description_in_notify_rules
+----------------------------------------------------------------------------------------------------------------
+**NetGain EM Change Log v11.2.67 build 121 (release date: 28th September 2021)**  
+  - Fixes:
+    - Biz_View_Issue_When_Mo_Not_Found
+    - notify fix notification issues when alarm count changes before sending out the first notification requests
+    - User_Data_Migration_Issue_With_Latest_Version
+    - googlemap displays a clean map with POIs
+    - monitors add back url monitor counters to avoid warning logs
+    - monitors fixed Alcatel Fan monitor perf counter names
+    - Issue_With_Add_Widget_Screen_Not_Scrollable
+    - ncm_snmpv3_device_import_failed
+    - Special_Character_In_Global_Rules_Exported_Excel
+    - security improve display of API token for user in user view
+    - Bug_4294_APM_Watcher_table_Cursor_Formatting
+    - dashboard implement support to plot history graphs for multiple objects of the same type
+    - dashboard feature to support add metrics view to dashboard
+    - logs improve search result to use aggregate labels instead of field name, if available
+    - monitor gui - update and improve the status text display for monitors in monitor list view
+    - topo remove icons from network topo view, so that screencapture works
+    - GUI remove some javascript warnings during initial page load
+    - netflow flows analyzer blank graph issue
+    - monitor reimplement perf forecast function in monitor history view
+    - netflow add/remove filter buttons for IP columns in flows table
+    - logs improve saving of queries to include filter settings too
+  - Enhancements:
+    - metricbeat enhance support for more metricbeat system metrics - refactor code
+----------------------------------------------------------------------------------------------------------------
+**NetGain EM Change Log 11.1.299 build 33 (release date: 27th June 2021)**
+  - Fixes:
+    - Issue with loading pdf reports in cvs instances
+    - Adhoc reports to show heading on charts with multiple counters
+    - IPMI emedge_latest_version_cannot_discover_monitor
+    - Monitor make device dashboard show positive value in ylabels for traffic graphs
+    - User defined reports table to show only selected counters
+    - Tomcat change shutdown port from 8005 to 8006
+    - Fix 2FA login with google captcha enabled and also refactor
+    - Table_Canvas_is_Not_Resizing_according_To_Widget_Height
+    - Fix bug of MO corruption when moving/copying MOs tree
+  - Enhancements:
+    - APM slight GUI improvements
+    - Logs improves logs display and search UX
+    - Supports export/import MO tree via GUI - enhancements
+    - Add DNS hostname when adding device, if hostname is not found from snmp
+----------------------------------------------------------------------------------------------------------------
+**NetGain EM Change Log v11.1.240 build 581 (release date: 27th April 2021)**
+  - Fixes:
+    - Issue with creating new dashboards for non admin users
+    - Fix capacity prediction issues
+    - Fix metric objects sorting issue
+    - Fix netlow search and reports toggle fields
+    - Fix device import issue
+    - Time range select by default not showing any values
+    - APM transaction span display issue when first span is too long
+    - Role add topo view when no views
+    - Modal close button shows double icons
+    - Too many decimal points for value in adhoc report
+    - Error saving global rules
+    - Horizontal Privelege Escalation VAPT fix
+    - Path Traversal VAPT fix 
+  - Enhancements:
+    - Added TalariaX notification integration
+    - Enhance SaasMonitor
+----------------------------------------------------------------------------------------------------------------
+**NetGain EM Change Log v11.1.203 build 522 (release date: 27th February 2021)**
+
+  - Fixes:
+    - Fix monitor status list screen flickering issue
+    - Fix mobile web view bug 
+    - Use TLS1.2 and disable weak Ciphers to avoid TLS ROBOT Vulnerability
+    - Fixed checkboxes in alarm page issue and alarms dropdown issue on page load
+    - SIEM Dashboard display error when query string contains as 'xxx'
+  - Enhancements:
+    - Implement logs compliance reports
+----------------------------------------------------------------------------------------------------------------
+**NetGain EM Change Log v11.1.185 build 493 (release date: 29th January 2021)**
+  - Fixes:
+  Fix netflow recording
+  Fix CVS empty site showing disabled status
+  Fix netflow application deletion issue
+  Fix orphan mos deletion
+  - Enhancements:
+    - Improves on logon screen css
+    - Prototype changes in alicloud integration
+----------------------------------------------------------------------------------------------------------------
+**NetGain EM Change Log v11.1.175 build 420 (release date: 28th December 2020)**
+
+  - Fixes:
+    - Fix critical bug of MOManger.deleteMO only deleting immediate child MOs and not grandchild MOs
+    - Fix metrics report batch delivery not able to schedule delivery
+    - Fix adding business view in role management
+    - Fix not able to create monitor after auto discover
+    - Do not annotate problem when auto discharging
+    - Fix critical issue of MO not delete at edge when delete MO at CV
+  - Enhancements:
+    - Add MacroSan new monitors
+    - Add BizView SLA batch reports
+    - Enhance batch reports customization
+    - Enhance agent to support IPv6
+    - Implemented Arista switch optical sensors 
+    - Improve the monitor history view page
+    - Improve on capacity planning estimation
+---------------------------------------------------------------------------------------------------------------------
+**NetGain EM Release Notes v11.1.160 build 408 (release date: 27th Nov 2020)**
+  - Fixes:
+    - Mobile view formatting
+    - Fix Interface monitor Input Output Utilization Units
+    - Fix APM transactions query wrong (not based on time range)
+    - Fix APM transaction filter search
+    - Fix agent make no rmi as default true. Make socket agent method as default.
+    - Fix critical issue of socket agent connection not secure.
+    - Fix issue with saving new assets
+    - Fix critical snmpv3 trap receive
+    - Fix SNMP trap varbind ingest issue
+    - Fix 2fa screen formatting
+    - Fix logical map display severity colour for normal status
+    - Fix monitor graph display issue
+    - SIEM alarms export
+    - Logical map google map case sensitive comparision with new map
+    - Monitor object jump links
+    - Time range select problems for beats indexs (GMT-based indices)
+    - Logs_summary dashboard click issue
+    - Threat detections enable/disable feature
+    - Fix opsgenie pager duty issues
+  - Enhancements:
+    - Improve logs and apm dashboard widgets
+    - Add APM widgets
+    - Allow auto APM drill down based on URL hash
+    - Improve on dashboards for logs widgets
+    - Add support for engine ID in SNMP USM Users edit
+    - Add PDF support for log reports delivery
+    - Support running emedge as a windows service
+    - Add AliCloud Notification mechanism
+    - Implement current alarms export to excel button
+    - Add ServiceNow notification integration
+---------------------------------------------------------------------------------------------------------------------
+**NetGain EM Change Log v11.1.141 build 396 (release date: 27th October 2020)**
+  - Fixes:
+    - Fix ApmWatcher bug that it does not generate alarm
+    - Fix input output utilization units
+    - Fix primary menu expand bug
+    - Fix issue with saving new assets
+  - Enhancements:
+    - Improve elastic query format to include sorting direction
+    - Add default monitoring dashboard
+    - Enhance alarm views
+    - Update default SIEM security threat dashboard
+    - Add APM response time dashboard widget
+    - Improve log summary dashboard widget
+    - Add APM transaction mapper
+    - Add selectable colors for dashboard
+    - Enhanced download option for monitor history graph
+    - Improve on logs reports to indicate no data
+    - Enhance logmgmt to show elasticsearch ingest time performance on web GUI
+    - Add netflow histogram
+---------------------------------------------------------------------------------------------------------------------
+**NetGain EM Change Log v11.1.118 build 361 (release date: 28th September 2020)**
+  - Fixes:
+    - Fix bug of enable/disable mapping rules due to multiple transformers
+    - NetGain alert box dark theme formatting
+    - Fix history data issue with moving devices
+    - Fix screen overflow when expandable primary menu is clicked
+    - Fix bug of role users not saved when users added to role
+    - Fix deleteMO issue when parent MO is not found
+  - Enhancements:
+    - Improve metric reports performance
+    - Enhance multiple metrics for combined reports
+    - Enhance metric reports to add in dashboard
+    - Add top-n report prototypes
+    - Prototype SIEM compliance reports
+    - Enhance syslog collector to handle invalid/TCP format
+---------------------------------------------------------------------------------------------------------------------
+**NetGain EM Change Log v11.1.90 build 322 (release date: 27th August 2020)**
+  - Fixes:
+    - Removed obsoleted cisco process monitors
+    - Fix LogStashProxy for beats logs collection
+    - Do not prompt for CV IP, if 'cv' environment is already set
+    - Forwards netflow traffic from edge to CV
+    - Fixed EV multiple IP range discovery in CV
+    - Dell switch not able to monitor
+    - Fix issue with progress bar while deleting devices
+    - Fix DNS resolve hostnames in netflow, and logs
+    - Fix Netflow: Report download: When there is no data, downloafd report is throwing 404 exception
+    - Fix bug for snmp v3 authNoPriv security level
+    - Fix snmp v3 engine ID inconsistencies
+    - Force need for JRE 1.8.0_162 and above, to support AES192/256 encryption
+  - Enhancements:
+    - Add support for remote selenium web testing
+    - Make HTTP forwards to HTTPS by default
+    - Add notify method for 'Wechat' messenging app
+    - Add notify method for 'Telegram' messenging app
+    - Enhance SIEM hunt manager to avoid reloading default rules all the time
+    - Improve on monitors discovery
+    - Add export feature for CiscoPSIRT
+    - Add notify method: Microsoft Teams
+    - Enhance apm transaction waterfall display
+    - Auto CI build: v11.1.73b300 (created on Tue Aug  4 03:11:49 SGT 2020)
+---------------------------------------------------------------------------------------------------------------------
+**NetGain EM Change Log v11.1.62 build 289 (release date: 27th July 2020)**
+  - Fixes:
+    - Fixed bugs in forwarding trap from Edge to CV
+    - SIEM netflow reports creating duplicates
+    - Home wrong warning color
+    - SIEM NetFlow reports saving empty
+    - Log analytics doesn’t show the date when opted for one month
+    - Update log4j to v2.13.3
+    - Fix perf data display column unit label issue
+    - Fix logo issue in dark mode
+    - Fix table scroll issue
+    - Fix SSL issues in CSV: Edge to CV connection
+    - Fix for MOs loading
+    - Fix status count not accurate 
+    - Alarms click details link of any alarm pops up the details with Close button is hidden
+    - Fix left hand side menu, when hover mouse over the icon, there is no menu item displayed
+  - Enhancements:    
+    - Implemented Snmp4JTrapListener to replace NgSnmpTrapListener (enabled using -Dsnmp4j_trap_listener=1)
+    - Include windows event logs as part of sample logs in product
+    - Add threat intelligence: talosintelligence
+    - Enhance on log reports
+    - Snmp4j library update
+    - Improve on APM transaction display
+    - Add optical power monitor for H3C switches
+    - Add sangfo wac monitors
+    - Make perf history chart types selectable
+
+---------------------------------------------------------------------------------------------------------------------
+**v11.1.43b266 v11 Launch**
