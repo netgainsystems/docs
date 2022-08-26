@@ -1,5 +1,5 @@
 ---
-title: Apache Log4j2 Remote Code Execution
+title: Apache Log4j2 Vulnerability
 weight: 7
 ---
 

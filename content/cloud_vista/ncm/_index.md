@@ -1,5 +1,5 @@
 ---
-title: Network Configuration Management
+title: NCM
 weight: 10
 ---
 

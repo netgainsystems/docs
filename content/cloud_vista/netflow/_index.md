@@ -1,5 +1,5 @@
 ---
-title: Network Traffic Analytics
+title: NetFlow
 weight: 9
 ---
 

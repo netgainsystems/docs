@@ -1,5 +1,5 @@
 ---
-title: Business Views (Bizviews)
+title: Business Views
 weight: 4
 ---
 
