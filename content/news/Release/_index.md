@@ -8,6 +8,30 @@ weight: 8
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.318 build 466 (release date: 13th Sep 2022)**  
+  - Fixes:
+    - Fix Bug_4540_oracle_tablespace_monitor_sql_query_time_out
+    - Fix Bug 4614_uptime_monitor_improvement
+    - Fix Bug 4617 disk_report_not_showing_all_disks
+    - Fix Bug 4620 new request - Sharing of Custom reports - shows the 'shared' indication on web page
+    - Fix Bug 4624 historical_graph_long_decimal_point
+    - Fix Bug 4625 Security Audit Issues - Vulnerabilities 
+    - Fix Bug 4630 EM-v11-dashboard display auto refresh stuck - fix full screen issue
+    - Fix Bug 4645 v11.2.x | SIEM add mapping feature not able to load
+    - Fix Bug 4646 v11-EM-too many opened snmp session
+    - Fix Bug 4653 topology_l2_views_cant_edit
+    - vmware fix slow monitoring when vmware sdk authentication fails for many monitors
+  - Enchancements:
+    - Dashboards add page for user with admin role to delete other users dashboards
+    - Agent supports auto device discovery when socket agent connects via -Dautodiscover_agent_devices=1 parameter
+    - NCM implement NCM device testing - extend to support for emedge
+    - NCM add more ncm scripts to support arista and huawei devices
+    - Disable config backups by default, unless -Dconfigs_backup=1 is set
+    - Elastic enable auto snapshots if -Delastic_repo_path=xxx is defined
+    - CVS add redis support (netgain.sac.CvRedis class)
+    - CVS skip periodic check license for netgain saas
+    - Improve on license warning msgs
+---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.276 build 416 (release date: 14th Jul 2022)**  
   - Fixes:
     - Fix security vulnerability - 2. H-01: Multiple Reflected Cross-Site-Scripting Issues
