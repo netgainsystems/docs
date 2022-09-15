@@ -40,4 +40,5 @@ slug: installation
   - All logs will be saved into **emedge-agent.log** in the installation directory
   - To stop emedge, simply run **emedge-agent stop**
   - Note: run **emedge-agent -h** for more help on other commands
+  - <a href="https://download.{{% domain %}}/emedge-agent/change_logs.txt" target="_blank">Change logs</a>
 
