@@ -8,6 +8,78 @@ weight: 8
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.394 build 553 (release date: 09th Nov 2022)**  
+  - Fixes:
+    - Fix Bug 4051 - 11.1.182| Airport| Alicloud Sms wrong info - add 
+support to test sms message using json format based on the template format corresponding to the supplied templateCode
+    - Fix Bug 4366 - v11-SaaS-SIEM log sources page is not able to display log source from filebeat
+    - Fix Bug 4480_cpu_memory_utilization_additional_info_not_shown_gna
+    - Fix Bug 4646 - v11-EM-too many opened snmp session
+    - Fix Bug 4664 metric beat windows services adding gna
+    - Fix Bug Archimon - SNMP custom monitors not able to capture data
+    - Fix Bug 4665_siem_log_watcher_needs_severity_setting_gna
+    - Fix Bug 4666 - [change request] v11-SIEM-MAH windows event logs forwarding
+    - Fix Bug 4668 - handle potential sms.java hanging issue
+    - Fix Bug 4683 - v11.2.x | metricbeat monitors not updating when device is down
+    - Fix Bug 4685 - v11-EM-wanjia-EM missing MOs issues - add delay in shutdown hook until MOs move operation is completed, if there is an existing MO operation in progress
+    - TSS-critical fix for monitorAction not triggered
+    - TSS-fix missing counter index issues for some monitors
+    - TSS-fix elastic data purging wrongly purging data using shorter days (meant for saas) for on prem
+    - TSS-agent fix default HOME_DIR for agent
+    - TSS-agent fix issue when old socket agent connection becomes invalid
+    - TSS-logs fix daily logs volume usage calculation error due to beats indices in gmt time format
+    - TSS-logmgmt fix index name error in CVS cloud when ingesting sample logs   
+
+  - Enchancements:
+    - TSS-synthetic - improve on stability
+    - TSS-synthetic - implement alarm generation
+    - TSS-synthetic - implement frontend logic, to display past transactions and steps
+    - TSS-synthetic - delete executions and screenshots too, when script is deleted
+    - TSS-synthetic monitoring - move to be under 'apm' module
+    - TSS-elastic retain snapshots for 1st and 15th of the month
+    - TSS-elastic improve query api to throw exception with query string has syntax errors
+    - TSS-elastic reset CvsManager configs cache when invoke ElasticBackupUtil.purgeNow method
+    - TSS-ncm encodes support for encrypting NCM data with public key on emedge
+    - TSS-metricbeat enhance AWS monitors
+    - TSS-metricbeat enhance AWS - enhance S3 and NatGateway mappings
+    - TSS-metricbeat enhance AWS - enhance ELB monitors
+    - TSS-metricbeat enhance AWS - improve on MO tagging
+    - TSS-metricbeat enhance AWS mappings and add IIS mappings
+    - TSS-cloud copy modules.d folder from var (if exists) for beats sidecars in cloud 
+    - TSS-cloud enable apm-server sidecar on emedge running on Azure cloud
+    - TSS-web allow monitor list page to remember the table search string different for different objects (i.e. fdns) - revert this change
+    - TSS-ml improve performance for AIOps pages
+    - TSS-ml improve to not run jobs on cloud yet
+    - TSS-ml enhance on ML metrics anomaly detection logic
+    - TSS-ml added support for more job types including logs, threats, apm, netflow    
+    - TSS-grafana add support to create and push plugin to download server
+    - TSS-sms add support of -Dsms_keepalive_mins=xxx (default 60) to reconnect sms modem periodically
+    - TSS-metrics add metric names
+    - TSS-perf support 'data copy' feature for missing data
+    - TSS-emedge supports -Dcloud_edge=1 when deploy emedge in azure cloud
+    - TSS-change -Delastic_snapshot_retain_days default from 30 to 90 
+    - TSS-improve on device info mapping to vendors and models    
+    - TSS-enhance to save elastic queries templates to backend DB instead of just browser cache
+    - TSS-topo refactor L2 topology analyzer code and unit tests
+    - TSS-agent improve socket agent stability
+    - TSS-alarm autoaction - add support for powershell scripts (ps1 extension)
+    - TSS-alarm improve alarm elastic indexing to avoid out of memory    TSS-vmware monitoring - improve debugging logs
+    - TSS-support customized ng.conf for CVS cloud instances (e.g. /mnt/common/etc/cvs-livedemo/ng.conf)
+    - TSS-supports set runtime parameters e.g. via 'run.sh netgain.sac.SetParams logstash_record_filename xxx'   
+    - TSS-logmgmt pop error when log watcher rule expression specified is invalid, during save
+    - TSS-do not allow change of data rentention settings in CVS cloud environment. do it via CRM
+    - TSS-siem update elastic detection rules    
+    - TSS-add SysmonSimulator  
+    - TSS-ncm enhance NCM to avoid detect as config changes is only line changed is '! Last configuration change at...'
+    - TSS-ncm implement NCM device testing - extend to support for emedge    
+    - TSS-update cv docker image to remove elasticsearch version embeddings for v7.9.3 and v7.16.3
+    - TSS-pingmon optimize memory  
+    - TSS-dashboards add page for user with admin role to delete other users dashboards    
+    - TSS-improve on license warning msgs    
+    - TSS-optimize memory usage by reducing max queue size MomAgent    
+    - TSS-optimize memory usage by reducing buffer size for  FlowBufferPool and NorthboundManager    
+    - TSS-license warnings to MSTeam for SaaS
+---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.318 build 466 (release date: 13th Sep 2022)**  
   - Fixes:
     - Fix Bug_4540_oracle_tablespace_monitor_sql_query_time_out
@@ -412,4 +484,4 @@ Please find below for the past release notes:
     - Make perf history chart types selectable
 
 ---------------------------------------------------------------------------------------------------------------------
-**v11.1.43b266 v11 Launch**
+
