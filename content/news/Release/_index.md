@@ -8,6 +8,78 @@ weight: 8
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v11.2.394 build 553 (release date: 16th Nov 2022)**  
+  - Fixes:
+    - Fix Bug 4051 - 11.1.182|Alicloud Sms wrong info - add 
+support to test sms message using json format based on the template format corresponding to the supplied templateCode
+    - Fix Bug 4366 - v11-SaaS-SIEM log sources page is not able to display log source from filebeat
+    - Fix Bug 4480 - cpu_memory_utilization_additional_info_not_show
+    - Fix Bug 4646 - v11-EM-too many opened snmp session
+    - Fix Bug 4664 - metric beat windows services adding
+    - Fix Bug 4665 - siem_log_watcher_needs_severity_setting
+    - Fix Bug 4666 - [change request] v11-SIEM-MAH windows event logs forwarding
+    - Fix Bug 4668 - handle potential sms.java hanging issue
+    - Fix Bug 4683 - v11.2.x | metricbeat monitors not updating when device is down
+    - Fix Bug 4685 - v11-EM-missing MOs issues - add delay in shutdown hook until MOs move operation is completed, if there is an existing MO operation in progress
+    - Fix Bug - SNMP custom monitors not able to capture data
+    - Fix for critical monitor Action not triggered
+    - Fix missing counter index issues for some monitors
+    - Fix elastic data purging wrongly purging data using shorter days (meant for saas) for on prem
+    - Fix default HOME_DIR for agent
+    - Fix issue when old socket agent connection becomes invalid
+    - Fix daily logs volume usage calculation error due to beats indices in gmt time format
+    - Fix index name error in CVS cloud when ingesting sample logs   
+
+  - Enchancements:
+    - Synthetic - improve on stability
+    - Synthetic - implement alarm generation
+    - Synthetic - implement frontend logic, to display past transactions and steps
+    - Synthetic - delete executions and screenshots too, when script is deleted
+    - Synthetic monitoring - move to be under 'apm' module
+    - Elastic retain snapshots for 1st and 15th of the month
+    - Elastic improve query api to throw exception with query string has syntax errors
+    - Elastic reset CvsManager configs cache when invoke ElasticBackupUtil.purgeNow method
+    - NCM encodes support for encrypting NCM data with public key on emedge
+    - Metricbeat enhance AWS monitors
+    - Metricbeat enhance AWS - enhance S3 and NatGateway mappings
+    - Metricbeat enhance AWS - enhance ELB monitors
+    - Metricbeat enhance AWS - improve on MO tagging
+    - Metricbeat enhance AWS mappings and add IIS mappings
+    - Cloud copy modules.d folder from var (if exists) for beats sidecars in cloud 
+    - Cloud enable apm-server sidecar on emedge running on Azure cloud
+    - Allow monitor list page to remember the table search string different for different objects (i.e. fdns) - revert this change
+    - Improve performance for AIOps pages
+    - Improve to not run jobs on cloud yet
+    - Enhance on ML metrics anomaly detection logic
+    - Added support for more job types including logs, threats, apm, netflow    
+    - Grafana add support to create and push plugin to download server
+    - SMS add support of -Dsms_keepalive_mins=xxx (default 60) to reconnect sms modem periodically
+    - Metrics add metric names
+    - Perf support 'data copy' feature for missing data
+    - Emedge supports -Dcloud_edge=1 when deploy emedge in azure cloud
+    - Change -Delastic_snapshot_retain_days default from 30 to 90 
+    - Improve on device info mapping to vendors and models    
+    - Enhance to save elastic queries templates to backend DB instead of just browser cache
+    - TOPOLOGY refactor L2 topology analyzer code and unit tests
+    - Improve socket agent stability
+    - Alarm autoaction - add support for powershell scripts (ps1 extension)
+    - Alarm improve alarm elastic indexing to avoid out of memory    TSS-vmware monitoring - improve debugging logs
+    - Support customized ng.conf for CVS cloud instances (e.g. /mnt/common/etc/cvs-livedemo/ng.conf)
+    - Supports set runtime parameters e.g. via 'run.sh netgain.sac.SetParams logstash_record_filename xxx'   
+    - Logmgmt pop error when log watcher rule expression specified is invalid, during save
+    - Do not allow change of data rentention settings in CVS cloud environment. do it via CRM
+    - SIEM update elastic detection rules    
+    - Add SysmonSimulator  
+    - Enhance NCM to avoid detect as config changes is only line changed is '! Last configuration change at...'
+    - Implement NCM device testing - extend to support for emedge    
+    - CV docker image to remove elasticsearch version embeddings for v7.9.3 and v7.16.3
+    - Pingmon optimize memory  
+    - Dashboards add page for user with admin role to delete other users dashboards    
+    - Improve on license warning msgs    
+    - Optimize memory usage by reducing max queue size MomAgent    
+    - Optimize memory usage by reducing buffer size for  FlowBufferPool and NorthboundManager    
+    - License warnings to MSTeam for SaaS
+---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.318 build 466 (release date: 13th Sep 2022)**  
   - Fixes:
     - Fix Bug_4540_oracle_tablespace_monitor_sql_query_time_out
@@ -412,4 +484,4 @@ Please find below for the past release notes:
     - Make perf history chart types selectable
 
 ---------------------------------------------------------------------------------------------------------------------
-**v11.1.43b266 v11 Launch**
+
