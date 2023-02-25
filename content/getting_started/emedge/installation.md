@@ -19,8 +19,18 @@ slug: installation
 
 ## Installation steps for emedge on Windows
 - Download <a href="https://download.{{% domain %}}/emedge/emedge-v12.msi" target="_blank">Windows MSI Installer for emedge</a>
-- Double click on the msi file and follow the installation steps
-- Note: emedge will also be configured automatically as windows service named 'emedge'
+- Install via command line
+  - search for Command Prompt and right click "Run as administrator".
+  - run following command
+    ```
+    msiexec.exe /i emedge-v12.msi CV=mycv.{{% cvdomain %}} SITE=my-emedge-site1
+    ```
+    * **CV=mycv.{{% cvdomain %}}** specifies the domain hostname of CloudVista instance that this emedge should forward data to
+    * **SITE=mysitename** specifies the name of this emedge site
+
+  - Note:
+    * emedge will also be configured automatically as windows service named 'emedge'
+    * Installation log files at %TEMP%\MSI*.LOG.
 
 ## Installation steps for emedge on Linux
 Linux - one liner installation
