@@ -23,7 +23,7 @@ slug: installation
   - search for Command Prompt and right click "Run as administrator".
   - run following command
     ```
-    msiexec.exe /i emedge-v12.msi CV=mycv.{{% cvdomain %}} SITE=my-emedge-site1
+    msiexec.exe /qn /i emedge-v12.msi CV=mycv.{{% cvdomain %}} SITE=my-emedge-site1
     ```
     * **CV=mycv.{{% cvdomain %}}** specifies the domain hostname of CloudVista instance that this emedge should forward data to
     * **SITE=mysitename** specifies the name of this emedge site
