@@ -25,11 +25,11 @@ weight: 3
     ```
     * **EMIP=x.x.x.x** specifies the IP address of EM or Emedge server
 
-  - Note:
+  - Notes:
     * netgain-agent will also be configured automatically as windows service named 'netgain-agent'
-    * Installation log files at %TEMP%\MSI*.LOG.
+    * You may also use Windows Group Policy to remotely install software in bulk
 
-## Installation steps for netgain-agent on Linux
+## Installation steps for NetGain Agent on Linux
 Linux - one liner installation
   ```
    EMIP=x.x.x.x SERVICE=1 sh -c "$(curl -skL https://download.{{% domain %}}/netgain-agent/install.sh)"
