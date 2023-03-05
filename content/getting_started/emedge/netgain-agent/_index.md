@@ -1,6 +1,7 @@
 ---
 title: NetGain Agent
 weight: 3
+geekdocHidden: true
 ---
 
 **netgain-agent** is a agent software that runs on managed server. It collects metrics and logics from the server and forwards the data to EM or Emedge

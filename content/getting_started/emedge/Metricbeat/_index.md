@@ -1,6 +1,7 @@
 ---
 title: Metricbeat
-weight: 2
+weight: 5
+geekdocHidden: true
 ---
 
 # About Metricbeat
