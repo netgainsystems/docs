@@ -8,7 +8,7 @@ slug: installation
 
 ## Installation steps for emedge-agent
   - Windows
-    - Download <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11.msi" target="_blank">Windows MSI Installer file</a>
+    - Download <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v12-latest.msi" target="_blank">Windows MSI Installer file</a>
     - Double click on the msi file and follow the installation steps
     - Note: emedge-agent will also be configured automatically as windows service named 'emedge-agent'
 
@@ -21,15 +21,15 @@ slug: installation
         * If you do not wish to install as a system service, set to **SERVICE=0**
 
     - manual installation
-      - RPM package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-stable.x86_64.rpm" target="_blank">emedge-agent-v11-stable.x86_64.rpm</a>
-      - Zip package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-linux.zip" target="_blank">emedge-agent-v11-linux.zip</a>
+      - RPM package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v12-latest.x86_64.rpm" target="_blank">emedge-agent-v12-latest.x86_64.rpm</a>
+      - Zip package <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v12-latest-linux.zip" target="_blank">emedge-agent-v12-latest-linux.zip</a>
 
   - Apple OSX
-    - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-osx.zip" target="_blank">latest emedge-agent software package for OSX</a>
+    - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v12-latest-osx.zip" target="_blank">latest emedge-agent software package for OSX</a>
     - cd into **emedge-agent** folder and run **emedge-agent config**
 
   - FreeBSD
-    - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v11-freebsd.zip" target="_blank">latest emedge-agent software package for FreeBSD</a>
+    - Download and unzip <a href="https://download.{{% domain %}}/emedge-agent/emedge-agent-v12-latest-freebsd.zip" target="_blank">latest emedge-agent software package for FreeBSD</a>
     - cd into **emedge-agent** folder and run **emedge-agent config**
 
 ## Installation as system service on unix/linux
