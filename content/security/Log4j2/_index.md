@@ -1,6 +1,7 @@
 ---
 title: Apache Log4j2 Vulnerability
 weight: 7
+geekdocHidden: true
 ---
 
 ## About Apache Log4j2 Remote Code Execution (RCE) Vulnerability CVE-2021-44228 & CVE-2021-45046
