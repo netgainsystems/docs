@@ -35,9 +35,10 @@ slug: installation
 ## Installation steps for emedge on Linux
 Linux - one liner installation
   ```
-  CV=mycv.{{% cvdomain %}} SERVICE=1 sh -c "$(curl -skL https://download.{{% domain %}}/emedge/install.sh)"
+  CV=mycv.{{% cvdomain %}} SITE=mysitename SERVICE=1 sh -c "$(curl -skL https://download.{{% domain %}}/emedge/install.sh)"
   ```
   * **CV=mycv.{{% cvdomain %}}** specifies the domain hostname of CloudVista instance that this emedge should forward data to
+  * **SITE=mysitename** specifies the name of this emedge site
   * **SERVICE=1** specifies to automatically install emedge as a system service
   * If you do not wish to install as a system service, set to **SERVICE=0**
 
