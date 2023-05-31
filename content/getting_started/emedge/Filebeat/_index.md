@@ -8,14 +8,14 @@ geekdocHidden: true
 **filebeat** is a lightweight software that runs on your managed hosts. It is a lightweight, open-source log shipper that collects logs from various sources and forwards them to emedge. It monitors the log files or locations that you specify, collects log events, and then sends them to emedge for processing
 
 
-# Receiving TlS-encrypted syslogs
+# Receiving TLS-encrypted syslogs
 - Download and install **syslog-ng** as the syslog forwarder
 
   e.g. yum install syslog-ng
 
 - Edit config file **syslog-ng.conf**
 
-  To configure syslog-ng to receive tls traffic on a port and forward the syslog as plain text to filebeat, add the following content (e.g. receive on port 9003 and forwarsd to port 9004)
+  To configure syslog-ng to receive TLS traffic on a port and forward the syslog as plain text to filebeat, add the following content (e.g. receive on port 9003 and forwarsd to port 9004)
   ```
   @version: 4.1
   source s_tls {
