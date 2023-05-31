@@ -20,6 +20,11 @@ weight: 3
 * <a href="/getting_started/emedge/netgain-agent">Install and configure</a>
 -->
 
+# About filebeat
+**filebeat** is a lightweight software that runs on your managed hosts. It is a lightweight, open-source log shipper that collects logs from various sources and forwards them to emedge. It monitors the log files or locations that you specify, collects log events, and then sends them to emedge for processing
+
+* <a href="/getting_started/emedge/Filebeat">Install and configure</a>
+
 # About metricbeat
 **metricbeat** is a lightweight software that runs on your managed hosts. It collects monitoring and performance data from hosts and sends them to **emedge** for aggregation and forwarding to **central monitoring site**, where you can analyze the data.
 
