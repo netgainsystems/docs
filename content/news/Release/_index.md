@@ -8,6 +8,70 @@ weight: 8
 Please find below for the past release notes: 
 
 ---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v12.2.274 build 969 (release date: 8th Apr 2024)**  
+  - Fixes:
+    - Metrics naming of objects
+    - Batch report - Time range
+    - SNMP v3 discovery for Bluecoat devices
+    - Aruba AP uptime monitor
+    - SSH monitoring of devices
+    - Adhoc report saving
+    - NCM - show changes
+    - Dashboard request headers too large
+  - Enchancements:
+    - License update to add in the logs
+    - Oracle database monitors
+    - PostgreSQL monitors
+    - NetApp monitors
+    - SSO for Azure
+    - Oracle Database monitors
+    - Traceroute monitor
+    - Disk report
+    - Grafana
+	- additional supporting APIs
+	- GeoMap plugin
+	- CMDB - asset management plugin
+    - OS Process monitor
+    - Synthetic monitoring
+  - New Implementation:
+    - Rest API for Bizview
+    - Built-in log parsing for Trendmicro Deep Security logs
+    - Supports Elasticsearch v8.11.x
+    - Dell Backup Jobs monitor
+    - Trend Micro metrics via API
+    - Trellix monitors
+    - New supported OS: Alma Linux 9.3
+    - Integration of MOXA dry contact monitoring
+---------------------------------------------------------------------------------------------------------------- 
+**NetGain EM Change Log v12.2.160 build 814 (release date: 5th Jul 2023)**  
+  - Fixes:
+    - Linux Process start time
+    - SIEM built-in mappings button not shown
+    - Alarm correlation view
+    - Cipher issues for Tomcat 8
+  - Enchancements:
+    - Added SIEM threat detection rules
+    - SNMP v3 discovery
+    - Rest APIs
+    - Metrics and Tags
+    - Oracle Database monitors
+    - Palo Alto, Huawei, Cisco, Mikrotik, VMware, Extreme, Fortigate monitors
+    - System Uptime monitor
+    - NetGain Agent for windows OS
+    - NCM - Fortinet, Palo Alto
+    - Password expiry message email to include more details
+  - New Implementation:
+    - Azure Single Sign-On (SSO) using OAuth2 and OpenID protocols
+    - SNMPtrap to alarm mapping mechanism, based on mib files
+    - Monitoring of QAX firewall under Security group
+    - Zabbix smart and zbs cluster monitors
+    - Monitor exception feature
+    - Supports Elasticsearch v8.7.x
+    - Supports Filebeat v8.7.x
+    - Supports emedge in Raspbian OS 64bit
+  - Obsolete:
+    - Temporary ignore feature, replaced with monitor exception feature
+---------------------------------------------------------------------------------------------------------------- 
 **NetGain EM Change Log v11.2.394 build 553 (release date: 16th Nov 2022)**  
   - Fixes:
     - Fix Bug 4051 - 11.1.182|Alicloud Sms wrong info - add 
