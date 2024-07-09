@@ -14,6 +14,7 @@ This section documents the alerts and notifications options in the software, and
 * <a href="/cloud_vista/alerts/actiontriggers">Action Triggers</a>
 * <a href="/cloud_vista/alerts/alertnotifications">Alert Notifications</a>
 * <a href="/cloud_vista/alerts/notificationrules">Notification Rules</a>
+* <a href="/cloud_vista/alerts/notificationemail">Notification Email</a>
 * <a href="/cloud_vista/alerts/othersettings">Other Alert Notification Settings</a>
 * <a href="/cloud_vista/alerts/3rdpartyintegration">Integration with 3rd Party Ticketing Apps</a>
 

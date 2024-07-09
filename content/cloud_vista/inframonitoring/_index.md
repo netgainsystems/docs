@@ -13,4 +13,4 @@ Infrastructure monitoring is done through the Metrics function.
 * <a href="/cloud_vista/inframonitoring/thresholdsettings">Threshold Settings</a>
 * <a href="/cloud_vista/inframonitoring/metrics">Metrics Policy</a>
 * <a href="/cloud_vista/inframonitoring/customize">Customize SNMP, Scripts, Database and Dynamic Thresholds</a>
-
+* <a href="/cloud_vista/inframonitoring/metricsprofile">Metrics Profile</a> 
