@@ -9,12 +9,12 @@ You will find all the comprehensive information on {{% company %}} products and 
 <div class="row" style="display: grid; overflow: auto;">
 <div class="column" style="display: flex;">
 
-<button name="button" style="background-color: #FFFFFF; width: 150px; height: 130px; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='/getting_started/architecture';"><strong>Solution <br>Architecture</strong><br><br><span style="color: #0ABAB5;">Learn More ></span>
+<button name="button" style="background-color: #FFFFFF; width: 150px; height: 130px; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='/overview/architecture';"><strong>Solution <br>Architecture</strong><br><br><span style="color: #0ABAB5;">Learn More ></span>
 </button> 
 
 &nbsp; &nbsp; &nbsp;
 
-<button name="button" style="background-color: #FFFFFF; width: 150px; height: 130px; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='/getting_started/emedge/installation';"><strong>Installing<br> emedge</strong><br><br><span style="color: #0ABAB5;">View Guide ></span>
+<button name="button" style="background-color: #FFFFFF; width: 150px; height: 130px; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='/overview/emedge/installation';"><strong>Installing<br> emedge</strong><br><br><span style="color: #0ABAB5;">View Guide ></span>
 </button> 
 
 &nbsp; &nbsp; &nbsp;
