@@ -3,14 +3,14 @@ title: Architecture
 weight: 1
 ---
 
-{{% company %}} is the cloud data and analytics platform for data normalization, processing, visualization and report generation. It integrates and sends alerts to trouble-ticketing systems, and collaboration and messaging systems.
+{{% company %}} is your go-to observability platform for seamless data normalization, powerful processing, dynamic visualization, and comprehensive report generation. It’s more than just a tool—it’s your complete solution for transforming raw IT data into actionable insights. With seamless integration capabilities, {{% company %}} effortlessly connects with your trouble-ticketing systems, collaboration tools, and messaging platforms, ensuring you stay informed and ahead of the curve.
 
-When you sign up for an account, a unique and dedicated {{% company %}} instance is created for you.  
+Emedge is the heart of our solution, strategically deployed within your enterprise network—whether on-premises, in the public or private cloud, or across a hybrid infrastructure. This lightweight, yet powerful, software works tirelessly behind the scenes, collecting critical IT infrastructure data. From device metrics to logs and traces, Emedge captures it all, regardless of where your infrastructure resides.
 
-Emedge is deployed within the enterprise network either on-prem, public or private cloud, or in a hybrid infrastructure. Emedge is a thin software that collects IT infrastructure data. Such data includes device metrics, logs, and traces, from on-prem, cloud and hybrid infrastructure. Emedge forwards the data via an encrypted link to {{% company %}}.
+With data transmission secured by encryption, Emedge ensures your information is safely delivered to {{% company %}}, where the magic of analysis and visualization happens.
 
-Emedge uses open protocols to collect data from all IT systems. Common protocols include SNMP, JDBC, Elastic Beats and others.  
+Leveraging open protocols, Emedge seamlessly gathers data from all your IT systems—be it SNMP, JDBC, Elastic Beats, or beyond. This flexibility ensures that no part of your infrastructure is left in the dark.
 
-With {{% company %}} and emedge working together, the user has a full observability to their infrastructure, whether it is on-prem, in the cloud, or hybrid.
+Together, {{% company %}} and Emedge empower you with full visibility into your IT ecosystem, whether it’s on-premises, in the cloud, or within a hybrid environment. Experience the confidence of total observability, knowing that your infrastructure is fully covered and your operations are optimized.
 
 ![Screenshot](/overview/images/{{% imagehome %}}/spog1.png)

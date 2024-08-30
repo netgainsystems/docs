@@ -4,13 +4,16 @@ geekdocHidden: false
 slug: admin
 ---
 
-The Admin module provides the function to manage the {{% company %}} Infrastructure Monitoring system. This module is meant for managing {{% company %}} Infrastructure Monitoring, and it is only open for the users who are granted the admin role. This module includes five sub content: 
 
-* Accounts: Creation of user, roles, change of user profile and configure access control
-* Jobs: Task schedular
-* Systems: Status of Infrastructure Monitoring, License info, Cloud Vista settings, Setting, Upgrade, Shutdown of Infrastructure Monitoring and defined REST APIs
-* Elasticsearch: Indices, Shard, Nodes status and Backups
-* Logs: Infrastructure Monitoring System logs
+The Admin Module is designed to empower administrators with comprehensive management capabilities for the NetGain Systems Infrastructure Monitoring system. Accessible exclusively to users with the admin role, this module offers a robust set of tools to effectively oversee and configure your monitoring environment.
+
+The Admin Module includes the following key components:
+
+* Accounts: Manage user accounts, roles, profile updates, and access control configurations.
+* Jobs: Schedule and manage tasks with the built-in task scheduler.
+* Systems: Monitor system status, manage licenses, and configure settings, shutdowns, and defined REST APIs.
+* Elasticsearch: Oversee Elasticsearch indices, shard and node statuses, and manage backups.
+* Logs: Access and review logs for the Infrastructure Monitoring System.
 
 To navigate to the Admin module, choose the last icon from the Left navigation bar, as shown in below:
 

@@ -13,15 +13,16 @@ slug: cloud_vista_suite
 
 ## EM Edge
 
-  The data aggregator and forwarder of data towards Cloud Vista
+  The on-premise data aggregator and forwarder of data towards Cloud Vista
 
+<!--
 ## EM Edge-Agent
 
   The lightweight software agent to be installed on your server hosts
+-->
 
 
-
----
+# Deployment architecture
 The diagram below depicts the relationship between Cloud Vista, EM Edge and EM Edge-Agent components
 
 

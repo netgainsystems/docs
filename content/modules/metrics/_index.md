@@ -3,18 +3,12 @@ title: Metrics
 weight: 2
 ---
 
-The infrastructure monitoring function provides you with an overview of the status of the monitored devices in your IT system, letting you proactively manage the devices in your IT system to nip issues in the bud before they become critical and adversely impact end-users. 
+The Metrics function within our infrastructure monitoring system gives you a comprehensive overview of the status of your IT devices, enabling proactive management and early detection of potential issues. By monitoring key metrics, you can address problems before they escalate, ensuring smooth operation and minimizing any impact on your end-users.
 
-Infrastructure monitoring is done through the Metrics function. 
 * <a href="/modules/metrics/discovering/">Discovering / Adding Devices to be Monitored</a>
-
 * <a href="/modules/metrics/monitor-by-device-types/">Monitoring by Device Type</a>
-
 * <a href="/modules/metrics/monitoralerts">Monitoring by Alert Type</a>
-
 * <a href="/modules/metrics/monitor-business">Monitoring by Business Type</a>
-
-
 * <a href="/modules/metrics/editsettings">Editing Monitoring Settings</a>
 * <a href="/modules/metrics/thresholdsettings">Threshold Settings</a>
 * <a href="/modules/metrics/metrics">Metrics Policy</a>

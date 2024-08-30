@@ -5,10 +5,11 @@ geekdocHidden: true
 weight: 16
 ---
 
-Dashboard 2.0 is used for visualizing and tracking key performancec indicators(KPI),metrics, and data points.
+Dashboard 2.0 is your go-to tool for visualizing and tracking key performance indicators (KPIs), metrics, and critical data points. It offers a powerful and intuitive interface to monitor your most important metrics in real-time, helping you make data-driven decisions with confidence.
 
-Refer to this link to know more about the features of [Grafana](https://grafana.com/docs/grafana/latest/getting-started/build-first-dashboard/)
+To explore the full range of features available in Grafana, which powers Dashboard 2.0, click here [here](https://grafana.com/docs/grafana/latest/getting-started/build-first-dashboard/) to learn more
 # Home
+
 This Home tab provides an overview of the current status and performance of your NetGain EM.
 ![dashboard2.0](/modules/home/dashboards/Images/netgain/Dashboard2.0.png)
 

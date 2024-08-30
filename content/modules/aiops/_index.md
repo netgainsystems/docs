@@ -5,15 +5,17 @@ slug: "ai"
 weight: 10
 ---
 
-AI and machine learning technologies are used for monitoring and anomaly detection within the network management platform. It is applied through machine learning jobs to identify and alert unusual or abnormal conditions in the system metrics.
+# AIOps with NetGain
 
-# Anomaly Detection
+NetGain leverages advanced AI and machine learning technologies to revolutionize network management through intelligent monitoring and proactive anomaly detection. Our platform employs sophisticated machine learning algorithms to continuously analyze system metrics, enabling the identification of unusual or abnormal conditions before they escalate into critical issues. This AI-driven approach ensures that your IT infrastructure remains resilient, with real-time alerts and insights that keep you one step ahead.
 
-It involves identifying data points and patterns that deviate from the norm within a dataset.
+# Intelligent Anomaly Detection
 
-# Outlier Detection 
+NetGain’s Anomaly Detection capabilities are designed to pinpoint patterns and data points that deviate from expected norms within your datasets. By applying machine learning models tailored to your unique environment, we can detect subtle anomalies that might otherwise go unnoticed, providing you with actionable insights to address potential issues early.
 
-It involves identifying data points that are significantly different from the rest of the data.
+# Precise Outlier Detection
+
+With NetGain’s Outlier Detection, we go beyond traditional monitoring to identify data points that are significantly different from the rest of the dataset. These outliers, which could indicate potential threats or irregularities, are flagged by our system, allowing you to take swift action to mitigate risks and ensure optimal performance across your network.
 
 # Same steps apply for both Anomaly and Outlier Detection.
 
