@@ -8,8 +8,8 @@ This module describes the REST API and resources provided by {{% company %}} Inf
 
 Click on \<Rest APIs> in the navigation bar.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/restapi1.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/restapi1.png)
 
 &nbsp;
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/restapi2.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/restapi2.png)

@@ -10,20 +10,21 @@ Click on \<Home> in the Left Navigation Bar, then \<Maps> in the Top Navigation 
 
 
 
-![Screenshot](/cloud_vista/maps/images/{{% imagehome %}}/GeographicalMap.PNG)
+![Screenshot](/modules/home/maps/images/{{% imagehome %}}/GeographicalMap.PNG)
 
 &nbsp;
 
-To create a Geographical map view, click on \<Home> in the Left Navigation Bar, then \<Maps> in the top navigation bar. Click on \<Google>, then click on <img src="/cloud_vista/maps/images/{{% imagehome %}}/editicon.png" width="50px">.
+To create a Geographical map view, click on \<Home> in the Left Navigation Bar, then \<Maps> in the top navigation bar. Click on \<Google>, then click on <img src="/modules/home/maps/images/{{% imagehome %}}/editicon.png" width="50px">.
 
-![Screenshot](/cloud_vista/maps/images/{{% imagehome %}}/geomapcreate.png)
+![Screenshot](/modules/home/maps/images/{{% imagehome %}}/geomapcreate.png)
 
 Enter your map name and click <+Add>.  
 
 &nbsp;
 
-Click <img src="/cloud_vista/maps/images/{{% imagehome %}}/editicon.png" width="50px"> to bring out the device menu, drag and drop the pin to your desired location, and click \<Update>.
+Click <img src="/modules/home/maps/images/{{% imagehome %}}/editicon.png" width="50px"> to bring out the device menu, drag and drop the pin to your desired location, and click \<Update>.
 
+![screenshot](/modules/home/maps/images/netgain/LogicalMap.PNG)
 
-![Screenshot](/cloud_vista/maps/images/{{% imagehome %}}/GeographicalMap_2.PNG)
+![Screenshot](/modules/home/maps/images/{{% imagehome %}}/GeographicalMap_2.PNG)
 

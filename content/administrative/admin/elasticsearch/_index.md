@@ -8,11 +8,11 @@ This module provides the information of Elasticsearch, and also provide the  fun
 
 Click on \<Elasticsearch> in the navigation bar. 
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/elastic1.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/elastic1.png)
 
 &nbsp;
 
-* <a href="/cloud_vista/sysadmin/admin/elasticsearch/maintenance">Maintenance</a>
-* <a href="/cloud_vista/sysadmin/admin/elasticsearch/indices">Indices</a>
-* <a href="/cloud_vista/sysadmin/admin/elasticsearch/shards">Shards</a>
-* <a href="/cloud_vista/sysadmin/admin/elasticsearch/clusternodes">Cluster Nodes</a>
+* <a href="/administrative/admin/elasticsearch/maintenance">Maintenance</a>
+* <a href="/administrative/admin/elasticsearch/indices">Indices</a>
+* <a href="/administrative/admin/elasticsearch/shards">Shards</a>
+* <a href="/administrative/admin/elasticsearch/clusternodes">Cluster Nodes</a>

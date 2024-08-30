@@ -14,8 +14,8 @@ In summary, this function delivers a comprehensive and user-adaptable approach t
 
 Click on \<Home> in the Left Navigation Bar, then \<Maps> in the Top Navigation Bar. Click on \<Layer 2 Network> or \<Layer 3 Network> to view the Layer 2 and Layer 3 Network maps respectively.
 
-![Screenshot](/cloud_vista/maps/images/{{% imagehome %}}/layer2map.png)
+![Screenshot](/modules/home/maps/images/{{% imagehome %}}/layer2map.png)
 
 &nbsp;
 
-![Screenshot](/cloud_vista/maps/images/{{% imagehome %}}/layer3map.png)
+![Screenshot](/modules/home/maps/images/{{% imagehome %}}/layer3map.png)

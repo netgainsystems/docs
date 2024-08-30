@@ -11,7 +11,7 @@ The Home page provides summary views of the IT system being monitored. When user
 The Home page supports multiple dashboards which can be customized to user requirements, including embedding external content within a dashboard. Users are also able to create new dashboard widgets for use in dashboards.
 
 
-![Screenshot](/cloud_vista/overview/images/{{% imagehome %}}/Home.png)
+![Screenshot](/modules/home/images/{{% imagehome %}}/Home.png)
 
 &nbsp;
 

@@ -8,13 +8,13 @@ You can specify different access rights for different roles, for example, specif
 
 Click on \<Account> - \<Users>
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/user1.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/user1.png)
 
 &nbsp;
 
 Click on <+Create>
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/user2.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/user2.png)
 
 &nbsp;
 
@@ -24,10 +24,10 @@ Enter the information about the user. These are the basic information to be ente
 * Password
 * Display Name
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/user3.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/user3.png)
 
 &nbsp;
 
 Click on \<Save> once information is filled in. 
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/user4.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/user4.png)

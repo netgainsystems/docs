@@ -4,16 +4,16 @@ geekdocHidden: true
 slug: addservice
 ---
 
-To add a service under a business, select the business under \<Business view> and click on \<Edit>. Then click on <img src="/cloud_vista/bizviews/images/{{% imagehome %}}/serviceicon.png" width="65px"> to add a service.
+To add a service under a business, select the business under \<Business view> and click on \<Edit>. Then click on <img src="/modules/home/business_views/images/{{% imagehome %}}/serviceicon.png" width="65px"> to add a service.
 
 
-![Screenshot](/cloud_vista/bizviews/images/{{% imagehome %}}/addservice.png)
+![Screenshot](/modules/home/business_views/images/{{% imagehome %}}/addservice.png)
 
 &nbsp;
 
 
-Input the name of the new service then click <img src="/cloud_vista/bizviews/images/{{% imagehome %}}/addicon.png" width="30px">.
+Input the name of the new service then click <img src="/modules/home/business_views/images/{{% imagehome %}}/addicon.png" width="30px">.
 
 
-![Screenshot](/cloud_vista/bizviews/images/{{% imagehome %}}/newservice.png)
+![Screenshot](/modules/home/business_views/images/{{% imagehome %}}/newservice.png)
 

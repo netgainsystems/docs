@@ -6,7 +6,7 @@ slug: maintenance
 
 The 'Performance' tab displays various flow-related metrics and statistics for the network traffic being monitored and analyzed by the NetFlow system.
 
-<img src="/cloud_vista/netflow/images/{{% imagehome %}}/performance1.png" alt="Screenshot" style="width: 1000px; height: auto;">
+<img src="/modules/netflow/images/{{% imagehome %}}/performance1.png" alt="Screenshot" style="width: 1000px; height: auto;">
 
 Information includes:
 * Flows Rate Per Minute: this indicates the rate at which network flows are being received and processed per minute
@@ -19,4 +19,4 @@ Information includes:
 
 Under Maintenance feature of the NetFlow Settings, user can simulate data for presentation purposes and can view logs of flows coming in to NetGain NetFlow feature.
 
-![Screenshot](/cloud_vista/netflow/images/{{% imagehome %}}/maintenance1.png)
+![Screenshot](/modules/netflow/images/{{% imagehome %}}/maintenance1.png)

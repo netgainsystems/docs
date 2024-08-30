@@ -1,6 +1,7 @@
 ---
 title: Security 
 weight: 14
+geekdocHidden: true
 ---
 We care about security. If you have any questions, or encounter any issues, please contact us at security@{{% domain %}}.
 If you believe you’ve discovered a bug in {{% company %}} product(s) security, please get in touch at security@{{% domain %}} and we will get back to you within 24 hours, and usually earlier. We request that you not publicly disclose the issue until we have had a chance to address it.

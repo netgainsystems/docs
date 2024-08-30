@@ -3,4 +3,4 @@ title: Troubleshooting Guide
 weight: 14
 ---
 
-Product realted news will be available here.
+Troubleshooting Related will be available here.

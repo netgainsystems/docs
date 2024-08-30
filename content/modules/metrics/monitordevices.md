@@ -10,4 +10,4 @@ You will be able to see an overview of the monitored devices by their device typ
 
 
 
-![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/devicetype1.png)
+![Screenshot](/modules/metrics/images/{{% imagehome %}}/devicetype1.png)

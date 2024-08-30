@@ -12,11 +12,11 @@ The dashboard shows the overall information includes below:
 * Average services response time
 
 
-![Screenshot](/cloud_vista/apm/images/{{% imagehome %}}/dashboard1.png)
+![Screenshot](/modules/apm/images/{{% imagehome %}}/dashboard1.png)
 
 &nbsp;
 
 By selecting the time range at the top , at the top timerange dropdown list, you will be able to get the results accordingly.
 
-![Screenshot](/cloud_vista/apm/images/{{% imagehome %}}/dashboard2.png)
+![Screenshot](/modules/apm/images/{{% imagehome %}}/dashboard2.png)
 

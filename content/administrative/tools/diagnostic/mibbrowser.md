@@ -9,28 +9,28 @@ This tool helps user to load the devices’ MIBs file to {{% company %}} Infrast
 Click on \<MIB Browser> and then click on <+Load new mib>.
 
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/mib1.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/mib1.png)
 
 &nbsp;
 
 Then click on \<Choose File> to choose the devices MIB file.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/mib2.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/mib2.png)
 
 &nbsp;
 
 Then click on \<Upload> to upload MIB file to Infrastructure Monitoring server.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/mib3.png)
+![Screenshot](/administrative/admin/images/{{% imagehome %}}/mib3.png)
 
 &nbsp;
 
 Screen will appear with the MIB file under \<Loaded mibs>.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/mib4.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/mib4.png)
 
 &nbsp;
 
 Then user can browse OID information.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/mib5.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/mib5.png)

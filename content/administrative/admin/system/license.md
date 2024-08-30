@@ -9,7 +9,7 @@ License shows the user the details of the {{% company %}} Infrastructure Monitor
 Click on the \<License> in the Top Navigation Bar.
 
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/license1.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/license1.png)
 
 &nbsp;
 

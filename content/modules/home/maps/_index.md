@@ -9,11 +9,9 @@ Maps provides a pictorial representation of the devices that are being monitored
 
 The Maps function can be accessed by clicking on \<Home> in the Left Navigation Bar, then \<Maps> in the Top Navigation Bar.
 
-
-![Screenshot](/cloud_vista/maps/images/{{% imagehome %}}/LogicalMap.PNG)
-
+![screenshot](/modules/home/maps/images/netgain/LogicalMap.PNG)
 &nbsp;
 
-* <a href="/cloud_vista/maps/logmap">Logical Map</a>
-* <a href="/cloud_vista/maps/geomap">Geographical Map</a>
-* <a href="/cloud_vista/maps/networkmap">Layer 2 and 3 Network Maps</a>
+* <a href="/modules/home/maps/logmap">Logical Map</a>
+* <a href="/modules/home/maps/geomap">Geographical Map</a>
+* <a href="/modules/home/maps/networkmap">Layer 2 and 3 Network Maps</a>

@@ -4,7 +4,7 @@ geekdocHidden: false
 slug: admin
 ---
 
-The Admin module provides the function to manage the {{% company %}} Infrastructure Monitoring system. This module is meant for managing {{% company %}} Infrastructure Monitoring, and it is only open for the users who are granted the admin role. This module includes five sub modules: 
+The Admin module provides the function to manage the {{% company %}} Infrastructure Monitoring system. This module is meant for managing {{% company %}} Infrastructure Monitoring, and it is only open for the users who are granted the admin role. This module includes five sub content: 
 
 * Accounts: Creation of user, roles, change of user profile and configure access control
 * Jobs: Task schedular
@@ -14,12 +14,12 @@ The Admin module provides the function to manage the {{% company %}} Infrastruct
 
 To navigate to the Admin module, choose the last icon from the Left navigation bar, as shown in below:
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/admin1.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/admin1.png)
 
 &nbsp;
 
-* <a href="/cloud_vista/sysadmin/admin/accounts">Account</a>
-* <a href="/cloud_vista/sysadmin/admin/jobs">Jobs</a>
-* <a href="/cloud_vista/sysadmin/admin/system">System</a>
-* <a href="/cloud_vista/sysadmin/admin/elasticsearch">ElasticSearch</a>
-* <a href="/cloud_vista/sysadmin/admin/logs">Logs</a>
+* <a href="/administrative/admin/accounts/">Account</a>
+* <a href="/administrative/admin/jobs/">Jobs</a>
+* <a href="/administrative/admin/system/">System</a>
+* <a href="/administrative/admin/elasticsearch/">ElasticSearch</a>
+* <a href="/administrative/admin/logs/">Logs</a>

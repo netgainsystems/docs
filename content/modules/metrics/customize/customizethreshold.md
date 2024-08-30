@@ -7,13 +7,13 @@ slug: customizethreshold
 This function is to set-up threshold dynamically to be in effect for certain period of time.
 To create Dynamic Threshold, Click \<Metrics> on the Left navigation bar then \<Customize> then \<Dynamic Threshold>. Click <+Add>.
 
-![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/dynamic1.png)
+![Screenshot](/modules/metrics/images/{{% imagehome %}}/dynamic1.png)
 
 &nbsp;
 
 Input the name and description (optional) and click \<Add new rule> button to configure the threshold.
 
-![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/dynamic2.png)
+![Screenshot](/modules/metrics/images/{{% imagehome %}}/dynamic2.png)
 
 &nbsp;
 
@@ -29,4 +29,4 @@ Duration - How many hours or minutes this rule should be in effect
 
 Select operator, value and severity.
 
-![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/dynamic3.png)
+![Screenshot](/modules/metrics/images/{{% imagehome %}}/dynamic3.png)

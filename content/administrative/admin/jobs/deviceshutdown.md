@@ -6,7 +6,7 @@ slug: deviceshutdown
 
 Select the Schedule task Type as \<Device shutdown task>
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/job3.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/job3.png)
 
 &nbsp;
 

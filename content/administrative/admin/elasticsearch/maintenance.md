@@ -6,7 +6,7 @@ slug: maintenance
 
 Click on \<Maintenance> in the Top navigation bar.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/maintenance1.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/maintenance1.png)
 
 &nbsp;
 
@@ -18,7 +18,7 @@ This page shows you two options:
 
 ### Data Retention
 
-Data retention setting can be changed by clicking on <img src="/cloud_vista/sysadmin/images/{{% imagehome %}}/changesettingsicon.png" width="100px">
+Data retention setting can be changed by clicking on <img src="/administrative/images/{{% imagehome %}}/changesettingsicon.png" width="100px">
 
 Change the retention period for different data:
 
@@ -28,13 +28,13 @@ Change the retention period for different data:
 * **NetFlow traffic flow data**: specify how long the system keeps the NetFlow data.
 * **APM transactions data**: specify how long the system keeps the APM data.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/maintenance2.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/maintenance2.png)
 
 &nbsp;
 
-Once completed, click on <img src="/cloud_vista/sysadmin/images/{{% imagehome %}}/savesettingsicon.png" width="90px">
+Once completed, click on <img src="/administrative/images/{{% imagehome %}}/savesettingsicon.png" width="90px">
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/maintenance3.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/maintenance3.png)
 
 &nbsp;
 
@@ -44,7 +44,7 @@ Snapshots are used for critical system management and data protection functions.
 
 The ‘Snapshots’ tab displays a list of system snapshots.
 
-![Screenshot](/cloud_vista/sysadmin/images/netgain/SSEAF1.png)
+![Screenshot](/administrative/images/netgain/SSEAF1.png)
 
 Information includes:
 
@@ -55,33 +55,33 @@ Information includes:
 
 # Take a Snapshot 
 
-Click on <img src="/cloud_vista/sysadmin/images/{{% imagehome %}}/snapshot.png" width="150px"> to take a snapshot of the database.
+Click on <img src="/administrative/images/{{% imagehome %}}/snapshot.png" width="150px"> to take a snapshot of the database.
 
-![Screenshot](/cloud_vista/sysadmin/images/netgain/SSEAF2.png)
+![Screenshot](/administrative/images/netgain/SSEAF2.png)
 
 # Delete a Snapshot
 
-Hover over the snapshot and click on <img src="/cloud_vista/sysadmin/images/{{% imagehome %}}/trash.PNG" width="35px"> to delete the selected snapshot.
+Hover over the snapshot and click on <img src="/administrative/images/{{% imagehome %}}/trash.PNG" width="35px"> to delete the selected snapshot.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/SSEAF3.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/SSEAF3.png)
 
-To bulk delete, tick the snapshots to be deleted and click on <img src="/cloud_vista/sysadmin/images/{{% imagehome %}}/trash2.PNG" width="35px"> to delete them.
+To bulk delete, tick the snapshots to be deleted and click on <img src="/administrative/images/{{% imagehome %}}/trash2.PNG" width="35px"> to delete them.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/SSEAF4.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/SSEAF4.png)
 
 # Restore Indices
 
 Click on the snapshot.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/SSEAF5.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/SSEAF5.png)
 
 Once clicked, a panel will appear and display the detailed contents of the system snapshot.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/SSEAF6.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/SSEAF6.png)
 
-Tick the indices and click on <img src="/cloud_vista/sysadmin/images/{{% imagehome %}}/restore.PNG" width="150px"> to restore specific parts of the system.
+Tick the indices and click on <img src="/administrative/images/{{% imagehome %}}/restore.PNG" width="150px"> to restore specific parts of the system.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/SSEAF7.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/SSEAF7.png)
 
 # Space Estimation 
 
@@ -89,7 +89,7 @@ Space Estimation is used to estimate storage requirements for monitoring data.
 
 The ‘Space Estimation’ tab displays the options for managing data storage and system settings.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/SSEAF8.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/SSEAF8.png)
 
 Information includes:
 
@@ -102,7 +102,7 @@ Information includes:
 
 Archives is used for managing archived data within the system. Users can view, search, and restore archived logs, metrics, APM data, and NetFlow data. Archiving is essential for optimizing storage, enhancing performance, ensuring compliance, and managing data growth.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/SSEAF9.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/SSEAF9.png)
 
 # Dashboards
 
@@ -110,7 +110,7 @@ Dashboards are used for organizing, managing, and collaborating on dashboards wi
 
 The ‘Full List’ tab displays an overview of all available dashboards, their ownership, categorization, and sharing status, which facilitates better management and collaboration.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/SSEAF10.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/SSEAF10.png)
 
 Information includes:
 
@@ -121,15 +121,15 @@ Information includes:
 
 # Delete Dashboard
 
-Click on <img src="/cloud_vista/sysadmin/images/{{% imagehome %}}/trash.PNG" width="35px"> to delete the dashboard.
+Click on <img src="/administrative/images/{{% imagehome %}}/trash.PNG" width="35px"> to delete the dashboard.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/SSEAF11.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/SSEAF11.png)
 
 # Backup and Restore
 
 This tab is to do the backup and restore for {{% company %}} configuration.
 
-![Screenshot](/cloud_vista/sysadmin/images/{{% imagehome %}}/maintenance4.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/maintenance4.png)
 
 &nbsp;
 

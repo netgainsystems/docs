@@ -7,15 +7,15 @@ weight: 5
 
 Below is the screenshot from the APM page.
 
-![Screenshot](/cloud_vista/apm/images/{{% imagehome %}}/apmmain.png)
+![Screenshot](/modules/apm/images/{{% imagehome %}}/apmmain.png)
 
 &nbsp;
 
 {{% company %}} APM Mainly contains four sub tabs which can be found at the Top Navigation Bar:
-* <a href="/cloud_vista/apm/apm">APM</a>
-* <a href="/cloud_vista/apm/reports">Reports</a>
-* <a href="/cloud_vista/apm/watcher">Watcher</a>
-* <a href="/cloud_vista/apm/agent">Agent</a>
+* <a href="/modules/apm/apm">APM</a>
+* <a href="/modules/apm/reports">Reports</a>
+* <a href="/modules/apm/watcher">Watcher</a>
+* <a href="/modules/apm/agent">Agent</a>
 
 
 

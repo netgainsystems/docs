@@ -8,7 +8,7 @@ This function lets the user query different database methods like MSSQL, Oracle,
 
 To create Database monitor, Click \<Metrics> on the Left navigation bar then \<Customize > then \<Database>. Click <+Add>.
 
-![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/database1.png)
+![Screenshot](/modules/metrics/images/{{% imagehome %}}/database1.png)
 
 &nbsp;
 
@@ -24,4 +24,4 @@ Type – select between MSSQL, DB2, Oracle, Sybase.
 
 Add monitor Value – To add different parameters based from the script
 
-![Screenshot](/cloud_vista/inframonitoring/images/{{% imagehome %}}/database2.png)
+![Screenshot](/modules/metrics/images/{{% imagehome %}}/database2.png)
