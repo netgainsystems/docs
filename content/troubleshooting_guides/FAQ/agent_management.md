@@ -73,3 +73,7 @@ For Linux:
 Check firewall.
 * Use Telnet to check connectivity on port 81 and 1808
 ---
+
+| Purpose        | Protocol     | Port  | 
+| :----------: |:------------:| :-----:| 
+| NetGain Agent | TCP | 81 / 1808  | 
