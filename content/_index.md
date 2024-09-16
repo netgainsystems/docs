@@ -4,7 +4,7 @@ title: Home
 
 {{% welcome %}}
 
-You will find all the comprehensive information on {{% company %}} products and services, as well as detailed technical information and tips to get your {{% company %}} software up and running smoothly.
+You will find all the comprehensive information and documentations on {{% company %}} products and services, as well as detailed technical information and tips to get your {{% company %}} software up and running smoothly.
 
 <div class="row" style="display: grid; overflow: auto;">
 <div class="column" style="display: flex;">
