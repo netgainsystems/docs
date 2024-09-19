@@ -18,6 +18,12 @@ slug: installation
 </a>
 
 ## Installation steps for emedge on Windows
+**Method 1**
+- Download and unzip <a href="https://download.{{% domain %}}/emedge/emedge-v12-latest.zip" target="_blank">latest emedge software package</a>
+- cd into emedge folder and run **emedge config**
+- To run emedge, simply run **emedge run**
+
+**Method 2**
 - Download <a href="https://download.{{% domain %}}/emedge/emedge-v12-latest.msi" target="_blank">Windows MSI Installer for emedge</a>
 - Install via command line
   - search for Command Prompt and right click "Run as administrator".
