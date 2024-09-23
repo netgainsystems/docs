@@ -6,37 +6,6 @@ title: Home
 
 You will find all the comprehensive information and documentations on {{% company %}} products and services, as well as detailed technical information and tips to get your {{% company %}} software up and running smoothly.
 
-<style>
-  .home-cat-col p {
-    display: inline-block;
-    width: 30%;
-    margin-right: 2%;
-    vertical-align: middle;
-  }
-
-  .home-cat-col p button {
-    width: 100%;
-    min-height: 150px;
-  }
-
-  @media (max-width: 624px) {
-    .home-cat-col p {
-      margin: 1%;
-      width: 30%;
-    }
-
-    .home-cat-rows {
-      text-align: center;
-    }
-  }
-  
-  @media (min-width: 625px) {
-    .home-cat-col p {
-      margin-right: 2%;
-    }
-  }
-</style>
-
 <div class="row home-cat-rows" style="display: grid; overflow: auto;">
 <div class="column home-cat-col">
 
