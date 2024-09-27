@@ -31,3 +31,5 @@ The diagram below depicts the relationship between Cloud Vista, EM Edge and EM E
 &nbsp;
 
 * <a href="/overview/cloud_vista_suite/setting-up">Setting Up</a>
+* <a href="/installation/cloud_vista/linux_setup_v12">Linux Setup for V12</a>
+* <a href="/installation/cloud_vista/elasticsearch_upgrade_from_7_9">Elasticsearch Upgrade from 7.9</a>
