@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frequently Asked Questions on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/troubleshooting_guides/FAQ/</link>
+    <description>Recent content in Frequently Asked Questions on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/troubleshooting_guides/FAQ/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent Management</title>
+      <link>http://localhost:1313/troubleshooting_guides/FAQ/agent_management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/troubleshooting_guides/FAQ/agent_management/</guid>
+      <description>&lt;h1 id=&#34;how-to-upgrade-netgain-agent-for-linux&#34;&gt;How to upgrade NetGain Agent for Linux&lt;/h1&gt;&#xA;&lt;p&gt;Stop NetGain Agent service.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;systemctl stop netgain&#xA;OR&lt;/li&gt;&#xA;&lt;li&gt;cd installation_directory/netgain/bin/&lt;/li&gt;&#xA;&lt;li&gt;./agent_stop.sh&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Backup netgain agent folder.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;cd installation_directory (may vary depending on installation)&lt;/li&gt;&#xA;&lt;li&gt;cp -r installation_directory/netgain ./netgain_v12.2.214_240627&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Download netgain agent to preferred installation directory.&lt;/p&gt;&#xA;&lt;p&gt;Unzip/Untar new agent.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;cd installation_directory&lt;/li&gt;&#xA;&lt;li&gt;tar -xzvf NetGain-Agent-Nix-v12.2.337.tar.gz&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Configure agent.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;cd installation_directory/netgain/bin&lt;/li&gt;&#xA;&lt;li&gt;./agent_setup.sh.&lt;/li&gt;&#xA;&lt;li&gt;Follow the instructions prompted&lt;/li&gt;&#xA;&lt;li&gt;NOTES: Before agent_setup, use Java path command: which java to know your java directory&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Start netgain agent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Licensing</title>
+      <link>http://localhost:1313/troubleshooting_guides/FAQ/licensing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/troubleshooting_guides/FAQ/licensing/</guid>
+      <description>&lt;h1 id=&#34;how-to-update-license&#34;&gt;How to update license&lt;/h1&gt;&#xA;&lt;p&gt;Click on &lt;strong&gt;Admin&lt;/strong&gt;, &lt;strong&gt;System&lt;/strong&gt;, &lt;strong&gt;License&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/troubleshooting_guides/FAQ/images/netgain/FAQ32.PNG&#34; alt=&#34;FAQ33&#34;/&gt;&#xA;&lt;p&gt;Choose the license file and click on &lt;img src=&#34;http://localhost:1313/troubleshooting_guides/FAQ/images/netgain/FAQ33ICON.PNG&#34; alt=&#34;FAQ33ICON&#34; width =&#34;100&#34;/&gt;  to upload the license.&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/troubleshooting_guides/FAQ/images/netgain/FAQ33.PNG&#34; alt=&#34;FAQ33&#34;/&gt;</description>
+    </item>
+    <item>
+      <title>Monitoring &amp; Discovery</title>
+      <link>http://localhost:1313/troubleshooting_guides/FAQ/monitoringdiscovery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/troubleshooting_guides/FAQ/monitoringdiscovery/</guid>
+      <description>&lt;p&gt;In Constructions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Report</title>
+      <link>http://localhost:1313/troubleshooting_guides/FAQ/reporting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/troubleshooting_guides/FAQ/reporting/</guid>
+      <description>&lt;p&gt;In Construction&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/troubleshooting_guides/FAQ/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/troubleshooting_guides/FAQ/security/</guid>
+      <description>&lt;h2 id=&#34;how-to-request-csr-generation&#34;&gt;How to request CSR generation&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Please change the following details according to customer requirements.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;create-keystore&#34;&gt;Create keystore:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Create a new directory and generate a keystore:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /root&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir ssl_28Jun2024&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/root/netgain/jre/bin/keytool -genkey -alias TBA_by_Customer_CA -keyalg RSA -keystore /root/ssl_28Jun2024/customer_name.jks -keysize &lt;span class=&#34;m&#34;&gt;4096&lt;/span&gt; -ext &lt;span class=&#34;nv&#34;&gt;SAN&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;dns:netgain_server_hostname.example.com, ip:netgain_server_ip&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;Specify a password: &lt;code&gt;any_password_preferred&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Enter the following details when prompted:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name:&lt;/strong&gt; TBA by Customer CA, and normally it is NetGain server hostname.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Organization Unit:&lt;/strong&gt; TBA by Customer CA.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Organization:&lt;/strong&gt; TBA by Customer CA.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;City:&lt;/strong&gt; TBA by Customer CA.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;State:&lt;/strong&gt; TBA by Customer CA.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Country:&lt;/strong&gt; TBA by Customer CA.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;generate-csr-file-to-send-to-ca-to-sign&#34;&gt;Generate CSR file to send to CA to sign:&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/root/netgain/jre/bin/keytool -certreq -keyalg RSA -alias TBA_by_Customer_CA -file certreq.csr -keystore /root/ssl_28Jun2024/customer_name.jks&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>SNMP Installation &amp; Configuration</title>
+      <link>http://localhost:1313/troubleshooting_guides/FAQ/snmpinstall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/troubleshooting_guides/FAQ/snmpinstall/</guid>
+      <description>&lt;h2 id=&#34;how-to-discover-monitors-through-snmpv3&#34;&gt;How to discover monitors through SNMPV3&lt;/h2&gt;&#xA;&lt;p&gt;Click on Metrics, Discover.&lt;/p&gt;&#xA;&lt;p&gt;Select v3 Version under SNMP and Input the rest of the information.&lt;/p&gt;&#xA;&lt;p&gt;Click on     to start discovering of devices.&lt;/p&gt;&#xA;&lt;p&gt;After discovering, select the device you want to monitor.&lt;/p&gt;&#xA;&lt;p&gt;Click     to add the selected device.&lt;/p&gt;&#xA;&lt;h1 id=&#34;not-able-to-discover-devices-via-snmp&#34;&gt;Not able to discover devices via SNMP&lt;/h1&gt;&#xA;&lt;p&gt;Check firewall rules with UDP port 161.&lt;/p&gt;&#xA;&lt;p&gt;Verify SNMP settings.&#xA;For Linux&#xA;Check if SNMP is configured to start on boot:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>User Management</title>
+      <link>http://localhost:1313/troubleshooting_guides/FAQ/user_management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/troubleshooting_guides/FAQ/user_management/</guid>
+      <description>&lt;p&gt;How to unlock my user account if its locked&#xA;Admin account is needed in order to unlock user’s account.&lt;/p&gt;&#xA;&lt;p&gt;Login to Admin account, click on &lt;strong&gt;Admin&lt;/strong&gt;, &lt;strong&gt;Accounts&lt;/strong&gt;, &lt;strong&gt;Users&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/troubleshooting_guides/FAQ/images/netgain/FAQ30.png&#34; alt=&#34;FAQ30&#34;/&gt;&#xA;&lt;p&gt;Click on  &lt;img src=&#34;http://localhost:1313/troubleshooting_guides/FAQ/images/netgain/changeicon.png&#34; alt=&#34;changeicon&#34;/&gt;  to edit the information of user’s account.&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/troubleshooting_guides/FAQ/images/netgain/FAQ28.png&#34; alt=&#34;FAQ28&#34;/&gt;&#xA;&lt;p&gt;Admin will change the password of user and tick the Unlock box and save.&#xA;&lt;img src=&#34;http://localhost:1313/troubleshooting_guides/FAQ/images/netgain/FAQ101.png&#34; alt=&#34;FAQ101&#34;/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Admin can also edit settings like ‘Login attempts strategy’ and ‘Change Password # of days’.&lt;/p&gt;&#xA; &lt;img src=&#34;http://localhost:1313/troubleshooting_guides/FAQ/images/netgain/FAQ29.png&#34; alt=&#34;FAQ29&#34;/&gt;&#xA;&lt;h1 id=&#34;how-does-reset-password-on-user-management-work&#34;&gt;How does reset password on User Management work&lt;/h1&gt;&#xA;&lt;p&gt;Reset password only works when user has added their email address in the user profile. The newly generated password will be sent to the user email.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

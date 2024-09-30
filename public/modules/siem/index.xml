@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SIEM on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/siem/</link>
+    <description>Recent content in SIEM on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/siem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Workflows</title>
+      <link>http://localhost:1313/modules/siem/aiworkflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/aiworkflow/</guid>
+      <description>&lt;p&gt;AI (Advanced Intelligence) Workflows support simple ways to create new rules and more complicated rules. It is useful for user that is not familiar with python language. AI workflows also provide an easy view of the logic flow for non-technical person to understand the rules.&lt;/p&gt;&#xA;&lt;p&gt;To create the workflows, user can just drag the symbols from the left bar to the center area to create the link with other symbols. By clicking on the symbol, user can bring up symbol properties and user can fill in the require name or label accordingly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MITRE ATT&amp;CK</title>
+      <link>http://localhost:1313/modules/siem/mitreattack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/mitreattack/</guid>
+      <description>&lt;p&gt;MITRE ATT&amp;amp;CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&amp;amp;CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.&lt;/p&gt;&#xA;&lt;p&gt;MITRE ATT&amp;amp;CK is an information tab that allow user to link certain threats to the MITRE techniques ID. User can refer more info from this link: &lt;a href=&#34;https://attack.mitre.org/&#34;&gt;https://attack.mitre.org/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://localhost:1313/modules/siem/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/search/</guid>
+      <description>&lt;p&gt;The search function here is like the search bar on Log Analytics. User can do simple search or advance query string on the logs that recorded threat. &amp;lt;Help&amp;gt; can be used to learn more about the query syntax.&lt;/p&gt;&#xA;&lt;p&gt;User can select the time range and look at the number of threat logs on different time range.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threat Detection</title>
+      <link>http://localhost:1313/modules/siem/threatdetection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/threatdetection/</guid>
+      <description>&lt;p&gt;By default, NetGain Systems support around 500 detection rules. Detection rules are done through the query string.&lt;/p&gt;&#xA;&lt;p&gt;For default rule, user can &amp;lt;Disable&amp;gt;, &amp;lt;Enable&amp;gt; and &amp;lt;Edit&amp;gt; the tags or description (but not query expression) in the edit.&lt;/p&gt;&#xA;&lt;p&gt;To add new rule, user can add in &amp;lt;Add new rule&amp;gt;.  User just need to specific the name, tags, description accordingly.&lt;/p&gt;&#xA;&lt;p&gt;User can define the &amp;lt;interval&amp;gt; on how frequent for SIEM to run through this rule. For &amp;lt;search window&amp;gt; under logic type query, user can define the historical search window.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threat Events</title>
+      <link>http://localhost:1313/modules/siem/threatevents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/threatevents/</guid>
+      <description>&lt;p&gt;In Threat Events, user can search for the threat events based on their threat ID or threat message. Clicks on the events will bring up all the related log that linked to this threat.&lt;/p&gt;&#xA;&lt;p&gt;User can also select the different time range to check for the events that happened.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Watcher</title>
+      <link>http://localhost:1313/modules/siem/watcher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/watcher/</guid>
+      <description>&lt;p&gt;This function is used to watch out for specified data within incoming data logs.  The system sends an alarm when the incoming log data contains a specified key word or phrase. This is useful to detect any known abnormalities or behavior.&lt;/p&gt;&#xA;&lt;p&gt;To access the Watcher function, click on the &amp;lt;SIEM&amp;gt; icon at the Left Navigation Bar then click on &amp;lt;Watcher&amp;gt; at the Top Navigation Bar if not already at the Reports page.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

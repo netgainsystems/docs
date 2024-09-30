@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ElasticSearch on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/administrative/admin/elasticsearch/</link>
+    <description>Recent content in ElasticSearch on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/administrative/admin/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cluster Nodes</title>
+      <link>http://localhost:1313/administrative/admin/elasticsearch/clusternodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/elasticsearch/clusternodes/</guid>
+      <description>&lt;p&gt;This module provides overview of the Elasticsearch nodes health condition.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;Cluster nodes&amp;gt; in the Top navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/clusternode1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Once disk utilization hits 95%, Elasticsearch services will stop and NetGain Systems Infrastructure Monitoring services will stop. Please contact NetGain prior to the disk % &amp;gt; 90.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/clusternode2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Indices</title>
+      <link>http://localhost:1313/administrative/admin/elasticsearch/indices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/elasticsearch/indices/</guid>
+      <description>&lt;p&gt;All performance data and logs are stored in Elasticsearch on a daily basis as indices.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ng_perf – stores all monitoring related data in daily basis&lt;/li&gt;&#xA;&lt;li&gt;ng_flow_flows – stores all NetFlow related data in daily basis&lt;/li&gt;&#xA;&lt;li&gt;ng_logs – stores all SIEM log related data in daily basis&lt;/li&gt;&#xA;&lt;li&gt;ng_v11_alarms_– stores all current alarms related data&lt;/li&gt;&#xA;&lt;li&gt;ng_v11_history_alarms– stores all history alarm related data&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/indices1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h3 id=&#34;delete-indices&#34;&gt;Delete Indices&lt;/h3&gt;&#xA;&lt;p&gt;To delete indices, click on &amp;lt; &lt;img src=&#34;http://localhost:1313/administrative/images/netgain/deleteicon.png&#34; width=&#34;20px&#34;&gt; &amp;gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maintenance</title>
+      <link>http://localhost:1313/administrative/admin/elasticsearch/maintenance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/elasticsearch/maintenance/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Maintenance&amp;gt; in the Top navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/maintenance1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;This page shows you two options:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Data retention&lt;/li&gt;&#xA;&lt;li&gt;Snapshots&lt;/li&gt;&#xA;&lt;li&gt;Backup and restore.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;data-retention&#34;&gt;Data Retention&lt;/h3&gt;&#xA;&lt;p&gt;Data retention setting can be changed by clicking on &lt;img src=&#34;http://localhost:1313/administrative/images/netgain/changesettingsicon.png&#34; width=&#34;100px&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Change the retention period for different data:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Configurations data&lt;/strong&gt;: specify how long the system keeps the backup of configuration.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Metrics historical data&lt;/strong&gt;: specify how long the system keeps the Metrics performance data.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Logs data&lt;/strong&gt;: specify how long the system keeps the SIEM related logs data.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;NetFlow traffic flow data&lt;/strong&gt;: specify how long the system keeps the NetFlow data.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;APM transactions data&lt;/strong&gt;: specify how long the system keeps the APM data.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/maintenance2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shards</title>
+      <link>http://localhost:1313/administrative/admin/elasticsearch/shards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/elasticsearch/shards/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Shards&amp;gt; in the Top navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/shards1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;The shards page display how many shards are open in Elasticsearch. The maximum shards that one Elasticsearch can handle is 3000.&lt;/p&gt;&#xA;&lt;p&gt;Once reached 3000, Elasticsearch service will stop, and NetGain Systems Infrastructure Monitoring will stop services. Please contact NetGain Systems support prior to the shards reaching 3000.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/shards2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

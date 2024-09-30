@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Release notes">
+
+<title>Release notes | NetGain Documentation Hub</title>
+
+<link rel="icon" href="logo.png" type="image/x-icon">
+<link rel="stylesheet" href="/main.min.css" media="screen">
+<link rel="stylesheet" href="/custom.css" media="screen">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/news/Release/index.xml" title="NetGain Documentation Hub" />
+<style>
+  .gdoc-header { background: #0a539a; border-color: #404040; }
+</style>
+
+</head>
+
+<body>
+    <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 24 24" id="arrow_back" xmlns="http://www.w3.org/2000/svg"><path d="M20.016 11.016v1.969H7.828l5.578 5.625L12 20.016 3.984 12 12 3.984l1.406 1.406-5.578 5.625h12.188z"/></symbol><symbol viewBox="0 0 24 24" id="arrow_left_alt" xmlns="http://www.w3.org/2000/svg"><path d="M7.969 11.016v-3L3.985 12l3.984 3.984v-3h12.047v-1.969H7.969z"/></symbol><symbol viewBox="0 0 24 24" id="arrow_right_alt" xmlns="http://www.w3.org/2000/svg"><path d="M16.031 11.016v-3L20.015 12l-3.984 3.984v-3H3.984v-1.969h12.047z"/></symbol><symbol viewBox="0 0 24 24" id="bookmark" xmlns="http://www.w3.org/2000/svg"><path d="M15 5.016q.797 0 1.406.586t.609 1.383v16.031l-7.031-3-6.984 3V6.985q0-.797.609-1.383t1.406-.586h9.984zM18.984 18V5.016q0-.797-.586-1.406t-1.383-.609H6.984q0-.797.609-1.406T8.999.986h9.984q.797 0 1.406.609t.609 1.406v15.984z"/></symbol><symbol viewBox="0 0 16 28" id="code" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 23a1.5 1.5 0 10-3.001.001A1.5 1.5 0 004.5 23zm0-18a1.5 1.5 0 10-3.001.001A1.5 1.5 0 004.5 5zm10 2a1.5 1.5 0 10-3.001.001A1.5 1.5 0 0014.5 7zM16 7a3.002 3.002 0 01-1.5 2.594c-.047 5.641-4.047 6.891-6.703 7.734C5.313 18.109 4.5 18.484 4.5 20v.406A3 3 0 016 23a3.001 3.001 0 01-6 0c0-1.109.609-2.078 1.5-2.594V7.594A3 3 0 010 5a3.001 3.001 0 016 0 3.002 3.002 0 01-1.5 2.594v7.766c.797-.391 1.641-.656 2.406-.891 2.906-.922 4.562-1.609 4.594-4.875A3 3 0 0110 7a3.001 3.001 0 016 0z"/></symbol><symbol viewBox="0 0 24 24" id="date" xmlns="http://www.w3.org/2000/svg"><path d="M18.984 20.016V9H5.015v11.016h13.969zm0-16.032q.797 0 1.406.609t.609 1.406v14.016q0 .797-.609 1.383t-1.406.586H5.015q-.844 0-1.43-.563t-.586-1.406V5.999q0-.797.586-1.406t1.43-.609h.984V2.015h2.016v1.969h7.969V2.015H18v1.969h.984zm-1.968 7.032v1.969H15v-1.969h2.016zm-4.032 0v1.969h-1.969v-1.969h1.969zm-3.984 0v1.969H6.984v-1.969H9z"/></symbol><symbol viewBox="0 0 24 24" id="download" xmlns="http://www.w3.org/2000/svg"><path d="M5.016 18h13.969v2.016H5.016V18zm13.968-9L12 15.984 5.016 9H9V3h6v6h3.984z"/></symbol><symbol viewBox="0 0 24 24" id="email" xmlns="http://www.w3.org/2000/svg"><path d="M20.016 8.016V6L12 11.016 3.984 6v2.016L12 12.985zm0-4.032q.797 0 1.383.609t.586 1.406v12q0 .797-.586 1.406t-1.383.609H3.985q-.797 0-1.383-.609t-.586-1.406v-12q0-.797.586-1.406t1.383-.609h16.031z"/></symbol><symbol viewBox="0 0 24 28" id="github" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-.609.109-.828-.266-.828-.578 0-.391.016-1.687.016-3.297 0-1.125-.375-1.844-.812-2.219 2.672-.297 5.484-1.313 5.484-5.922 0-1.313-.469-2.375-1.234-3.219.125-.313.531-1.531-.125-3.187-1-.313-3.297 1.234-3.297 1.234a11.28 11.28 0 00-6 0S6.704 6.656 5.704 6.969c-.656 1.656-.25 2.875-.125 3.187-.766.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-.344.313-.656.844-.766 1.609-.688.313-2.438.844-3.484-1-.656-1.141-1.844-1.234-1.844-1.234-1.172-.016-.078.734-.078.734.781.359 1.328 1.75 1.328 1.75.703 2.141 4.047 1.422 4.047 1.422 0 1 .016 1.937.016 2.234 0 .313-.219.688-.828.578C3.439 23.796.002 19.296.002 13.999c0-6.625 5.375-12 12-12zM4.547 19.234c.031-.063-.016-.141-.109-.187-.094-.031-.172-.016-.203.031-.031.063.016.141.109.187.078.047.172.031.203-.031zm.484.532c.063-.047.047-.156-.031-.25-.078-.078-.187-.109-.25-.047-.063.047-.047.156.031.25.078.078.187.109.25.047zm.469.703c.078-.063.078-.187 0-.297-.063-.109-.187-.156-.266-.094-.078.047-.078.172 0 .281s.203.156.266.109zm.656.656c.063-.063.031-.203-.063-.297-.109-.109-.25-.125-.313-.047-.078.063-.047.203.063.297.109.109.25.125.313.047zm.891.391c.031-.094-.063-.203-.203-.25-.125-.031-.266.016-.297.109s.063.203.203.234c.125.047.266 0 .297-.094zm.984.078c0-.109-.125-.187-.266-.172-.141 0-.25.078-.25.172 0 .109.109.187.266.172.141 0 .25-.078.25-.172zm.906-.156c-.016-.094-.141-.156-.281-.141-.141.031-.234.125-.219.234.016.094.141.156.281.125s.234-.125.219-.219z"/></symbol><symbol viewBox="0 0 28 28" id="heart" xmlns="http://www.w3.org/2000/svg"><path d="M14 26c-.25 0-.5-.094-.688-.281l-9.75-9.406c-.125-.109-3.563-3.25-3.563-7C-.001 4.735 2.796 2 7.468 2c2.734 0 5.297 2.156 6.531 3.375C15.233 4.156 17.796 2 20.53 2c4.672 0 7.469 2.734 7.469 7.313 0 3.75-3.437 6.891-3.578 7.031l-9.734 9.375a.972.972 0 01-.688.281z"/></symbol><symbol viewBox="0 0 24 24" id="link" xmlns="http://www.w3.org/2000/svg"><path d="M17.016 6.984q2.063 0 3.516 1.477T21.985 12t-1.453 3.539-3.516 1.477h-4.031v-1.922h4.031q1.266 0 2.18-.914T20.11 12t-.914-2.18-2.18-.914h-4.031V6.984h4.031zm-9 6v-1.969h7.969v1.969H8.016zM3.891 12q0 1.266.914 2.18t2.18.914h4.031v1.922H6.985q-2.063 0-3.516-1.477T2.016 12t1.453-3.539 3.516-1.477h4.031v1.922H6.985q-1.266 0-2.18.914T3.891 12z"/></symbol><symbol viewBox="0 0 24 24" id="menu" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2.016H3V6zm0 6.984v-1.969h18v1.969H3zM3 18v-2.016h18V18H3z"/></symbol><symbol viewBox="0 0 24 24" id="notification" xmlns="http://www.w3.org/2000/svg"><path d="M18 15.984L20.016 18v.984H3.985V18l2.016-2.016v-4.969q0-2.344 1.195-4.078t3.305-2.25v-.703q0-.609.422-1.055t1.078-.445 1.078.445.422 1.055v.703q2.109.516 3.305 2.25t1.195 4.078v4.969zm-6 6q-.844 0-1.43-.563t-.586-1.406h4.031q0 .797-.609 1.383T12 21.984z"/></symbol><symbol viewBox="0 0 24 24" id="path" xmlns="http://www.w3.org/2000/svg"><path d="M21.984 11.016H15v-3h-2.016v7.969H15v-3h6.984v8.016H15v-3h-3.984V8.017H9v3H2.016V3.001H9v3h6v-3h6.984v8.016z"/></symbol><symbol viewBox="0 0 24 24" id="person" xmlns="http://www.w3.org/2000/svg"><path d="M12 14.016q2.531 0 5.273 1.102t2.742 2.883v2.016H3.984v-2.016q0-1.781 2.742-2.883t5.273-1.102zM12 12q-1.641 0-2.813-1.172T8.015 8.015t1.172-2.836T12 3.984t2.813 1.195 1.172 2.836-1.172 2.813T12 12z"/></symbol><symbol viewBox="0 0 24 24" id="search" xmlns="http://www.w3.org/2000/svg"><path d="M9.516 14.016q1.875 0 3.188-1.313t1.313-3.188-1.313-3.188-3.188-1.313-3.188 1.313-1.313 3.188 1.313 3.188 3.188 1.313zm6 0l4.969 4.969-1.5 1.5-4.969-4.969v-.797l-.281-.281q-1.781 1.547-4.219 1.547-2.719 0-4.617-1.875T3.001 9.516t1.898-4.617 4.617-1.898 4.594 1.898 1.875 4.617q0 .984-.469 2.227t-1.078 1.992l.281.281h.797z"/></symbol><symbol viewBox="0 0 20 28" id="shield" xmlns="http://www.w3.org/2000/svg"><path d="M17 15V5h-7v17.766c.797-.422 2.078-1.156 3.328-2.141C15 19.312 17 17.266 17 15zm3-12v12c0 6.578-9.203 10.734-9.594 10.906-.125.063-.266.094-.406.094s-.281-.031-.406-.094C9.203 25.734 0 21.578 0 15V3c0-.547.453-1 1-1h18c.547 0 1 .453 1 1z"/></symbol><symbol viewBox="0 0 32 32" id="tags" xmlns="http://www.w3.org/2000/svg"><path d="M5 5c-1.104 0-2 .887-2 2v8l13.381 13.381c.716.716 1.838.78 2.62.191L5 14.5V5.007 5zm11-1l13.381 13.381c.783.783.787 2.051.008 2.831l-7.177 7.177a2.003 2.003 0 01-2.831-.008L6 14V6c0-1.112.895-2 2-2h8zm-4.5 7a1.5 1.5 0 10-.001-3.001A1.5 1.5 0 0011.5 11z"/></symbol><symbol viewBox="0 0 35 32" id="telescope" xmlns="http://www.w3.org/2000/svg"><path d="M27.464 2.314a.501.501 0 00-.698-.257L14.86 8.339a.499.499 0 00-.233.621l.245.641-6.873 3.769a.5.5 0 00-.222.63l.228.549-7.299 3.488a.5.5 0 00-.246.643l1.498 3.61a.5.5 0 00.629.28l7.625-2.701.228.549a.5.5 0 00.601.289l7.276-2.097.218.569a.497.497 0 00.612.299l13-4a.498.498 0 00.317-.663l-5-12.501zM2.7 21.469l-1.134-2.734 6.823-3.261 1.439 3.47L2.7 21.469zm8.491-1.846l-.238-.574-1.843-4.445-.238-.573 6.336-3.475 2.374 6.134.375.981-6.766 1.952zm8.109-1.238l-.203-.531c-.003-.011-.001-.024-.006-.035l-.618-1.597-2.754-7.206 11.023-5.815 4.592 11.48L19.3 18.385zM28.964.314a.5.5 0 00-.929.371l6 15a.502.502 0 00.651.279.501.501 0 00.279-.65l-6.001-15zM18 21h-3c-1.14 0-2 .86-2 2v1.315l-5.879 6.859a.5.5 0 10.758.651L13.73 25H16v6.5a.5.5 0 001 0V25h2.27l5.85 6.825a.497.497 0 00.705.054.5.5 0 00.054-.705L20 24.315v-1.24C20 21.912 19.122 21 18 21zm1 3h-5v-1c0-.589.411-1 1-1h3c.57 0 1 .462 1 1.075V24z"/></symbol></svg>
+
+    <div class="wrapper">
+        <input type="checkbox" class="hidden" id="menu-control" />
+        <header class="gdoc-header">
+    <div class="container flex align-center justify-between">
+        
+        <label for="menu-control" class="gdoc-nav__control">
+            <svg class="icon menu"><use xlink:href="#menu"></use></svg>
+            <svg class="icon arrow-back"><use xlink:href="#arrow_back"></use></svg>
+        </label>
+        
+        <a class="gdoc-header__link">
+            <span class="gdoc-brand flex align-center">
+                <img class="gdoc-brand__img" src="/logo.png" alt="NetGain Documentation Hub" style="width:144px;height:80px">
+                NetGain Documentation Hub
+            </span>
+        </a>
+    </div>
+</header>
+
+
+        <main class="container flex flex-even">
+            <aside class="gdoc-nav">
+                <nav>
+    
+    <div class="gdoc-search">
+        <svg class="icon search"><use xlink:href="#search"></use></svg>
+        <input type="text" id="gdoc-search-input" class="gdoc-search__input" placeholder="Search..."
+            aria-label="Search" maxlength="64" />
+        <div class="gdoc-search__spinner spinner hidden"></div>
+        <ul id="gdoc-search-results" class="gdoc-search__list"></ul>
+    </div>
+
+
+
+    <section class="gdoc-nav--main">
+        <h2>Navigation</h2>
+        
+            
+
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            <li>
+            
+                <span class="flex">Overview</span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/overview/architecture/" class="gdoc-nav__entry ">
+                        Architecture
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/installation/" class="gdoc-nav__entry ">
+                        Installation
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/installation/cloud_vista/" class="gdoc-nav__entry ">
+                        Cloud Vista
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/installation/emedge/" class="gdoc-nav__entry ">
+                        Emedge
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+        
+            
+            
+            
+        
+            
+            
+            
+        
+            
+            
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">Modules</span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/modules/home/" class="gdoc-nav__entry ">
+                        Home
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+        
+            
+            
+            
+        
+            
+            
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/modules/metrics/" class="gdoc-nav__entry ">
+                        Metrics
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/modules/netflow/" class="gdoc-nav__entry ">
+                        NetFlow
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/modules/siem/" class="gdoc-nav__entry ">
+                        SIEM
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+        
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/modules/apm/" class="gdoc-nav__entry ">
+                        APM
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/modules/cmdb/" class="gdoc-nav__entry ">
+                        CMDB
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/modules/aiops/" class="gdoc-nav__entry ">
+                        AIOps
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/modules/alerts/" class="gdoc-nav__entry ">
+                        Alerts
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/modules/dashboards_2.0/" class="gdoc-nav__entry ">
+                        Dashboard 2.0
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">Adminstrative</span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/administrative/admin/" class="gdoc-nav__entry ">
+                        Admin
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/administrative/emedge_sites/" class="gdoc-nav__entry ">
+                        Emedge Sites
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/administrative/tools/" class="gdoc-nav__entry ">
+                        Tools
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/troubleshooting_guides/" class="gdoc-nav__entry ">
+                        Troubleshooting Guide
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/troubleshooting_guides/FAQ/" class="gdoc-nav__entry ">
+                        Frequently Asked Questions
+                    </a>
+                </span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+    </ul>
+
+
+
+
+
+        
+    </section>
+
+    <section class="gdoc-nav--more">
+        
+    </section>
+</nav>
+
+            </aside>
+
+            <div class="gdoc-page">
+                
+    
+
+
+    
+
+
+
+
+
+
+<div class="gdoc-page__header flex flex-wrap justify-between hidden-mobile" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <span>
+        
+            <span class="breadcrumb">
+                <svg class="icon path"><use xlink:href="#path"></use></svg>
+                
+                
+    
+    
+        
+        
+        
+    
+    
+        
+        
+        
+    
+    
+        <a href='/'>Home</a> / <a href='/news/'>News</a> / Release notes
+    
+
+    
+
+    
+
+            </span>
+        
+    </span>
+    <span>
+        
+    </span>
+</div>
+
+    <article class="gdoc-markdown">
+        <h1>Release notes</h1>
+        
+
+
+
+    
+
+
+<div class="gdoc-page__anchorwrap"><h2 id="netgain-em-version-release-notes">NetGain EM Version Release Notes<a data-clipboard-text="http://localhost:1313/news/Release/#netgain-em-version-release-notes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor NetGain EM Version Release Notes" href="#netgain-em-version-release-notes"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>Please find below for the past release notes:</p>
+<hr>
+<p><strong>NetGain EM Change Log v12.2.274 build 969 (release date: 8th Apr 2024)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Metrics naming of objects</li>
+<li>Batch report - Time range</li>
+<li>SNMP v3 discovery for Bluecoat devices</li>
+<li>Aruba AP uptime monitor</li>
+<li>SSH monitoring of devices</li>
+<li>Adhoc report saving</li>
+<li>NCM - show changes</li>
+<li>Dashboard request headers too large</li>
+</ul>
+</li>
+<li>Enchancements:
+<ul>
+<li>License update to add in the logs</li>
+<li>Oracle database monitors</li>
+<li>PostgreSQL monitors</li>
+<li>NetApp monitors</li>
+<li>SSO for Azure</li>
+<li>Oracle Database monitors</li>
+<li>Traceroute monitor</li>
+<li>Disk report</li>
+<li>Grafana</li>
+<li>additional supporting APIs</li>
+<li>GeoMap plugin</li>
+<li>CMDB - asset management plugin</li>
+<li>OS Process monitor</li>
+<li>Synthetic monitoring</li>
+</ul>
+</li>
+<li>New Implementation:
+<ul>
+<li>Rest API for Bizview</li>
+<li>Built-in log parsing for Trendmicro Deep Security logs</li>
+<li>Supports Elasticsearch v8.11.x</li>
+<li>Dell Backup Jobs monitor</li>
+<li>Trend Micro metrics via API</li>
+<li>Trellix monitors</li>
+<li>New supported OS: Alma Linux 9.3</li>
+<li>Integration of MOXA dry contact monitoring</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v12.2.160 build 814 (release date: 5th Jul 2023)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Linux Process start time</li>
+<li>SIEM built-in mappings button not shown</li>
+<li>Alarm correlation view</li>
+<li>Cipher issues for Tomcat 8</li>
+</ul>
+</li>
+<li>Enchancements:
+<ul>
+<li>Added SIEM threat detection rules</li>
+<li>SNMP v3 discovery</li>
+<li>Rest APIs</li>
+<li>Metrics and Tags</li>
+<li>Oracle Database monitors</li>
+<li>Palo Alto, Huawei, Cisco, Mikrotik, VMware, Extreme, Fortigate monitors</li>
+<li>System Uptime monitor</li>
+<li>NetGain Agent for windows OS</li>
+<li>NCM - Fortinet, Palo Alto</li>
+<li>Password expiry message email to include more details</li>
+</ul>
+</li>
+<li>New Implementation:
+<ul>
+<li>Azure Single Sign-On (SSO) using OAuth2 and OpenID protocols</li>
+<li>SNMPtrap to alarm mapping mechanism, based on mib files</li>
+<li>Monitoring of QAX firewall under Security group</li>
+<li>Zabbix smart and zbs cluster monitors</li>
+<li>Monitor exception feature</li>
+<li>Supports Elasticsearch v8.7.x</li>
+<li>Supports Filebeat v8.7.x</li>
+<li>Supports emedge in Raspbian OS 64bit</li>
+</ul>
+</li>
+<li>Obsolete:
+<ul>
+<li>Temporary ignore feature, replaced with monitor exception feature</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.2.394 build 553 (release date: 16th Nov 2022)</strong></p>
+<ul>
+<li>
+<p>Fixes:</p>
+<ul>
+<li>Fix Bug 4051 - 11.1.182|Alicloud Sms wrong info - add
+support to test sms message using json format based on the template format corresponding to the supplied templateCode</li>
+<li>Fix Bug 4366 - v11-SaaS-SIEM log sources page is not able to display log source from filebeat</li>
+<li>Fix Bug 4480 - cpu_memory_utilization_additional_info_not_show</li>
+<li>Fix Bug 4646 - v11-EM-too many opened snmp session</li>
+<li>Fix Bug 4664 - metric beat windows services adding</li>
+<li>Fix Bug 4665 - siem_log_watcher_needs_severity_setting</li>
+<li>Fix Bug 4666 - [change request] v11-SIEM-MAH windows event logs forwarding</li>
+<li>Fix Bug 4668 - handle potential sms.java hanging issue</li>
+<li>Fix Bug 4683 - v11.2.x | metricbeat monitors not updating when device is down</li>
+<li>Fix Bug 4685 - v11-EM-missing MOs issues - add delay in shutdown hook until MOs move operation is completed, if there is an existing MO operation in progress</li>
+<li>Fix Bug - SNMP custom monitors not able to capture data</li>
+<li>Fix for critical monitor Action not triggered</li>
+<li>Fix missing counter index issues for some monitors</li>
+<li>Fix elastic data purging wrongly purging data using shorter days (meant for saas) for on prem</li>
+<li>Fix default HOME_DIR for agent</li>
+<li>Fix issue when old socket agent connection becomes invalid</li>
+<li>Fix daily logs volume usage calculation error due to beats indices in gmt time format</li>
+<li>Fix index name error in CVS cloud when ingesting sample logs</li>
+</ul>
+</li>
+<li>
+<p>Enchancements:</p>
+<ul>
+<li>Synthetic - improve on stability</li>
+<li>Synthetic - implement alarm generation</li>
+<li>Synthetic - implement frontend logic, to display past transactions and steps</li>
+<li>Synthetic - delete executions and screenshots too, when script is deleted</li>
+<li>Synthetic monitoring - move to be under &lsquo;apm&rsquo; module</li>
+<li>Elastic retain snapshots for 1st and 15th of the month</li>
+<li>Elastic improve query api to throw exception with query string has syntax errors</li>
+<li>Elastic reset CvsManager configs cache when invoke ElasticBackupUtil.purgeNow method</li>
+<li>NCM encodes support for encrypting NCM data with public key on emedge</li>
+<li>Metricbeat enhance AWS monitors</li>
+<li>Metricbeat enhance AWS - enhance S3 and NatGateway mappings</li>
+<li>Metricbeat enhance AWS - enhance ELB monitors</li>
+<li>Metricbeat enhance AWS - improve on MO tagging</li>
+<li>Metricbeat enhance AWS mappings and add IIS mappings</li>
+<li>Cloud copy modules.d folder from var (if exists) for beats sidecars in cloud</li>
+<li>Cloud enable apm-server sidecar on emedge running on Azure cloud</li>
+<li>Allow monitor list page to remember the table search string different for different objects (i.e. fdns) - revert this change</li>
+<li>Improve performance for AIOps pages</li>
+<li>Improve to not run jobs on cloud yet</li>
+<li>Enhance on ML metrics anomaly detection logic</li>
+<li>Added support for more job types including logs, threats, apm, netflow</li>
+<li>Grafana add support to create and push plugin to download server</li>
+<li>SMS add support of -Dsms_keepalive_mins=xxx (default 60) to reconnect sms modem periodically</li>
+<li>Metrics add metric names</li>
+<li>Perf support &lsquo;data copy&rsquo; feature for missing data</li>
+<li>Emedge supports -Dcloud_edge=1 when deploy emedge in azure cloud</li>
+<li>Change -Delastic_snapshot_retain_days default from 30 to 90</li>
+<li>Improve on device info mapping to vendors and models</li>
+<li>Enhance to save elastic queries templates to backend DB instead of just browser cache</li>
+<li>TOPOLOGY refactor L2 topology analyzer code and unit tests</li>
+<li>Improve socket agent stability</li>
+<li>Alarm autoaction - add support for powershell scripts (ps1 extension)</li>
+<li>Alarm improve alarm elastic indexing to avoid out of memory    TSS-vmware monitoring - improve debugging logs</li>
+<li>Support customized ng.conf for CVS cloud instances (e.g. /mnt/common/etc/cvs-livedemo/ng.conf)</li>
+<li>Supports set runtime parameters e.g. via &lsquo;run.sh netgain.sac.SetParams logstash_record_filename xxx&rsquo;</li>
+<li>Logmgmt pop error when log watcher rule expression specified is invalid, during save</li>
+<li>Do not allow change of data rentention settings in CVS cloud environment. do it via CRM</li>
+<li>SIEM update elastic detection rules</li>
+<li>Add SysmonSimulator</li>
+<li>Enhance NCM to avoid detect as config changes is only line changed is &lsquo;! Last configuration change at&hellip;&rsquo;</li>
+<li>Implement NCM device testing - extend to support for emedge</li>
+<li>CV docker image to remove elasticsearch version embeddings for v7.9.3 and v7.16.3</li>
+<li>Pingmon optimize memory</li>
+<li>Dashboards add page for user with admin role to delete other users dashboards</li>
+<li>Improve on license warning msgs</li>
+<li>Optimize memory usage by reducing max queue size MomAgent</li>
+<li>Optimize memory usage by reducing buffer size for  FlowBufferPool and NorthboundManager</li>
+<li>License warnings to MSTeam for SaaS</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.2.318 build 466 (release date: 13th Sep 2022)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix Bug_4540_oracle_tablespace_monitor_sql_query_time_out</li>
+<li>Fix Bug 4614_uptime_monitor_improvement</li>
+<li>Fix Bug 4617 disk_report_not_showing_all_disks</li>
+<li>Fix Bug 4620 new request - Sharing of Custom reports - shows the &lsquo;shared&rsquo; indication on web page</li>
+<li>Fix Bug 4624 historical_graph_long_decimal_point</li>
+<li>Fix Bug 4625 Security Audit Issues - Vulnerabilities</li>
+<li>Fix Bug 4630 EM-v11-dashboard display auto refresh stuck - fix full screen issue</li>
+<li>Fix Bug 4645 v11.2.x | SIEM add mapping feature not able to load</li>
+<li>Fix Bug 4646 v11-EM-too many opened snmp session</li>
+<li>Fix Bug 4653 topology_l2_views_cant_edit</li>
+<li>vmware fix slow monitoring when vmware sdk authentication fails for many monitors</li>
+</ul>
+</li>
+<li>Enchancements:
+<ul>
+<li>Dashboards add page for user with admin role to delete other users dashboards</li>
+<li>Agent supports auto device discovery when socket agent connects via -Dautodiscover_agent_devices=1 parameter</li>
+<li>NCM implement NCM device testing - extend to support for emedge</li>
+<li>NCM add more ncm scripts to support arista and huawei devices</li>
+<li>Disable config backups by default, unless -Dconfigs_backup=1 is set</li>
+<li>Elastic enable auto snapshots if -Delastic_repo_path=xxx is defined</li>
+<li>CVS add redis support (netgain.sac.CvRedis class)</li>
+<li>CVS skip periodic check license for netgain saas</li>
+<li>Improve on license warning msgs</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.2.276 build 416 (release date: 14th Jul 2022)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix security vulnerability - 2. H-01: Multiple Reflected Cross-Site-Scripting Issues</li>
+<li>Fix singtel security vulnerability - C-01: Password Stored in Recoverable Format Rating: Critical (9.9)</li>
+<li>Fix Bug 4589_display_user_in_dashboard</li>
+<li>Fix Bug 4599 - fix interface history graph units display (e.g. Kbps to Mbps)</li>
+<li>Fix Bug 4604 - v11.2.x | Threat Rules cannot create new rule</li>
+<li>Fix Bug 4605 - v11.2.x | Netflow query error, but reports can show data</li>
+<li>Fix Bug 4606 - v11.2.x | GROK expression hangs when adding 3 or more expressions</li>
+<li>Arista monitors - fix errorneous discovery</li>
+<li>Logger supports log report with multi-line query expressions - fix chart display</li>
+<li>Monitors restore back MemoryStorage monitors for AS400</li>
+<li>Logs improve on timeseries data query to use local timezone instead of GMT timezone</li>
+<li>APM fix real user monitoring transaction display</li>
+<li>Improve garbage collection of tomcat sessions (auto logout</li>
+</ul>
+</li>
+<li>Enchancements:
+<ul>
+<li>Anomaly detection - enhance job display</li>
+<li>Elasticsearch - add support for latest v7.17.4 elasticsearch and filebeat</li>
+<li>Synthetic monitoring - enhance</li>
+<li>AI anomaly detection monitoring prototype via -Dml=1</li>
+<li>vmware refactor vmware monitors code</li>
+<li>Monitors enhance BgpPeer monitor</li>
+<li>Supports 90/95/98 thpercentile methods in complex search expressions</li>
+<li>NCM longer timeout to handle cisco configurations taking a long time to pull</li>
+<li>NCM improves device mapping for cisco 9200 switches</li>
+<li>NCM improve on NCM device table display to display last backup size</li>
+<li>NCM update last backup time, even if config pulled did not change</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.2.236 build 368 (release date: 20th May 2022)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix Bug_4463_cv_ncm_bulk_modify_issue_gna</li>
+<li>Fix Bug_4489_my_town_cisco_wireless_client_monitor_with_report_index_at_cv - set the index max results to 50000 (bigger)</li>
+<li>Fix Bug 4569 - [change request]SIEM dashboard enable the table format</li>
+<li>Fix Bug 4571 - [change request]v11-SIEM- enable to customize the SIEM and log watch alarm to</li>
+<li>Fix Bug 4579 - v11.2.x Archimon | NCM Scheduler not working - fixed by using purely cron expressions</li>
+<li>SNMP v3 rename the GUI input fields properly to auth protocol, auth password, priv protocol and priv password</li>
+<li>metricbeat improve MO tagging for kubernetes</li>
+<li>restapi fix helper message</li>
+<li>Perf - Fix critical bug of sometimes perf counter index cannot be found</li>
+<li>Perf - Fix data intervals for longer time periods when query history perf data</li>
+<li>NCM - Fix devices table sorting</li>
+<li>NCM - Fix schedule trigger issue (sleep interval too long, so might missed the actual second specified in cron expression</li>
+<li>Notify - Add support for fixed smtp server via -Dsmtp_fixed_&hellip;.=xx</li>
+<li>Logs - Fix sometimes cannot find logs belonging to previous day log index, due to GMT timezone</li>
+</ul>
+</li>
+<li>Enchancements:
+<ul>
+<li>Add support for &lsquo;searchTagsInAncestors&rsquo; - change to use boolean instead of string</li>
+<li>snmpv3 enhance to support new authentication protocols HMAC128SHA224 HMAC192SHA256 HMAC256SHA384 HMAC384SHA512</li>
+<li>emedge trim package to make it smaller in size for the install zip file</li>
+<li>Add Objects to datasource support</li>
+<li>Perf - Optimize perf history data query to query only needed counters, and not all counters everytime</li>
+<li>Perf - Improve history data query for perf history data</li>
+<li>NCM - Make the pull ncm config handler at MomAgent (emedge) side async to improve efficiency</li>
+<li>NCM - Make default schedule backup as daily at 3am</li>
+<li>NCM - Add schedule loggings shown on GUI and also skipped saving to DB if there are not changes detected</li>
+<li>JWT - Add jwt expiry check and also api for refresh token</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.2.201 build 318 (release date: 31st March 2022)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix Bug_4423_Alarm_Annotation_Cannot_Be_Saved</li>
+<li>Fix Bug_4423_Alarm_Annotation_Cannot_Be_Saved</li>
+<li>Fix Bug 4498 - Alibaba Cloud Voice Call - fix to use user&rsquo;s mobile number when notifying alicloud</li>
+<li>Fix Bug 4498 - Alibaba Cloud Voice Call - fix critical bug in sendSms</li>
+<li>Fix Bug 4498 - Alibaba Cloud Voice Call - fix critical bug in sendTts</li>
+<li>Fix Bug 4525 - v11-EM generic indice does not restore users&rsquo; related info</li>
+<li>Fix Bug_4541_Unable_To_Generate_Network_Bandwidth_Report</li>
+<li>Fix Bug_4550 - CVS-emedge remote upgrade failed - change to use restart and run install script method for zip file (besides tar.gz file) too</li>
+<li>Fix Bug_4552_Notify_Now_Function_Not_Able_To_Select_User</li>
+<li>Fix Bug_4554_Temporarily_Ignore_VM_Groups_When_Powered_off</li>
+<li>Netflow fix error in parsing flow destination geo attributes</li>
+<li>Logs fix critical bug in log saving</li>
+<li>Logmgmt fix log archiver directory missing issue</li>
+<li>sms simplify netgain/notify/SmsSender and fix sms retries</li>
+<li>sms add support for -Dsms_flush=0 and -Dsms_flowcontrol=0 for sms modem code</li>
+<li>sms refactor SmsSender code to remove need for server and port parameter</li>
+<li>agent fixed socket agent ObjectOutputStream memory leak</li>
+<li>map hide all customized logical map right menu shortcuts and make available only via sys property</li>
+<li>logs fix bug in checking daily log limits</li>
+</ul>
+</li>
+<li>Enchancements:
+<ul>
+<li>vmware improve on VmwareVmNic monitoring</li>
+<li>Added synthetic monitoring</li>
+<li>cvs enhance period samba mount for CVS instances</li>
+<li>metricbeat enhance metricbeat recording</li>
+<li>monitor enhance websphere monitors to NOT require keystore or truststore per host</li>
+<li>bug_4532_poly_finance_inspur_storage_monitoring_gna</li>
+<li>bug_4481_peplink_device_speedfusion_convert_units_gna</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.2.164 build 258 (release date: 27th Febuary 2022)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix Bug_4131_Standard_Report_Template_Issue_With_Adding_Objects</li>
+<li>Fix Bug_4423_Alarm_Annotation_Cannot_Be_Saved</li>
+<li>Fix Bug_4496_add_more_monitor_values_in_custom_script</li>
+<li>Fix Bug_4503_after_creating_global_template_agent_monitor_missing</li>
+<li>Fix Bug_4505_Service_Alarms_Enhancement</li>
+<li>Fix Bug 4515 - NetGain Agent - SSLHandshakeException - TSS</li>
+<li>Fix Bug_4516_Userdefined_Report_Date_Format</li>
+<li>Fix Bug_4518_ram_total_value_not_tally</li>
+<li>Fix Bug_4522_SIEM_ThreatRules_Datatables_Issue</li>
+<li>Fix V11_Bug_Issue_With_Device_Excel_Import</li>
+<li>cv fix samba mount issue</li>
+<li>Fix emedge dependencies on elasticsearch jar files</li>
+<li>reports fix report document template</li>
+</ul>
+</li>
+<li>Enchancements:
+<ul>
+<li>filebeat shows support filebeat versions for mappings</li>
+<li>filebeat add support for filebeat v7.16.3 templates and ingest pipelines, and emedge filebeat sidecar to v7.16.3</li>
+<li>saas improve to be able to download iossd.log (internal logs) even in cloud deploy mode</li>
+<li>SIEM update elastic detection rules</li>
+<li>monitor show refreshing when loading history data</li>
+<li>react-dashboards enhance react dashboards integrations</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.2.142 build 227 (release date: 13th January 2022)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix network_ping_monitor_shows_script_error</li>
+<li>Fix siem improve threat rules display</li>
+<li>Fix bug_log4j_vulnerability_fix_2.17</li>
+<li>emedge fix bug of netflow data not forwarded at emedge</li>
+<li>Fix ncm_snmpv3_not_working_issue</li>
+<li>Fix Bug 4329 trace route report</li>
+<li>Fix ncm_backup_need_another_password</li>
+<li>monitors refactor netgain/monitors/ipsvc/Url</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>elasticsearch update code to support elasticsearch v7.16.2</li>
+<li>update year 2021 to 2022 in all copyright strings</li>
+<li>restapi improve on new gen apis</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.2.142 build 227 (release date: 13th January 2022)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix network_ping_monitor_shows_script_error</li>
+<li>Fix siem improve threat rules display</li>
+<li>Fix bug_log4j_vulnerability_fix_2.17</li>
+<li>emedge fix bug of netflow data not forwarded at emedge</li>
+<li>Fix ncm_snmpv3_not_working_issue</li>
+<li>Fix Bug 4329 trace route report</li>
+<li>Fix ncm_backup_need_another_password</li>
+<li>monitors refactor netgain/monitors/ipsvc/Url</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>elasticsearch update code to support elasticsearch v7.16.2</li>
+<li>update year 2021 to 2022 in all copyright strings</li>
+<li>restapi improve on new gen apis</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.2.121 build 213 (release date: 23rd December 2021)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix cannot_create_apache_monitor_after_discovery</li>
+<li>Fix Metrics_Types_Alignment_Issue</li>
+<li>Duplicate_Dashboard_Issue</li>
+<li>Linux_agent_not_stopping</li>
+<li>log4j - fix log4j zero-day vulnerability - CVE-2021-44228,CVE-2021-45046</li>
+<li>Dell switches not able to pull config</li>
+<li>ncm Cisco_not_able_to_pull_in_full</li>
+<li>Fix issue_With_Integrations_Alignment</li>
+<li>Fix issue_With_Device_View_Object_Deletion</li>
+<li>Various SaaS issues and enhancements</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>NCM_to_add_support_palo_alto_device</li>
+<li>Add NCM_huawei_device_6300</li>
+<li>Add_symbol_host_description_in_notify_rules</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.2.67 build 121 (release date: 28th September 2021)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Biz_View_Issue_When_Mo_Not_Found</li>
+<li>notify fix notification issues when alarm count changes before sending out the first notification requests</li>
+<li>User_Data_Migration_Issue_With_Latest_Version</li>
+<li>googlemap displays a clean map with POIs</li>
+<li>monitors add back url monitor counters to avoid warning logs</li>
+<li>monitors fixed Alcatel Fan monitor perf counter names</li>
+<li>Issue_With_Add_Widget_Screen_Not_Scrollable</li>
+<li>ncm_snmpv3_device_import_failed</li>
+<li>Special_Character_In_Global_Rules_Exported_Excel</li>
+<li>security improve display of API token for user in user view</li>
+<li>Bug_4294_APM_Watcher_table_Cursor_Formatting</li>
+<li>dashboard implement support to plot history graphs for multiple objects of the same type</li>
+<li>dashboard feature to support add metrics view to dashboard</li>
+<li>logs improve search result to use aggregate labels instead of field name, if available</li>
+<li>monitor gui - update and improve the status text display for monitors in monitor list view</li>
+<li>topo remove icons from network topo view, so that screencapture works</li>
+<li>GUI remove some javascript warnings during initial page load</li>
+<li>netflow flows analyzer blank graph issue</li>
+<li>monitor reimplement perf forecast function in monitor history view</li>
+<li>netflow add/remove filter buttons for IP columns in flows table</li>
+<li>logs improve saving of queries to include filter settings too</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>metricbeat enhance support for more metricbeat system metrics - refactor code</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log 11.1.299 build 33 (release date: 27th June 2021)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Issue with loading pdf reports in cvs instances</li>
+<li>Adhoc reports to show heading on charts with multiple counters</li>
+<li>IPMI emedge_latest_version_cannot_discover_monitor</li>
+<li>Monitor make device dashboard show positive value in ylabels for traffic graphs</li>
+<li>User defined reports table to show only selected counters</li>
+<li>Tomcat change shutdown port from 8005 to 8006</li>
+<li>Fix 2FA login with google captcha enabled and also refactor</li>
+<li>Table_Canvas_is_Not_Resizing_according_To_Widget_Height</li>
+<li>Fix bug of MO corruption when moving/copying MOs tree</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>APM slight GUI improvements</li>
+<li>Logs improves logs display and search UX</li>
+<li>Supports export/import MO tree via GUI - enhancements</li>
+<li>Add DNS hostname when adding device, if hostname is not found from snmp</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.1.240 build 581 (release date: 27th April 2021)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Issue with creating new dashboards for non admin users</li>
+<li>Fix capacity prediction issues</li>
+<li>Fix metric objects sorting issue</li>
+<li>Fix netlow search and reports toggle fields</li>
+<li>Fix device import issue</li>
+<li>Time range select by default not showing any values</li>
+<li>APM transaction span display issue when first span is too long</li>
+<li>Role add topo view when no views</li>
+<li>Modal close button shows double icons</li>
+<li>Too many decimal points for value in adhoc report</li>
+<li>Error saving global rules</li>
+<li>Horizontal Privelege Escalation VAPT fix</li>
+<li>Path Traversal VAPT fix</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>Added TalariaX notification integration</li>
+<li>Enhance SaasMonitor</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.1.203 build 522 (release date: 27th February 2021)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix monitor status list screen flickering issue</li>
+<li>Fix mobile web view bug</li>
+<li>Use TLS1.2 and disable weak Ciphers to avoid TLS ROBOT Vulnerability</li>
+<li>Fixed checkboxes in alarm page issue and alarms dropdown issue on page load</li>
+<li>SIEM Dashboard display error when query string contains as &lsquo;xxx&rsquo;</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>Implement logs compliance reports</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.1.185 build 493 (release date: 29th January 2021)</strong></p>
+<ul>
+<li>Fixes:
+Fix netflow recording
+Fix CVS empty site showing disabled status
+Fix netflow application deletion issue
+Fix orphan mos deletion</li>
+<li>Enhancements:
+<ul>
+<li>Improves on logon screen css</li>
+<li>Prototype changes in alicloud integration</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.1.175 build 420 (release date: 28th December 2020)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix critical bug of MOManger.deleteMO only deleting immediate child MOs and not grandchild MOs</li>
+<li>Fix metrics report batch delivery not able to schedule delivery</li>
+<li>Fix adding business view in role management</li>
+<li>Fix not able to create monitor after auto discover</li>
+<li>Do not annotate problem when auto discharging</li>
+<li>Fix critical issue of MO not delete at edge when delete MO at CV</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>Add MacroSan new monitors</li>
+<li>Add BizView SLA batch reports</li>
+<li>Enhance batch reports customization</li>
+<li>Enhance agent to support IPv6</li>
+<li>Implemented Arista switch optical sensors</li>
+<li>Improve the monitor history view page</li>
+<li>Improve on capacity planning estimation</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Release Notes v11.1.160 build 408 (release date: 27th Nov 2020)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Mobile view formatting</li>
+<li>Fix Interface monitor Input Output Utilization Units</li>
+<li>Fix APM transactions query wrong (not based on time range)</li>
+<li>Fix APM transaction filter search</li>
+<li>Fix agent make no rmi as default true. Make socket agent method as default.</li>
+<li>Fix critical issue of socket agent connection not secure.</li>
+<li>Fix issue with saving new assets</li>
+<li>Fix critical snmpv3 trap receive</li>
+<li>Fix SNMP trap varbind ingest issue</li>
+<li>Fix 2fa screen formatting</li>
+<li>Fix logical map display severity colour for normal status</li>
+<li>Fix monitor graph display issue</li>
+<li>SIEM alarms export</li>
+<li>Logical map google map case sensitive comparision with new map</li>
+<li>Monitor object jump links</li>
+<li>Time range select problems for beats indexs (GMT-based indices)</li>
+<li>Logs_summary dashboard click issue</li>
+<li>Threat detections enable/disable feature</li>
+<li>Fix opsgenie pager duty issues</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>Improve logs and apm dashboard widgets</li>
+<li>Add APM widgets</li>
+<li>Allow auto APM drill down based on URL hash</li>
+<li>Improve on dashboards for logs widgets</li>
+<li>Add support for engine ID in SNMP USM Users edit</li>
+<li>Add PDF support for log reports delivery</li>
+<li>Support running emedge as a windows service</li>
+<li>Add AliCloud Notification mechanism</li>
+<li>Implement current alarms export to excel button</li>
+<li>Add ServiceNow notification integration</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.1.141 build 396 (release date: 27th October 2020)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix ApmWatcher bug that it does not generate alarm</li>
+<li>Fix input output utilization units</li>
+<li>Fix primary menu expand bug</li>
+<li>Fix issue with saving new assets</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>Improve elastic query format to include sorting direction</li>
+<li>Add default monitoring dashboard</li>
+<li>Enhance alarm views</li>
+<li>Update default SIEM security threat dashboard</li>
+<li>Add APM response time dashboard widget</li>
+<li>Improve log summary dashboard widget</li>
+<li>Add APM transaction mapper</li>
+<li>Add selectable colors for dashboard</li>
+<li>Enhanced download option for monitor history graph</li>
+<li>Improve on logs reports to indicate no data</li>
+<li>Enhance logmgmt to show elasticsearch ingest time performance on web GUI</li>
+<li>Add netflow histogram</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.1.118 build 361 (release date: 28th September 2020)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fix bug of enable/disable mapping rules due to multiple transformers</li>
+<li>NetGain alert box dark theme formatting</li>
+<li>Fix history data issue with moving devices</li>
+<li>Fix screen overflow when expandable primary menu is clicked</li>
+<li>Fix bug of role users not saved when users added to role</li>
+<li>Fix deleteMO issue when parent MO is not found</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>Improve metric reports performance</li>
+<li>Enhance multiple metrics for combined reports</li>
+<li>Enhance metric reports to add in dashboard</li>
+<li>Add top-n report prototypes</li>
+<li>Prototype SIEM compliance reports</li>
+<li>Enhance syslog collector to handle invalid/TCP format</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.1.90 build 322 (release date: 27th August 2020)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Removed obsoleted cisco process monitors</li>
+<li>Fix LogStashProxy for beats logs collection</li>
+<li>Do not prompt for CV IP, if &lsquo;cv&rsquo; environment is already set</li>
+<li>Forwards netflow traffic from edge to CV</li>
+<li>Fixed EV multiple IP range discovery in CV</li>
+<li>Dell switch not able to monitor</li>
+<li>Fix issue with progress bar while deleting devices</li>
+<li>Fix DNS resolve hostnames in netflow, and logs</li>
+<li>Fix Netflow: Report download: When there is no data, downloafd report is throwing 404 exception</li>
+<li>Fix bug for snmp v3 authNoPriv security level</li>
+<li>Fix snmp v3 engine ID inconsistencies</li>
+<li>Force need for JRE 1.8.0_162 and above, to support AES192/256 encryption</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>Add support for remote selenium web testing</li>
+<li>Make HTTP forwards to HTTPS by default</li>
+<li>Add notify method for &lsquo;Wechat&rsquo; messenging app</li>
+<li>Add notify method for &lsquo;Telegram&rsquo; messenging app</li>
+<li>Enhance SIEM hunt manager to avoid reloading default rules all the time</li>
+<li>Improve on monitors discovery</li>
+<li>Add export feature for CiscoPSIRT</li>
+<li>Add notify method: Microsoft Teams</li>
+<li>Enhance apm transaction waterfall display</li>
+<li>Auto CI build: v11.1.73b300 (created on Tue Aug  4 03:11:49 SGT 2020)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>NetGain EM Change Log v11.1.62 build 289 (release date: 27th July 2020)</strong></p>
+<ul>
+<li>Fixes:
+<ul>
+<li>Fixed bugs in forwarding trap from Edge to CV</li>
+<li>SIEM netflow reports creating duplicates</li>
+<li>Home wrong warning color</li>
+<li>SIEM NetFlow reports saving empty</li>
+<li>Log analytics doesn’t show the date when opted for one month</li>
+<li>Update log4j to v2.13.3</li>
+<li>Fix perf data display column unit label issue</li>
+<li>Fix logo issue in dark mode</li>
+<li>Fix table scroll issue</li>
+<li>Fix SSL issues in CSV: Edge to CV connection</li>
+<li>Fix for MOs loading</li>
+<li>Fix status count not accurate</li>
+<li>Alarms click details link of any alarm pops up the details with Close button is hidden</li>
+<li>Fix left hand side menu, when hover mouse over the icon, there is no menu item displayed</li>
+</ul>
+</li>
+<li>Enhancements:
+<ul>
+<li>Implemented Snmp4JTrapListener to replace NgSnmpTrapListener (enabled using -Dsnmp4j_trap_listener=1)</li>
+<li>Include windows event logs as part of sample logs in product</li>
+<li>Add threat intelligence: talosintelligence</li>
+<li>Enhance on log reports</li>
+<li>Snmp4j library update</li>
+<li>Improve on APM transaction display</li>
+<li>Add optical power monitor for H3C switches</li>
+<li>Add sangfo wac monitors</li>
+<li>Make perf history chart types selectable</li>
+</ul>
+</li>
+</ul>
+<hr>
+
+
+    </article>
+
+                
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<div class="gdoc-page__footer flex flex-wrap justify-between">
+    
+    
+</div>
+
+            </div>
+        </main>
+
+        <footer class="gdoc-footer">
+    <div class="container flex flex-wrap">
+        
+        <span class="gdoc-footer__item">
+            <a href="https://www.netgain-systems.com/terms-of-use/" class="gdoc-footer__link">Terms of Use</a>
+        </span>
+        
+        
+        <span class="gdoc-footer__item">
+            <a href="https://www.netgain-systems.com/privacy-policy/" class="gdoc-footer__link">Privacy Policy</a>
+        </span>
+        
+    </div>
+</footer>
+
+    </div>
+
+    
+
+
+
+
+<script defer src="/js/en.search.min.js"></script>
+
+
+
+<script defer src="/js/clipboard.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        var clipboard = new ClipboardJS('.clip');
+    });
+</script>
+
+
+</body>
+</html>

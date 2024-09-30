@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alerts on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/alerts/</link>
+    <description>Recent content in Alerts on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/alerts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notification Email</title>
+      <link>http://localhost:1313/modules/alerts/notificationemail/</link>
+      <pubDate>Wed, 26 Jun 2024 10:11:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/notificationemail/</guid>
+      <description>&lt;p&gt;Email is used for configuring and testing emails alerts for the system, allowing users to receive notifications via email.&lt;/p&gt;&#xA;&lt;p&gt;The ‘Email’ tab is showing a section where users can set up email notifications using a pre-defined SMTP server.&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/modules/alerts/images/netgain/email1.png&#34; alt=&#34;Screenshot&#34; style=&#34;width: 1000px; height: auto;&#34;&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Input valid email address and click on &amp;lt;Send testing mail&amp;gt;.&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/modules/alerts/images/netgain/email2.png&#34; alt=&#34;Screenshot&#34; style=&#34;width: 1000px; height: auto;&#34;&gt;&#xA;&lt;p&gt;Check for notification from your email.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Action Triggers</title>
+      <link>http://localhost:1313/modules/alerts/actiontriggers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/actiontriggers/</guid>
+      <description>&lt;p&gt;Action Trigger alarms can be configured to be executed when an alarm is generated. The auto-actions that match the filtering criteria will be invoked for each alarm generated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alert Categories</title>
+      <link>http://localhost:1313/modules/alerts/alertcategories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/alertcategories/</guid>
+      <description>&lt;p&gt;Creating different categories lets you group different alerts, and is a pre-requisite in creating notification rules. To create Alert categories, click on &amp;lt;Alerts&amp;gt; on the Left Navigation Bar, then click on &amp;lt;Policies&amp;gt; in the Top Navigation Bar. Click on &amp;lt;Categories&amp;gt;, then click &amp;lt;+Create&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/alerts/images/netgain/categories1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Fill in the details required and click &amp;lt;Save&amp;gt; to save this Alert category:&lt;/p&gt;&#xA;&lt;p&gt;Name – Name of the Alert category&lt;/p&gt;&#xA;&lt;p&gt;Object Class – Name of Monitors&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alert Correlation</title>
+      <link>http://localhost:1313/modules/alerts/alertcorrelation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/alertcorrelation/</guid>
+      <description>&lt;p&gt;Root Cause rule defines the relation of a root cause object’s alarm to the dependent object’s alarm in a time window.  We can define such rules for well-known dependencies, such as a web-server and a web-site.&lt;/p&gt;&#xA;&lt;p&gt;If a root cause alarm arrives prior to the dependent alarms, the dependent alarms are not propagated until the root cause is fixed within a time window.&lt;/p&gt;&#xA;&lt;p&gt;This behavior could help to quickly identify the root cause, while helping to focus away from the dependent alarms. For example, if a web-server is down the web-site would be down as well. Therefore, if a root-cause alarm ‘Web-server down’ is present within a reasonable amount of time prior to the arrival of ‘Web-site down’ alarm, then the ‘Web-site down’ alarm will not be sent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alert Notifications</title>
+      <link>http://localhost:1313/modules/alerts/alertnotifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/alertnotifications/</guid>
+      <description>&lt;p&gt;Notifications will be sent to relevant persons in the form of e-mails, SMS, 3rd party app messaging, sound or pop-up windows when a fault or service level violation occurs in the managed environment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alert Policies</title>
+      <link>http://localhost:1313/modules/alerts/alertpolicies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/alertpolicies/</guid>
+      <description>&lt;p&gt;This lets you create different policies for different alerts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Current Alerts</title>
+      <link>http://localhost:1313/modules/alerts/currentalerts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/currentalerts/</guid>
+      <description>&lt;p&gt;Device metrics that exceed set thresholds will generate an alert.  Current alerts are alerts that have not been acknowledged.&lt;/p&gt;&#xA;&lt;p&gt;To navigate to Current alerts, click on &amp;lt;Alerts&amp;gt; on the Left Navigation Bar, then click &amp;lt;Alerts&amp;gt; on the Top Navigation Bar. Click on &amp;lt;Current&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/alerts/images/netgain/currentalert1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;The End-User can select the actions to take for a device giving an alert:&lt;/p&gt;&#xA;&lt;p&gt;Ack - The selected device will be acknowledged by the User; notification will be held unless the end-user unacknowledges it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>History Alerts</title>
+      <link>http://localhost:1313/modules/alerts/historyalerts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/historyalerts/</guid>
+      <description>&lt;p&gt;This gives an overview of the historical alert notifications based on the category selected.&#xA;To go to History Alerts, click on &amp;lt;Alerts&amp;gt; on the Left Navigation Bar, then click &amp;lt;Alerts&amp;gt; on the Top Navigation Bar. Click on &amp;lt;History&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/alerts/images/netgain/history1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Select the Alert category and the date range of the alerts that you would like to see.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/alerts/images/netgain/history2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Integration with 3rd Party Ticketing Apps</title>
+      <link>http://localhost:1313/modules/alerts/3rdpartyintegration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/3rdpartyintegration/</guid>
+      <description>&lt;p&gt;You can integrate the alerts generated with your existing OpsGenie, Pager Duty or Service Now ticketing apps. Refer to the appropriate documentation for information on setting up this integration.&lt;/p&gt;&#xA;&lt;p&gt;OpsGenie – uses API key for integration  (&lt;a href=&#34;https://docs.opsgenie.com/docs/api-integration&#34;&gt;https://docs.opsgenie.com/docs/api-integration&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Pager Duty – uses API key, Service ID and User Email ID for integration (&lt;a href=&#34;https://www.pagerduty.com/sign-up/&#34;&gt;https://www.pagerduty.com/sign-up/&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Service Now – uses URL, Username and Password for integration&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: This plug-in uses Basic Authentication with the ServiceNow REST API, so you would need a valid username and password&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monitor Alerts</title>
+      <link>http://localhost:1313/modules/alerts/monitoralerts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/monitoralerts/</guid>
+      <description>&lt;p&gt;NetGain Systems Infrastructure Monitoring uses the following color codes to distinguish between the different severity of alerts.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;table-responsive&#34;&gt;&#xA;&lt;table class=&#34;table table-dark table-striped table-bordered&#34;&gt;&#xA;  &lt;thead class=&#34;&#34;&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Color&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Severity&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Color&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Severity&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;table class=&#34;table table-dark table-striped table-bordered&#34;&gt;&lt;tr&gt;&lt;td style=&#34;background: red;&#34;&gt;Red&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Critical&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;table class=&#34;table table-dark table-striped table-bordered&#34;&gt;&lt;tr&gt;&lt;td style=&#34;background: #1F45FC;&#34;&gt;Blue&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Warning&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;table class=&#34;table table-dark table-striped table-bordered&#34;&gt;&lt;tr&gt;&lt;td style=&#34;background: orange;&#34;&gt;Orange&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Major&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;table class=&#34;table table-dark table-striped table-bordered&#34;&gt;&lt;tr&gt;&lt;td style=&#34;background: #34A56F;&#34;&gt;Green&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Normal&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;table class=&#34;table table-dark table-striped table-bordered&#34;&gt;&lt;tr&gt;&lt;td style=&#34;background: yellow;&#34;&gt;Yellow&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Minor&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;table class=&#34;table table-dark table-striped table-bordered&#34;&gt;&lt;tr&gt;&lt;td style=&#34;background: lightgray;&#34;&gt;Gray&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Disabled&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Notification Rules</title>
+      <link>http://localhost:1313/modules/alerts/notificationrules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/notificationrules/</guid>
+      <description>&lt;p&gt;You can create Notification Rules to send SMS, email, 3rd party app messages, or audio and pop-up Windows alerts when your devices reach preset critical threshold levels. To create a Notification Rule, click on &amp;lt;Alerts&amp;gt; on the Left Navigation Bar, then click on &amp;lt;Notifications&amp;gt; on the Top Navigation Bar. Click on &amp;lt;Rules&amp;gt;, then &amp;lt;+Create&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/alerts/images/netgain/rules1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Fill in the details required to setup the rule, then click &lt;Save&gt; to save this rule:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Other Alert Notification Settings</title>
+      <link>http://localhost:1313/modules/alerts/othersettings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/alerts/othersettings/</guid>
+      <description>&lt;p&gt;Besides Email and SMS notification, there are other methods to alert users, including 3rd party messaging apps such as Slack, MS Teams, WeChat, Alicloud, LINE and Telegram.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modulemodules/alerts/images/netgain/rules2.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Slack – uses webhooks to integrate (&lt;a href=&#34;https://api.slack.com/messaging/webhooks&#34;&gt;https://api.slack.com/messaging/webhooks&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;MS Teams – uses webhooks to integrate (&lt;a href=&#34;https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook&#34;&gt;https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;WeChat – uses CorpID, CorpSecret and AgentID to integrate (&lt;a href=&#34;https://mp.weixin.qq.com/&#34;&gt;https://mp.weixin.qq.com/&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;AliCloud – uses Access Key ID, Access Secret, Sign Name, Template Code, and Phone number to integrate (&lt;a href=&#34;https://help.aliyun.com/document_detail/101300.html&#34;&gt;https://help.aliyun.com/document_detail/101300.html&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

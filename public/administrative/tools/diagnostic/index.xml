@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diagnostic on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/administrative/tools/diagnostic/</link>
+    <description>Recent content in Diagnostic on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/administrative/tools/diagnostic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IP Calculator</title>
+      <link>http://localhost:1313/administrative/tools/diagnostic/ipcalculator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/tools/diagnostic/ipcalculator/</guid>
+      <description>&lt;p&gt;This tool helps user to calculate IP address.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;IP Calculator&amp;gt; then enter the IP Address and IP Mask bits you want to calculate. Then click on &amp;lt;Calculate&amp;gt;, the screen will appear IP calculate result.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/ipcalculator1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIB Browser</title>
+      <link>http://localhost:1313/administrative/tools/diagnostic/mibbrowser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/tools/diagnostic/mibbrowser/</guid>
+      <description>&lt;p&gt;This tool helps user to load the devices’ MIBs file to NetGain Systems Infrastructure Monitoring server, to browse OID information and to allow user to know the particular OID of the device.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;MIB Browser&amp;gt; and then click on &amp;lt;+Load new mib&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/mib1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Then click on &amp;lt;Choose File&amp;gt; to choose the devices MIB file.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/mib2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Then click on &amp;lt;Upload&amp;gt; to upload MIB file to Infrastructure Monitoring server.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/admin/images/netgain/mib3.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Screen will appear with the MIB file under &amp;lt;Loaded mibs&amp;gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ping</title>
+      <link>http://localhost:1313/administrative/tools/diagnostic/ping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/tools/diagnostic/ping/</guid>
+      <description>&lt;p&gt;This tool helps user to verify the connectivity between NetGain Systems Infrastructure Monitoring server and the destination devices.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;Ping&amp;gt; then enter the IP address of destination devices. Then click on &amp;lt;Execute&amp;gt; to start ping test.  The screen will appear with the ping result.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/ping1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SNMPWALK</title>
+      <link>http://localhost:1313/administrative/tools/diagnostic/snmpwalk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/tools/diagnostic/snmpwalk/</guid>
+      <description>&lt;p&gt;This tool helps user to test the SNMP connectivity between NetGain Systems EM server to the destination devices and get the SNMP.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;SNMPWALK&amp;gt; then enter the IP address of destination devices, Community, Version, Port, and Timeout.&lt;/p&gt;&#xA;&lt;p&gt;Then click on &amp;lt;Execute&amp;gt; to start SNMPWALK. The screen will appear with the SNMPWALK result. You can generate SNMPWALK to text file by click on &amp;lt;Download&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/snmpwalk1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

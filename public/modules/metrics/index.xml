@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metrics on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/metrics/</link>
+    <description>Recent content in Metrics on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/metrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Metrics Profile</title>
+      <link>http://localhost:1313/modules/metrics/metricsprofile/</link>
+      <pubDate>Wed, 26 Jun 2024 10:11:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/metricsprofile/</guid>
+      <description>&lt;p&gt;Profile is used to configure and manage the settings required to connect to a database.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;Create&amp;gt; to create a profile.&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/profile1.png&#34; alt=&#34;Screenshot&#34; style=&#34;width: 1000px; height: auto;&#34;&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Once clicked, the page will navigate to the dedicated page for creation of profile.&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/profile2.png&#34; alt=&#34;Screenshot&#34; style=&#34;width: 1000px; height: auto;&#34;&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Input the information.&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/profile3.png&#34; alt=&#34;Screenshot&#34; style=&#34;width: 1000px; height: auto;&#34;&gt;&#xA;&lt;p&gt;Information includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Profile name: name for the profile&lt;/li&gt;&#xA;&lt;li&gt;Description: description of the profile&lt;/li&gt;&#xA;&lt;li&gt;Type: specifies the database management system type&lt;/li&gt;&#xA;&lt;li&gt;Username: username to access the database&lt;/li&gt;&#xA;&lt;li&gt;Password: password to access the database&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Editing Monitoring Settings</title>
+      <link>http://localhost:1313/modules/metrics/editsettings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/editsettings/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Metrics&amp;gt; in the Left Navigation Bar, then &amp;lt;Metrics&amp;gt; in the Top Navigation Bar. Then click on &amp;lt;Objects&amp;gt; in the top menu, and click on &amp;lt;Device view&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/editing1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;Edit&amp;gt; to edit the monitoring settings.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/editing2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&amp;lt;Settings&amp;gt; – Lets you change browser refresh rate interval, Enable/Disable/Ignore/Delete devices and monitors.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/doneicon.png&#34; width=&#34;60px&#34;&gt; – Exit the edit mode.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/devicegroupicon.png&#34; width=&#34;100px&#34;&gt; – Adds new device group to categorize&#xA;devices to your requirements&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/enableicon.png&#34; width=&#34;20px&#34;&gt; – Enable / Disable the selected object device&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monitor by Business Types</title>
+      <link>http://localhost:1313/modules/metrics/monitor-business/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/monitor-business/</guid>
+      <description>&lt;p&gt;Business view is used to monitor the health and status of various business services within the system.&lt;/p&gt;&#xA;&lt;p&gt;The ‘Business view’ tab displays an overview of various business services and their status in a list format.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/MOBV1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Information includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Object: name of business service&lt;/li&gt;&#xA;&lt;li&gt;Status Indicators: the different colors and numbers used to represent the health and operational status of the business service&lt;/li&gt;&#xA;&lt;li&gt;Update time: displays the last time the status was updated&lt;/li&gt;&#xA;&lt;li&gt;Description: additional information of the business service&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;view-components-of-object&#34;&gt;View Components of Object&lt;/h1&gt;&#xA;&lt;p&gt;Click on Object to further view components of the business service.&#xA;[Components can also be viewed in BizViews]&#xA;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/MOBV2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monitor by Device Type</title>
+      <link>http://localhost:1313/modules/metrics/monitor-by-device-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/monitor-by-device-types/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Metrics&amp;gt; in the Left Navigation Bar, then &amp;lt;Metrics&amp;gt; in the Top Navigation Bar. Then click on &amp;lt;Objects&amp;gt; in the top menu, and click on &amp;lt;Device view&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;You will be able to see an overview of the monitored devices by their device types. All monitored devices that are added during device discovery will be added by default under Metrics &amp;gt; ROOT &amp;gt; Device View, and are automatically categorized into their device types, eg, Server, Storage, Network. You can rename or create new device types based on your requirements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monitoring by Alert Types</title>
+      <link>http://localhost:1313/modules/metrics/monitoralerts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/monitoralerts/</guid>
+      <description>&lt;p&gt;You can select the severity of the alerts at the top of the table to see those see the status of the devices that have the selected alert type. You can also make changes to the alert threshold settings.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;Metrics&amp;gt; in the Left Navigation Bar, then &amp;lt;Metrics&amp;gt; in the Top Navigation Bar. Then click on &amp;lt;Types&amp;gt; in the top menu.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/alerttype1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/historicalicon.png&#34; width=&#34;25px&#34;&gt; – Shows historical data of the monitor&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threshold Settings</title>
+      <link>http://localhost:1313/modules/metrics/thresholdsettings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/thresholdsettings/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Metrics&amp;gt; in the Left Navigation Bar, then &amp;lt;Metrics&amp;gt; in the Top Navigation Bar. Then click on &amp;lt;Objects&amp;gt; in the top menu, and click on &amp;lt;Device view&amp;gt;.&#xA;To adjust the threshold settings, click on the device type / device on the right side of the table and drill down till you see the monitoring parameter you would like to change. Click &amp;lt;Edit&amp;gt; to enable the edit mode and click the &lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/changeicon.png&#34; width=&#34;20px&#34;&gt; – Change threshold settings icon to edit the threshold settings.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

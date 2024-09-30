@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logs on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/administrative/admin/logs/</link>
+    <description>Recent content in Logs on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/administrative/admin/logs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debug Logs</title>
+      <link>http://localhost:1313/administrative/admin/logs/debuglog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/logs/debuglog/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Debug logs&amp;gt; in the Top navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/debuglog1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Turn on the debug log for debugging purpose only, choose the level of the logs to enable debugging.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/debuglog2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/debuglog3.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Internal Logs</title>
+      <link>http://localhost:1313/administrative/admin/logs/internallog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/logs/internallog/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Internal logs&amp;gt; in the Top navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/internallog1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;It consists of internal logs of NetGain Systems Infrastructure Monitoring and it is used by NetGain Systems support team during troubleshooting.&lt;/p&gt;&#xA;&lt;p&gt;To download the log file, just click on the file name:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/internallog2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;It will be saved to a text file, please forward this file to NetGain Systems Support team for further investigations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notification Logs</title>
+      <link>http://localhost:1313/administrative/admin/logs/notificationlog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/logs/notificationlog/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Notification logs&amp;gt; in the navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/notificationlog1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;It provides the history detailed records that how many notification messages been sent.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/notificationlog2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Operation Logs</title>
+      <link>http://localhost:1313/administrative/admin/logs/operationlog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/logs/operationlog/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Operation logs&amp;gt; in the navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/operationlog1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;It provides NetGain Systems Infrastructure Monitoring user login event, change of account or other Ops related events.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/operationlog2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scheduler Logs</title>
+      <link>http://localhost:1313/administrative/admin/logs/schedulerlog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/logs/schedulerlog/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Scheduler logs&amp;gt; in the Top navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/schedulerlog1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;It shows the scheduler running history logs:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/schedulerlog2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>System Logs</title>
+      <link>http://localhost:1313/administrative/admin/logs/systemlog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/logs/systemlog/</guid>
+      <description>&lt;p&gt;The End-User can quickly download Infrastructure Monitoring system related logs such as System Log, Operation Log, Vista logs, Notifications log, Scheduler log, Internal log, and Debug log as text files or Excel file for analysis.&lt;/p&gt;&#xA;&lt;p&gt;Most frequently checked logs are: Notification and Internal logs.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;System logs&amp;gt; in the navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/systemlog1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;You may query the system log by specifying the time range.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/systemlog2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

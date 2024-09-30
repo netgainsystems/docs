@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>APM on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/apm/</link>
+    <description>Recent content in APM on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/apm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent</title>
+      <link>http://localhost:1313/modules/apm/agent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/apm/agent/</guid>
+      <description>&lt;p&gt;Agents are software components used to collect data for monitoring and management purposes.&lt;/p&gt;&#xA;&lt;p&gt;The ‘Agents’ tab displays an overview of the performance and transaction metrics for services monitored by the agents.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/spog/APMA1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Basic information includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Service Name&lt;/li&gt;&#xA;&lt;li&gt;Transaction&lt;/li&gt;&#xA;&lt;li&gt;Transactions per minute (tpm)&lt;/li&gt;&#xA;&lt;li&gt;Transactions per day (tpd)&lt;/li&gt;&#xA;&lt;li&gt;Spans&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Click on &lt;img src=&#34;http://localhost:1313/modules/apm/images/spog/refresh.PNG&#34; alt=&#34;Refresh&#34;&gt; to refresh the displayed data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/spog/APMA2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Click on &lt;img src=&#34;http://localhost:1313/modules/apm/images/spog/stimulate.PNG&#34; alt=&#34;Simulate Transactions&#34;&gt; to simulate transactions for testing purposes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/spog/APMA3.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once clicked, the page will navigate to the dedicated page for testing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reports</title>
+      <link>http://localhost:1313/modules/apm/reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/apm/reports/</guid>
+      <description>&lt;p&gt;The report module is used to generate ad-hoc reports. This module supports:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Query string based report generation&lt;/li&gt;&#xA;&lt;li&gt;Auto delivery&lt;/li&gt;&#xA;&lt;li&gt;Download as excel&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/netgain/report1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h3 id=&#34;add-new-report&#34;&gt;Add new report&lt;/h3&gt;&#xA;&lt;p&gt;The software allows users to flexibly define what kind of report they want to generate. To start, click on &lt;img src=&#34;http://localhost:1313/modules/apm/images/netgain/addreporticon.png&#34; width=&#34;100px&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/netgain/report2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Give the report template a name, category, short description and the query string, for example:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/netgain/report3.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once done, click on ‘Save’&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h3 id=&#34;report-generation&#34;&gt;Report Generation&lt;/h3&gt;&#xA;&lt;p&gt;Click on the report name and select the required time range to generate the report.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Watcher</title>
+      <link>http://localhost:1313/modules/apm/watcher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/apm/watcher/</guid>
+      <description>&lt;p&gt;APM Watcher is used to watch out for specified data within APM. The system generates an alarm when the data contains the specified query string. This is useful for identifying problems quickly.&lt;/p&gt;&#xA;&lt;p&gt;To use APM Watcher, click on &amp;lt;APM&amp;gt; on the Left Navigation Bar, then click on &amp;lt;Watcher&amp;gt; on the Top Navigation Bar. Click &amp;lt;+Add rule&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/netgain/watcher1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Enter the data and rules to define what you want to watch out for and to receive an alarm when the conditions are met.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

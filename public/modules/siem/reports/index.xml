@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reports on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/siem/reports/</link>
+    <description>Recent content in Reports on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/siem/reports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applications</title>
+      <link>http://localhost:1313/modules/siem/reports/applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/reports/applications/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Applications&amp;gt; to access the applications report.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/securityanalytics/images/netgain/Reports_Application.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Application will contain the report templates according to the following topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;DHCP Windows&lt;/li&gt;&#xA;&lt;li&gt;Printer Windows&lt;/li&gt;&#xA;&lt;li&gt;Terminal Windows&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In &amp;lt;DHCP Windows&amp;gt; there are 23 report templates for Windows ready to use.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/securityanalytics/images/netgain/Reports_ApplicationDHCP.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;In &amp;lt;Printer Windows&amp;gt; there are 11 report templates ready to use.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/securityanalytics/images/netgain/Reports_ApplicationPrinter.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;In &amp;lt;Terminal Windows&amp;gt; there are 15 report templates ready to use.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/securityanalytics/images/netgain/Reports_ApplicationTerminal.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Common</title>
+      <link>http://localhost:1313/modules/siem/reports/common/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/reports/common/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Common&amp;gt; to access the report. Common will contain report template of Windows.&lt;/p&gt;&#xA;&lt;p&gt;There are 282 report templates for Windows ready to use.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/securityanalytics/images/netgain/common.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Click on the desired report format. The system will generate a report. As an example of the report as shown in the figure below, chosen to generate a &amp;lt;AD Backup Error&amp;gt; report.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/securityanalytics/images/netgain/common2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;The information shown in the report includes:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Report Name&lt;/strong&gt; – Show report name.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>APM on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/apm/apm/</link>
+    <description>Recent content in APM on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/apm/apm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dashboard</title>
+      <link>http://localhost:1313/modules/apm/apm/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/apm/apm/dashboard/</guid>
+      <description>&lt;p&gt;The dashboard shows the overall information includes below:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Number of Apps or services have been monitored and managed.&lt;/li&gt;&#xA;&lt;li&gt;Total transactions&lt;/li&gt;&#xA;&lt;li&gt;Transactions per minute&lt;/li&gt;&#xA;&lt;li&gt;Total errors&lt;/li&gt;&#xA;&lt;li&gt;Average services response time&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/netgain/dashboard1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;By selecting the time range at the top , at the top timerange dropdown list, you will be able to get the results accordingly.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/netgain/dashboard2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>http://localhost:1313/modules/apm/apm/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/apm/apm/services/</guid>
+      <description>&lt;p&gt;The ‘Services tab shows the information about the services that are managed by NetGain Systems APM.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/netgain/services1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Basic information includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Service Name&lt;/li&gt;&#xA;&lt;li&gt;Agent type&lt;/li&gt;&#xA;&lt;li&gt;Total Transactions&lt;/li&gt;&#xA;&lt;li&gt;Transactions per minute&lt;/li&gt;&#xA;&lt;li&gt;Total errors&lt;/li&gt;&#xA;&lt;li&gt;Errors per minute&lt;/li&gt;&#xA;&lt;li&gt;Average services response time&lt;/li&gt;&#xA;&lt;li&gt;Max services response time&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;check-details-of-the-service&#34;&gt;Check details of the service&lt;/h3&gt;&#xA;&lt;p&gt;Click on any of the service name to go into the details of the services.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/apm/images/netgain/services2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Once clicked, the page will go to the dedicated page for the selected service.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Synthetic Monitoring</title>
+      <link>http://localhost:1313/modules/apm/apm/syntheticmonitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/apm/apm/syntheticmonitoring/</guid>
+      <description>&lt;p&gt;Synthetic Monitoring is used to test and monitor applications by simulating user interactions with the software. The user needs to make a recording of a typical transaction, and the system will run the transaction automatically throughout the day. The performance of each run is shown.&lt;/p&gt;&#xA;&lt;p&gt;Basic information includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Title&lt;/li&gt;&#xA;&lt;li&gt;Application URL&lt;/li&gt;&#xA;&lt;li&gt;Enabled status&lt;/li&gt;&#xA;&lt;li&gt;Last run&lt;/li&gt;&#xA;&lt;li&gt;Last run duration&lt;/li&gt;&#xA;&lt;li&gt;Last status&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;edit-application&#34;&gt;Edit Application&lt;/h2&gt;&#xA;&lt;p&gt;Click on &lt;img src=&#34;http://localhost:1313/modules/apm/apm/images/netgain/edit.PNG&#34; width=&#34;35px&#34;&gt; to modify the information of the application.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

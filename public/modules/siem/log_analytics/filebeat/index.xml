@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filebeat on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/siem/log_analytics/filebeat/</link>
+    <description>Recent content in Filebeat on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/siem/log_analytics/filebeat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation of Filebeat</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/filebeat/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/filebeat/installation/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This page consist of 3 section, installation, configure and start &lt;strong&gt;Filebeat&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;supported-environments&#34;&gt;Supported environments&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Filebeat&lt;/strong&gt; is now supported on most common flavors Linux, Unix and Windows.&lt;/p&gt;&#xA;&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Windows&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Download Filebeat Windows zip file&lt;a href=&#34;https://netgainsys.sharepoint.com/:u:/g/ERN0-IUU--5GjH5m0gi3_pEBNV9k_M5MzjFdl8rB__fnmA?e=Br9pQ4&#34; target=&#34;_blank&#34;&gt;Windows zipped file&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Extract the contents of the zip file into C:\Program Files.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Rename the &lt;em&gt;filebeat-&lt;version&gt;-windows&lt;/em&gt; directory to &lt;em&gt;Filebeat&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Open a PowerShell prompt as an Administrator (right-click the PowerShell icon and select &lt;strong&gt;Run As Administrator&lt;/strong&gt;).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;From the PowerShell prompt, run the following commands to install Filebeat as a Windows service:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

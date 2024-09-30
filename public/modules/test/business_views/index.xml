@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Business Views on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/test/business_views/</link>
+    <description>Recent content in Business Views on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2021. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/test/business_views/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding a New Service Dependency</title>
+      <link>http://localhost:1313/modules/test/business_views/servicedependency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/test/business_views/servicedependency/</guid>
+      <description>&lt;p&gt;To add a service dependency under the service, select the service and click on &amp;lt;Edit&amp;gt;. Then click on &lt;img src=&#34;http://localhost:1313/modules/home/business_views//images/netgain/dependencyicon.png&#34; width=&#34;150px&#34;&gt; to add a service dependency&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/home/business_views//images/netgain/servicedependency.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Select the monitor or monitor group from the device view, click on &lt;img src=&#34;http://localhost:1313/modules/home/business_views//images/netgain/arrowicon.png&#34; width=&#34;20px&#34;&gt; to add it to the right hand side selected list. Click on &amp;lt;Select&amp;gt; to add the service dependency.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/home/business_views//images/netgain/object.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;You should see a screen showing the new service dependency if it was added successfully.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adding New BizViews</title>
+      <link>http://localhost:1313/modules/test/business_views/addbizview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/test/business_views/addbizview/</guid>
+      <description>&lt;p&gt;Click on &amp;lt;Metrics&amp;gt; at the Left Navigation Bar, then click on &amp;lt;Metrics&amp;gt; at the Top Navigation Bar. Click on &amp;lt;Objects&amp;gt; in the left side of the top menu, then click on &amp;lt;Business view&amp;gt;, and click on &amp;lt;Edit&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/home/business_views/images/netgain/addbizview.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Click on &lt;img src=&#34;http://localhost:1313/modules/home/business_views/images/netgain/businessicon.png&#34; width=&#34;90px&#34;&gt; and input the Business name. Click &amp;lt;Add&amp;gt;. to add a new BizView.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/home/business_views/images/netgain/NewBizviews.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adding Services to BizView</title>
+      <link>http://localhost:1313/modules/test/business_views/addservice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/test/business_views/addservice/</guid>
+      <description>&lt;p&gt;To add a service under a business, select the business under &amp;lt;Business view&amp;gt; and click on &amp;lt;Edit&amp;gt;. Then click on &lt;img src=&#34;http://localhost:1313/modules/home/business_views/images/netgain/serviceicon.png&#34; width=&#34;65px&#34;&gt; to add a service.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/home/business_views/images/netgain/addservice.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Input the name of the new service then click &lt;img src=&#34;http://localhost:1313/modules/home/business_views/images/netgain/addicon.png&#34; width=&#34;30px&#34;&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/home/business_views/images/netgain/newservice.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

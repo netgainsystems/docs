@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metrics Policy on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/metrics/metrics/</link>
+    <description>Recent content in Metrics Policy on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/metrics/metrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blackout Schedule</title>
+      <link>http://localhost:1313/modules/metrics/metrics/blackoutschedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/metrics/blackoutschedule/</guid>
+      <description>&lt;p&gt;User will be able to create their own outage plan to reduce incoming false alerts due to scheduled downtime.&lt;/p&gt;&#xA;&lt;p&gt;To create a blackout schedule, Click &amp;lt;Metrics&amp;gt; on the Left navigation bar then &amp;lt;Policy&amp;gt;. Under &amp;lt;Blackout Schedules&amp;gt; click &amp;lt;+Create&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/blackout1.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/blackout2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Enter a relevant definition of the schedule in Description.&lt;/p&gt;&#xA;&lt;p&gt;Fill in the Start Date, End, Time and the Interval Period.&lt;/p&gt;&#xA;&lt;p&gt;Under Objects, click &amp;lt;Select&amp;gt; and the object menu will pop up.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Global Rules</title>
+      <link>http://localhost:1313/modules/metrics/metrics/globalrules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/metrics/globalrules/</guid>
+      <description>&lt;p&gt;Monitoring templates can be created on the Global Rules. It is very convenient to users who are monitoring numerous devices since it can make setting up the thresholds easier.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/global1.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;To create a global rule, Click &amp;lt;Metrics&amp;gt; on the Left navigation bar then &amp;lt;Policy&amp;gt;. Under &amp;lt;Global Rules&amp;gt;&amp;lt; click &amp;lt;+Create&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/global2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Give your new template a name on the next screen and choose the Category of the device you want to manage.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rules Audit</title>
+      <link>http://localhost:1313/modules/metrics/metrics/rulesaudit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/metrics/rulesaudit/</guid>
+      <description>&lt;p&gt;User will be able to determine the standardization of the threshold parameters. It lets the user merge the old settings to new settings to make it standard.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/audit1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;If you want to make one rule similar to the others, click the link beside the monitor name and a pop-up screen will show. Select the rule number to merge from the previous selected then click &amp;lt;modify&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/audit2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/audit3.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SNMP V3 Users</title>
+      <link>http://localhost:1313/modules/metrics/metrics/snmpv3users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/metrics/snmpv3users/</guid>
+      <description>&lt;p&gt;The SNMP v3 user credentials can be set here.&lt;/p&gt;&#xA;&lt;p&gt;Click &amp;lt;Metrics&amp;gt; on the Left navigation bar then &amp;lt;Policy&amp;gt;.  Under &amp;lt;SNMP v3 Users&amp;gt; click &amp;lt;Add new user&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/snmp.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

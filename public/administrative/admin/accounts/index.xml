@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accounts on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/administrative/admin/accounts/</link>
+    <description>Recent content in Accounts on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/administrative/admin/accounts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Access Control</title>
+      <link>http://localhost:1313/administrative/admin/accounts/accesscontrol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/accounts/accesscontrol/</guid>
+      <description>&lt;p&gt;This module defines the access control rules to only grant the access for the authorized users.&lt;/p&gt;&#xA;&lt;p&gt;On the Top Navigation Bar, click on &amp;lt;Accounts&amp;gt; - &amp;lt;Access Control&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/access1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;To create new rule, click on &amp;lt;+ Add rule&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/access2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Enter the information&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Name - name of this rule&lt;/li&gt;&#xA;&lt;li&gt;Users filter – only specified users will be granted access&lt;/li&gt;&#xA;&lt;li&gt;Allowed hosts – only specified host will be granted access&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/access3.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once finished, click on &lt;Save&gt; to save the rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Profile</title>
+      <link>http://localhost:1313/administrative/admin/accounts/myprofile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/accounts/myprofile/</guid>
+      <description>&lt;p&gt;This module allows you to change your current login user profile.&lt;/p&gt;&#xA;&lt;p&gt;Click on the &amp;lt;My Profile&amp;gt; in the Top Navigation Bar&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/profile1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;You can specify or change some information including&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Username&lt;/li&gt;&#xA;&lt;li&gt;Password&lt;/li&gt;&#xA;&lt;li&gt;Description&lt;/li&gt;&#xA;&lt;li&gt;Email&lt;/li&gt;&#xA;&lt;li&gt;Mobile&lt;/li&gt;&#xA;&lt;li&gt;LINE ID&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/profile2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Once finished, click on &amp;lt;Save&amp;gt; to save the changes.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h3 id=&#34;modify-photo&#34;&gt;Modify Photo&lt;/h3&gt;&#xA;&lt;p&gt;This sub module allows you to change the user profile photo.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;Modify Photo&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/profile3.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Choose the photo by clicking on &amp;lt;Choose file&amp;gt;, and then click on &amp;lt;Upload photo&amp;gt; to upload and make changes.  Once finished, click on &amp;lt;Save&amp;gt; to save the changes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Roles</title>
+      <link>http://localhost:1313/administrative/admin/accounts/roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/accounts/roles/</guid>
+      <description>&lt;p&gt;The Administrator can control the newly created user’s access right through Roles. To create new role for the End-User. Click on &amp;lt;+Create&amp;gt; in the page.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/role1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;The Administrator will select what kind of role the new user will be.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Role Users&lt;/strong&gt; - selection of user account. Click the &amp;lt;check box&amp;gt; to select&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Role management domains&lt;/strong&gt; - selection of devices/business which the user can access.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Role topology view&lt;/strong&gt; - selection of topology which the user can view&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Role access rights&lt;/strong&gt; - Features of the system which the user can access and use.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/admin/images/netgain/role2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Users</title>
+      <link>http://localhost:1313/administrative/admin/accounts/users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/accounts/users/</guid>
+      <description>&lt;p&gt;You can specify different access rights for different roles, for example, specifying that business staff only receive system warnings but not able to perform operations. Different access rights will affect the administrative rights you have, and thus access to features in the Administrator interface.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;Account&amp;gt; - &amp;lt;Users&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/user1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;+Create&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/user2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Enter the information about the user. These are the basic information to be entered to create new user.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

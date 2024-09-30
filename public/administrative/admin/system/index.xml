@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/administrative/admin/system/</link>
+    <description>Recent content in System on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/administrative/admin/system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>License</title>
+      <link>http://localhost:1313/administrative/admin/system/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/system/license/</guid>
+      <description>&lt;p&gt;License shows the user the details of the NetGain Systems Infrastructure Monitoring license information on enabled modules, used license nodes, total license nodes.&lt;/p&gt;&#xA;&lt;p&gt;Click on the &amp;lt;License&amp;gt; in the Top Navigation Bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/license1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;The page will show the info:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Serial number&lt;/li&gt;&#xA;&lt;li&gt;Infrastructure Monitoring model&lt;/li&gt;&#xA;&lt;li&gt;License Expiry date&lt;/li&gt;&#xA;&lt;li&gt;Max licensed nodes XXXX (currently used: XX)&lt;/li&gt;&#xA;&lt;li&gt;Max NetFlow Flow Rate XXX flows per sec&lt;/li&gt;&#xA;&lt;li&gt;Add-ons modules eg. Unlimited Ping, Network Config Manager, IP Address Manager, Asset Manager&lt;/li&gt;&#xA;&lt;li&gt;Advance monitors&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Rest APIs</title>
+      <link>http://localhost:1313/administrative/admin/system/restapis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/system/restapis/</guid>
+      <description>&lt;p&gt;This module describes the REST API and resources provided by NetGain Systems Infrastructure Monitoring.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;Rest APIs&amp;gt; in the navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/restapi1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/restapi2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Status</title>
+      <link>http://localhost:1313/administrative/admin/system/status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/admin/system/status/</guid>
+      <description>&lt;p&gt;This sub module provides the detail status of the NetGain Systems Infrastructure Monitoring.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/status1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Includes below details:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/images/netgain/status2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Status – consist of NetGain Systems Infrastructure Monitoring system status of Monitors, Alarms, Memory, CPU and Threads&lt;/li&gt;&#xA;&lt;li&gt;User session – provides a list active user session&lt;/li&gt;&#xA;&lt;li&gt;Monitor queue – provides overview of monitors status&lt;/li&gt;&#xA;&lt;li&gt;Threads – provides overview of Thread status&lt;/li&gt;&#xA;&lt;li&gt;Memory – provides overview of Memory usage&lt;/li&gt;&#xA;&lt;li&gt;Metrics – provides EM performance statistics&lt;/li&gt;&#xA;&lt;li&gt;Data checker – a simple diagnosis tool for monitor troubleshoot for admin user&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

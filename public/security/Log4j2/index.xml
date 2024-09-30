@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apache Log4j2 Vulnerability on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/security/Log4j2/</link>
+    <description>Recent content in Apache Log4j2 Vulnerability on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/security/Log4j2/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

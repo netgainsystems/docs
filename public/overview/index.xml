@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/overview/</link>
+    <description>Recent content in Overview on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/overview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>http://localhost:1313/overview/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/overview/architecture/</guid>
+      <description>&lt;p&gt;NetGain Systems is your go-to observability platform for seamless data normalization, powerful processing, dynamic visualization, and comprehensive report generation. It’s more than just a tool—it’s your complete solution for transforming raw IT data into actionable insights. With seamless integration capabilities, NetGain Systems effortlessly connects with your trouble-ticketing systems, collaboration tools, and messaging platforms, ensuring you stay informed and ahead of the curve.&lt;/p&gt;&#xA;&lt;p&gt;Emedge is the heart of our solution, strategically deployed within your enterprise network—whether on-premises, in the public or private cloud, or across a hybrid infrastructure. This lightweight, yet powerful, software works tirelessly behind the scenes, collecting critical IT infrastructure data. From device metrics to logs and traces, Emedge captures it all, regardless of where your infrastructure resides.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

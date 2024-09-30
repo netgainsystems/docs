@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ad Hoc on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/siem/log_analytics/reports/adhoc/</link>
+    <description>Recent content in Ad Hoc on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/siem/log_analytics/reports/adhoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>To add a new report</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/reports/adhoc/addreport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/reports/adhoc/addreport/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Click &amp;lt;+Add new report&amp;gt;.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cloud_vista/loganalytics/images/netgain/Reports_AddAdHoc.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Report&lt;/strong&gt; title – Enter report title.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Category&lt;/strong&gt; – Enter report category.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt; – Enter description of report.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Search expression&lt;/strong&gt; – Enter search expression.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Visibility&lt;/strong&gt; – Select who can see this report (Owner/All)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Save&lt;/strong&gt; – Save report&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>To create auto delivery report setting</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/reports/adhoc/autodelivery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/reports/adhoc/autodelivery/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cloud_vista/loganalytics/images/netgain/adhocreportdelivery.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mail Subject&lt;/strong&gt; – enter mail subject.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mail Body&lt;/strong&gt; – Enter mail body.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Target Address (s)&lt;/strong&gt; – Enter email address.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Format&lt;/strong&gt; – Select report file type. (Excel/PDF)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data time range&lt;/strong&gt; – Enter time range (Day(s)/Month(s)/Minute(s))&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Delivery schedule&lt;/strong&gt; – Select delivery schedule (Monthly/Weekly/Daily/Hourly)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Day of month&lt;/strong&gt; – Enter day of month&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Weekday&lt;/strong&gt; – Enter weekday number&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hour of day&lt;/strong&gt; – Enter number of hour&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Save&lt;/strong&gt; – Save report&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>To download report</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/reports/adhoc/downloadreport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/reports/adhoc/downloadreport/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Download Excel&lt;/strong&gt; – Download report to local computer in Excel file.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Download PDF&lt;/strong&gt; – Download report to local computer in PDF file.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Download CSV&lt;/strong&gt; – Download report to local compute in SCV file&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>To edit report</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/reports/adhoc/editreport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/reports/adhoc/editreport/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cloud_vista/loganalytics/images/netgain/adhoceditreport.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Report title&lt;/strong&gt; – Enter report title.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Category&lt;/strong&gt; – Enter report category.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt; – Enter description of report.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Search expression&lt;/strong&gt; – Enter search expression.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Visibility&lt;/strong&gt; – Select who can see this report (Owner/All)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Delete report&lt;/strong&gt; – Delete report&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Save&lt;/strong&gt; – Save report&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

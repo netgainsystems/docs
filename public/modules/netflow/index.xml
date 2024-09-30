@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NetFlow on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/netflow/</link>
+    <description>Recent content in NetFlow on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/netflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reports</title>
+      <link>http://localhost:1313/modules/netflow/reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/netflow/reports/</guid>
+      <description>&lt;p&gt;You can create different NetFlow reports based on different search expressions.&lt;/p&gt;&#xA;&lt;p&gt;To create a NetFlow report, click on &amp;lt;NetFlow&amp;gt; at the Left Navigation Bar, then click on &amp;lt;Reports&amp;gt; at the Top Navigation Bar. Click &amp;lt;+Add new report&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/netflow/images/netgain/report1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Enter the relevant information including the desired search expression in the pop-up menu, then click &amp;lt;Save&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/netflow/images/netgain/report2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;You can retrieve the saved report by clicking on the submenu icon on the left side of the Reports page as shown, and clicking it from the selection of reports shown.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using Network Traffic Analytics</title>
+      <link>http://localhost:1313/modules/netflow/usingnta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/netflow/usingnta/</guid>
+      <description>&lt;p&gt;The &amp;lsquo;Overview&amp;rsquo; tab displays the general summary of network traffic data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/netflow/images/netgain/Netflow1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;This overview can gain insights into the network usage patterns and detect any anomalies.&lt;/p&gt;&#xA;&lt;p&gt;Click on &lt;img src=&#34;http://localhost:1313/modules/netflow/images/netgain/bytes.PNG&#34; width=&#34;80px&#34;&gt; to view network data by Bytes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/netflow/images/netgain/Netflow2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;applications&#34;&gt;Applications&lt;/h1&gt;&#xA;&lt;p&gt;The &amp;lsquo;Applications&amp;rsquo; tab displays a detailed view of the network traffic categorized by different applications.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/netflow/images/netgain/NetFlow3.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The pie chart displays the distribution of network traffic among the top applications.&lt;/li&gt;&#xA;&lt;li&gt;The graph displays the traffic trend over time for the top applications. The x-axis represents the time, while the y-axis represents the volume of traffic.&lt;/li&gt;&#xA;&lt;li&gt;The table displays the detailed information about the individual traffic flows.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;network-sources&#34;&gt;Network Sources&lt;/h1&gt;&#xA;&lt;p&gt;The &amp;lsquo;Network Sources&amp;rsquo; tab displays a detailed analysis of the top source IP addresses generating network traffic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Watcher</title>
+      <link>http://localhost:1313/modules/netflow/watcher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/netflow/watcher/</guid>
+      <description>&lt;p&gt;NetFlow Watcher is used to watch out for specified data within incoming data flows.  The system generates an alarm when the incoming flows contains the specified query string and hits a specified amount of flow. This is useful to quickly detect what is using a lot of bandwidth.&lt;/p&gt;&#xA;&lt;p&gt;To use NetFlow Watcher, click on &amp;lt;NetFlow&amp;gt; on the Left Navigation Bar, then click on &amp;lt;Watcher&amp;gt; on the Top Navigation Bar. Click &amp;lt;+Add rule&amp;gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

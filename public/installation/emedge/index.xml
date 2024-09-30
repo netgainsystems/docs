@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emedge on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/installation/emedge/</link>
+    <description>Recent content in Emedge on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/installation/emedge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/installation/emedge/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/installation/emedge/installation/</guid>
+      <description>&lt;h2 id=&#34;to-get-started-select-your-platform&#34;&gt;To get started, select your platform&lt;/h2&gt;&#xA;&lt;a href=&#34;#installation-steps-for-emedge-on-windows&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/platform_windows.png&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&lt;a href=&#34;#installation-steps-for-emedge-on-linux&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/platform_centos.png&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&lt;a href=&#34;#installation-steps-for-emedge-on-mac-os-x&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/platform_macosx.png&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&lt;a href=&#34;#installation-steps-for-emedge-as-a-docker-container&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/platform_docker.png&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&lt;h2 id=&#34;installation-steps-for-emedge-on-windows&#34;&gt;Installation steps for emedge on Windows&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Method 1&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Download and unzip &lt;a href=&#34;https://download.netgain-systems.com/emedge/emedge-v12-latest.zip&#34; target=&#34;_blank&#34;&gt;latest emedge software package&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;cd into emedge folder and run &lt;strong&gt;emedge config&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;To run emedge, simply run &lt;strong&gt;emedge run&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Method 2&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Download &lt;a href=&#34;https://download.netgain-systems.com/emedge/emedge-v12-latest.msi&#34; target=&#34;_blank&#34;&gt;Windows MSI Installer for emedge&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Install via command line&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;search for Command Prompt and right click &amp;ldquo;Run as administrator&amp;rdquo;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;run following command&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;msiexec.exe /qn /i emedge-v12-latest.msi CV=mycv.cloud-vista.co SITE=my-emedge-site1&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;CV=mycv.cloud-vista.co&lt;/strong&gt; specifies the domain hostname of CloudVista instance that this emedge should forward data to&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SITE=mysitename&lt;/strong&gt; specifies the name of this emedge site&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Note:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

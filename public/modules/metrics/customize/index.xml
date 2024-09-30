@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Customize SNMP, Scripts, Database and Dynamic Thresholds on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/metrics/customize/</link>
+    <description>Recent content in Customize SNMP, Scripts, Database and Dynamic Thresholds on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/metrics/customize/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customize Database</title>
+      <link>http://localhost:1313/modules/metrics/customize/customizedatabase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/customize/customizedatabase/</guid>
+      <description>&lt;p&gt;This function lets the user query different database methods like MSSQL, Oracle, DB2, Sybase.&lt;/p&gt;&#xA;&lt;p&gt;To create Database monitor, Click &amp;lt;Metrics&amp;gt; on the Left navigation bar then &amp;lt;Customize &amp;gt; then &amp;lt;Database&amp;gt;. Click &amp;lt;+Add&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/database1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Enter the details below and click &amp;lt;save&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;Label - Appropriate label for the monitor&lt;/p&gt;&#xA;&lt;p&gt;Argument Count – Number of arguments&lt;/p&gt;&#xA;&lt;p&gt;Instance name column – Number of columns for the instance/s&lt;/p&gt;&#xA;&lt;p&gt;Type – select between MSSQL, DB2, Oracle, Sybase.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Customize Dynamic Threshold</title>
+      <link>http://localhost:1313/modules/metrics/customize/customizethreshold/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/customize/customizethreshold/</guid>
+      <description>&lt;p&gt;This function is to set-up threshold dynamically to be in effect for certain period of time.&#xA;To create Dynamic Threshold, Click &amp;lt;Metrics&amp;gt; on the Left navigation bar then &amp;lt;Customize&amp;gt; then &amp;lt;Dynamic Threshold&amp;gt;. Click &amp;lt;+Add&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/dynamic1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Input the name and description (optional) and click &amp;lt;Add new rule&amp;gt; button to configure the threshold.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/dynamic2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Enter the details below, click &amp;lt;+Add rule&amp;gt; then &amp;lt;save&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;Day of week - Which day to execute this rule&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Customize Powershell Script</title>
+      <link>http://localhost:1313/modules/metrics/customize/powershell-script/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/customize/powershell-script/</guid>
+      <description>&lt;p&gt;This function lets the user customize different scripting methods Powershell scritps.&lt;/p&gt;&#xA;&lt;p&gt;To create Script monitor, Click &amp;lt;Metrics&amp;gt; on the Left Navigation Bar then &amp;lt;Customize&amp;gt; then &amp;lt;Script&amp;gt;. Click &amp;lt;+Add&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/script1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Enter the details below and click &amp;lt;save&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;Label - Appropriate label for the monitor&lt;/p&gt;&#xA;&lt;p&gt;Argument Count – Number of arguments&lt;/p&gt;&#xA;&lt;p&gt;Category – leave it as default&lt;/p&gt;&#xA;&lt;p&gt;Script Type – select Powershell&lt;/p&gt;&#xA;&lt;p&gt;Add monitor Value – To add different parameters based from the script&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Customize Script</title>
+      <link>http://localhost:1313/modules/metrics/customize/customizescript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/customize/customizescript/</guid>
+      <description>&lt;p&gt;This function lets the user customize different scripting methods like Unix/Linux Shell, Visual Basic and Java Script.&lt;/p&gt;&#xA;&lt;p&gt;To create Script monitor, Click &amp;lt;Metrics&amp;gt; on the Left Navigation Bar then &amp;lt;Customize&amp;gt; then &amp;lt;Script&amp;gt;. Click &amp;lt;+Add&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/script1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Enter the details below and click &amp;lt;save&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;Label - Appropriate label for the monitor&lt;/p&gt;&#xA;&lt;p&gt;Argument Count – Number of arguments&lt;/p&gt;&#xA;&lt;p&gt;Category – Categorize different scripts and monitors&lt;/p&gt;&#xA;&lt;p&gt;Script Type – select between Unix/Linux Shell, Visual Basic and Java Script.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Customize SNMP</title>
+      <link>http://localhost:1313/modules/metrics/customize/customizesnmp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/metrics/customize/customizesnmp/</guid>
+      <description>&lt;p&gt;This feature is used to monitor a specific SNMP OID.&lt;/p&gt;&#xA;&lt;p&gt;To create SNMP monitor, Click &amp;lt;Metrics&amp;gt; on the Left navigation bar then &amp;lt;Customize&amp;gt; then &amp;lt;SNMP&amp;gt;. Click &amp;lt;+Add&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/metrics/images/netgain/snmp1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Enter the details below and click &amp;lt;save&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;Label - Appropriate label for the monitor&lt;/p&gt;&#xA;&lt;p&gt;Display name - Appropriate name of the counter&lt;/p&gt;&#xA;&lt;p&gt;OID - SNMP OID of required counter&lt;/p&gt;&#xA;&lt;p&gt;Unit - unit of the counter (OPTIONAL)&lt;/p&gt;&#xA;&lt;p&gt;Formula - formula to be applied to the value of the counter&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

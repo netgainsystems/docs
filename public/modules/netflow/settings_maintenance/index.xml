@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Settings and Maintenance on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/netflow/settings_maintenance/</link>
+    <description>Recent content in Settings and Maintenance on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/netflow/settings_maintenance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applications</title>
+      <link>http://localhost:1313/modules/netflow/settings_maintenance/applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/netflow/settings_maintenance/applications/</guid>
+      <description>&lt;p&gt;By default, NetGain Systems will generate all known applications. User can create new applications based on TCP/UDP protocol. Click &amp;lt;+Create&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/netflow/images/netgain/settings1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;A pop-up to create an Application will show. Enter relevant details.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/netflow/images/netgain/settings2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Label – Name of the Application&lt;/p&gt;&#xA;&lt;p&gt;Protocol – ICMP / TCP / UDP&lt;/p&gt;&#xA;&lt;p&gt;Port – Port number of the Application&lt;/p&gt;&#xA;&lt;p&gt;IP addresses – Target IP address of the Application&lt;/p&gt;&#xA;&lt;p&gt;Once done, click &amp;lt;Save&amp;gt; and your Application will be ready under the search query of NetFlow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maintenance</title>
+      <link>http://localhost:1313/modules/netflow/settings_maintenance/maintenance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/netflow/settings_maintenance/maintenance/</guid>
+      <description>&lt;p&gt;The &amp;lsquo;Performance&amp;rsquo; tab displays various flow-related metrics and statistics for the network traffic being monitored and analyzed by the NetFlow system.&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/modules/netflow/images/netgain/performance1.png&#34; alt=&#34;Screenshot&#34; style=&#34;width: 1000px; height: auto;&#34;&gt;&#xA;&lt;p&gt;Information includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Flows Rate Per Minute: this indicates the rate at which network flows are being received and processed per minute&lt;/li&gt;&#xA;&lt;li&gt;Flows Rate Per Sec: this shows the rate of network flows being handled per second&lt;/li&gt;&#xA;&lt;li&gt;Flows Count Last 1 Minute: the total number of network flows captured and analyzed in the last 1-minute window&lt;/li&gt;&#xA;&lt;li&gt;Total Flows Ingested: the cumulative count of all network flows that have been ingested or taken in by the system&lt;/li&gt;&#xA;&lt;li&gt;Total Flows Written: the total number of network flows that have been processed and written or stored by the system&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

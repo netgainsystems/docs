@@ -59,4 +59,4 @@ You will find all the comprehensive information and documentations on {{% compan
 We cherish what you have to say and value every feedback. Please reach out to us via email at support@{{% domain %}}.
 
 <hr>
-{{% copyright %}}
+{{< copyright-auto-update >}}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/administrative/tools/</link>
+    <description>Recent content in Tools on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/administrative/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent Download</title>
+      <link>http://localhost:1313/administrative/tools/agentdownload/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/administrative/tools/agentdownload/</guid>
+      <description>&lt;p&gt;Agent Download is used to guide users through the process of installing the NetGain Agent on different operating systems, providing instructions and necessary download links.&lt;/p&gt;&#xA;&lt;p&gt;The ‘Download’ tab displays the installation instructions for downloading and installing the NetGain Agent on both Windows and Unix/Linux platforms.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/administrative/admin/tools/images/netgain/AD1.png&#34; alt=&#34;AD1&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;test&#34;&gt;Test&lt;/h1&gt;&#xA;&lt;p&gt;Test is used to run various diagnostic and setup scripts on target machines where the NetGain Agent is installed or needs to be installed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

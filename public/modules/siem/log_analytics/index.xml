@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Log Analytics on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/siem/log_analytics/</link>
+    <description>Recent content in Log Analytics on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/siem/log_analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archive</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/archive/</guid>
+      <description>&lt;p&gt;NetGain Systems SIEM support archive of log file to external storage/NAS storage. The benefits are to keep logs both in live and archive at same time for better data recovery and at the same time allow user to easily restore the logs when needed.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-siem-archive-mechanism&#34;&gt;The SIEM archive mechanism&lt;/h3&gt;&#xA;&lt;p&gt;Syslog and Beatslog will be daily archive to the desired path.&lt;/p&gt;&#xA;&lt;p&gt;The archive files for previous days will be compressed periodically to save space.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Filters</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/filters/</guid>
+      <description>&lt;p&gt;User can use filters function to exclude processing certain logs.&lt;/p&gt;&#xA;&lt;p&gt;Example: To exclude logs that contain “session event 1656” .&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cloud_vista/loganalytics/images/netgain/filters.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;After setting filter, user can test the rule using &amp;lt;Test filters&amp;gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mapping</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/mapping/</guid>
+      <description>&lt;p&gt;NetGain Systems supports some log mapping by default. The common logs follows Common Event Format (CEF), and some other mappings supported by default are Aruba, Cisco, Fortinet logs etc.&lt;/p&gt;&#xA;&lt;p&gt;If user want to customize log mapping, user can use the &amp;lt;GROK console&amp;gt; and &amp;lt;test mapping&amp;gt;. After getting the customize mapping GROK expression, user can add the mapping rule in &amp;lt;+ Add mapping&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;lt;Performance&amp;gt; can be used to check Elasticsearch ingest performance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Schema</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/schema/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/schema/</guid>
+      <description>&lt;p&gt;This is information tab about Elastic Common Schema. User can get more from the following link: &lt;a href=&#34;https://www.elastic.co/guide/en/ecs/current/index.html&#34;&gt;https://www.elastic.co/guide/en/ecs/current/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/search/</guid>
+      <description>&lt;p&gt;SIEM search is for the user to do simple search through keywords or to do advance query string search. Example simple search:&lt;/p&gt;&#xA;&lt;p&gt;➢&#x9;destination.ip : 10.168.104.3&lt;/p&gt;&#xA;&lt;p&gt;➢&#x9;destination.ip : 10.168.104.3 OR app.name : ssl&lt;/p&gt;&#xA;&lt;p&gt;Example advance search&lt;/p&gt;&#xA;&lt;p&gt;➢&#x9;source.ip: 192.168.* | table destination.ip bytes&lt;/p&gt;&#xA;&lt;p&gt;User can get more accurate result by searching the field name (event.category, destination.ip, app.name etc.)&lt;/p&gt;&#xA;&lt;p&gt;User can get more info about the search syntax through the &amp;lt;Help&amp;gt; button.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sources</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/sources/</guid>
+      <description>&lt;p&gt;This section enables the user to add logs into the system.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cloud_vista/loganalytics/images/netgain/sources1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h3 id=&#34;log-sources&#34;&gt;Log Sources&lt;/h3&gt;&#xA;&lt;p&gt;To check for the log source from different IP at selected time range. User can get the information on total logs, Average Events Per Sec (EPS), Average Events Per Minute (EPM) , and Average Events Per Hour (EPH).  User can further search form the table from search bar.&lt;/p&gt;&#xA;&lt;h1 id=&#34;log-volumes&#34;&gt;Log Volumes&lt;/h1&gt;&#xA;&lt;p&gt;Log volumes can be used for monitoring and analyzing the amount of log data being generated within the system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Watcher</title>
+      <link>http://localhost:1313/modules/siem/log_analytics/watcher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/siem/log_analytics/watcher/</guid>
+      <description>&lt;p&gt;This function is used to watch out for specified data within incoming data logs. The system sends an alarm when the incoming log data contains a specified key word or phrase. This is useful to detect any known abnormalities or behavior.&lt;/p&gt;&#xA;&lt;p&gt;To access the Watcher function, click on the &amp;lt;SIEM&amp;gt; icon at the Left Navigation Bar then click on &amp;lt;Watcher&amp;gt; at the Top Navigation Bar if not already at the Reports page.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

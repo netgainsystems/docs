@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emedge Agent on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/installation/emedge/emedge-agent/</link>
+    <description>Recent content in Emedge Agent on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2024. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/installation/emedge/emedge-agent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/installation/emedge/emedge-agent/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/installation/emedge/emedge-agent/installation/</guid>
+      <description>&lt;h2 id=&#34;supported-environments&#34;&gt;Supported environments&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;emedge-agent&lt;/strong&gt; is now supported on most common flavors Linux, Unix, Windows and Apple OSX.&lt;/p&gt;&#xA;&lt;h2 id=&#34;installation-steps-for-windows&#34;&gt;Installation steps for Windows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Download &lt;a href=&#34;https://download.netgain-systems.com/emedge-agent/emedge-agent-v12-latest.msi&#34; target=&#34;_blank&#34;&gt;Windows MSI Installer for emedge-agent&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Install via command line&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;search for Command Prompt and right click &amp;ldquo;Run as administrator&amp;rdquo;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;run following command&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;msiexec.exe /qn /i emedge-agent-v12-latest.msi EMIP=x.x.x.x&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;EMIP=x.x.x.x&lt;/strong&gt; specifies the IP address of EM or Emedge server&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Notes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;emedge-agent will also be configured automatically as windows service named &amp;rsquo;emedge-agent&#39;&lt;/li&gt;&#xA;&lt;li&gt;You may also use Windows Group Policy to remotely install software in bulk&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;installation-steps-for-linux&#34;&gt;Installation steps for Linux&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;One liner installation&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

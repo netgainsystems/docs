@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maps on NetGain Documentation Hub</title>
+    <link>http://localhost:1313/modules/test/maps/</link>
+    <description>Recent content in Maps on NetGain Documentation Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>NetGain Systems (c) 2002-2021. All rights reserved.</copyright>
+    <atom:link href="http://localhost:1313/modules/test/maps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Geographical Map</title>
+      <link>http://localhost:1313/modules/test/maps/geomap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/test/maps/geomap/</guid>
+      <description>&lt;p&gt;Google Map provides a geographical view of the devices in the IT infrastructure.&lt;/p&gt;&#xA;&lt;p&gt;Click on &amp;lt;Home&amp;gt; in the Left Navigation Bar, then &amp;lt;Maps&amp;gt; in the Top Navigation Bar. Click on &amp;lt;Google&amp;gt;, and you can view, monitor and manage devices at Country Level, State Level, Town and down to Street Level. Device details can be further drilled down to the individual parameter level.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/home/maps/images/netgain/GeographicalMap.PNG&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;To create a Geographical map view, click on &amp;lt;Home&amp;gt; in the Left Navigation Bar, then &amp;lt;Maps&amp;gt; in the top navigation bar. Click on &amp;lt;Google&amp;gt;, then click on &lt;img src=&#34;http://localhost:1313/modules/home/maps/images/netgain/editicon.png&#34; width=&#34;50px&#34;&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Layer 2 and 3 Network Maps</title>
+      <link>http://localhost:1313/modules/test/maps/networkmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/test/maps/networkmap/</guid>
+      <description>&lt;p&gt;This feature serves as a tool for network architecture visualization, focusing on both Layer 2 (Data Link Layer) and Layer 3 (Network Layer). It displays the interconnections within the network, highlighting the routes that data packets follow from source to destination across potentially intricate and multi-layered network paths.&lt;/p&gt;&#xA;&lt;p&gt;A key technical aspect of this function is its incorporation of network discovery methods. It employs protocols such as the Link Layer Discovery Protocol (LLDP), Cisco Discovery Protocol (CDP), and Huawei Discovery Protocol (HDP). These protocols grant the function the ability to navigate and map the elaborate interconnections within the network, revealing both all links, including the hidden ones.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Logical Map</title>
+      <link>http://localhost:1313/modules/test/maps/logmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/modules/test/maps/logmap/</guid>
+      <description>&lt;p&gt;Logical Map allows the user to set various types of backgrounds so that there is a useful representation of the enterprise network and systems.&lt;/p&gt;&#xA;&lt;p&gt;To view the current logical maps, click on &amp;lt;Home&amp;gt; in the Left Navigation Bar, then &amp;lt;Maps&amp;gt; in the top navigation bar. Click on &amp;lt;Logical Map&amp;gt;, and you can view the current information and status of devices in a specific location.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/modules/home/maps/images/netgain/logicalmap2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;To create a new logical map, click &lt;img src=&#34;http://localhost:1313/modules/home/maps/images/netgain/editicon.png&#34; width=&#34;50px&#34;&gt; enter the map name, and click &amp;lt;+Add new view&amp;gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
