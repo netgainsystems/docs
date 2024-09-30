@@ -2,7 +2,7 @@
 Domain: 'netgain-systems.com'
 baseURL: http://docs.netgain-systems.com
 title: NetGain Documentation Hub
-copyRight: 'NetGain Systems (c) 2002-2021. All rights reserved.'
+copyRight: 'NetGain Systems (c) 2002-2024. All rights reserved.'
 
 params:
   geekdocLogo: logo.png
