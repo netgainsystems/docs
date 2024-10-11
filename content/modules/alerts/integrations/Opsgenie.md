@@ -14,7 +14,7 @@ This document is to provide a step by step setup for Opsgenie App integration to
 ## Add an API integration
 1. Create Opsgenie account.
 
-<img src="/modules/alerts/integrations/images/create-account.png" alt="Screenshot" style="max-width: 400px">
+<img src="/modules/alerts/integrations/images/opsgenie/create-account.png" alt="Screenshot" style="max-width: 400px">
 
 2. Go to Settings > Integrations.
 3. Run a search and select “API”.
@@ -32,23 +32,24 @@ The rules you create for the integration will work only if you turn on the integ
 
 1. Go to Teams and add your team.
 
-<img src="/modules/alerts/integrations/images/add-team.png" alt="Screenshot">
+<img src="/modules/alerts/integrations/images/opsgenie/add-team.png" alt="Screenshot">
 
 2. Enter team details.
 
-<img src="/modules/alerts/integrations/images/enter-team-details.png" alt="Screenshot" style="max-width: 400px">
+<img src="/modules/alerts/integrations/images/opsgenie/enter-team-details.png" alt="Screenshot" style="max-width: 400px">
 
 3. Select Integrations on the left navigation and then select Add integration.
 4. Search for API.
 
-<img src="/modules/alerts/integrations/images/add-api-integration.png" alt="Screenshot" style="max-width: 400px">
+<img src="/modules/alerts/integrations/images/opsgenie/add-api-integration.png" alt="Screenshot" style="max-width: 400px">
 
 5. Enter integration name > select team > click continue.
 
-<img src="/modules/alerts/integrations/images/interation-name.png" alt="Screenshot" style="max-width: 400px">
+<img src="/modules/alerts/integrations/images/opsgenie/interation-name.png" alt="Screenshot" style="max-width: 400px">
 
 6. Click turn on integration and copy API key.
-<img src="/modules/alerts/integrations/images/turn-on-integration-get-api-key.png" alt="Screenshot" style="max-width: 400px">
+
+<img src="/modules/alerts/integrations/images/opsgenie/turn-on-integration-get-api-key.png" alt="Screenshot" style="max-width: 400px">
 
 Adding the integration from your team dashboard will make your team the owner of the integration. This means Opsgenie will assign the alerts received through this integration to your team only. Follow the rest of the steps in this section to set up the integration.
 If the Owner of your Opsgenie account has not verified their email yet, users within your organization will not be able use API integrations.
