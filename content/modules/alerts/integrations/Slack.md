@@ -12,7 +12,6 @@ This document is to provide a step by step setup for Slack App integration to be
 <!-- spellchecker-enable -->
 
 ## Setup Slack
-
 1. Create a Slack account.
 
 <img src="/modules/alerts/integrations/images/slack/slack-create-account.png" alt="Screenshot" style="max-width: 400px">
@@ -35,11 +34,11 @@ This document is to provide a step by step setup for Slack App integration to be
 
 6. Select a subscription.
 
-<img src="/modules/alerts/integrations/images/slack/slack-plan-options.png" alt="Screenshot" style="max-width: 400px">
+<img src="/modules/alerts/integrations/images/slack/slack-plan-options.png" alt="Screenshot" style="max-width: 600px">
 
 7. Create an App. Go to api.slack.com/apps.
 
-<img src="/modules/alerts/integrations/images/slack/slack-create-app.png" alt="Screenshot" style="max-width: 400px">
+<img src="/modules/alerts/integrations/images/slack/slack-create-app.png" alt="Screenshot" style="max-width: 600px">
 
 8. Select create from scratch.
 
@@ -51,11 +50,11 @@ This document is to provide a step by step setup for Slack App integration to be
 
 10. Go to your App > Incoming Webhooks > Activate Incoming Webhooks
 
-<img src="/modules/alerts/integrations/images/slack/slack-enable-webhook.png" alt="Screenshot" style="max-width: 400px">
+<img src="/modules/alerts/integrations/images/slack/slack-enable-webhook.png" alt="Screenshot" style="max-width: 600px">
 
 11. Click Add New Workspace to Webhook.
 
-<img src="/modules/alerts/integrations/images/slack/slack-add-webhook.png" alt="Screenshot" style="max-width: 400px">
+<img src="/modules/alerts/integrations/images/slack/slack-add-webhook.png" alt="Screenshot" style="max-width: 600px">
 
 12.	Select the team member as a channel for App to post to.
 
@@ -64,19 +63,18 @@ This document is to provide a step by step setup for Slack App integration to be
 
 13. Copy the webhook URL.
 
-<img src="/modules/alerts/integrations/images/slack/slack-copy-webhook.png" alt="Screenshot" style="max-width: 400px">
+<img src="/modules/alerts/integrations/images/slack/slack-copy-webhook.png" alt="Screenshot" style="max-width: 600px">
 
 ## Setup Slack on NetGain
-
 1. On NetGain GUI, go to Alerts > Notifications > Integrations > Slack > click create.
 2. Enter Label and Slack WebHook.
 3. Click Send test message.
 4. Click Save.
 
 ## Create Notification Category
-
 1. Go to NetGain web GUI >  Alerts > Policies > Categories > click Create.
 2. Enter the details of the category and click save.
-Create Notification Rules
+
+## Create Notification Rules
 1. Go to Alerts > Notifications > Rules > click Create.
-2. Enter the details > tick Opsgenie > click Save.
+2. Enter the details > tick Slack > click Save.

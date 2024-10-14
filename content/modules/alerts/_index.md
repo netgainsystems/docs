@@ -13,6 +13,7 @@ This section documents the alerts and notifications options in the software, and
 * <a href="/modules/alerts/alertcorrelation">Alert Correlation</a>
 * <a href="/modules/alerts/actiontriggers">Action Triggers</a>
 * <a href="/modules/alerts/alertnotifications">Alert Notifications</a>
+* <a href="/modules/alerts/integrations">Notifications Integration</a>
 * <a href="/modules/alerts/notificationrules">Notification Rules</a>
 * <a href="/modules/alerts/notificationemail">Notification Email</a>
 * <a href="/modules/alerts/othersettings">Other Alert Notification Settings</a>
