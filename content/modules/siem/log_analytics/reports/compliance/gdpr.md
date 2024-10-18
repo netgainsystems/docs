@@ -6,7 +6,7 @@ slug: gdpr
 
 In \<GDPR> there are 4 report templates.
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/gdpr.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/gdpr.png)
 
 &nbsp;
 

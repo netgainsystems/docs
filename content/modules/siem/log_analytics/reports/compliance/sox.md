@@ -6,7 +6,7 @@ slug: sox
 
 In \<SOX> there are 7 report templates.
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/sox.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/sox.png)
 
 &nbsp;
 

@@ -14,4 +14,4 @@ The archive files for previous days will be compressed periodically to save spac
 
 User able to re-ingest the log when necessary.
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/archive.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/archive.png)

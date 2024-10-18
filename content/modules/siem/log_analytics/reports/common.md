@@ -8,13 +8,13 @@ Click on \<Common> to access the report. Common will contain report template of 
 
 There are 282 report templates for Windows ready to use. 
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/common.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/common.png)
 
 &nbsp;
 
 Click on the desired report format. The system will generate a report. As an example of the report as shown in the figure below, chosen to generate a \<AD Backup Error> report.
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/common2.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/common2.png)
 
 &nbsp;
 
@@ -30,7 +30,7 @@ The information shown in the report includes:
 
 ### Report Submenu:
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/common3.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/common3.png)
 
 &nbsp;
 

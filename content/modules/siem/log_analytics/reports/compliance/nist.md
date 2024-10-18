@@ -6,7 +6,7 @@ slug: nist
 
 In \<NIST> there are 2 report templates. 
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/nist.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/nist.png)
 
 &nbsp;
 

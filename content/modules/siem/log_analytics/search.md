@@ -20,10 +20,10 @@ User can get more accurate result by searching the field name (event.category, d
 User can get more info about the search syntax through the \<Help> button.
 
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/search1.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/search1.png)
 
 &nbsp;
 
 User also can adjust time range from the drop-down menu and drag & display time range from the graph itself.
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/search2.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/search2.png)
