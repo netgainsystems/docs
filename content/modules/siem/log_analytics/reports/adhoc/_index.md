@@ -7,7 +7,7 @@ slug: adhoc
 
 Click on \<AdHoc> to access the AdHoc reports.
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/adhoc.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/adhoc.png)
 
 &nbsp;
 
@@ -19,13 +19,13 @@ By \<Default> AdHoc will contain report template according to the following topi
 
 Click on each report to create the report. The report will show in the report area.
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/Reports_AdHoc.PNG)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/Reports_AdHoc.PNG)
 
 &nbsp;
 
 ### AdHoc report sub menu
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/adhocsubmenu.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/adhocsubmenu.png)
 
 &nbsp;
 

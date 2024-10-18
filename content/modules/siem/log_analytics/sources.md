@@ -7,7 +7,7 @@ slug: sources
 This section enables the user to add logs into the system.  
 
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/sources1.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/sources1.png)
 
 &nbsp;
 
@@ -17,7 +17,7 @@ To check for the log source from different IP at selected time range. User can g
 # Log Volumes
 Log volumes can be used for monitoring and analyzing the amount of log data being generated within the system.
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/SIEM1.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/SIEM1.png)
 
 The ‘Log volumes’ tab displays the volume of data collected over a period of time. 
 Basic Information includes:
@@ -26,14 +26,14 @@ Basic Information includes:
 * Volume: in bytes
 # Update Log volumes data
 
-Click on <img src="/cloud_vista/loganalytics/images/{{% imagehome %}}/refresh.png" alt="Screenshot" style="width: 65px; height: auto;"> to update Log volumes with the latest data.
+Click on <img src="/modules/siem/log_analytics/images/{{% imagehome %}}/refresh.png" alt="Screenshot" style="width: 65px; height: auto;"> to update Log volumes with the latest data.
 
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/SIEM2.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/SIEM2.png)
 
 # Audit Logs
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/SIEM3.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/SIEM3.png)
 
 The ‘Audit logs’ tab shows instructions on collecting and configuring audit logs from Linux/Unix and Windows systems using Auditbeat tool. 
 

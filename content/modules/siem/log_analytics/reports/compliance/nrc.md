@@ -6,7 +6,7 @@ slug: nrc
 
 In \<NRC> there are 18 report templates.
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/nrc.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/nrc.png)
 
 &nbsp;
 

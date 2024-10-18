@@ -6,7 +6,7 @@ slug: islp
 
 In \<ISLP> there are 8 report templates.
 
-![Screenshot](/cloud_vista/loganalytics/images/{{% imagehome %}}/islp.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/islp.png)
 
 &nbsp;
 
