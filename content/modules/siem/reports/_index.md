@@ -7,7 +7,7 @@ slug: reports
 
 To access the SIEM Reports function, click on the \<SIEM> icon at the Left Navigation Bar then click on \<Reports> at the Top Navigation Bar.
 
-![Screenshot](/modules/securityanalytics/images/{{% imagehome %}}/reports.png)
+![Screenshot](/modules/siem/security_analytics/images/{{% imagehome %}}/reports.png)
 
 &nbsp;
 
