@@ -17,7 +17,7 @@ User can define the \<interval> on how frequent for SIEM to run through this rul
 * Query: Using search query or query expression. 
 * Workflow: Flow chart type logic. The workflows can be created in the \<AI Workflows>
 
-![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/threatdetection.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/threatdetection.png)
 
 &nbsp;
 
@@ -26,7 +26,7 @@ Threat Intelligence is where {{% company %}} gather the flagged IP or URL from e
 
 For lookup tables, user can use it to create table to map key to a value. The key can be used in python script to run certain rules.
 
-![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/threatdetection2.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/threatdetection2.png)
 
 
 

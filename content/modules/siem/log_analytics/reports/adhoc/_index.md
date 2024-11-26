@@ -30,15 +30,15 @@ Click on each report to create the report. The report will show in the report ar
 &nbsp;
 
 
-<strong>+ Add new report</strong> – <a href="/cloud_vista/loganalytics/reports/adhoc/addreport">To add a new report</a>
+<strong>+ Add new report</strong> – <a href="/modules/siem/log_analytics/reports/adhoc/addreport">To add a new report</a>
 
-<img src="/cloud_vista/loganalytics/images/{{% imagehome %}}/timeicon.png" width="50px"> - Select time range of report.
+<img src="/modules/siem/log_analytics/images/{{% imagehome %}}/timeicon.png" width="50px"> - Select time range of report.
 
-<strong>Auto delivery</strong> – <a href="/cloud_vista/loganalytics/reports/adhoc/autodelivery">To create auto delivery report setting</a>
+<strong>Auto delivery</strong> – <a href="/modules/siem/log_analytics/reports/adhoc/autodelivery">To create auto delivery report setting</a>
 
-<strong>Download</strong> – <a href="/cloud_vista/loganalytics/reports/adhoc/downloadreport">To download report</a>
+<strong>Download</strong> – <a href="/modules/siem/log_analytics/reports/adhoc/downloadreport">To download report</a>
 
-<strong>Edit</strong> – <a href="/cloud_vista/loganalytics/reports/adhoc/editreport">To edit report</a>
+<strong>Edit</strong> – <a href="/modules/siem/log_analytics/reports/adhoc/editreport">To edit report</a>
 
 
 

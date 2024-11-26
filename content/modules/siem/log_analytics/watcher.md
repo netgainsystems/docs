@@ -14,7 +14,7 @@ To access the Watcher function, click on the \<SIEM> icon at the Left Navigation
 &nbsp;
 
 ### Add Watcher Rule
-Click on Watcher < > and when you are in the Watcher menu, click <img src="/cloud_vista/loganalytics/images/{{% imagehome %}}/addruleicon.png" width="65px">.
+Click on Watcher < > and when you are in the Watcher menu, click <img src="/modules/siem/log_analytics/images/{{% imagehome %}}/addruleicon.png" width="65px">.
 
 ![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/watcheraddrule.png)
 

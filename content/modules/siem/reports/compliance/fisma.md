@@ -6,7 +6,7 @@ slug: fisma
 
 In \<FISMA> there are 10 report templates.
 
-![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/fisma.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/fisma.png)
 
 &nbsp;
 

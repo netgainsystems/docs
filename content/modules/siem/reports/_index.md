@@ -13,9 +13,9 @@ To access the SIEM Reports function, click on the \<SIEM> icon at the Left Navig
 
 There are 4 sub-menus in the Reports function:
 
-* <a href="/modules/securityanalytics/reports/common">Common</a>
-* <a href="/modules/securityanalytics/reports/applications">Applications</a>
-* <a href="/modules/securityanalytics/reports/compliance">Compliance</a>
-* <a href="/modules/securityanalytics/reports/adhoc">Ad Hoc</a>
+* <a href="/modules/siem/reports/common">Common</a>
+* <a href="/modules/siem/reports/applications">Applications</a>
+* <a href="/modules/siem/reports/compliance">Compliance</a>
+* <a href="/modules/siem/reports/adhoc">Ad Hoc</a>
 
 
