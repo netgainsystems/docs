@@ -6,7 +6,7 @@ slug: nerc
 
 In \<NERC> there are 10 report templates.
 
-![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/nerc.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/nerc.png)
 
 &nbsp;
 

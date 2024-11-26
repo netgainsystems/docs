@@ -6,7 +6,7 @@ slug: pcidss
 
 In \<PCI-DSS> there are 6 report templates.
 
-![Screenshot](/cloud_vista/securityanalytics/images/{{% imagehome %}}/pci.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/pci.png)
 
 &nbsp;
 

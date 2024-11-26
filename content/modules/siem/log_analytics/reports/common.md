@@ -34,7 +34,7 @@ The information shown in the report includes:
 
 &nbsp;
 
-<img src="/cloud_vista/loganalytics/images/{{% imagehome %}}/timeicon.png" width="50px"> - Select time range of report
+<img src="/modules/siem/log_analytics/images/{{% imagehome %}}/timeicon.png" width="50px"> - Select time range of report
 
 <strong>Save to local</strong> - Save report to local computer and report is HTML format file.
 
