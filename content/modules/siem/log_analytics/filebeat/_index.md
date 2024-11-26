@@ -9,7 +9,7 @@ weight: 2
 ## Supported Metrics
 Currently **{{% company %}}** supports Filebeat for following: 
 
-Find steps here for installation of **Filebeat**: <a href="/cloud_vista\loganalytics\filebeat/installation">Installation</a> 
+Find steps here for installation of **Filebeat**: <a href="/modules/siem/log_analytics/filebeat/installation">Installation</a> 
 >ActiveMQ module   
 Apache module   
 Auditd module   
