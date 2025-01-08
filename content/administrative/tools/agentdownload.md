@@ -7,7 +7,7 @@ Agent Download is used to guide users through the process of installing the NetG
 
 The ‘Download’ tab displays the installation instructions for downloading and installing the NetGain Agent on both Windows and Unix/Linux platforms.
 
-![AD1](/administrative/admin/tools/images/netgain/AD1.png)
+![AD1](/administrative/tools/images/netgain/AD1.png)
 
 # Test
 
@@ -15,7 +15,7 @@ Test is used to run various diagnostic and setup scripts on target machines wher
 
 The ‘Test’ tab displays the options for testing scripts related to the NetGain Agent.
 
-![AD2](/administrative/admin/tools/images/netgain/AD2.png)
+![AD2](/administrative/tools/images/netgain/AD2.png)
 Information includes:
 * IP: a dropdown menu to choose test script and a field to enter IP address
 * Test: execute the selected script 
@@ -28,7 +28,7 @@ Scripts are used to execute various tasks on target machines related to system m
 
 The ‘Scripts’ tab displays options for running scripts related to the NetGain Agent.
 
-![AD3](/administrative/admin/tools/images/netgain/AD3.png)
+![AD3](/administrative/tools/images/netgain/AD3.png)
 Information includes:
 * IP: input IP address of the machine
 * System: tasks like performance monitoring, resource allocation, or system health checks

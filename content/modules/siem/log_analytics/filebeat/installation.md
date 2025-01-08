@@ -13,7 +13,7 @@ This page consist of 3 section, installation, configure and start **Filebeat**
 
 ## Installation
   - Windows
-    - Download Filebeat Windows zip file<a href="https://netgainsys.sharepoint.com/:u:/g/ERN0-IUU--5GjH5m0gi3_pEBNV9k_M5MzjFdl8rB__fnmA?e=Br9pQ4" target="_blank">Windows zipped file</a>
+    - Download Filebeat Windows zip file <a href="https://netgainsys.sharepoint.com/:u:/g/ERN0-IUU--5GjH5m0gi3_pEBNV9k_M5MzjFdl8rB__fnmA?e=Br9pQ4" target="_blank">Windows zipped file</a>
     - Extract the contents of the zip file into C:\Program Files.
     - Rename the *filebeat-<version>-windows* directory to *Filebeat*.
     - Open a PowerShell prompt as an Administrator (right-click the PowerShell icon and select **Run As Administrator**).

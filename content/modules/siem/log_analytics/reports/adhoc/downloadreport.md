@@ -8,6 +8,6 @@ slug: downloadreport
 
 <strong>Download PDF</strong> – Download report to local computer in PDF file.
 
-<strong>Download CSV</strong> – Download report to local compute in SCV file
+<strong>Download CSV</strong> – Download report to local computer in SCV file
 
 

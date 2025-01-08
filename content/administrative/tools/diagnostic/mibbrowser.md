@@ -21,7 +21,7 @@ Then click on \<Choose File> to choose the devices MIB file.
 
 Then click on \<Upload> to upload MIB file to Infrastructure Monitoring server.
 
-![Screenshot](/administrative/admin/images/{{% imagehome %}}/mib3.png)
+![Screenshot](/administrative/images/{{% imagehome %}}/mib3.png)
 
 &nbsp;
 

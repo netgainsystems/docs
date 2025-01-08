@@ -26,7 +26,7 @@ crontab -e
 curl -X GET “<localhost_IP>:9200/_cat/indices”
 ```
 <br>
-<img src="images/es_indices.png" alt="es_indices" style="width: 100%; max-width:800px;" />
+<img src="/installation/cloud_vista/images/es_indices.png" alt="es_indices" style="width: 100%; max-width:800px;" />
 
 ### b. Create directory where to store exported indices
 ```bash
