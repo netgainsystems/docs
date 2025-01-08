@@ -6,7 +6,7 @@ slug: addreport
 
 <strong>Click <+Add new report>.</strong>
 
-![Screenshot](/modules/securityanalytics/images/{{% imagehome %}}/Reports_AddAdHoc.PNG)
+![Screenshot](/modules/siem/images/{{% imagehome %}}/Reports_AddAdHoc.PNG)
 
 &nbsp;
 

@@ -28,12 +28,12 @@ Basic information includes:
 
 Click onto ![sharinglogo](/modules/home/dashboards/Images/netgain/sharinglogo.PNG) to share dashboard/panel
 
-![dashboard2.0SHARING](/modules/home/dashboards/Images/netgain/dashboard2.0SHaring.png)
+![dashboard2.0SHARING](/modules/home/dashboards/Images/netgain/dashboard2.0SHARING.png)
 
 Once clicked,the page will navigate to the sharing options page.
 
 
-![dashboard2.0SHARING](/modules/home/dashboards/Images/netgain/sharingpage.png)
+![dashboard2.0SHARING](/modules/home/dashboards/Images/netgain/sharingpage.PNG)
 
 This page provides the sharing option for Link.Internal sharing only as log in is required.
 
@@ -44,7 +44,7 @@ Information includes:
 * Shorten URL: create a shortened version of the link for easier sharing 
 * Link URL:Displays the generatede link that can be copied and shared
 
-![dashboard2.0SHARING](/modules/home/dashboards/Images/netgain/snapshot.png)
+![dashboard2.0SHARING](/modules/home/dashboards/Images/netgain/snapshot.PNG)
 
 This page provides the sharing option for Snapshot.External party can also view the snapshot.
 
@@ -54,7 +54,7 @@ Information includes
 * Expire:snapshot's availability period
 * Timeout:how duration for which the system will wait for the dashboard metrics to be collected before finalizing the snapshot
 
-![dashboard2.0SHARING](/modules/home/dashboards/Images/netgain/export.png)
+![dashboard2.0SHARING](/modules/home/dashboards/Images/netgain/export.PNG)
 
 This page provides the sharing option for Export
 

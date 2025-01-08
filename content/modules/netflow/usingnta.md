@@ -6,7 +6,7 @@ slug: usingnta
 
 The 'Overview' tab displays the general summary of network traffic data.
 
-![Screenshot](/modules/netflow/images/{{% imagehome %}}/Netflow1.png)
+![Screenshot](/modules/netflow/images/{{% imagehome %}}/NetFlow1.png)
 
 &nbsp;
 
@@ -14,7 +14,7 @@ This overview can gain insights into the network usage patterns and detect any a
 
 Click on <img src="/modules/netflow/images/netgain/bytes.PNG" width="80px"> to view network data by Bytes.
 
-![Screenshot](/modules/netflow/images/{{% imagehome %}}/Netflow2.png)
+![Screenshot](/modules/netflow/images/{{% imagehome %}}/NetFlow2.png)
 
 # Applications
 
@@ -30,7 +30,7 @@ The 'Applications' tab displays a detailed view of the network traffic categoriz
 
 The 'Network Sources' tab displays a detailed analysis of the top source IP addresses generating network traffic.
 
-![Screenshot](/modules/netflow/images/{{% imagehome %}}/Netflow4.png)
+![Screenshot](/modules/netflow/images/{{% imagehome %}}/NetFlow4.png)
 
 * The pie chart displays the top source IP addresses contributing to network traffic.  
 * The line graph displays the traffic trends over time for the top source IP addresses.  
@@ -40,7 +40,7 @@ The 'Network Sources' tab displays a detailed analysis of the top source IP addr
 
 The 'Network Destinations' tab displays an analysis of the top IP addresses receiving network traffic.
 
-![Screenshot](/modules/netflow/images/{{% imagehome %}}/Netflow5.png)
+![Screenshot](/modules/netflow/images/{{% imagehome %}}/NetFlow5.png)
 
 * The pie chart displays the top destination IP addresses receiving the most network traffic.  
 * The line graph displays the traffic trends over time for the top destination IP addresses.  
@@ -50,7 +50,7 @@ The 'Network Destinations' tab displays an analysis of the top IP addresses rece
 
 The 'Network Conversations' tab displays a view of the top conversations between source and destination IP addresses in the network.
 
-![Screenshot](/modules/netflow/images/{{% imagehome %}}/Netflow6.png)
+![Screenshot](/modules/netflow/images/{{% imagehome %}}/NetFlow6.png)
 
 * The pie chart displays the top conversation between IP addresses.  
 * The line graph displays the traffic trends over time for the top conversations.  
@@ -62,11 +62,11 @@ Map is used for displaying and analyzing network traffic flows between geographi
 
 The 'Map' tab displays a global network traffic visualization.
 
-![Screenshot](/modules/netflow/images/{{% imagehome %}}/Netflow7.png)
+![Screenshot](/modules/netflow/images/{{% imagehome %}}/NetFlow7.png)
 
 Click on <img src="/modules/netflow/images/netgain/toggle.PNG" width="100px"> to view details.
 
-![Screenshot](/modules/netflow/images/{{% imagehome %}}/Netflow8.png)
+![Screenshot](/modules/netflow/images/{{% imagehome %}}/NetFlow8.png)
 
 # Search
 

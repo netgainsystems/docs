@@ -33,7 +33,7 @@ Click on <img src="/modules/siem/log_analytics/images/{{% imagehome %}}/refresh.
 
 # Audit Logs
 
-![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/SIEM3.png)
+![Screenshot](/modules/siem/log_analytics/images/{{% imagehome %}}/Siem3.png)
 
 The ‘Audit logs’ tab shows instructions on collecting and configuring audit logs from Linux/Unix and Windows systems using Auditbeat tool. 
 

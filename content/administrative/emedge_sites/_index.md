@@ -31,7 +31,7 @@ This page provides details of the site and options for:
 - Disconnect site
 - Backup images and logs
 
-Click on ![Screenshot](/administrative/emedge_sites/images/health.png) to view the health of the site.
+Click on ![Screenshot](/administrative/emedge_sites/images/health.PNG) to view the health of the site.
 
 ![Screenshot](/administrative/emedge_sites/images/Sites4.png)
 
@@ -46,7 +46,7 @@ Once clicked, the page will display the health status of the site.
 - Process CPU: CPU usage of the current process
 - System CPU: Overall CPU usage of the system
 
-Click on ![Screenshot](/administrative/emedge_sites/images/update.png) to view update patches.
+Click on ![Screenshot](/administrative/emedge_sites/images/update.PNG) to view update patches.
 
 ![Screenshot](/administrative/emedge_sites/images/Sites6.png)
 
@@ -54,11 +54,11 @@ Once clicked, the page will display the available update patches.
 
 ![Screenshot](/administrative/emedge_sites/images/Sites7.png)
 
-Click on ![Screenshot](/administrative/emedge_sites/images/disconnect.png) to disconnect the remote site.
+Click on ![Screenshot](/administrative/emedge_sites/images/disconnect.PNG) to disconnect the remote site.
 
 ![Screenshot](/administrative/emedge_sites/images/Sites8.png)
 
-Click on ![Screenshot](/administrative/emedge_sites/images/backup.png) to make backups, delete, or restore.
+Click on ![Screenshot](/administrative/emedge_sites/images/backup.PNG) to make backups, delete, or restore.
 
 ![Screenshot](/administrative/emedge_sites/images/Sites9.png)
 
@@ -66,7 +66,7 @@ Once clicked, the page will display sites with options to delete or restore and 
 
 ![Screenshot](/administrative/emedge_sites/images/Sites10.png)
 
-Click on ![Screenshot](/administrative/emedge_sites/images/logs.png) to download or tail logs or debug statements.
+Click on ![Screenshot](/administrative/emedge_sites/images/logs.PNG) to download or tail logs or debug statements.
 
 ![Screenshot](/administrative/emedge_sites/images/Sites11.png)
 
