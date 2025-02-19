@@ -12,7 +12,7 @@ You will find all the comprehensive information and documentations on {{% compan
 <button name="button" style="background-color: #FFFFFF; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='/overview/architecture';"><strong>Solution <br>Architecture</strong><br><br><span style="color: #0ABAB5;">Learn More ></span>
 </button> 
 
-<button name="button" style="background-color: #FFFFFF; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='installation/emedge/installation/';"><strong>Installing<br> emedge</strong><br><br><span style="color: #0ABAB5;">View Guide ></span>
+<button name="button" style="background-color: #FFFFFF; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='/installation/emedge/installation/';"><strong>Installing<br> emedge</strong><br><br><span style="color: #0ABAB5;">View Guide ></span>
 </button> 
 
 <button name="button" style="background-color: #FFFFFF; border-radius: 12px; border: 2px solid #0ABAB5;" onclick="location.href='/installation/cloud_vista';"><strong>Navigating the <br>Software</strong><br><br><span style="color: #0ABAB5;">View Guide ></span>
