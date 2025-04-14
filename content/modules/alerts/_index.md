@@ -17,5 +17,6 @@ This section documents the alerts and notifications options in the software, and
 * <a href="/modules/alerts/notificationrules">Notification Rules</a>
 * <a href="/modules/alerts/notificationemail">Notification Email</a>
 * <a href="/modules/alerts/othersettings">Other Alert Notification Settings</a>
+* <a href="/modules/alerts/integrations">3rd Party Notification Integration</a>
 * <a href="/modules/alerts/3rdpartyintegration">Integration with 3rd Party Ticketing Apps</a>
 
