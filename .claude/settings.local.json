@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(diff:*)",
+      "Bash(mkdir:*)",
+      "Bash(true)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(tree:*)",
+      "Bash(hugo)",
+      "Bash(hugo:*)"
+    ],
+    "deny": []
+  }
+}
